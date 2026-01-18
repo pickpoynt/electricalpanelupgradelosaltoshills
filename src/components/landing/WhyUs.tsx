@@ -3,33 +3,33 @@ import { Shield, Users, ThumbsUp, Clock, DollarSign, Hammer } from "lucide-react
 const reasons = [
   {
     icon: Users,
-    title: "Local Columbus Experts",
-    description: "Serving the Franklin County community with specialized outdoor plumbing expertise.",
+    title: "Bellevue Neighborhood Pros",
+    description: "Serving West Bellevue, Somerset, and Crossroads with local, expert care.",
   },
   {
     icon: Shield,
-    title: "Burst-Proof Guarantee",
-    description: "Our frost-free installations are designed to withstand the coldest Ohio winters.",
+    title: "Warranty Protection",
+    description: "Regular descaling is required by most manufacturers to keep your warranty valid.",
   },
   {
     icon: DollarSign,
-    title: "Upfront Pricing",
-    description: "No hidden fees. You'll know the exact cost before we start any installation.",
+    title: "Protect Your Investment",
+    description: "Annual maintenance can double the lifespan of your expensive tankless unit.",
   },
   {
     icon: Clock,
-    title: "Same-Day Service",
-    description: "We offer quick response times to ensure your home is protected before the next freeze.",
+    title: "Fast 1-Hour Service",
+    description: "Most descaling and maintenance visits are completed in under 60 minutes.",
   },
   {
     icon: ThumbsUp,
-    title: "Highly Rated",
-    description: "The top-rated outdoor faucet specialists in the Columbus metropolitan area.",
+    title: "All Brands Serviced",
+    description: "Certified expertise with Navien, Rinnai, Noritz, and Rheem systems.",
   },
   {
     icon: Hammer,
-    title: "Professional Grade",
-    description: "We only use heavy-duty, commercial-grade brass sillcocks for maximum longevity.",
+    title: "Professional Chemicals",
+    description: "We use eco-friendly, food-grade descaling solutions that are safe for your pipes.",
   },
 ];
 
@@ -43,23 +43,23 @@ const WhyUs = () => {
               Why Choose Us
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Columbus, Ohio's Most Trusted
-              <span className="text-gradient-copper block">Freeze-Proof Faucet Experts</span>
+              Bellevue's Most Reliable
+              <span className="text-gradient-copper block">Tankless Maintenance Team</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Since 1995, we've helped thousands of Columbus homeowners protect their properties
-              from winter water damage. Faucets are all we do, and we do them better than
-              anyone else in Central Ohio.
+              We specialize exclusively in tankless technology. While general plumbers might say
+              they 'do it all,' we focus on the complex electronics and heat exchangers of
+              modern high-efficiency heaters.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">3,000+</span>
-                <span className="text-sm text-muted-foreground">Faucets Installed</span>
+                <span className="text-4xl font-heading font-bold text-copper block">2,000+</span>
+                <span className="text-sm text-muted-foreground">Units Served</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">25+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />

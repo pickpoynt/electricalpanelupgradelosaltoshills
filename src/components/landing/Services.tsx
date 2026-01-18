@@ -4,21 +4,21 @@ import { Button } from "@/components/ui/button";
 const services = [
   {
     icon: Wrench,
-    title: "Frost-Free Faucet Installation",
-    description: "Replace old leaky or frozen outdoor faucets with modern freeze-proof technology that stays dry even in Columbus winters.",
-    features: ["Reliable frost protection", "Durable brass stems", "Professional sealing"],
+    title: "Annual Descaling Flush",
+    description: "Our professional grade descaling solution removes calcium and mineral scale from your heat exchanger in just one hour.",
+    features: ["Calcium removal", "Increased efficiency", "Diagnostic check"],
   },
   {
     icon: Droplets,
-    title: "Sillcock Repair & Replacement",
-    description: "Expert replacement of damaged sillcocks, ensuring proper pitch and insulation to prevent basement flooding.",
-    features: ["Leak elimination", "Proper drainage pitch", "Foundation protection"],
+    title: "Filter & Screen Cleaning",
+    description: "Full cleaning of the internal water filter and air intake screens to ensure proper combustion and water flow.",
+    features: ["Water filter service", "Air flow optimization", "System recalibration"],
   },
   {
     icon: Home,
-    title: "Winterization Services",
-    description: "Full inspection and winterization of your outdoor water lines to ensure total protection against freezing pipes.",
-    features: ["Full system check", "Backflow testing", "Maintenance tips"],
+    title: "Full System Diagnostic",
+    description: "We check error codes, ignition components, and venting to catch small issues before they become cold showers.",
+    features: ["Error code review", "Ignition testing", "Vent path check"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Our Services
+            Specialized Care
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Expert Outdoor Faucet Solutions in Columbus
+            Expert Tankless Solutions in Bellevue
           </h2>
           <p className="text-muted-foreground text-lg">
-            From installation to complete winterization, we protect your Columbus home from outdoor plumbing damage with precision and care.
+            Don't let hard Washington water damage your investment. Our maintenance services keep your tankless unit running like new.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const Services = () => {
               </div>
 
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title} in Columbus
+                {service.title} in Bellevue
               </h3>
 
               <p className="text-muted-foreground mb-6">

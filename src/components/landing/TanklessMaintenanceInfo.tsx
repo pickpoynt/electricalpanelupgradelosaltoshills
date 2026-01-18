@@ -3,44 +3,44 @@ import { AlertTriangle, Droplets, Clock, Shield, CheckCircle2 } from "lucide-rea
 const warningSignsData = [
   {
     icon: Droplets,
-    title: "Persistent Dripping",
-    description: "A small drip can turn into a major ice problem or indicate an internal crack that could lead to basement flooding when the temperature drops.",
+    title: "Low Hot Water Pressure",
+    description: "Minieral scale buildup inside the heat exchanger restricts water flow, leading to a noticeable drop in hot water pressure compared to cold.",
   },
   {
     icon: AlertTriangle,
-    title: "Frozen Pipe History",
-    description: "If your outdoor faucet has frozen or burst in the past, it's likely a standard bibb that needs an upgrade to a modern frost-free model.",
+    title: "Fluctuating Temperatures",
+    description: "If your hot water 'cuts out' during a shower, scale may be interfering with the unit's thermal sensors or flow switches.",
   },
   {
     icon: Clock,
-    title: "Antique Faucets",
-    description: "Older faucets often lack backflow preventers and freeze protection. If your Columbus home is over 25 years old, your outdoor taps likely need an upgrade.",
+    title: "Overworked Burners",
+    description: "Scale acts as an insulator. If your heater sounds louder than usual or takes longer to fire up, it's working too hard to penetrate the buildup.",
   },
 ];
 
 const benefitsData = [
-  "Prevents catastrophic winter pipe bursts",
-  "Durable heavy-duty brass construction",
-  "Eliminates the need for external styrofoam covers",
-  "Includes integrated backflow prevention",
-  "Ensures easy operation regardless of temperature",
-  "Adds value and safety to your home plumbing",
+  "Restores original energy efficiency",
+  "Ensures consistent hot water temperatures",
+  "Prevents expensive heat exchanger failure",
+  "Required for manufacturer warranty compliance",
+  "Extends system lifespan by up to 10 years",
+  "Clears annoying error codes (E5, LC, 12)",
 ];
 
-const FreezeProofFaucetInfo = () => {
+const TanklessMaintenanceInfo = () => {
   return (
-    <section id="faucet-info" className="py-24 bg-gradient-hero">
+    <section id="maintenance-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            Winter-Proof Your Home
+            Protect Your Investment
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Protect Your Columbus Home from Winter Water Damage
+            Why Annual Tankless Descaling is Mandatory in Bellevue
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Standard outdoor hose bibbs are the #1 cause of basement flooding during Ohio winters.
-            Frost-free sillcocks use a long-stem design to keep the water valve inside your warm home.
+            Washington's water contains minerals that solidify inside your heater's heat exchanger.
+            Without an annual flush, this 'scale' will eventually cause your unit to overheat and fail.
           </p>
         </div>
 
@@ -70,24 +70,24 @@ const FreezeProofFaucetInfo = () => {
             <div className="flex items-center gap-3 mb-6">
               <Shield className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Why Upgrade to Frost-Free?
+                Don't Void Your Warranty
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Standard faucets leave water exposed to freezing air right at the exterior wall.
-              In Columbus, where temperatures often drop below zero, this water expands and
-              bursts the internal piping, often going unnoticed until you turn it on in the spring.
+              Most major manufacturers like Navien and Rinnai explicitly state in their
+              manuals that damage caused by scale buildup is NOT covered under warranty.
+              Annual professional descaling provides the documentation you need to keep your 15-year warranty valid.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              In Franklin County, we serve all neighborhoods from Clintonville and Upper Arlington
-              to Bexley and Westerville. Whether you have a historic brick home or a modern build,
-              properly installed freeze-proof hydrants are essential for Ohio's brutal winters.
+              In Bellevue, we serve all areas from Enatai and Beaux Arts to Wilburton and
+              Bridle Trails. We've seen hundreds of heaters fail prematurely simply because
+              the homeowner didn't know maintenance was required.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              Benefits of Modern Faucet Upgrades
+              Benefits of Professional Maintenance
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
@@ -107,7 +107,7 @@ const FreezeProofFaucetInfo = () => {
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
             <AlertTriangle className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Not sure if your faucets are winter-ready? We offer free inspections for Columbus residents.
+              Is your unit displaying an 'LC' or 'E5' code? That's a scale warning. Call us for a priority Bellevue maintenance visit.
             </span>
           </div>
         </div>
@@ -116,4 +116,4 @@ const FreezeProofFaucetInfo = () => {
   );
 };
 
-export default FreezeProofFaucetInfo;
+export default TanklessMaintenanceInfo;

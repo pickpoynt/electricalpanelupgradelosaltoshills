@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">CF</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">BT</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Columbus Outdoor Faucets
+                  Bellevue Tankless Pros
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Freeze-Proof Faucet Specialists</p>
+                <p className="text-xs text-primary-foreground/60">Tankless Maintenance Specialists</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Central Ohio's trusted experts for frost-free faucet installation and repair.
-              Protecting Columbus homes from winter pipe bursts since 1995.
+              Bellevue's trusted experts for tankless water heater maintenance and descaling.
+              Keeping your endless hot water running since 2008.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Faucet Replacement
+                  Annual Descaling
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Sillcock Repair
+                  System Flush
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Winterization
+                  Full Diagnostic
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Leak Inspection
+                  Filter Cleaning
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Serving Columbus, OH & Central Ohio</span>
+                <span>Serving Bellevue, WA & King County</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,17 +76,50 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:info@columbusoutdoorfaucets.com" className="hover:text-copper-light transition-colors">
-                  info@columbusoutdoorfaucets.com
+                <a href="mailto:info@bellevuetanklesspros.com" className="hover:text-copper-light transition-colors">
+                  info@bellevuetanklesspros.com
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
+        {/* Partners / Backlinks */}
+        <div className="border-t border-primary-foreground/10 pt-8 mb-8">
+          <h4 className="font-heading font-semibold text-primary-foreground/80 mb-4 text-sm uppercase tracking-wider">
+            Our Plumbing Service Network
+          </h4>
+          <div className="flex flex-wrap gap-x-8 gap-y-2">
+            <a
+              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
+            >
+              Outdoor Faucet Replacement Columbus
+            </a>
+            <a
+              href="https://emergencyslableakdetectionnapervill.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
+            >
+              Slab Leak Detection Naperville
+            </a>
+            <a
+              href="https://galvanized-pipe-replacement-akron.lovable.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
+            >
+              Galvanized Pipe Replacement Akron
+            </a>
+          </div>
+        </div>
+
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Columbus Outdoor Faucets. All rights reserved.
+            © {new Date().getFullYear()} Bellevue Tankless Pros. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

@@ -7,32 +7,32 @@ import {
 
 const faqs = [
   {
-    question: "What is a freeze-proof faucet (frost-free sillcock)?",
-    answer: "A freeze-proof faucet is a specially designed hydrant where the valve seat is located deep inside the warm interior of your house, rather than at the exterior wall. This ensures no water remains in the part of the pipe exposed to freezing temperatures, preventing bursts."
+    question: "How often should I descale my tankless water heater?",
+    answer: "For most Bellevue homes, we recommend once a year. If you have extremely hard water or a high-usage household, every 6-9 months may be necessary to prevent mineral buildup and maintain efficiency."
   },
   {
-    question: "How much does outdoor faucet replacement cost in Columbus?",
-    answer: "A standard frost-free faucet replacement typically ranges from $250 to $650 per unit, including parts and labor. Costs can vary based on accessibility (e.g., through a finished basement ceiling) and whether the existing piping needs modification. We provide upfront, transparent pricing."
+    question: "Do I really need a professional for this?",
+    answer: "While DIY kits exist, a professional service includes critical safety checks that DIY kits miss. We inspect the heat exchanger for cracks, check the venting system for leaks, and clear any error codes in the system's memory."
   },
   {
-    question: "Do I still need to detach my hose in the winter?",
-    answer: "YES! This is the most important rule. Even a frost-free faucet will burst if a hose is left attached. The hose prevents the water from draining out of the faucet stem, leaving it trapped in the freeze zone where it can expand and break the pipe."
+    question: "Will descaling help with my low water pressure?",
+    answer: "Yes! Mineral buildup inside the heat exchanger's narrow copper tubes is a common cause of declining hot water pressure. A thorough descaling often restores full pressure to your showers and faucets."
   },
   {
-    question: "How long does the installation take?",
-    answer: "Most faucet replacements take between 1 and 3 hours. Our plumbers carry a full stock of common sizes and lengths, so we can usually complete the job in a single visit to your Columbus home."
+    question: "What happens if I don't descale my unit?",
+    answer: "Over time, scale acts as an insulator, forcing your heater to run hotter and longer to heat water. This leads to higher gas bills, frequent 'E5' or 'LC' error codes, and eventually, a costly heat exchanger failure."
   },
   {
-    question: "Is there a warranty on your faucet installations?",
-    answer: "Absolutely. We stand by our work and the high-quality brass sillcocks we install. We typically offer a 1-year labor warranty along with the manufacturer's product warranty, giving you peace of mind throughout the Ohio winter."
+    question: "Is the descaling solution safe for my family?",
+    answer: "Absolutely. We use a food-grade, biodegradable citric acid solution that is highly effective against scale but completely safe for your potable water system and the environment."
   },
   {
-    question: "Can I replace my own outdoor faucet?",
-    answer: "While possible for a handy homeowner, outdoor faucet replacement often involves soldering copper pipes or working with PEX in tight spaces. Improper installation can lead to slow leaks inside your walls or a faucet that isn't properly pitched to drain, defeating the freeze-proof design."
+    question: "Do you service all tankless brands in Bellevue?",
+    answer: "Yes. We are factory-trained to service all major brands including Navien, Rinnai, Noritz, Rheem, and Takagi. We carry the specific diagnostic tools for each manufacturer."
   },
   {
-    question: "What areas of Columbus do you serve?",
-    answer: "We serve the entire Columbus metropolitan area and surrounding suburbs, including Franklin County, Delaware County, and parts of Fairfield and Licking counties."
+    question: "How long does a maintenance visit take?",
+    answer: "A standard descaling and full system diagnostic typically takes about 60 to 90 minutes. We'll have your hot water back on before we leave."
   }
 ];
 
@@ -42,10 +42,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Outdoor Faucet FAQ – Columbus, OH
+            Tankless Maintenance FAQ – Bellevue, WA
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Get answers to common questions about freeze-proof faucet technology, installation costs, and winter plumbing maintenance in Columbus.
+            Get professional answers to common questions about tankless water heater descaling, maintenance intervals, and efficiency in Bellevue.
           </p>
         </div>
 
