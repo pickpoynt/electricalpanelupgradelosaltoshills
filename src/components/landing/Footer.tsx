@@ -99,14 +99,6 @@ const Footer = () => {
               Outdoor Faucet Replacement Columbus
             </a>
             <a
-              href="https://emergencyslableakdetectionnapervill.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
-            >
-              Slab Leak Detection Naperville
-            </a>
-            <a
               href="https://galvanized-pipe-replacement-akron.lovable.app/"
               target="_blank"
               rel="noopener noreferrer"
@@ -115,28 +107,12 @@ const Footer = () => {
               Galvanized Pipe Replacement Akron
             </a>
             <a
-              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
-            >
-              Tankless Water Heater Descaling Bellevue
-            </a>
-            <a
               href="https://wellpumpreplacementoverlandparkks.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
               Well Pump Replacement Overland Park
-            </a>
-            <a
-              href="https://balconydrainleakdetectionservicesaustin.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
-            >
-              Balcony Drain Leak Detection Austin
             </a>
             <a
               href="https://knobandtubewiringreplacementsavannah.netlify.app/"
