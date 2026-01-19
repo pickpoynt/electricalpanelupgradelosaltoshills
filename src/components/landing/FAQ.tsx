@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Do you have to break my balcony tiles to find the leak?",
-    answer: "No. We specialize in non-destructive testing. Using infrared sensors and electronic moisture mapping, we can locate leaks behind or under your tiles without any demolition."
+    question: "Is knob and tube wiring dangerous?",
+    answer: "Yes, primarily because it is ungrounded and uses cloth insulation that becomes brittle and combustible over time. It was not designed for the electrical load of modern appliances, which can lead to overheating and fire."
   },
   {
-    question: "What is the most common cause of balcony leaks?",
-    answer: "Most leaks stem from failed balcony drain flashings or degraded waterproofing membranes at the threshold of the balcony doors."
+    question: "Can I get home insurance with knob and tube wiring?",
+    answer: "Most insurance companies in Savannah and nationwide will refuse to provide coverage or will significantly increase premiums if they find active knob and tube wiring in a home."
   },
   {
-    question: "How long does a leak detection inspection take?",
-    answer: "A standard balcony leak inspection typically takes 1 to 2 hours, depending on the size of the area and the complexity of the drainage system."
+    question: "Do you have to tear down my walls to rewire?",
+    answer: "No. Our Savannah specialists use 'fishing' techniques to run new wiring through existing cavities, typically requiring only small, easily patchable holes near the ceiling and floor."
   },
   {
-    question: "Why can't my regular plumber find the leak?",
-    answer: "Standard plumbing leak detection tools are designed for pressurized pipes. Balcony leaks are usually gravity-fed 'structural' leaks that require specialized surface-scanning technology."
+    question: "How long does a whole-home rewire take?",
+    answer: "A standard two-story historic home in Savannah usually takes 5 to 10 working days for a complete rewire, depending on the accessibility of the attic and crawlspace."
   },
   {
-    question: "Do you provide a report for my HOA or Insurance?",
-    answer: "Yes. Every inspection includes a detailed digital report with thermal images and annotated photos that can be used for insurance claims or contractor bids."
+    question: "What is the cost of replacing knob and tube wiring?",
+    answer: "Cost varies based on house size and accessibility. We provide free, detailed estimates for Savannah homeowners after a brief on-site inspection."
   },
   {
-    question: "Is water on my ceiling always from the balcony?",
-    answer: "Not always, but it's the most likely culprit if it appears after rain. We perform 'flood tests' on the balcony to confirm the source before you commit to repairs."
+    question: "Are your electricians licensed for historic district work?",
+    answer: "Yes. We are fully licensed, insured, and deeply familiar with the specific requirements for electrical work in Savannah's historic Landmark District."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Balcony Leak FAQ – Austin, TX
+            Historic Rewiring FAQ – Savannah, GA
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Find answers to common questions about balcony drain leaks, infrared detection, and structural waterproofing in Central Texas.
+            Find answers to common questions about knob and tube removal, copper rewiring, and electrical safety in Savannah's historic homes.
           </p>
         </div>
 

@@ -1,46 +1,46 @@
-import { AlertTriangle, Droplets, Clock, Shield, CheckCircle2 } from "lucide-react";
+import { AlertTriangle, Clock, Shield, CheckCircle2, ZapOff } from "lucide-react";
 
 const warningSignsData = [
   {
-    icon: Droplets,
-    title: "Ceiling Stains Below",
-    description: "Water spots or peeling paint on the ceiling directly beneath your balcony is a sure sign of a failed drain or membrane.",
+    icon: ZapOff,
+    title: "Old Porcelain Knobs",
+    description: "Visible porcelain knobs and tubes in your attic or basement indicate an outdated system that was never designed for modern electrical loads.",
   },
   {
     icon: AlertTriangle,
-    title: "Cracked Balcony Tiles",
-    description: "Hairline cracks in grout or tiles can allow water to seep into the structural subfloor, leading to invisible rot.",
+    title: "Brittle Cloth Insulation",
+    description: "Cloth insulation on old wiring becomes extremely brittle over time, often crumbling when touched and exposing live wires.",
   },
   {
     icon: Clock,
-    title: "Musty Odors Indoors",
-    description: "If you smell mold near your balcony doors, water may be trapped behind the threshold or inside the wall cavity.",
+    title: "Flickering Lights",
+    description: "Flickering lights or warm outlets are early warning signs that your historic wiring is struggling to keep up with current demands.",
   },
 ];
 
 const benefitsData = [
-  "Prevents expensive structural wood rot",
-  "Identifies leaks without surface demolition",
-  "Extends the lifespan of balcony waterproofing",
-  "Protects your home from toxic mold growth",
-  "Increases property value with certified audits",
-  "Peace of mind during Austin's storm season",
+  "Ensures full home insurance eligibility",
+  "Eliminates fire hazards from brittle wiring",
+  "Adds modern grounded outlets (3-prong)",
+  "Increases electrical capacity for appliances",
+  "Protects sensitive modern electronics",
+  "Preserves Savannah's historic architecture",
 ];
 
-const BalconyLeakInfo = () => {
+const WiringInfo = () => {
   return (
-    <section id="leak-info" className="py-24 bg-gradient-hero">
+    <section id="wiring-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            Structural Protection
+            Safety & Heritage
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Protect Your Austin Property from Hidden Water Damage
+            Expert Electrical Modernization for Savannah's Historic Homes
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            A leaking balcony isn't just a nuisance; it's a structural threat. Our Austin-based
-            specialists use high-tech sensors to find leaks before they compromise your safety.
+            Knob and tube wiring was state-of-the-art in 1920, but today it represents a
+            significant fire risk. We provide expert, minimally invasive replacement services.
           </p>
         </div>
 
@@ -70,24 +70,24 @@ const BalconyLeakInfo = () => {
             <div className="flex items-center gap-3 mb-6">
               <Shield className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Advanced Infrared Inspection
+                Preserving Plaster & Woodwork
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Water has a different thermal signature than dry building materials. Our thermal
-              cameras expose exactly where moisture is traveling behind your balcony's
-              facade, allowing for targeted repairs instead of full replacements.
+              We understand that the beauty of a Savannah home lies in its original details.
+              Our electricians use specialized tools to 'fish' new wires through existing
+              wall cavities, avoiding the need to tear down historic lath and plaster.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              In the Austin area, we serve everything from downtown high-rises to residential
-              terraces in West Lake Hills, Tarrytown, and Barton Creek. We understand the
-              unique challenges Austin's heat and flash floods pose to waterproofing.
+              From the Landmark Historic District to Ardsley Park and Isle of Hope, we have
+              centuries of combined experience working specifically with Savannah's unique
+              architectural challenges.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              Benefits of Early Detection
+              Why Replace Your Wiring?
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
@@ -107,7 +107,7 @@ const BalconyLeakInfo = () => {
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
             <AlertTriangle className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Notice wood rot or water stains on your patio? Call us for a subsidized diagnostic inspection today.
+              Planning home renovations or buying a historic property? Call us at +18449012684 for a safety inspection.
             </span>
           </div>
         </div>
@@ -116,4 +116,4 @@ const BalconyLeakInfo = () => {
   );
 };
 
-export default BalconyLeakInfo;
+export default WiringInfo;

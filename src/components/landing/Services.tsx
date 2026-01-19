@@ -1,24 +1,24 @@
-import { Search, Droplets, Shield, CheckCircle, ArrowRight } from "lucide-react";
+import { Zap, ZapOff, Shield, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Search,
-    title: "Infrared Leak Mapping",
-    description: "Using high-resolution thermal imaging to 'see' through balcony surfaces and identify moisture pockets without demolition.",
-    features: ["Thermal imaging", "Non-invasive", "Precision mapping"],
+    icon: ZapOff,
+    title: "Knob & Tube Removal",
+    description: "Complete decommissioning and safe removal of dangerous, ungrounded knob and tube wiring from historic Savannah homes.",
+    features: ["Safety audit", "Debris removal", "Fire risk reduction"],
   },
   {
-    icon: Droplets,
-    title: "Drain Line Testing",
-    description: "Hydrostatic and electronic testing of patio and balcony floor drains to ensure waterproof integrity and proper slope.",
-    features: ["Flood testing", "Electronic sensors", "Slope analysis"],
+    icon: Zap,
+    title: "Whole-Home Rewiring",
+    description: "Modern copper wiring installation with dedicated ground wires, ensuring your home meets all modern electrical codes.",
+    features: ["Code compliance", "Grounding systems", "Modern fixtures"],
   },
   {
     icon: Shield,
-    title: "Waterproofing Audit",
-    description: "Comprehensive inspection of balcony membranes, flashing, and sealants to find the root cause of structural leaks.",
-    features: ["Membrane check", "Flashing review", "Sealant testing"],
+    title: "Panel & Service Upgrade",
+    description: "Upgrading old fuse boxes to modern circuit breaker panels to handle today's heavy electrical loads safely.",
+    features: ["200-Amp upgrades", "Breaker panels", "Surge protection"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Specialized Detection
+            Safety First
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Austin's Balcony Leak Experts
+            Savannah's Historic Rewiring Experts
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don't let a small balcony leak turn into a major structural failure. Our specialized detection services save you time and money.
+            Old wiring is a ticking time bomb. Our specialized electrical services modernize your historic home without compromising its character.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const Services = () => {
               </div>
 
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title} in Austin
+                {service.title} in Savannah
               </h3>
 
               <p className="text-muted-foreground mb-6">

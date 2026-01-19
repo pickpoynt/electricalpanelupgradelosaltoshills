@@ -11,17 +11,17 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Contact Austin's Balcony Leak Experts
-              <span className="text-gradient-copper block">Stop the Leak Today</span>
+              Contact Savannah's Historic Rewiring Experts
+              <span className="text-gradient-copper block">Modernize Your Home Today</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Suspect a balcony leak? Don't wait for structural damage. Contact us for
-              a professional non-invasive inspection. Serving Austin and Central Texas 24/7.
+              Living in a historic Savannah home with old wiring? Don't risk a fire. Contact us
+              for a professional safety inspection or a free rewiring estimate.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+18777921410"
+                href="tel:+18449012684"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -29,12 +29,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Call Us Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
+                  <span className="font-heading font-bold text-xl text-foreground">+18449012684</span>
                 </div>
               </a>
 
               <a
-                href="mailto:info@austinleakpros.com"
+                href="mailto:info@savannahelectricpros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@austinleakpros.com</span>
+                  <span className="font-heading font-bold text-foreground">info@savannahelectricpros.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Austin, West Lake Hills, Barton Creek & Central TX</span>
+                  <span className="font-heading font-semibold text-foreground">Savannah, Ardsley Park, Isle of Hope & Historic District</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">24/7 Emergency Support & Scheduled Inspections</span>
+                  <span className="font-heading font-semibold text-foreground">24/7 Priority Emergency Electrical Support</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Professional Inspection
+              Request a Safety Inspection
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -107,7 +107,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(877) 792-1410"
+                  placeholder="+18449012684"
                 />
               </div>
 
@@ -125,13 +125,13 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell Us About Your Leak
+                  Tell Us About Your Home's Wiring
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="Where is the leak? Are there visible stains or mold?"
+                  placeholder="Do you have visible knob & tube? Any flickering lights or warm outlets?"
                 />
               </div>
 

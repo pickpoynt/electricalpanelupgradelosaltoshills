@@ -1,35 +1,35 @@
-import { Search, Shield, DollarSign, Clock, ThumbsUp, Hammer } from "lucide-react";
+import { Shield, Zap, DollarSign, Clock, ThumbsUp, Hammer } from "lucide-react";
 
 const reasons = [
   {
-    icon: Search,
-    title: "Non-Invasive Technology",
-    description: "We use infrared and ultrasonic tools to find leaks without tearing up your balcony tiles or decking.",
+    icon: Shield,
+    title: "Insurance Compliance",
+    description: "Most insurance companies will not cover homes with active knob and tube wiring. We provide the certification you need.",
   },
   {
-    icon: Shield,
-    title: "Prevent Structural Failure",
-    description: "Balcony leaks often lead to wood rot and steel corrosion. We stop the damage before it's too late.",
+    icon: Zap,
+    title: "Fire Hazard Prevention",
+    description: "Old cotton insulation becomes brittle and flammable over time. Modern copper wiring eliminates this major fire risk.",
   },
   {
     icon: DollarSign,
-    title: "Precise Repair Mapping",
-    description: "We don't just find the leak; we mark the exact area requiring repair, saving you thousands in unnecessary reconstruction.",
+    title: "Home Value Boost",
+    description: "Full electrical modernization significantly increases the resale value and marketability of your historic Savannah home.",
   },
   {
     icon: Clock,
-    title: "Prompt Local Service",
-    description: "Serving the entire Austin metro area with fast response times for multi-family and residential properties.",
+    title: "Fast Project Completion",
+    description: "We use specialized techniques to rewire historic homes with minimal wall damage and rapid turnaround times.",
   },
   {
     icon: ThumbsUp,
-    title: "Expert Documentation",
-    description: "We provide detailed photographic reports of our findings for insurance claims or structural engineers.",
+    title: "Licensed & Master Electricians",
+    description: "Our team consists of Master Electricians who specialize specifically in historic preservation and modern electrical codes.",
   },
   {
     icon: Hammer,
-    title: "Holistic Solutions",
-    description: "We don't just patch; we identify the root cause, whether it's poor drainage, failed flashing, or membrane issues.",
+    title: "Minimal Invasive Methods",
+    description: "We take pride in our 'fishing' techniques that allow us to run new wires through existing cavities without tearing down plaster.",
   },
 ];
 
@@ -40,32 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Why Choose Us
+              Preserving History
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Austin's Premier
-              <span className="text-gradient-copper block">Balcony Leak Specialists</span>
+              Savannah's Premier
+              <span className="text-gradient-copper block">Historic Rewiring Team</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              We specialize exclusively in high-complexity leak detection. While general plumbers
-              deal with pipes, we focus on the intersection of plumbing, waterproofing,
-              and structural integrity to save your balcony or terrace from water damage.
+              Savannah's historic charm shouldn't come with electrical risks. We specialize
+              in the delicate art of modernizing electrical systems in 100+ year old homes,
+              ensuring safety while respecting the architectural integrity of your property.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
-                <span className="text-sm text-muted-foreground">Balconies Inspected</span>
+                <span className="text-4xl font-heading font-bold text-copper block">2,000+</span>
+                <span className="text-sm text-muted-foreground">Homes Rewired</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">12+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">99%</span>
-                <span className="text-sm text-muted-foreground">Accuracy Rate</span>
+                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
+                <span className="text-sm text-muted-foreground">Inspection Pass Rate</span>
               </div>
             </div>
           </div>
