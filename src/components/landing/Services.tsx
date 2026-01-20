@@ -1,24 +1,24 @@
-import { Wrench, RefreshCw, AlertCircle, CheckCircle, ArrowRight } from "lucide-react";
+import { MapPin, Camera, Wrench, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
+    icon: MapPin,
+    title: "Exterior Cleanouts",
+    description: "Install accessible cleanout points in your yard near the property line, making future drain service easy without entering your home.",
+    features: ["Grade-level access", "Weatherproof caps", "Landscaping restoration"],
+  },
+  {
+    icon: Camera,
+    title: "Camera-Ready Access",
+    description: "Cleanouts allow plumbers to run sewer cameras to diagnose clogs, root intrusion, and pipe damage without invasive digging.",
+    features: ["Inspection port", "4-inch openings", "Two-way cleanout"],
+  },
+  {
     icon: Wrench,
-    title: "Pump Repair",
-    description: "Complete diagnosis and repair of malfunctioning ejector pumps, including motor replacement, float switch repair, and impeller cleaning.",
-    features: ["Motor testing", "Float adjustment", "Seal replacement"],
-  },
-  {
-    icon: RefreshCw,
-    title: "Pump Replacement",
-    description: "Full ejector pump replacement with properly sized units from top brands like Zoeller, Liberty, and Myers. We handle basin, pump, and piping.",
-    features: ["Basin upgrade", "New check valve", "Warranty included"],
-  },
-  {
-    icon: AlertCircle,
-    title: "Emergency Service",
-    description: "24/7 emergency response for sewage backups and pump failures. We arrive fast to prevent basement flooding and health hazards.",
-    features: ["Same-day service", "After-hours available", "Cleanup assistance"],
+    title: "Cleanout Replacement",
+    description: "Replace broken, corroded, or buried cleanout caps and risers. We upgrade old terra cotta cleanouts to modern PVC or ABS.",
+    features: ["Cap replacement", "Riser extension", "Code upgrades"],
   },
 ];
 
@@ -31,11 +31,11 @@ const Services = () => {
             Licensed Plumbing Experts
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Schaumburg's Pump Specialists
+            Plano's Cleanout Specialists
           </h2>
           <p className="text-muted-foreground text-lg">
-            When your basement ejector pump fails, sewage can back up fast. We provide
-            rapid response and expert repairs to protect your home and family.
+            A properly installed sewer cleanout is your best defense against expensive
+            drain emergencies. We install code-compliant access points that save you money.
           </p>
         </div>
 

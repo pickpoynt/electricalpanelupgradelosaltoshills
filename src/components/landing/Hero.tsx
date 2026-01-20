@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-tankless.png";
+import heroImage from "@/assets/hero-wiring.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Plumber repairing ejector pump in Schaumburg basement"
+          alt="Plumber installing exterior sewer cleanout in Plano yard"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,19 +20,19 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Emergency Service
+              Save on Future Repairs
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Ejector Pump Repair in Schaumburg, IL
-            <span className="block text-gradient-copper mt-2">Fast. Reliable. Expert.</span>
+            Sewer Cleanout Installation in Plano, TX
+            <span className="block text-gradient-copper mt-2">Accessible. Code-Compliant. Smart.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Don't let a failed sewage ejector pump flood your basement. Our licensed plumbers
-            provide fast diagnosis, repair, and replacement for all basement pump systems.
-            Same-day service available in Schaumburg and surrounding areas.
+            Don't have a cleanout? Installing one now saves thousands later. We add accessible
+            cleanout points to your main sewer line for easy snaking, camera inspections, and
+            maintenance—without digging up your foundation or floors.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

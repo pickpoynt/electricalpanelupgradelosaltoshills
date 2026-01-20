@@ -1,35 +1,35 @@
-import { Clock, Shield, Droplets, Wrench, BadgeCheck, DollarSign } from "lucide-react";
+import { DollarSign, Shield, Home, Ruler, BadgeCheck, Wrench } from "lucide-react";
 
 const reasons = [
   {
-    icon: Clock,
-    title: "24/7 Availability",
-    description: "Ejector pump failures don't wait for business hours. We offer round-the-clock emergency service to prevent basement flooding.",
+    icon: DollarSign,
+    title: "Prevent Costly Repairs",
+    description: "Without a cleanout, clearing clogs requires cutting into walls or floors. A $500 cleanout saves you $3,000+ in future emergency repairs.",
   },
   {
     icon: Shield,
-    title: "Licensed & Insured",
-    description: "All our plumbers are fully licensed in Illinois and carry comprehensive insurance for your protection and peace of mind.",
+    title: "Code Compliant",
+    description: "We install cleanouts that meet current Plano plumbing codes, including proper depth, location, and cap specifications.",
   },
   {
-    icon: Droplets,
-    title: "Sewage Expertise",
-    description: "We specialize in sewage ejector systems and understand the health risks. We follow strict safety protocols during every repair.",
+    icon: Home,
+    title: "Preserve Your Home",
+    description: "Exterior cleanouts mean plumbers never need to enter your house to clear main line clogs. Protect your floors and landscaping.",
   },
   {
-    icon: Wrench,
-    title: "Quality Parts",
-    description: "We only install commercial-grade pumps from trusted brands like Zoeller and Liberty, backed by manufacturer warranties.",
+    icon: Ruler,
+    title: "Strategic Placement",
+    description: "We locate cleanouts at optimal access points—near property lines, at direction changes, and before the city connection.",
   },
   {
     icon: BadgeCheck,
-    title: "Code Compliant",
-    description: "Every installation meets or exceeds Illinois plumbing codes. We pull permits and schedule inspections when required.",
+    title: "Licensed & Insured",
+    description: "All work performed by Texas-licensed master plumbers. We pull permits and schedule inspections when required.",
   },
   {
-    icon: DollarSign,
-    title: "Upfront Pricing",
-    description: "No surprises. We provide clear, written estimates before starting work. You'll know exactly what you're paying.",
+    icon: Wrench,
+    title: "Quality Materials",
+    description: "We use schedule 40 PVC or ABS with commercial-grade caps that won't crack, corrode, or leak over time.",
   },
 ];
 
@@ -40,26 +40,27 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Why Choose Us?
+              Why Install a Cleanout?
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Schaumburg's Trusted
-              <span className="text-gradient-copper block">Pump Repair Pros</span>
+              Plano's Choice for
+              <span className="text-gradient-copper block">Sewer Access Solutions</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Basement ejector pumps are critical for homes with below-grade bathrooms, laundry
-              rooms, or wet bars. When they fail, you need a plumber who responds fast and fixes it right.
+              Many older Plano homes don't have exterior cleanouts. When main line clogs happen,
+              plumbers have to access your sewer through toilets or cut into your foundation. Installing
+              a cleanout now is a smart investment.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
-                <span className="text-sm text-muted-foreground">Pumps Repaired</span>
+                <span className="text-4xl font-heading font-bold text-copper block">300+</span>
+                <span className="text-sm text-muted-foreground">Cleanouts Installed</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Emergency</span>
+                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
+                <span className="text-sm text-muted-foreground">Code Pass Rate</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">

@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How do I know if my ejector pump is failing?",
-    answer: "Warning signs include sewage odors, gurgling sounds from basement drains, slow drainage, visible sewage in the basin, or the pump running constantly without shutting off."
+    question: "Do I need a permit to install a sewer cleanout in Plano?",
+    answer: "Yes, most cleanout installations require a plumbing permit. We handle all permitting and inspections for you as part of our service."
   },
   {
-    question: "Can I use my basement bathroom while the pump is broken?",
-    answer: "No! Using basement fixtures with a failed ejector pump will cause sewage to overflow the basin and flood your basement. Call us immediately for emergency service."
+    question: "Where should a cleanout be located?",
+    answer: "Ideally near your property line for easy access, at direction changes in the sewer line, and before the connection to the city main. We'll assess your property and recommend the best location."
   },
   {
-    question: "How long does an ejector pump last?",
-    answer: "Quality pumps like Zoeller and Liberty typically last 7-10 years with proper maintenance. Cheaper pumps may fail in 3-5 years."
+    question: "Can you install a cleanout if my sewer line is under my driveway?",
+    answer: "Yes! We can bore under driveways or install the cleanout on either side. We minimize disruption to hardscaping and restore everything when done."
   },
   {
-    question: "Do you offer emergency service?",
-    answer: "Yes, we provide 24/7 emergency ejector pump repair in Schaumburg and surrounding areas. Sewage backups can't wait until Monday morning."
+    question: "How much does sewer cleanout installation cost?",
+    answer: "Costs vary based on depth, location, and soil conditions. Most installations range from $400-$1,200. We provide free estimates with no obligation."
   },
   {
-    question: "How much does ejector pump replacement cost?",
-    answer: "Costs vary based on pump size, basin condition, and piping needs. We provide upfront estimates. Most replacements range from $800-$2,500 installed."
+    question: "Will you restore my landscaping after installation?",
+    answer: "Absolutely. We backfill properly, compact the soil, and restore grass or landscaping. The cleanout cap sits flush with grade for easy mowing."
   },
   {
-    question: "Is this covered by homeowners insurance?",
-    answer: "Sudden failures may be covered, but gradual wear and lack of maintenance typically aren't. Check your policy and call us for documentation if needed."
+    question: "How long does installation take?",
+    answer: "Most cleanout installations are completed in 3-6 hours, including excavation, installation, inspection, and restoration. Same-day service available."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Ejector Pump FAQ – Schaumburg, IL
+            Cleanout FAQ – Plano, TX
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Common questions about basement sewage pump repair and replacement.
-            We help Schaumburg homeowners protect their basements from flooding.
+            Common questions about sewer cleanout installation and replacement.
+            We help Plano homeowners protect their investment and save on future repairs.
           </p>
         </div>
 
