@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Is it legal to reuse greywater in Tempe?",
-    answer: "Yes, Arizona has some of the most progressive greywater laws in the country. Residential greywater use (from washers, showers, etc.) is allowed under a specific 'General Permit' rule, which we strictly follow."
+    question: "Do I need a permit for my kiln?",
+    answer: "In most cases in Buncombe County, yes. Adding a new dedicated circuit for a kiln is considered new electrical work that requires a permit and inspection, which we handle for you."
   },
   {
-    question: "What kind of soap should I use?",
-    answer: "You must use 'plant-friendly' soaps that are free of salts (sodium), boron, and chlorine bleach. We provide a full list of recommended detergents upon installation."
+    question: "What outlet does my kiln need?",
+    answer: "It depends on the kiln. Most single-phase kilns use a NEMA 6-50 or 14-50 outlet (like a dryer or range), but we always check the manufacturer plate to match the exact amperage requirements."
   },
   {
-    question: "Does greywater smell bad?",
-    answer: "A properly designed system moves water to the landscape immediately (usually within 24 hours), preventing decomposition and odors. It never sits in a holding tank."
+    question: "Can I run my kiln on an extension cord?",
+    answer: "Absolutely NOT. Kilns draw high continuous amperage that will melt standard extension cords, creating a severe fire hazard. You must have a direct wall connection."
   },
   {
-    question: "Can I use greywater on my lawn?",
-    answer: "Greywater is best suited for trees, bushes, vines, and perennials. It is generally not recommended for sprinklers or lawns due to potential runoff and human contact issues."
+    question: "How much does it cost to install a kiln outlet?",
+    answer: "Cost varies based on distance from your main panel and wire gauge needed. A run close to the panel is cheaper than one requiring conduit across a basement or garage."
   },
   {
-    question: "How much water can I save?",
-    answer: "A typical household produces 20-40 gallons of greywater per person per day. diverting this can reduce your outdoor freshwater irrigation needs by 30-50%."
+    question: "Do kilns need ventilation?",
+    answer: "Yes. Firing clay and glazes releases fumes (sulfur, carbon monoxide, heavy metals) that must be vented outside. We can wire your EnviroVent or overhead hood system into the circuit."
   },
   {
-    question: "Does the system require a permit?",
-    answer: "Simple Laundry-to-Landscape systems often don't require a formal inspection if they meet ADEQ guidelines. More complex whole-house systems may require a city permit, which we handle."
+    question: "Can I put a kiln in my garage?",
+    answer: "Yes, garages are popular spots. We just need to ensure the electrical panel has room for the new breaker and that we use outdoor-rated conduit if the wiring is exposed."
   }
 ];
 
@@ -38,10 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Greywater Recycling FAQ – Tempe, AZ
+            Kiln Electrical FAQ – Asheville, NC
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Get clarity on using recycled water for your Tempe landscape. We adhere to all Arizona Department of Environmental Quality standards.
+            Answers to common questions about powering your pottery studio safely.
+            We follow the National Electrical Code (NEC) for all continuous load installations.
           </p>
         </div>
 

@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Sustainable greywater irrigation system in Tempe landscape"
+          alt="Professional ceramic kiln hooked up in an Asheville pottery studio"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,26 +20,26 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Ecological Water Solutions for Tempe Homes
+              Powering Asheville's Creative Community
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Greywater System Installation in Tempe, AZ
-            <span className="block text-gradient-copper mt-2">Reuse Water. Grow Greener.</span>
+            Ceramic Kiln Electrical Hookup in Asheville, NC
+            <span className="block text-gradient-copper mt-2">Safe Power for Your Art.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Transform your laundry and shower water into a sustainable oasis.
-            We design and install code-compliant greywater systems that lower your bills
-            and keep your desert landscape thriving.
+            We specialize in installing dedicated 240V circuits for pottery kilns.
+            Whether you have a Skutt, L&L, or Paragon, we ensure your studio wiring
+            is safe, code-compliant, and ready to fire.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
             <Button size="lg" className="bg-copper hover:bg-copper-light text-white border-none h-14 px-8 text-lg" asChild>
-              <a href="tel:+18777921410" className="flex items-center gap-2">
+              <a href="tel:+18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (877) 792-1410
+                Call (844) 901-2684
               </a>
             </Button>
           </div>

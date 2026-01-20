@@ -11,18 +11,17 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Start Conserving Water Today
-              <span className="text-gradient-copper block">Get Your Custom System Quote</span>
+              Power Up Your Studio
+              <span className="text-gradient-copper block">Schedule Your Wiring Quote</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Ready to lower your water bill and create a drought-proof landscape?
-              Contact Tempe's greywater experts for a free site consultation and
-              irrigation design plan.
+              Ready to plug in and start firing? Contact Asheville's kiln electrical
+              specialists. We'll assess your panel and get you hooked up safely.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+18777921410"
+                href="tel:+18449012684"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -30,12 +29,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Call Us Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
+                  <span className="font-heading font-bold text-xl text-foreground">(844) 901-2684</span>
                 </div>
               </a>
 
               <a
-                href="mailto:info@tempe-greywater-solutions.com"
+                href="mailto:info@asheville-kiln-electric.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -43,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@tempe-greywater-solutions.com</span>
+                  <span className="font-heading font-bold text-foreground">info@asheville-kiln-electric.com</span>
                 </div>
               </a>
 
@@ -53,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Tempe, Scottsdale, Mesa, Chandler & East Valley</span>
+                  <span className="font-heading font-semibold text-foreground">Asheville, Weaverville, Black Mountain & Buncombe County</span>
                 </div>
               </div>
 
@@ -63,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7:00 AM - 5:00 PM | Weekend Consultations</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 5:00 PM | Weekend Studio Calls</span>
                 </div>
               </div>
             </div>
@@ -72,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Consultation
+              Request a Quote
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -95,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Doe"
+                    placeholder="Potter"
                   />
                 </div>
               </div>
@@ -108,7 +107,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(877) 792-1410"
+                  placeholder="(844) 901-2684"
                 />
               </div>
 
@@ -120,19 +119,19 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="jane@example.com"
+                  placeholder="studio@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell Us About Your Project
+                  Tell Us About Your Kiln
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I'm interested in a laundry-to-landscape system..."
+                  placeholder="I have a Skutt KM-1027 that needs a 60 amp breaker..."
                 />
               </div>
 
