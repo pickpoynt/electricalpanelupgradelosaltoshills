@@ -1,35 +1,35 @@
-import { ShieldCheck, Ruler, Home, ThumbsUp, Drill, BadgeCheck } from "lucide-react";
+import { Flame, Zap, VolumeX, ShieldCheck, Smartphone, CheckCircle } from "lucide-react";
 
 const reasons = [
   {
+    icon: Zap,
+    title: "100% Efficient",
+    description: "Electric resistance heating is 100% efficient at converting electricity to heat. No duct loss, no wasted energy.",
+  },
+  {
     icon: ShieldCheck,
-    title: "Permitted Work",
-    description: "We handle all City of Plano permits and inspections, ensuring your new electrical run meets local codes and setbacks.",
+    title: "Safe Operations",
+    description: "Modern baseboards have thermal cutoffs and lower surface temperatures, making them safer for homes with kids and pets.",
   },
   {
-    icon: Ruler,
-    title: "Perfect Placement",
-    description: "We work with you to site the pedestal exactly where your RV's power port is located, minimizing cord strain and trip hazards.",
+    icon: VolumeX,
+    title: "Whisper Quiet",
+    description: "Unlike forced air systems, baseboard heaters operate silently. No whooshing vents or rattling ductwork.",
   },
   {
-    icon: Drill,
-    title: "Trenching Included",
-    description: "We provide complete turnkey service, including trenching and backfilling for the underground conduit run from your house.",
+    icon: Smartphone,
+    title: "Smart Control",
+    description: "We install thermostats that integrate with Alexa, Google Home, and Apple HomeKit for ultimate convenience.",
   },
   {
-    icon: Home,
-    title: "HOA Friendly",
-    description: "We install low-profile, aesthetic pedestals and restore your landscaping to keep your HOA happy and your property looking great.",
+    icon: Flame,
+    title: "Zonal Comfort",
+    description: "Keep your bedroom at 68° and your living room at 72°. Stop paying to heat empty rooms.",
   },
   {
-    icon: ThumbsUp,
-    title: "Voltage Drop Calc",
-    description: "Long runs? No problem. We calculate the correct wire gauge to prevent power loss, ensuring your ACs run efficiently.",
-  },
-  {
-    icon: BadgeCheck,
-    title: "Licensed TECL",
-    description: "Work performed by state-licensed master electricians. Don't trust your $200k motorhome to a handyman.",
+    icon: CheckCircle,
+    title: "5-Year Warranty",
+    description: "We stand behind our installations with a solid labor warranty on top of the manufacturer's product warranty.",
   },
 ];
 
@@ -40,27 +40,26 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Why Choose Us?
+              Why Choose Electric Heat?
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Plano's Choice for
-              <span className="text-gradient-copper block">RV Home Power</span>
+              Modern Comfort for
+              <span className="text-gradient-copper block">Seattle Homes</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              We are RV owners ourselves. We understand the convenience of being able
-              to plug in at home, whether it's for pre-trip cooling, guest stays, or
-              just keeping your batteries topped off.
+              Seattle's mild climate is perfect for zonal electric heating. It offers precise control,
+              lower installation costs than heat pumps, and unbeatable reliability.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">200+</span>
-                <span className="text-sm text-muted-foreground">Pedestals Set</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1k+</span>
+                <span className="text-sm text-muted-foreground">Heaters Installed</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Code Safe</span>
+                <span className="text-4xl font-heading font-bold text-copper block">10+</span>
+                <span className="text-sm text-muted-foreground">Years Exp</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">

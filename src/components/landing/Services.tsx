@@ -1,24 +1,24 @@
-import { Zap, Plug, Wrench, CheckCircle, ArrowRight } from "lucide-react";
+import { Thermometer, Wifi, Wrench, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Zap,
-    title: "New Pedestal Installation",
-    description: "Complete installation of outdoor-rated power pedestals with dedicated circuits run from your main panel, including trenching and conduit work.",
-    features: ["Weatherproof units", "Code compliant", "Site prep"],
+    icon: Thermometer,
+    title: "New Heater Install",
+    description: "Installation of high-efficiency Cadet and King electric baseboard heaters, perfectly sized for each room to maximize comfort and minimize bills.",
+    features: ["Sizing calc", "Wiring run", "Clean mounting"],
   },
   {
-    icon: Plug,
-    title: "50-Amp Upgrades",
-    description: "Upgrade your existing 30-amp service to 50-amps to power modern, larger RVs with dual AC units and high-demand appliances.",
-    features: ["Heavy gauge wire", "NEMA 14-50R", "Breaker upgrade"],
+    icon: Wifi,
+    title: "Smart Thermostats",
+    description: "Upgrade your old dial thermostats to modern digital or smart units (like Mysa) that let you control your baseboard heat from your phone.",
+    features: ["App control", "Schedule setting", "Energy savings"],
   },
   {
     icon: Wrench,
-    title: "Diagnostics & Repair",
-    description: "Troubleshooting for overheating plugs, tripped breakers, or voltage drops at your existing pedestal to protect your RV's sensitive electronics.",
-    features: ["Voltage testing", "Receptacle replacement", "Safety check"],
+    title: "Change-Outs & Removal",
+    description: "We safely disconnect and remove old, inefficient, or rusted baseboard units and replace them with sleek, safe, new models.",
+    features: ["Disposal included", "Safety check", "Wall repair prep"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Licensed Electrical Work
+            Zonal Heating Specialists
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Plano's RV Infrastructure Pros
+            Seattle's Heating Pros
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don't risk your rig with DIY wiring or adapters. We provide the
-            professional electrical infrastructure your luxury RV deserves.
+            Say goodbye to cold spots. We specialize in zonal electric heating systems
+            that allow you to heat only the rooms you're using, saving energy and money.
           </p>
         </div>
 

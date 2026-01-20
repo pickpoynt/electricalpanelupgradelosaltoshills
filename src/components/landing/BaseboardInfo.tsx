@@ -1,46 +1,46 @@
-import { Zap, Truck, BatteryCharging, Home, Settings, Plug } from "lucide-react";
+import { Zap, Wifi, Thermometer, Wind, DollarSign, PenTool } from "lucide-react";
 
 const infoData = [
   {
-    icon: BatteryCharging,
-    title: "Keep Batteries Healthy",
-    description: "Plugging in at home keeps your house batteries fully charged, preventing sulfation and extending their lifespan significantly.",
+    icon: DollarSign,
+    title: "Low Upfront Cost",
+    description: "Installing baseboard heaters is significantly cheaper than ductwork or heat pumps, making them ideal for remodels and additions.",
   },
   {
-    icon: Truck,
-    title: "Guest House Ready",
-    description: "Turn your RV into a comfortable, private guest suite for visiting family and friends, complete with AC, lights, and entertainment.",
+    icon: Wind,
+    title: "Allergen Free",
+    description: "Since there are no blowing fans or ducts collecting dust, baseboard heat is cleaner and better for allergy sufferers.",
   },
   {
-    icon: Zap,
-    title: "Pre-Trip Cooling",
-    description: "Start your fridge and ACs the night before you leave. Load up a cold refrigerator and step into a cool rig on departure day.",
+    icon: PenTool,
+    title: "Easy Maintenance",
+    description: "No filters to change, no compressors to service. Just a quick dusting once a year keeps them running perfectly.",
   },
 ];
 
 const benefitsData = [
-  "No more loud generators in the driveway",
-  "Run both AC units with 50-amp service",
-  "Professional grade, weatherproof pedestals",
-  "Safe charging for lithium & AGM batteries",
-  "Clean, buried conduit installation",
-  "Adds function and value to your home",
+  "Precise room-by-room temperature control",
+  "Silent operation (no fan noise)",
+  "No heat lost through leaky ducts",
+  "Works during power outages (generator friendly)",
+  "Modern, sleek designs available",
+  "Integrating with smart home ecosystems",
 ];
 
-const RVPedestalInfo = () => {
+const BaseboardInfo = () => {
   return (
-    <section id="rv-info" className="py-24 bg-gradient-hero">
+    <section id="heat-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            30 Amp & 50 Amp Service
+            Efficient & Reliable
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Why Install a dedicated RV Hookup?
+            Why Choose Baseboard?
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Using a 15-amp dogbone adapter can melt your outlet and ruin your AC compressor.
-            Get the dedicated power your modern RV needs to function properly while parked at home.
+            For decades, electric baseboards have been a staple in Seattle homes.
+            New models are safer, better looking, and pair perfectly with modern smart thermostats.
           </p>
         </div>
 
@@ -68,29 +68,29 @@ const RVPedestalInfo = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="bg-card rounded-2xl p-8 lg:p-10 shadow-xl border border-border">
             <div className="flex items-center gap-3 mb-6">
-              <Settings className="w-8 h-8 text-copper" />
+              <Thermometer className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Our Installation Package
+                Digital Accuracy
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              We start by calculating your load and trenching from your main service panel.
-              We install schedule 40/80 PVC conduit, pull THHN copper wire, and set a dedicated breaker.
+              Old bi-metal thermostats can vary by ±5 degrees. New digital stats hold
+              the temp within ±0.5 degrees, keeping you perfectly comfortable without overheating the room.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              The pedestal itself is a high-quality, NEMA 3R weatherproof unit, often with
-              extra 120V GFCI outlets for convenience. We verify proper voltage and polarity before we leave.
+              We install top brands like Honeywell, Mysa, and Cadet to ensure your
+              heaters run only when needed, potentially saving you 10-15% on your electric bill.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              The Home Base Advantage
+              The Zonal Advantage
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <Home className="w-6 h-6 text-copper flex-shrink-0 mt-0.5" />
+                  <Zap className="w-6 h-6 text-copper flex-shrink-0 mt-0.5" />
                   <span className="text-primary-foreground/90 text-lg">
                     {benefit}
                   </span>
@@ -103,9 +103,9 @@ const RVPedestalInfo = () => {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
-            <Plug className="w-6 h-6 text-copper" />
+            <Wifi className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Get hookup pricing today. Call (844) 901-2684.
+              Get a free quote today. Call (844) 901-2684.
             </span>
           </div>
         </div>
@@ -114,4 +114,4 @@ const RVPedestalInfo = () => {
   );
 };
 
-export default RVPedestalInfo;
+export default BaseboardInfo;

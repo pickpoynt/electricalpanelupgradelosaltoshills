@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Get Your Hookup Quote
-              <span className="text-gradient-copper block">Start Installing Next Week</span>
+              Get Your Heating Quote
+              <span className="text-gradient-copper block">Stay Warm This Winter</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Ready to power up at home? Contact Plano's RV electrical specialists
-              today to schedule your free site assessment and quote.
+              Cold bedroom? Outdated thermostats? Contact Seattle&apos;s electric heating
+              specialists today to schedule your consultation.
             </p>
 
             <div className="space-y-6">
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:install@plano-rv-power.com"
+                href="mailto:install@seattle-heater-pros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">install@plano-rv-power.com</span>
+                  <span className="font-heading font-bold text-foreground">install@seattle-heater-pros.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Plano, Frisco, Allen & Collin County</span>
+                  <span className="font-heading font-semibold text-foreground">Seattle, Bellevue, Tacoma & King County</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7:00 AM - 6:00 PM | Weekend Appts</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 5:00 PM | Sat Appts</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request Site Visit
+              Request Service
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -125,13 +125,13 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  RV Type (30 or 50 Amp?)
+                  How can we help?
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I have a 40ft Diesel Pusher that needs 50 amps..."
+                  placeholder="I have a flickering heater in my living room..."
                 />
               </div>
 

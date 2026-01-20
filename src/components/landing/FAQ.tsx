@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a permit for an RV outlet in Plano?",
-    answer: "Yes. Installing a new 30-amp or 50-amp circuit is permitted work. We handle the entire permitting and inspection process with the City of Plano for you."
+    question: "Do baseboard heaters use a lot of electricity?",
+    answer: "Resistance heat is 100% efficient, but electricity costs more than gas. However, zonal heating (only heating occupied rooms) often results in lower overall bills than heating a whole house with a central furnace."
   },
   {
-    question: "Can I just adapt my dryer outlet?",
-    answer: "No! Older dryer outlets (3-prong) lack a ground, and newer ones (4-prong) are often far from where you park. Plus, extension cords for 30A+ loads are dangerous long-term."
+    question: "My heater smells like burning. Is that normal?",
+    answer: "If you haven't used it all summer, yes. It's usually just dust burning off the element. The smell should dissipate in 20-30 minutes. If it persists, turn it off and call us."
   },
   {
-    question: "What's the difference between 30 amp and 50 amp?",
-    answer: "30-amp service (120V) is for smaller trailers with one AC. 50-amp service (240V/120V) provides MUCH more power for large motorhomes with two or three AC units."
+    question: "Can I put furniture in front of the heater?",
+    answer: "No! You need to keep at least 12 inches of clearance in front of baseboard heaters to prevent fire hazards and allow proper airflow."
   },
   {
-    question: "How much does installation cost?",
-    answer: "Price depends on the distance from your main breaker panel to the parking spot and the difficulty of trenching. We provide free, firm quotes."
+    question: "How long do these heaters last?",
+    answer: "Electric baseboard heaters are very simple and durable, often lasting 20+ years. The thermostats usually fail before the heaters do."
   },
   {
-    question: "Can you install it on the side of my house?",
-    answer: "Yes, we can mount an RV box on an exterior wall, or install a freestanding pedestal in the yard if you park further away."
+    question: "Can you upgrade me to a smart thermostat?",
+    answer: "Yes! High-voltage smart thermostats like Mysa are designed specifically for baseboard heaters. We can retrofit them to give you app control and scheduling."
   },
   {
-    question: "Will this charge my lithium batteries?",
-    answer: "Yes. Plugging your RV into a proper 30/50 amp pedestal allows your converter/charger to properly maintain your battery bank, whether lead-acid or lithium."
+    question: "Do I need a dedicated circuit?",
+    answer: "Yes, electric heaters draw significant power (amperage). They generally require dedicated 240V circuits to operate safely and meet code."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            RV Power FAQ – Plano, TX
+            Heating FAQ – Seattle, WA
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Answers to common questions about home RV hookups.
-            We help Plano RV owners protect their investment with safe, reliable power.
+            Common questions about electric zonal heating.
+            We help Seattle homeowners stay warm and safe.
           </p>
         </div>
 
