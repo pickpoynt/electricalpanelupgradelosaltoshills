@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">HR</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">TG</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Huntsville No-Dig Pipe Repair
+                  Tempe Greywater Solutions
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Sewer & Pipe Relining Specialists</p>
+                <p className="text-xs text-primary-foreground/60">Sustainable Plumbing Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Huntsville's leading experts in trenchless sewer repair and
-              CIPP pipe relining. Restoring infrastructure without the dig.
+              Tempe's trusted partner for water conservation. We design and install
+              greywater systems that protect our desert environment and save you money.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Pipe Relining
+                  Laundry-to-Landscape
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Hydro Jetting
+                  Whole House Recycling
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Video Inspections
+                  System Maintenance
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Sewer Cleaning
+                  Irrigation Design
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Serving Huntsville & Madison County</span>
+                <span>Tempe, AZ & East Valley</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:info@huntsville-trenchless-repair.com" className="hover:text-copper-light transition-colors">
-                  info@huntsville-trenchless-repair.com
+                <a href="mailto:info@tempe-greywater-solutions.com" className="hover:text-copper-light transition-colors">
+                  info@tempe-greywater-solutions.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap gap-x-8 gap-y-2">
             <a
-              href="https://emergencyslableakdetectionnapervill.vercel.app/"
+              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Emergency Slab Leak Detection Naperville
+              Sump Pump Battery Backup Installation Malden
             </a>
             <a
-              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
+              href="https://toiletflangerepairtallahassee.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Tankless Water Heater Descaling Bellevue
+              Toilet Flange Repair Tallahassee
             </a>
             <a
-              href="https://balconydrainleakdetectionservicesau.vercel.app/"
+              href="https://trenchlesspiperelininghuntsville.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Balcony Drain Leak Detection Austin
+              Trenchless Pipe Relining Huntsville
             </a>
             <a
-              href="https://potfillerfaucetinstallationroundroc.vercel.app/"
+              href="https://knobandtubewiringreplacementsavanna.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Pot Filler Faucet Installation Round Rock
+              Knob and Tube Wiring Replacement Savannah
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Huntsville No-Dig Pipe Repair. All rights reserved.
+            © {new Date().getFullYear()} Tempe Greywater Solutions. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

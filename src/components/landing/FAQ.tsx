@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "What exactly is trenchless pipe relining?",
-    answer: "Trenchless pipe relining is a method of repairing damaged sewer or drain pipes without digging a trench. We pull an epoxy-saturated sleeve through the existing pipe and cure it in place, creating a new, structural pipe inside the old one."
+    question: "Is it legal to reuse greywater in Tempe?",
+    answer: "Yes, Arizona has some of the most progressive greywater laws in the country. Residential greywater use (from washers, showers, etc.) is allowed under a specific 'General Permit' rule, which we strictly follow."
   },
   {
-    question: "How long does a relined pipe last?",
-    answer: "Our trenchless pipe linings are engineered for longevity and typically have a life expectancy of 50 years or more. They are resistant to corrosion, root intrusion, and chemical wear."
+    question: "What kind of soap should I use?",
+    answer: "You must use 'plant-friendly' soaps that are free of salts (sodium), boron, and chlorine bleach. We provide a full list of recommended detergents upon installation."
   },
   {
-    question: "Will the new liner reduce the capacity of my pipe?",
-    answer: "While the liner slightly reduces the diameter of the pipe, its smooth, seamless surface actually improves flow capacity by reducing friction and eliminating joints where debris typically catches."
+    question: "Does greywater smell bad?",
+    answer: "A properly designed system moves water to the landscape immediately (usually within 24 hours), preventing decomposition and odors. It never sits in a holding tank."
   },
   {
-    question: "Can any pipe be relined?",
-    answer: "Most types of pipes including PVC, cast iron, clay, and concrete can be relined. However, if the pipe has completely collapsed or is severely misaligned, traditional replacement might be necessary."
+    question: "Can I use greywater on my lawn?",
+    answer: "Greywater is best suited for trees, bushes, vines, and perennials. It is generally not recommended for sprinklers or lawns due to potential runoff and human contact issues."
   },
   {
-    question: "Is trenchless repair more expensive than traditional digging?",
-    answer: "While the technology itself can be more expensive, the total cost is often lower because it eliminates the need for expensive landscape restoration, driveway repairs, and interior floor replacement."
+    question: "How much water can I save?",
+    answer: "A typical household produces 20-40 gallons of greywater per person per day. diverting this can reduce your outdoor freshwater irrigation needs by 30-50%."
   },
   {
-    question: "How long does the process take?",
-    answer: "Most residential trenchless relining projects in Huntsville can be completed in a single day, often within 4 to 8 hours, minimizing the time your water service is offline."
+    question: "Does the system require a permit?",
+    answer: "Simple Laundry-to-Landscape systems often don't require a formal inspection if they meet ADEQ guidelines. More complex whole-house systems may require a city permit, which we handle."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Trenchless Pipe Repair FAQ – Huntsville, AL
+            Greywater Recycling FAQ – Tempe, AZ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Get expert answers to common questions about no-dig sewer repair, CIPP lining, and modern plumbing technology in the Rocket City.
+            Get clarity on using recycled water for your Tempe landscape. We adhere to all Arizona Department of Environmental Quality standards.
           </p>
         </div>
 

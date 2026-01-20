@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Modern trenchless pipe relining equipment"
+          alt="Sustainable greywater irrigation system in Tempe landscape"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,19 +20,19 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Huntsville's Trenchless Sewer Repair Experts
+              Ecological Water Solutions for Tempe Homes
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Trenchless Pipe Relining & Repair in Huntsville, AL
-            <span className="block text-gradient-copper mt-2">No Digging. No Mess. Permanent Fix.</span>
+            Greywater System Installation in Tempe, AZ
+            <span className="block text-gradient-copper mt-2">Reuse Water. Grow Greener.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Don't let a sewer line issue ruin your landscape. Our advanced trenchless
-            technology restores your pipes from the inside out, providing a lifetime
-            solution without the need for destructive excavation.
+            Transform your laundry and shower water into a sustainable oasis.
+            We design and install code-compliant greywater systems that lower your bills
+            and keep your desert landscape thriving.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

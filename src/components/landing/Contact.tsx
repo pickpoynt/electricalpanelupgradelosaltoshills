@@ -11,13 +11,13 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Contact Huntsville's Trenchless Repair Pros
-              <span className="text-gradient-copper block">Modern Sewer Solutions</span>
+              Start Conserving Water Today
+              <span className="text-gradient-copper block">Get Your Custom System Quote</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't dig up your yard. Contact our Huntsville plumbing team for a
-              professional trenchless inspection and see how our no-dig technology
-              can restore your pipes permanently.
+              Ready to lower your water bill and create a drought-proof landscape?
+              Contact Tempe's greywater experts for a free site consultation and
+              irrigation design plan.
             </p>
 
             <div className="space-y-6">
@@ -35,7 +35,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:info@huntsville-trenchless-repair.com"
+                href="mailto:info@tempe-greywater-solutions.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@huntsville-trenchless-repair.com</span>
+                  <span className="font-heading font-bold text-foreground">info@tempe-greywater-solutions.com</span>
                 </div>
               </a>
 
@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Huntsville, Madison, Harvest, Owens Cross Roads & Madison County</span>
+                  <span className="font-heading font-semibold text-foreground">Tempe, Scottsdale, Mesa, Chandler & East Valley</span>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 6:00 PM | Saturday Appointments Available</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7:00 AM - 5:00 PM | Weekend Consultations</span>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Trenchless Estimate
+              Request a Consultation
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -126,13 +126,13 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell Us About Your Pipe Issue
+                  Tell Us About Your Project
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="What symptoms are you seeing? (Sewer backup, slow drains, sinkholes?)"
+                  placeholder="I'm interested in a laundry-to-landscape system..."
                 />
               </div>
 
