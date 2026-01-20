@@ -11,13 +11,13 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Contact Malvern's Basement Protection Experts
-              <span className="text-gradient-copper block">Secure Your Basement Today</span>
+              Contact Tallahassee's Toilet Repair Experts
+              <span className="text-gradient-copper block">Secure Your Fixtures Today</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't wait for the next storm to test your sump pump. Contact our Malvern
-              plumbing team for a professional battery backup installation or a
-              comprehensive basement flood protection audit.
+              Don't wait for a wobbly toilet to cause a major leak. Contact our Tallahassee
+              plumbing team for professional flange repair, wax ring replacement,
+              and permanent base stabilization.
             </p>
 
             <div className="space-y-6">
@@ -35,7 +35,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:info@malvernbasementprotection.com"
+                href="mailto:info@tallahassee-toilet-fix.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@malvernbasementprotection.com</span>
+                  <span className="font-heading font-bold text-foreground">info@tallahassee-toilet-fix.com</span>
                 </div>
               </a>
 
@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Malvern, Paoli, Frazer, Charlestown & Willistown</span>
+                  <span className="font-heading font-semibold text-foreground">Tallahassee, Killearn, Southwood, Midtown & Leon County</span>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 7:00 AM - 8:00 PM | 24/7 Emergency Storm Support</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 7:00 AM - 7:00 PM | Emergency Weekend Support</span>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Backup System Consultation
+              Request a Repair Consultation
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -126,13 +126,13 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell Us About Your Basement
+                  Tell Us About Your Toilet Issue
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="Do you have an existing sump pump? Has your basement flooded before?"
+                  placeholder="Is the toilet wobbly? Do you see standing water? Is there an odor?"
                 />
               </div>
 

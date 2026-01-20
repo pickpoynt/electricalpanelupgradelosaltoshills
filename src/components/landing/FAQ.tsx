@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How long does a sump pump battery last?",
-    answer: "A fully charged high-quality battery can typically run a backup pump for 5-7 hours of continuous pumping, or up to several days if the pump only cycles occasionally during a power outage."
+    question: "Why is my toilet wobbling?",
+    answer: "A wobbly toilet is usually caused by a loose or broken flange, or an uneven subfloor. This instability can quickly compromise the wax ring seal, leading to hidden leaks and water damage."
   },
   {
-    question: "Do I need a battery backup if I have a generator?",
-    answer: "Yes. Generators can take time to start or fail to engage. A battery backup provides instant protection the moment power is lost, acting as a critical bridge until your generator takes over."
+    question: "Can I just tighten the bolts to stop a leak?",
+    answer: "Overtightening bolts on a broken flange can actually crack the toilet base or further damage the flange. It's best to have a professional inspect the flange to ensure it's structurally sound before securing the bolts."
   },
   {
-    question: "Can I install a battery backup on my existing pump?",
-    answer: "In most cases, yes. We can install a secondary backup pump in the same basin as your current primary pump, provided there is enough physical space for the secondary unit and float switch."
+    question: "What is a closet flange?",
+    answer: "A closet flange is the pipe fitting that connects your toilet to the drainage system and secures it to the floor. It's the foundation of your toilet's stability and seal."
   },
   {
-    question: "How often should I test my backup system?",
-    answer: "We recommend testing your backup system every 3-4 months by pouring water into the basin to ensure the backup pump engages and discharge lines are clear."
+    question: "How do I know if my flange is broken?",
+    answer: "Common signs include a wobbly toilet, water seeping from the base, a persistent sewage smell, or floorboards that feel soft or bouncy around the toilet area."
   },
   {
-    question: "What is an AGM battery?",
-    answer: "Absorbent Glass Mat (AGM) batteries are maintenance-free, leak-proof, and designed to sit for long periods while maintaining a charge, making them ideal for emergency sump pump applications."
+    question: "Do you repair cast iron flanges?",
+    answer: "Yes! We specialize in repairing all types of flanges, including old cast iron, PVC, and brass. We use modern repair kits that often eliminate the need for expensive pipe replacement."
   },
   {
-    question: "Do you offer emergency sump pump service in Malvern?",
-    answer: "Yes! Malvern Basement Protection provides priority emergency service for sump pump failures throughout Malvern, Paoli, and the surrounding Main Line communities."
+    question: "How long does a flange repair take?",
+    answer: "Most toilet flange repairs can be completed in 1.5 to 3 hours, depending on the condition of the subfloor and the type of repair required."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Sump Pump & Backup FAQ – Malvern, PA
+            Toilet & Flange Repair FAQ – Tallahassee, FL
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Get professional answers to common questions about basement flood protection, battery backup systems, and emergency plumbing in Chester County.
+            Get expert answers to common questions about wobbly toilets, broken flanges, and bathroom leak prevention in Florida's Capital City.
           </p>
         </div>
 

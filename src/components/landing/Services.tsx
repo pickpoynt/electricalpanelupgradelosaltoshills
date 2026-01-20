@@ -1,24 +1,24 @@
-import { Battery, ShieldCheck, Activity, CheckCircle, ArrowRight } from "lucide-react";
+import { Wrench, Droplets, ShieldAlert, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Battery,
-    title: "Battery Backup Install",
-    description: "Installation of high-capacity DC-powered backup pumps that take over automatically when your primary pump fails or the power goes out.",
-    features: ["Reliable power source", "Automatic activation", "Dual pump systems"],
+    icon: Wrench,
+    title: "Toilet Flange Replacement",
+    description: "Removal of broken, rusted, or improperly installed flanges and replacement with durable, modern stainless steel or PVC units.",
+    features: ["Subfloor inspection", "Level alignment", "Rust-proof materials"],
   },
   {
-    icon: ShieldCheck,
-    title: "Primary Pump Upgrade",
-    description: "Replacing aging or underpowered main sump pumps with modern, high-efficiency models from industry leaders like Zoeller and Liberty.",
-    features: ["Cast-iron construction", "High-flow capacity", "Quiet operation"],
+    icon: Droplets,
+    title: "Leak & Wax Ring Rescue",
+    description: "Expert detection of hidden base leaks and installation of high-quality wax-free seals that prevent water damage and odors.",
+    features: ["Odor elimination", "Pressure testing", "Permanent seals"],
   },
   {
-    icon: Activity,
-    title: "Sump Health Inspection",
-    description: "Detailed diagnostic check of your basin, discharge lines, and check valves to ensure your entire system is ready for heavy rain.",
-    features: ["Float switch testing", "Line cleaning", "Check valve audit"],
+    icon: ShieldAlert,
+    title: "Subfloor Stabilization",
+    description: "Strategic reinforcement for toilets sitting on soft or rotting wood, ensuring a solid, unmoving foundation for your fixture.",
+    features: ["Structural repair", "Plywood reinforcement", "Waterproofing"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Basement Security
+            Reliable Repairs
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Malvern's Sump Pump & Flood Protection Pros
+            Tallahassee's Toilet & Flange Specialists
           </h2>
           <p className="text-muted-foreground text-lg">
-            A dry basement starts with a reliable sump pump system. Our experts provide
-            heavy-duty backup solutions tailored for Malvern's unique landscape.
+            Stop the wobble and prevent structural damage. Our licensed plumbers provide
+            precision flange repairs that stand the test of time in Tallahassee homes.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const Services = () => {
               </div>
 
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title} in Malvern
+                {service.title} in Tallahassee
               </h3>
 
               <p className="text-muted-foreground mb-6">

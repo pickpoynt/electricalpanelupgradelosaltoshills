@@ -1,35 +1,35 @@
-import { Shield, ShieldAlert, Zap, Waves, ThumbsUp, Wrench } from "lucide-react";
+import { Shield, Hammer, Droplets, Target, ThumbsUp, Wrench } from "lucide-react";
 
 const reasons = [
   {
     icon: Shield,
-    title: "Double the Protection",
-    description: "A battery backup adds a vital second layer of defense, ensuring your basement stays dry even if your primary pump fails.",
+    title: "Structural Integrity",
+    description: "We don't just fix the leak; we ensure the structural foundation around your toilet is solid and water-resistant.",
   },
   {
-    icon: Zap,
-    title: "Power Outage Ready",
-    description: "Most basement flooding occurs during storms when the power goes out. Our backup systems function without AC power.",
+    icon: Hammer,
+    title: "Subfloor Restoration",
+    description: "Our team is skilled in both plumbing and minor subfloor repairs, saving you the hassle of hiring two different contractors.",
   },
   {
-    icon: Waves,
-    title: "High-Water Alarm",
-    description: "Our modern backup systems include built-in audible alarms that notify you the moment your primary pump is struggling.",
+    icon: Droplets,
+    title: "Leak Prevention",
+    description: "Using premium wax rings and modern closet flange systems, we eliminate the risk of future leaks and costly floor damage.",
   },
   {
-    icon: ShieldAlert,
-    title: "Prevent Costly Repairs",
-    description: "Basement flood cleanup can cost tens of thousands. A backup system is a small investment that prevents massive losses.",
+    icon: Target,
+    title: "Precision Leveling",
+    description: "A wobbly toilet isn't just annoying; it puts stress on the flange. We ensure a perfectly level and secure installation every time.",
   },
   {
     icon: ThumbsUp,
-    title: "Licensed Malvern Plumbers",
-    description: "Our team lives and works in Chesco, providing rapid response times and expert knowledge of local drainage challenges.",
+    title: "Tallahassee Locals",
+    description: "As a local team, we understand the common plumbing issues in Florida's Capital City and provide rapid, reliable service.",
   },
   {
     icon: Wrench,
-    title: "Premium Equipment",
-    description: "We only install professional-grade systems with AGM maintenance-free batteries designed for long-term reliability.",
+    title: "Modern Solutions",
+    description: "We use the latest closet flange repair kits and reinforcement technologies to provide a permanent fix for broken cast iron or PVC.",
   },
 ];
 
@@ -40,32 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Emergency Preparedness
+              Local Expertise
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Malvern's Choice for
-              <span className="text-gradient-copper block">Basement Flood Defense</span>
+              Tallahassee's Choice for
+              <span className="text-gradient-copper block">Permanent Toilet Repairs</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              In Malvern and the surrounding Main Line areas, heavy rains and aging
-              infrastructure can put your basement at risk. We specialize in rugged
-              sump pump solutions that work when they're needed most.
+              In Tallahassee and the surrounding Big Bend area, bathroom humidity
+              and aging fixtures can lead to flange failure. We specialize in
+              rugged, long-lasting repairs that keep your bathroom dry and safe.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1k+</span>
-                <span className="text-sm text-muted-foreground">Pump Installations</span>
+                <span className="text-4xl font-heading font-bold text-copper block">2k+</span>
+                <span className="text-sm text-muted-foreground">Flanges Replaced</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">12+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Emergency Support</span>
+                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
+                <span className="text-sm text-muted-foreground">Success Rate</span>
               </div>
             </div>
           </div>
