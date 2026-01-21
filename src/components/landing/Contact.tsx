@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Book Your Installation Install
-              <span className="text-gradient-copper block">Start Cooling Down Today</span>
+              Schedule Your Repair
+              <span className="text-gradient-copper block">Stop The Heat Today</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Why struggle with confusing instructions and dangerous ladders?
-              Let Spokane's pros handle it safely and quickly.
+              Don't suffer through another hot Arizona summer with a broken attic fan.
+              Contact Tempe's ventilation experts for fast, honest service.
             </p>
 
             <div className="space-y-6">
@@ -28,13 +28,13 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call for Quote</span>
+                  <span className="text-sm text-muted-foreground block">Call Us Now</span>
                   <span className="font-heading font-bold text-xl text-foreground">(844) 901-2684</span>
                 </div>
               </a>
 
               <a
-                href="mailto:service@spokane-fan-pros.com"
+                href="mailto:service@tempe-attic-fans.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@spokane-fan-pros.com</span>
+                  <span className="font-heading font-bold text-foreground">service@tempe-attic-fans.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Spokane, Spokane Valley, Liberty Lake</span>
+                  <span className="font-heading font-semibold text-foreground">Tempe, Mesa, Chandler, Scottsdale</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 8:00 AM - 6:00 PM</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 7:00 AM - 7:00 PM</span>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Mike"
+                    placeholder="David"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Anderson"
+                    placeholder="Miller"
                   />
                 </div>
               </div>
@@ -119,7 +119,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="mike.a@example.com"
+                  placeholder="david.m@example.com"
                 />
               </div>
 
@@ -131,7 +131,7 @@ const Contact = () => {
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I have 3 new fans I bought from Home Depot that I need installed..."
+                  placeholder="My attic fan is squeaking loudly and I think it stopped spinning..."
                 />
               </div>
 

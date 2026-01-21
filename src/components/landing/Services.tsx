@@ -1,24 +1,24 @@
-import { Zap, Wind, RotateCw, CheckCircle, ArrowRight } from "lucide-react";
+import { Sun, Fan, Gauge, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Wind,
-    title: "Fan Replacement",
-    description: "Got an old, wobbly, or noisy fan? We remove the old unit and install your new choice securely, ensuring it's balanced and whisper-quiet.",
-    features: ["Safe removal", "New bracket install", "Blade balancing"],
+    icon: Fan,
+    title: "Motor Replacement",
+    description: "Squealing bearings or a fan that just hums? We stock universal motors and OEM replacements for most major attic fan brands found in Tempe homes.",
+    features: ["Quiet operation", "Bearing lubrication", "Vibration damping"],
   },
   {
-    icon: Zap,
-    title: "New Wiring Install",
-    description: "Don't have a fan there yet? No problem. We can fish new wires through your ceiling and install a proper junction box rated for fan weight.",
-    features: ["Clean wire fishing", "Code compliant", "Switch installation"],
+    icon: Sun,
+    title: "Solar Fan Installation",
+    description: "Go off-grid with your ventilation. We install high-efficiency solar attic fans that run specifically when the sun is blazing—exactly when you need them.",
+    features: ["Zero electricity cost", "Federal tax credits", "No wiring needed"],
   },
   {
-    icon: RotateCw,
-    title: "High Ceilings",
-    description: "Vaulted or cathedral ceilings in your Spokane home? We have the ladders and expertise to safely install downrods and fans at any height.",
-    features: ["Up to 20ft height", "Extension downrods", "Remote setup"],
+    icon: Gauge,
+    title: "Thermostat Repair",
+    description: "If your fan runs all night or never turns on, it's likely a bad thermostat. We install adjustable, wide-range temperature switches for precise control.",
+    features: ["Adjustable setpoints", "Humidistat options", "Safety disconnects"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Full Service Cooling
+            Cooling Efficiency
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Expert Fan Installation
+            Ventilation Services
           </h2>
           <p className="text-muted-foreground text-lg">
-            Whether you bought it at a big box store or online, we install it right.
-            Enjoy the breeze without the hassle of DIY wiring.
+            Tempe summers are brutal. Ensure your attic breathes properly to
+            extend the life of your roof and air conditioner.
           </p>
         </div>
 

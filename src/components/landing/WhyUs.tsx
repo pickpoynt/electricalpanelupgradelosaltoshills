@@ -1,35 +1,35 @@
-import { DollarSign, Award, Clock, ShieldCheck, ThumbsUp, Sparkles } from "lucide-react";
+import { Flame, Sun, ShieldCheck, Thermometer, Zap, Award } from "lucide-react";
 
 const reasons = [
   {
-    icon: DollarSign,
-    title: "Affordable Rates",
-    description: "We believe cooling shouldn't cost a fortune. Our flat-rate pricing for standard installations beats the big electrical companies every time.",
-  },
-  {
-    icon: Award,
-    title: "Licensed Pros",
-    description: "Don't trust handy-apps with your home's wiring. Our installers are fully licensed, bonded, and insured electricians in Washington State.",
-  },
-  {
-    icon: Clock,
-    title: "Fast Turnover",
-    description: "We carry most standard brackets and switches in our trucks, allowing us to complete most installations in a single visit, often in under 2 hours.",
+    icon: Flame,
+    title: "Beat the Heat",
+    description: "Attic temperatures in Tempe can reach 160°F. A working fan brings this down significantly, taking the load off your AC unit.",
   },
   {
     icon: ShieldCheck,
-    title: "Safety First",
-    description: "Ceiling fans are heavy. We ensure your electrical box is rated for the dynamic load, preventing dangerous wobbling or falling hazards.",
+    title: "Licensed Pros",
+    description: "We are licensed, bonded, and insured Arizona electricians. We don't cut corners with wiring or roof penetrations.",
   },
   {
-    icon: Sparkles,
-    title: "Clean Work",
-    description: "We treat your home with respect. We use drop cloths, wear booties, and vacuum up any drywall dust before we leave.",
+    icon: Sun,
+    title: "Solar Experts",
+    description: "We specialize in modern solar gable and roof-mounted fans. Reduce your carbon footprint while cooling your home.",
   },
   {
-    icon: ThumbsUp,
-    title: "Satisfaction Guarantee",
-    description: "If the fan wobbles or ticks after we leave, we'll come back and fix it for free. Your comfort is our priority.",
+    icon: Thermometer,
+    title: "Thermostat Tuning",
+    description: "We calibrate your fan's thermostat to ensure it only runs when necessary, saving you money on electricity and wear-and-tear.",
+  },
+  {
+    icon: Zap,
+    title: "Wiring Safety",
+    description: "Old attic wiring can be a fire hazard. We inspect all connections and replace brittle wire nuts or frayed insulation during our visit.",
+  },
+  {
+    icon: Award,
+    title: "Top Rated",
+    description: "Servicing the East Valley for over 15 years with hundreds of 5-star reviews from satisfied homeowners.",
   },
 ];
 
@@ -40,31 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              The Smart Choice
+              Local Arizona Experts
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Why Hire Us for Your
-              <span className="text-gradient-copper block">Ceiling Fan Project?</span>
+              Why Trust Us with Your
+              <span className="text-gradient-copper block">Attic Ventilation?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Installing a fan seems simple until you're on a ladder trying to hold a 20lb motor overhead while connecting wires.
-              We take the risk and stress out of the equation for Spokane homeowners.
+              Your attic is the hottest part of your home. If your fan fails,
+              that heat radiates down into your living space. We provide fast,
+              reliable repairs to keep your home comfortable.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1000+</span>
-                <span className="text-sm text-muted-foreground">Fans Installed</span>
+                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
+                <span className="text-sm text-muted-foreground">Years Exp</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1Yr</span>
-                <span className="text-sm text-muted-foreground">Labor Warranty</span>
+                <span className="text-4xl font-heading font-bold text-copper block">2k+</span>
+                <span className="text-sm text-muted-foreground">Fans Fixed</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">A+</span>
-                <span className="text-sm text-muted-foreground">Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
+                <span className="text-sm text-muted-foreground">Guarantee</span>
               </div>
             </div>
           </div>

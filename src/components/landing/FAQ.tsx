@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a special box for a ceiling fan?",
-    answer: "Yes. Ceiling fans are heavy and vibrate. Standard plastic light boxes will eventually crack or fail. We always install a fan-rated steel brace box."
+    question: "Why is my attic fan making a loud squealing noise?",
+    answer: "Squealing usually indicates worn-out motor bearings. In the Tempe heat, lubrication dries out quickly. We can replace the motor to restore quiet operation."
   },
   {
-    question: "How much does installation cost?",
-    answer: "For a standard swap (fan-to-fan), prices start very low. New wiring or high ceilings add a bit more. Call us at (844) 901-2684 for an instant quote."
+    question: "Are solar attic fans worth the investment?",
+    answer: "Yes, especially in Arizona. They cost zero to run and quality models qualify for a 30% federal tax credit. They pay for themselves in energy savings."
   },
   {
-    question: "Can you install a fan where no light exists?",
-    answer: "Absolutely. We are expert electricians. We can fish new wires through your attic or ceiling joists to create a new center point for your room."
+    question: "How many fans do I need for my house?",
+    answer: "It depends on your attic's square footage and roof shape. Generally, one fan is needed for every 1000-1500 sq ft. We perform a calculation during our visit."
   },
   {
-    question: "My ceilings are 18 feet high. Can you reach them?",
-    answer: "Yes. We carry specialized A-frame ladders and scaffolding to safely reach cathedral and vaulted ceilings common in Spokane homes."
+    question: "Can you install a fan if I don't have a gable vent?",
+    answer: "Yes. We can install roof-mounted units (mushroom fans) that cut directly through the roof deck, sealed with professional flashing to prevent leaks."
   },
   {
-    question: "Do you assemble the fan?",
-    answer: "Yes. You just leave the box in the room. We unbox, assemble, mount, wire, and balance the fan, then take the trash with us."
+    question: "Will an attic fan really help my AC?",
+    answer: "Absolutely. By lowering the attic temp from 150°F+ to near ambient temperature, your AC ducts (often in the attic) stay cooler, delivering colder air to your rooms."
   },
   {
-    question: "Why is my current fan wobbling?",
-    answer: "Wobbling usually comes from unbalanced blades or a loose mounting bracket. We precision-balance every fan we install for smooth operation."
+    question: "Do you offer warranties on motors?",
+    answer: "Yes. We use high-quality motors that typically come with a 5-year to lifetime manufacturer warranty, plus our own labor guarantee."
   }
 ];
 
@@ -38,11 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Fan Installation FAQ
+            Attic Ventilation FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Answers to common questions about cooling your Spokane home.
-            We make it easy and affordable.
+            Honest answers about keeping your Tempe home cool and efficient.
           </p>
         </div>
 

@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">SFP</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">SVC</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Spokane Fan Pros
+                  Sun Valley Cooling
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Installation Experts</p>
+                <p className="text-xs text-primary-foreground/60">Attic Fan Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Your go-to electricians for safe, affordable, and quick ceiling fan installation in Spokane.
-              We bring the breeze to your home.
+              Tempe's dedicated team for attic ventilation. We keep your home cool, your roof healthy,
+              and your energy bills manageable.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Fan Installation
+                  Attic Fan Repair
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  New Wiring
+                  Solar Fan Install
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  High Ceiling Installs
+                  Thermostat Replacement
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Fan Balancing
+                  Gable Vent Upgrades
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Spokane, WA</span>
+                <span>Tempe, AZ</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@spokane-fan-pros.com" className="hover:text-copper-light transition-colors">
-                  service@spokane-fan-pros.com
+                <a href="mailto:service@tempe-attic-fans.com" className="hover:text-copper-light transition-colors">
+                  service@tempe-attic-fans.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://knobandtubewiringreplacementsavanna.vercel.app/"
+              href="https://sewercleanoutinstallationplanotx.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Knob and Tube Wiring Replacement Savannah
+              Sewer Cleanout Installation Plano TX
             </a>
             <a
-              href="https://claypiperepairmodestoca.vercel.app/"
+              href="https://cheapceilingfaninstallationspokanew.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Clay Pipe Repair Modesto CA
+              Cheap Ceiling Fan Installation Spokane
             </a>
             <a
-              href="https://polybutylenepipereplacementchesapea.vercel.app/"
+              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Polybutylene Pipe Replacement Chesapeake
+              Tankless Water Heater Descaling Bellevue
             </a>
             <a
-              href="https://baseboardheaterinstallationseattlew.vercel.app/"
+              href="https://showerpanleakrepairlubbocktx.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Baseboard Heater Installation Seattle
+              Shower Pan Leak Repair Lubbock TX
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Spokane Fan Pros. All rights reserved.
+            © {new Date().getFullYear()} Sun Valley Cooling. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">
