@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-wiring.png";
+import heroImage from "@/assets/hero-plumbing.jpg";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Technician installing battery backup system for sump pump in Fort Wayne basement"
+          alt="Corroded cast iron drain pipe repair under a Baton Rouge home"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,19 +20,19 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Flood Protection
+              Slab Leak & Drain Specialists
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Sump Pump Battery Backup in Fort Wayne
-            <span className="block text-gradient-copper mt-2">Never Fear the Storm.</span>
+            Cast Iron Pipe Repair in Baton Rouge
+            <span className="block text-gradient-copper mt-2">Save Your Foundation.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Power outages often happen during the worst storms—exactly when you need your sump pump most.
-            We install reliable, high-capacity battery backup systems that keep your Fort Wayne basement dry
-            even when the grid goes down.
+            Many Baton Rouge homes built before 1975 sit on crumbling cast iron drains.
+            We restore your plumbing's integrity through advanced descaling, trenchless relining,
+            or minimally invasive tunneling—often without breaking your floors.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

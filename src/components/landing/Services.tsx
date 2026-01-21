@@ -1,24 +1,24 @@
-import { BatteryCharging, Activity, Zap, CheckCircle, ArrowRight } from "lucide-react";
+import { Hammer, Scissors, Activity, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: BatteryCharging,
-    title: "Backup System Install",
-    description: "Installation of specialized deep-cycle AGM or maintenance-free batteries paired with DC backup pumps. We size the system to handle your basement's specific water volume.",
-    features: ["Smart charging controllers", "Dual-pump configuration", "Automatic switching"],
+    icon: Hammer,
+    title: "Tunneling Under Slab",
+    description: "The gold standard for cast iron replacement. We dig tunnels under your foundation to replace pipes, meaning no holes in your expensive flooring.",
+    features: ["Floors stay intact", "Full pipe replacement", "Engineered support"],
+  },
+  {
+    icon: Scissors,
+    title: "Trenchless Pipe Lining",
+    description: "For pipes with structural integrity remaining, we insert an epoxy-coated liner that cures into a new, rock-hard pipe inside the old one.",
+    features: ["No digging required", "Faster completion", "50-year lifespan"],
   },
   {
     icon: Activity,
-    title: "Discharge & Check Valve",
-    description: "Ensuring your backup pump has a dedicated or properly integrated discharge line with silent check valves to prevent backflow and cycling.",
-    features: ["Separate discharge lines", "Silent check valves", "Freeze guard protection"],
-  },
-  {
-    icon: Zap,
-    title: "System Stress Testing",
-    description: "We don't just plug it in. We simulate power outages and flood conditions to ensure your backup kicks on instantly and pumps effectively.",
-    features: ["Load testing", "Alarm verification", "Cycle timing"],
+    title: "Hydro-Jet Descaling",
+    description: "We use high-pressure water and sanding chains to strip away years of scale and rust buildup, restoring flow to older cast iron lines.",
+    features: ["Restores diameter", "Removes jagged edges", "Preps for lining"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Total Basement Security
+            Advanced Restoration Methods
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Reliable Backup Solutions
+            Custom Solutions for Old Drains
           </h2>
           <p className="text-muted-foreground text-lg">
-            A primary sump pump is only as good as its power source. Our backup
-            systems provide the redundancy every Fort Wayne homeowner needs.
+            Every Baton Rouge home is unique. We offer a range of solutions from
+            cleaning to full replacement, tailored to your pipe conditions and budget.
           </p>
         </div>
 

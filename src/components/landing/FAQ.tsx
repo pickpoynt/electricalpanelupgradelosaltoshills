@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How long will the battery last during a power outage?",
-    answer: "It depends on how often the pump cycles. Our high-capacity AGM batteries typically provide 2-3 days of protection during moderate to heavy usage."
+    question: "How do I know if my cast iron pipes are bad?",
+    answer: "Common signs include frequent backups, slow drainage, foul sewer smells, or pest issues. If you notice cracks in your walls or uneven floors, you may have a slab leak."
   },
   {
-    question: "Does the backup system replace my existing pump?",
-    answer: "No, it works alongside it. The backup sits slightly higher in the pit and only activates if the primary pump fails or the power goes out. It's a redundant safety net."
+    question: "Do you have to break my floors to fix the pipes?",
+    answer: "Not necessarily. We specialize in tunneling under the slab and trenchless pipe lining. These methods preserve your tile, wood, and carpet flooring."
   },
   {
-    question: "Do I need a new sump pit?",
-    answer: "Usually, no. Most standard sump pits have enough room for both a primary and a backup pump. If not, we can make adjustments to fit the system."
+    question: "What is the difference between descaling and replacement?",
+    answer: "Descaling removes rust to restore flow in pipes that are still structurally sound. Replacement is for pipes that have collapsed, cracked, or completely eroded."
   },
   {
-    question: "How do I know if the backup is working?",
-    answer: "Our systems run weekly self-tests and will alert you via an alarm or phone notification if any issue is detected, such as a low battery or blocked discharge."
+    question: "Does insurance cover cast iron pipe replacement?",
+    answer: "It depends on your policy. While wear and tear usually isn't covered, water damage resulting from a failure often is. We can help provide the documentation you need."
   },
   {
-    question: "What maintenance does the system require?",
-    answer: "Very little. We use maintenance-free batteries that don't need water. We recommend a professional inspection once a year to ensure peak performance."
+    question: "How long does a tunneling job take?",
+    answer: "Most tunneling residential projects in Baton Rouge are completed in 5-10 days. You can usually stay in your home during the process."
   },
   {
-    question: "Is it worth the investment?",
-    answer: "Compared to the $20,000+ cost of repairing a finished basement after a flood, a backup system is a small price to pay for guaranteed peace of mind."
+    question: "Is your work guaranteed?",
+    answer: "Yes. Our full PVC replacements come with a 50-year warranty, and our extensive spot repairs come with industry-leading guarantees."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Backup System FAQ
+            Pipe Repair FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Answers to common questions about keeping your Fort Wayne basement dry.
-            We make flood protection simple and reliable.
+            Answers to common questions about cast iron plumbing in Baton Rouge.
+            We provide clear, honest assessments.
           </p>
         </div>
 

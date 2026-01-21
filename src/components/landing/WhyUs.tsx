@@ -1,35 +1,35 @@
-import { Umbrella, Wifi, ShieldAlert, BadgeCheck, Timer, PlugZap } from "lucide-react";
+import { Hammer, Microscope, Landmark, PenTool, HardHat, FileCheck } from "lucide-react";
 
 const reasons = [
   {
-    icon: Umbrella,
-    title: "Dry During Storms",
-    description: "Fort Wayne storms can be severe. Our systems keep working even when trees take down power lines, preventing thousands in water damage.",
+    icon: Microscope,
+    title: "Video Diagnostics",
+    description: "We don't guess. We flush your lines and use high-resolution cameras to identify exactly where the breaks, bellies, and corrosion are located.",
   },
   {
-    icon: Wifi,
-    title: "Remote Monitoring",
-    description: "Many of our systems come with WiFi capabilities, sending alerts to your phone if the backup pump activates or the battery is low.",
+    icon: Landmark,
+    title: "Foundation Safety",
+    description: "Leaking cast iron pipes can cause slab heave and foundation settling. Our repairs stabilize your plumbing and protect your home's structural integrity.",
   },
   {
-    icon: ShieldAlert,
-    title: "Double Protection",
-    description: "A backup isn't just for power outages. It also kicks in if your primary pump suffers a mechanical failure or gets overwhelmed by volume.",
+    icon: Hammer,
+    title: "Minimal Disruption",
+    description: "Our tunneling and lining methods mean you don't have to move out, and your tile, hardwood, or carpet flooring stays exactly where it belongs.",
   },
   {
-    icon: Timer,
-    title: "Long-Run Times",
-    description: "We use high-capacity batteries rated for days of intermittent pumping, not just hours. You're covered for extended outages.",
+    icon: PenTool,
+    title: "Precision Descaling",
+    description: "Sometimes replacement isn't needed. Our picote descaling tools can return old cast iron to 'like-new' smoothness, extending its life by decades.",
   },
   {
-    icon: BadgeCheck,
-    title: "Licensed Installation",
-    description: "Improper wiring can start fires or damage equipment. Our technicians are licensed and follow all local electrical codes.",
+    icon: HardHat,
+    title: "Master Plumbers",
+    description: "This is complex underground work. Our team consists of licensed master plumbers and excavation specialists who know Louisiana soil conditions.",
   },
   {
-    icon: PlugZap,
-    title: "Automatic Testing",
-    description: "Our premium systems run weekly self-tests to ensure pumps move freely and batteries are holding a proper charge.",
+    icon: FileCheck,
+    title: "Engineer Reports",
+    description: "We can work with structural engineers to provide pre- and post-repair hydrostatic test reports, essential for real estate transactions.",
   },
 ];
 
@@ -40,32 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              It Happens Fast
+              Preserve Your Property
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Why Install a
-              <span className="text-gradient-copper block">Battery Backup?</span>
+              Why Trust Us with Your
+              <span className="text-gradient-copper block">Cast Iron Pipes?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              A flooded basement isn't just a mess—it destroys furnaces, water heaters,
-              storage, and finished living spaces. Relying on a single, AC-powered pump
-              is a gamble you shouldn't take in Indiana.
+              Cast iron was the standard until the mid-70s, but it has a lifespan of 50-60 years.
+              In Baton Rouge's reactive soil, these pipes fail, leading to slow drains, backups,
+              and costly structural damage. We are the experts in fixing them right.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">0</span>
-                <span className="text-sm text-muted-foreground">Wet Basements</span>
+                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
+                <span className="text-sm text-muted-foreground">Slabs Saved</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Peace of Mind</span>
+                <span className="text-4xl font-heading font-bold text-copper block">98%</span>
+                <span className="text-sm text-muted-foreground">No-Dig Success</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">5yr</span>
-                <span className="text-sm text-muted-foreground">Warranty</span>
+                <span className="text-4xl font-heading font-bold text-copper block">50yr</span>
+                <span className="text-sm text-muted-foreground">Pipe Warranty</span>
               </div>
             </div>
           </div>
