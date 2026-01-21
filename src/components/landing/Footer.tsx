@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">BRP</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">MSS</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Baton Rouge Pipe Restoration
+                  Modesto Sewer Specialists
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Cast Iron Solutions</p>
+                <p className="text-xs text-primary-foreground/60">Clay Pipe Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Restoring the integrity of Baton Rouge's underground plumbing.
-              Specializing in tunneling, trenchless lining, and cast iron replacement.
+              The Central Valley's trusted team for clay pipe repair and replacement.
+              Restoring Modesto's plumbing infrastructure one home at a time.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Under-Slab Tunneling
+                  Root Removal
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Trenchless Lining
+                  CIPP Relining
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Hydro-Jet Descaling
+                  Pipe Bursting
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Static Isolation Tests
+                  Spot Repair
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Baton Rouge, LA</span>
+                <span>Modesto, CA</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@baton-rouge-pipe-restoration.com" className="hover:text-copper-light transition-colors">
-                  service@baton-rouge-pipe-restoration.com
+                <a href="mailto:service@modesto-sewer-specialists.com" className="hover:text-copper-light transition-colors">
+                  service@modesto-sewer-specialists.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://wellpumpreplacementoverlandparkks.netlify.app/"
+              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Well Pump Replacement Overland Park KS
+              Freeze Proof Outdoor Faucet Replacement OH
             </a>
             <a
-              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
+              href="https://emergencyslableakdetectionnapervill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Sump Pump Battery Backup Installation MA
+              Emergency Slab Leak Detection Naperville
             </a>
             <a
-              href="https://toiletflangerepairtallahassee.netlify.app/"
+              href="https://trenchlesspiperelininghuntsville.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Toilet Flange Repair Tallahassee
+              Trenchless Pipe Relining Huntsville
             </a>
             <a
-              href="https://sewercleanoutinstallationplanotx.vercel.app/"
+              href="https://greywatersysteminstallationtempe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Sewer Cleanout Installation Plano TX
+              Greywater System Installation Tempe
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Baton Rouge Pipe Restoration. All rights reserved.
+            © {new Date().getFullYear()} Modesto Sewer Specialists. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

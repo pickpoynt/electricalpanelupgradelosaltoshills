@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How do I know if my cast iron pipes are bad?",
-    answer: "Common signs include frequent backups, slow drainage, foul sewer smells, or pest issues. If you notice cracks in your walls or uneven floors, you may have a slab leak."
+    question: "Why do my clay pipes keep getting clogged?",
+    answer: "Clay pipes are made of short sections joined together. Over time, these joints crack or separate, allowing tree roots to grow inside and catch debris."
   },
   {
-    question: "Do you have to break my floors to fix the pipes?",
-    answer: "Not necessarily. We specialize in tunneling under the slab and trenchless pipe lining. These methods preserve your tile, wood, and carpet flooring."
+    question: "Is trenchless repair really better than digging?",
+    answer: "In most cases, yes. Trenchless methods like CIPP relining are faster, cheaper (because there's no restoration cost for your yard/driveway), and just as durable."
   },
   {
-    question: "What is the difference between descaling and replacement?",
-    answer: "Descaling removes rust to restore flow in pipes that are still structurally sound. Replacement is for pipes that have collapsed, cracked, or completely eroded."
+    question: "How long does the new liner last?",
+    answer: "Our epoxy liners are rated for 50+ years. Essentially, you are getting a brand new, seamless PVC-like pipe cured inside your existing clay line."
   },
   {
-    question: "Does insurance cover cast iron pipe replacement?",
-    answer: "It depends on your policy. While wear and tear usually isn't covered, water damage resulting from a failure often is. We can help provide the documentation you need."
+    question: "Can you fix a pipe that has collapsed?",
+    answer: "If the collapse is total, we might need to dig a small spot repair or use pipe bursting. However, many severe cracks can still be lined if the pipe is round enough."
   },
   {
-    question: "How long does a tunneling job take?",
-    answer: "Most tunneling residential projects in Baton Rouge are completed in 5-10 days. You can usually stay in your home during the process."
+    question: "Do you offer free estimates?",
+    answer: "Yes, we offer free estimates for all major repairs. We can usually provide a quote directly after performing a video camera inspection."
   },
   {
-    question: "Is your work guaranteed?",
-    answer: "Yes. Our full PVC replacements come with a 50-year warranty, and our extensive spot repairs come with industry-leading guarantees."
+    question: "What areas of Modesto do you serve?",
+    answer: "We serve all of Modesto and surrounding communities including Salida, Ceres, and Riverbank. We are the local sewer experts."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Pipe Repair FAQ
+            Common Sewer Questions
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Answers to common questions about cast iron plumbing in Baton Rouge.
-            We provide clear, honest assessments.
+            Answers about clay pipe repair and replacement in Modesto.
+            Don't let sewer problems stress you out.
           </p>
         </div>
 

@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Get Your Free Estimate
-              <span className="text-gradient-copper block">Don't Ignore The Signs</span>
+              Get Your Free Sewer Scan
+              <span className="text-gradient-copper block">Don't Wait For Backups</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Smell sewer gas? Seeing cracks in your walls? Contact Baton Rouge's cast iron
-              specialists today for a comprehensive video inspection.
+              Slow drains? Gurgling toilets? Contact Modesto's clay pipe experts today
+              for a comprehensive camera inspection and trenchless repair estimate.
             </p>
 
             <div className="space-y-6">
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:service@baton-rouge-pipe-restoration.com"
+                href="mailto:service@modesto-sewer-specialists.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@baton-rouge-pipe-restoration.com</span>
+                  <span className="font-heading font-bold text-foreground">service@modesto-sewer-specialists.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Baton Rouge, Denham Springs, Prairieville</span>
+                  <span className="font-heading font-semibold text-foreground">Modesto, Salida, Ceres & Stanislaus County</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7:00 AM - 6:00 PM | Sat: By Appt</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7:00 AM - 7:00 PM | Sat: 8-4</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request Inspection
+              Request Service
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Robert"
+                    placeholder="John"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="LeBlanc"
+                    placeholder="Silva"
                   />
                 </div>
               </div>
@@ -119,19 +119,19 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="robert@example.com"
+                  placeholder="john.silva@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Describe your issue
+                  Tell us about your problem
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I think I have a broken pipe under my kitchen..."
+                  placeholder="My front yard smells like sewage and the toilet is gurgling..."
                 />
               </div>
 

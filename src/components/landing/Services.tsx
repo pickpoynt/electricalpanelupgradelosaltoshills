@@ -1,24 +1,24 @@
-import { Hammer, Scissors, Activity, CheckCircle, ArrowRight } from "lucide-react";
+import { Scissors, Droplets, Construction, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Hammer,
-    title: "Tunneling Under Slab",
-    description: "The gold standard for cast iron replacement. We dig tunnels under your foundation to replace pipes, meaning no holes in your expensive flooring.",
-    features: ["Floors stay intact", "Full pipe replacement", "Engineered support"],
-  },
-  {
     icon: Scissors,
-    title: "Trenchless Pipe Lining",
-    description: "For pipes with structural integrity remaining, we insert an epoxy-coated liner that cures into a new, rock-hard pipe inside the old one.",
-    features: ["No digging required", "Faster completion", "50-year lifespan"],
+    title: "Root Removal",
+    description: "Trees love Modesto's soil—and your pipes. We use heavy-duty cutters and hydro-jetting to completely remove invasive roots from clay lines.",
+    features: ["Mechanical cutting", "Chemical treatment", "Preventative scheduling"],
   },
   {
-    icon: Activity,
-    title: "Hydro-Jet Descaling",
-    description: "We use high-pressure water and sanding chains to strip away years of scale and rust buildup, restoring flow to older cast iron lines.",
-    features: ["Restores diameter", "Removes jagged edges", "Preps for lining"],
+    icon: Construction,
+    title: "Cured-In-Place Pipe",
+    description: "Instead of digging up your yard, we install a Cured-In-Place Pipe (CIPP) lining. This creates a seamless, joint-free new pipe inside the old clay one.",
+    features: ["No excavation", "Seals all cracks", "Blocks future roots"],
+  },
+  {
+    icon: Droplets,
+    title: "Pipe Bursting",
+    description: "For severely damaged pipes, we pull a new HDPE pipe through the old clay line, bursting it outward and replacing it instantly without trenching.",
+    features: ["Upsizes capacity", "Long-lasting HDPE", "Minimal surface damage"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Advanced Restoration Methods
+            Modern Sewer Solutions
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Custom Solutions for Old Drains
+            Repair Without Destruction
           </h2>
           <p className="text-muted-foreground text-lg">
-            Every Baton Rouge home is unique. We offer a range of solutions from
-            cleaning to full replacement, tailored to your pipe conditions and budget.
+            Old clay pipes have joints that leak, but fixing them doesn't mean ruining your driveway.
+            Modesto homeowners trust our trenchless methods.
           </p>
         </div>
 
