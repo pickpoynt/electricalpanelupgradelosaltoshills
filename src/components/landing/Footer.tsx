@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">LSL</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">CRP</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Lubbock Shower Leak Pros
+                  Chesapeake Repiping Pros
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Shower Pan Experts</p>
+                <p className="text-xs text-primary-foreground/60">Poly-B Replacement Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Professional shower pan leak repair and replacement serving Lubbock and
-              surrounding areas. Stop water damage before it destroys your home.
+              Specializing in the removal and replacement of defective polybutylene piping
+              in Chesapeake, VA. We restore safety and value to your home.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Leak Detection
+                  Whole House Repipe
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Pan Replacement
+                  Poly-B Inspection
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Waterproofing
+                  Drywall & Paint
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Subfloor Repair
+                  Permit Handling
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Lubbock, TX & Lubbock County</span>
+                <span>Chesapeake, VA</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@lubbock-shower-leak-pros.com" className="hover:text-copper-light transition-colors">
-                  service@lubbock-shower-leak-pros.com
+                <a href="mailto:service@chesapeake-repiping-pros.com" className="hover:text-copper-light transition-colors">
+                  service@chesapeake-repiping-pros.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
+              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Tankless Water Heater Descaling Bellevue
+              Freeze Proof Outdoor Faucet Replacement OH
             </a>
             <a
-              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
+              href="https://greywatersysteminstallationtempe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Sump Pump Battery Backup Installation MA
+              Greywater System Installation Tempe
             </a>
             <a
-              href="https://toiletflangerepairtallahassee.netlify.app/"
+              href="https://generatorinterlockkitinstallationma.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Toilet Flange Repair Tallahassee
+              Generator Interlock Kit Installation MA
             </a>
             <a
-              href="https://rvpedestalinstallationplanotx.vercel.app/"
+              href="https://aluminumwiringreplacementnapervilleil.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              RV Pedestal Installation Plano TX
+              Aluminum Wiring Replacement Naperville IL
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Lubbock Shower Leak Pros. All rights reserved.
+            © {new Date().getFullYear()} Chesapeake Repiping Pros. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

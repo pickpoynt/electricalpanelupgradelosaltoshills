@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Get Expert Leak Repair
-              <span className="text-gradient-copper block">Stop the Damage Today</span>
+              Get Your Free Repipe Quote
+              <span className="text-gradient-copper block">Protect Your Home</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Shower pan leaking? Contact Lubbock&apos;s shower leak specialists
-              now for a thorough inspection and professional repair estimate.
+              Worried about your pipes? Contact Chesapeake's Poly-B replacement specialists
+              today for a free inspection and comprehensive repiping estimate.
             </p>
 
             <div className="space-y-6">
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:service@lubbock-shower-leak-pros.com"
+                href="mailto:service@chesapeake-repiping-pros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@lubbock-shower-leak-pros.com</span>
+                  <span className="font-heading font-bold text-foreground">service@chesapeake-repiping-pros.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Lubbock, Wolfforth, Shallowater & Lubbock County</span>
+                  <span className="font-heading font-semibold text-foreground">Chesapeake: Greenbrier, Great Bridge, Deep Creek</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7:00 AM - 6:00 PM | Sat: 8:00 AM - 2:00 PM</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 5:00 PM | Sat: By Appt</span>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="John"
+                    placeholder="Michael"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Doe"
+                    placeholder="Jordan"
                   />
                 </div>
               </div>
@@ -119,19 +119,19 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="john@example.com"
+                  placeholder="michael@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Describe the leak
+                  Tell us about your home
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="Water is leaking through my shower floor and there's a stain on the ceiling below..."
+                  placeholder="My home was built in 1989 and I think I have grey plastic pipes..."
                 />
               </div>
 

@@ -1,46 +1,46 @@
-import { Locate, Home, PenTool, CheckCircle, Ruler, FileCheck } from "lucide-react";
+import { AlertTriangle, Home, FileText, CheckCircle, Flame, Droplet } from "lucide-react";
 
 const infoData = [
     {
-        icon: Locate,
-        title: "Strategic Locating",
-        description: "Access points must be placed where they serve the entire line. We identify key junctions and long runs that require cleanouts.",
+        icon: AlertTriangle,
+        title: "Identifying Poly-B",
+        description: "Look for grey, blue, or black flexible plastic pipes. They are often stamped with 'PB2110'. The fittings are usually grey plastic or copper.",
     },
     {
-        icon: FileCheck,
-        title: "Permits Included",
-        description: "Installing a sewer cleanout involves tapping into your main line. We handle all city permits and required inspections for you.",
+        icon: Droplet,
+        title: "Why They Fail",
+        description: "Chlorine and other oxidants in city water react with the polybutylene, causing it to become brittle and crack from the inside out.",
     },
     {
-        icon: PenTool,
-        title: "Modern Materials",
-        description: "We replace old clay or cast iron access points with durable, root-resistant PVC components that last for decades.",
+        icon: Flame,
+        title: "Better Materials",
+        description: "We use PEX-A (Uponor), which expands to freeze without bursting and resists corrosion, or Type L Copper for superior durability.",
     },
 ];
 
 const benefitsData = [
-    "Prevents sewage backup inside home",
-    "Allows for easy hydro-jetting",
-    "Lowers cost of emergency plumbing",
-    "Required for selling older homes",
-    "Eliminates need for toilet removal",
-    "Protect landscaping from digging",
+    "Restore full insurability",
+    "Eliminate burst pipe anxiety",
+    "Increase resale value",
+    "Clean, safe drinking water",
+    "Professional drywall patching",
+    "25-year transferrable warranty",
 ];
 
-const CleanoutInfo = () => {
+const PolyBInfo = () => {
     return (
-        <section id="cleanout-info" className="py-24 bg-gradient-hero">
+        <section id="polyb-info" className="py-24 bg-gradient-hero">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-                        Plumbing Fundamentals
+                        Know The Risks
                     </span>
                     <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-                        The Importance of Exterior Access
+                        Understanding the Polybutylene Hazard
                     </h2>
                     <p className="text-primary-foreground/80 text-lg">
-                        A sewer cleanout provides a direct line to your city connection. Without it,
-                        clearing a simple clog turns into a major, messy project inside your bathroom.
+                        Dubbed "the ticking time bomb" of plumbing, these pipes were installed in millions of homes.
+                        If your Chesapeake home was built between 1978 and 1995, you likely have them.
                     </p>
                 </div>
 
@@ -68,24 +68,24 @@ const CleanoutInfo = () => {
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="bg-card rounded-2xl p-8 lg:p-10 shadow-xl border border-border">
                         <div className="flex items-center gap-3 mb-6">
-                            <Ruler className="w-8 h-8 text-copper" />
+                            <FileText className="w-8 h-8 text-copper" />
                             <h3 className="text-2xl font-heading font-bold text-foreground">
-                                Installation Standards
+                                Insurance Implications
                             </h3>
                         </div>
                         <p className="text-muted-foreground mb-6 leading-relaxed">
-                            We install double-sweep cleanouts when possible, allowing cleaning in both directions
-                            (towards the house and towards the street). This is the gold standard for sewer access.
+                            Many major insurance providers in Virginia (like State Farm, Allstate, and others)
+                            add surcharges or completely exclude water damage coverage for homes with known Poly-B plumbing.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
-                            All installations include a concrete collar (if in driveway) or a protective
-                            valve box (if in yard) to prevent damage from lawn equipment.
+                            Replacing your pipes is often the only way to secure a standard homeowners policy
+                            at a competitive rate. We provide the certification letters insurers need.
                         </p>
                     </div>
 
                     <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
                         <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-                            Homeowner Benefits
+                            Benefits of Repiping
                         </h3>
                         <ul className="space-y-4">
                             {benefitsData.map((benefit, index) => (
@@ -105,7 +105,7 @@ const CleanoutInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Home className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Upgrade your plumbing system. Call (877) 792-1410 today.
+                            Secure your home's future. Call (877) 792-1410 for an inspection.
                         </span>
                     </div>
                 </div>
@@ -114,4 +114,4 @@ const CleanoutInfo = () => {
     );
 };
 
-export default CleanoutInfo;
+export default PolyBInfo;

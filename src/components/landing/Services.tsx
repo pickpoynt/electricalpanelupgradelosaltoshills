@@ -1,24 +1,24 @@
-import { Droplets, Wrench, Shield, CheckCircle, ArrowRight } from "lucide-react";
+import { RefreshCw, Search, PaintBucket, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Droplets,
-    title: "Leak Detection",
-    description: "We use moisture meters and visual inspection to pinpoint shower pan leaks, including cracks, failed waterproofing, and drain assembly failures.",
-    features: ["Moisture testing", "Drain inspection", "Subfloor assessment"],
+    icon: RefreshCw,
+    title: "Whole House Repipe",
+    description: "Systematic removal of all polybutylene pipes and replacement with Uponor PEX-A or Grade L Copper. We start at the main meter and finish at every fixture.",
+    features: ["Turnkey repiping solution", "Minimal wall opening", "New shut-off valves"],
   },
   {
-    icon: Wrench,
-    title: "Pan Replacement",
-    description: "Complete shower pan replacement with modern PVC or tile-ready pans. We remove old pans, repair subfloor damage, and install proper waterproofing.",
-    features: ["Subfloor repair", "New liner install", "Drain upgrade"],
+    icon: Search,
+    title: "In-Depth Inspection",
+    description: "Not sure if you have Poly-B? We provide comprehensive inspections to identify acetal fittings, micro-fractures, and potential failure points.",
+    features: ["Pipe material ID", "Pressure testing", "Insurance certifications"],
   },
   {
-    icon: Shield,
-    title: "Waterproofing",
-    description: "Professional waterproofing membrane installation using RedGard or Schluter systems to prevent future leaks and protect your investment.",
-    features: ["Membrane application", "Corner sealing", "Lifetime warranty"],
+    icon: PaintBucket,
+    title: "Drywall Result",
+    description: "Repiping requires opening walls, but our team includes master drywall finishers. We patch, texture, and paint so your home looks untouched.",
+    features: ["Dust containment", "Seamless texture match", "Ready for paint"],
   },
 ];
 
@@ -28,14 +28,15 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Licensed Plumbing Experts
+            Turnkey Repiping Process
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Lubbock's Shower Leak Specialists
+            Comprehensive Pipe Solutions
           </h2>
           <p className="text-muted-foreground text-lg">
-            Shower pan leaks don't fix themselves—they get worse. We provide complete
-            leak repair solutions to stop water damage and protect your home's structure.
+            Repiping is a major project, but it doesn't have to be a nightmare.
+            Chesapeake homeowners trust us for clean, efficient, and complete
+            polybutylene abatement.
           </p>
         </div>
 

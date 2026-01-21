@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How do I know if my shower pan is leaking?",
-    answer: "Signs include water stains on the ceiling below the shower, soft or spongy shower floor, musty odors, visible mold around the base, or water pooling outside the shower after use."
+    question: "How do I know if I have polybutylene pipes?",
+    answer: "Look for grey pipes under your sinks or near your water heater. They are often stamped with codes like 'PB2110'. If you're unsure, we offer free visual inspections."
   },
   {
-    question: "Can a shower pan leak be repaired without replacement?",
-    answer: "Small cracks can sometimes be patched with epoxy or sealant, but most leaks require full pan replacement to ensure proper waterproofing and prevent future damage."
+    question: "Do I really need to replace my pipes if they aren't leaking?",
+    answer: "Yes. Poly-B pipes deteriorate from the inside out. They can look fine on the outside right up until they burst. Replacing them is a preventative measure."
   },
   {
-    question: "How long does shower pan replacement take?",
-    answer: "Most replacements take 2-3 days, including removal of old materials, subfloor repair if needed, new pan installation, waterproofing, and tile work."
+    question: "How long does a whole house repipe take?",
+    answer: "Most Chesapeake homes can be repiped in 3-5 days. We work in zones so you are rarely without water for more than a few hours during the day."
   },
   {
-    question: "Will you repair water damage to my subfloor?",
-    answer: "Yes! We assess subfloor damage and make necessary repairs before installing the new shower pan. This ensures a solid, level foundation."
+    question: "What happens to my walls and ceilings?",
+    answer: "We have to open small sections of drywall to access pipes. However, our quote includes professional drywall patching and texture matching, so your home looks perfect when we leave."
   },
   {
-    question: "What type of shower pan is best?",
-    answer: "It depends on your shower design. We recommend Schluter-Kerdi systems for tile showers, or quality acrylic/fiberglass pans for prefab units. We'll help you choose."
+    question: "Will replacing my pipes lower my insurance premiums?",
+    answer: "Often, yes. Many insurers offer discounts for upgrading to modern plumbing systems, and it may be required to maintain coverage in some areas."
   },
   {
-    question: "Do you offer a warranty on shower pan installation?",
-    answer: "Yes, we provide a workmanship warranty on all installations. Manufacturer warranties on materials vary by product but typically range from 5-10 years."
+    question: "What pipe material do you use for replacement?",
+    answer: "We recommend Uponor PEX-A for its flexibility, durability, and leak-resistant expansion fittings. We can also install copper if you prefer."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Shower Pan FAQ – Lubbock, TX
+            Repiping FAQ – Chesapeake, VA
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Common questions about shower pan leak repair and replacement.
-            We help Lubbock homeowners stop water damage before it gets worse.
+            Answers to common questions about replacing polybutylene plumbing.
+            We help Chesapeake homeowners protect their biggest investment.
           </p>
         </div>
 

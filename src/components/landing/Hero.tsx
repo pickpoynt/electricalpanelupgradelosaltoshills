@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-tankless.png";
+import heroImage from "@/assets/hero-well-pump.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Plumber repairing leaking shower pan in Lubbock bathroom"
+          alt="Plumbing system with new PEX pipes replacing polybutylene"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,19 +20,19 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Stop Water Damage Now
+              Insurance Friendly Repiping
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Shower Pan Leak Repair in Lubbock, TX
-            <span className="block text-gradient-copper mt-2">Expert. Thorough. Guaranteed.</span>
+            Polybutylene Replacement in Chesapeake
+            <span className="block text-gradient-copper mt-2">Safe. Durable. Code Compliant.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Water leaking through your shower floor? Don't wait—shower pan leaks cause mold,
-            rot, and structural damage. We diagnose and repair leaking shower bases quickly,
-            using proper waterproofing techniques to protect your Lubbock home.
+            "Big Blue" pipes are a ticking time bomb in many Chesapeake homes. We replace risky
+            polybutylene plumbing with modern, corrosion-resistant PEX or copper, protecting
+            your property value and giving you peace of mind.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

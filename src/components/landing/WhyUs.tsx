@@ -1,35 +1,35 @@
-import { AlertTriangle, Shield, Home, Clock, BadgeCheck, Wrench } from "lucide-react";
+import { FileWarning, ShieldCheck, Home, Gauge, Users, Briefcase } from "lucide-react";
 
 const reasons = [
   {
-    icon: AlertTriangle,
-    title: "Prevent Major Damage",
-    description: "Shower pan leaks rot subfloors, damage joists, and cause mold. Early repair saves you from $10,000+ structural repairs.",
+    icon: FileWarning,
+    title: "Avoid Insurance Drops",
+    description: "Many insurance carriers in Chesapeake are refusing to renew policies for homes with Poly-B plumbing due to high rupture risk.",
   },
   {
-    icon: Shield,
-    title: "Proper Waterproofing",
-    description: "We don't just patch—we install professional waterproofing membranes that meet building codes and prevent future leaks.",
+    icon: ShieldCheck,
+    title: "25-Year Warranty",
+    description: "Our Upgrade to PEX-A pipes comes with a transferable 25-year manufacturer warranty, adding tangible value to your property.",
   },
   {
     icon: Home,
-    title: "Subfloor Expertise",
-    description: "We assess and repair water-damaged subfloors before installing new pans, ensuring a solid, level foundation for your shower.",
+    title: "Market Value Boost",
+    description: "Replacing Poly-B pipes eliminates a major red flag during pre-purchase inspections, helping you sell your home faster and for more money.",
   },
   {
-    icon: Clock,
-    title: "Fast Turnaround",
-    description: "Most shower pan replacements are completed in 2-3 days, minimizing disruption to your daily routine.",
+    icon: Gauge,
+    title: "Better Water Pressure",
+    description: "Old Quest pipes often have smaller internal diameters than modern PEX. A repipe often results in noticeably better flow and pressure.",
   },
   {
-    icon: BadgeCheck,
-    title: "Licensed & Insured",
-    description: "All work performed by Texas-licensed plumbers. We pull permits and schedule inspections when required.",
+    icon: Briefcase,
+    title: "Turnkey Service",
+    description: "We handle everything: permits, plumbing, drywall repair, and painting. You deal with one contractor, not three.",
   },
   {
-    icon: Wrench,
-    title: "Quality Materials",
-    description: "We use commercial-grade shower pans from Schluter, Wedi, and other trusted manufacturers with long-term warranties.",
+    icon: Users,
+    title: "Local Experience",
+    description: "We understand Chesapeake homes from Greenbrier to Deep Creek. We know where the pipes run and how to replace them efficiently.",
   },
 ];
 
@@ -40,32 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Why Act Fast?
+              Real Estate Protection
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Lubbock's Trusted
-              <span className="text-gradient-copper block">Shower Leak Experts</span>
+              Why Replace Your
+              <span className="text-gradient-copper block">Polybutylene Pipes?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Shower pan leaks are one of the most damaging plumbing issues. Water seeps through
-              the floor, rotting wood and creating mold. The longer you wait, the more expensive
-              the repair becomes.
+              Installed between 1978 and 1995, Polybutylene pipes fail due to chlorine degradation
+              from municipal water. It's not a matter of "if", but "when" they will burst, potentially
+              causing tens of thousands in water damage.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">200+</span>
-                <span className="text-sm text-muted-foreground">Pans Replaced</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1k+</span>
+                <span className="text-sm text-muted-foreground">Homes Repiped</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
-                <span className="text-sm text-muted-foreground">Years Exp</span>
+                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
+                <span className="text-sm text-muted-foreground">Success Rate</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">5★</span>
-                <span className="text-sm text-muted-foreground">Local Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">A+</span>
+                <span className="text-sm text-muted-foreground">BBB Rating</span>
               </div>
             </div>
           </div>
