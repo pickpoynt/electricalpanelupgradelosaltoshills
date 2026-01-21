@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, ThermometerSun, Sun, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-well-pump.png";
+import { Phone, Zap, ShieldAlert, Timer } from "lucide-react";
+import heroImage from "@/assets/hero-mobile-electric.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Technician servicing a ventilation motor"
+          alt="Electrician fixing a mobile home pedestal at sunset"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,18 +20,18 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Servicing Tempe Since 2010
+              24/7 Park & Mobile Home Service
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Attic Fan Repair Electrician Tempe AZ
-            <span className="block text-gradient-copper mt-2">Beat The Heat.</span>
+            Emergency Mobile Home Electrician Henderson NV
+            <span className="block text-gradient-copper mt-2">Specialized HUD Code Repair.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Is your attic trapping heat? A broken fan means higher AC bills and a hotter home.
-            We repair and install solar and electric attic fans to keep your cooling costs down.
+            Manufactured homes are wired differently. Don't trust a standard electrician with your safety.
+            We are Henderson's experts in aluminum wiring, pedestal power, and mobile home panels.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -46,21 +46,21 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-copper" />
-              <span className="font-medium">Motor Tests</span>
+              <span className="font-medium">Power Restore</span>
             </div>
             <div className="flex items-center gap-2">
-              <Sun className="w-5 h-5 text-copper" />
-              <span className="font-medium">Solar Upgrades</span>
+              <ShieldAlert className="w-5 h-5 text-copper" />
+              <span className="font-medium">Aluminum Safe</span>
             </div>
             <div className="flex items-center gap-2">
-              <ThermometerSun className="w-5 h-5 text-copper" />
-              <span className="font-medium">Thermostats</span>
+              <Timer className="w-5 h-5 text-copper" />
+              <span className="font-medium">Fast Arrival</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
                 24
               </div>
-              <span className="font-medium">Hour Service</span>
+              <span className="font-medium">Hour Emergency</span>
             </div>
           </div>
         </div>

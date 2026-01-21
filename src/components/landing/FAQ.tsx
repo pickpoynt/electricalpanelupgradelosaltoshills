@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why is my attic fan making a loud squealing noise?",
-    answer: "Squealing usually indicates worn-out motor bearings. In the Tempe heat, lubrication dries out quickly. We can replace the motor to restore quiet operation."
+    question: "Why do my lights flicker when the AC turns on?",
+    answer: "This often indicates a loose neutral connection in your main panel or at the park pedestal. It's a serious fire hazard that needs immediate attention from a pro."
   },
   {
-    question: "Are solar attic fans worth the investment?",
-    answer: "Yes, especially in Arizona. They cost zero to run and quality models qualify for a 30% federal tax credit. They pay for themselves in energy savings."
+    question: "Do you fix aluminum wiring?",
+    answer: "Yes. We don't just patch it; we use AlumiConn connectors or COPALUM crimps to permanently bond the aluminum to fresh copper pigtails for safe device connection."
   },
   {
-    question: "How many fans do I need for my house?",
-    answer: "It depends on your attic's square footage and roof shape. Generally, one fan is needed for every 1000-1500 sq ft. We perform a calculation during our visit."
+    question: "The power is out at my pedestal, but the park says it's my problem.",
+    answer: "This is common. We can meet the park maintenance team on-site, test the lines, and prove exactly where the fault is, or fix it if it's on your side of the meter."
   },
   {
-    question: "Can you install a fan if I don't have a gable vent?",
-    answer: "Yes. We can install roof-mounted units (mushroom fans) that cut directly through the roof deck, sealed with professional flashing to prevent leaks."
+    question: "Can you install a 50-amp outlet for my RV?",
+    answer: "Absolutely. We install 30-amp and 50-amp RV pedestals and outlets, complying with all Henderson codes for recreational vehicles."
   },
   {
-    question: "Will an attic fan really help my AC?",
-    answer: "Absolutely. By lowering the attic temp from 150°F+ to near ambient temperature, your AC ducts (often in the attic) stay cooler, delivering colder air to your rooms."
+    question: "Do you charge extra for weekends?",
+    answer: "We offer 24/7 service. While there is an emergency dispatch fee for after-hours calls, our pricing is transparent and quoted before we start any work."
   },
   {
-    question: "Do you offer warranties on motors?",
-    answer: "Yes. We use high-quality motors that typically come with a 5-year to lifetime manufacturer warranty, plus our own labor guarantee."
+    question: "Is my mobile home too old to work on?",
+    answer: "Never. We specialize in older models (pre-1976 HUD code) and know how to safely navigate their unique wiring challenges."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Attic Ventilation FAQ
+            Mobile Home Electrical FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Honest answers about keeping your Tempe home cool and efficient.
+            Honest answers for manufactured homeowners in Henderson.
           </p>
         </div>
 

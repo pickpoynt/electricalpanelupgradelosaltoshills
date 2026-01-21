@@ -1,35 +1,35 @@
-import { Flame, Sun, ShieldCheck, Thermometer, Zap, Award } from "lucide-react";
+import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lucide-react";
 
 const reasons = [
   {
-    icon: Flame,
-    title: "Beat the Heat",
-    description: "Attic temperatures in Tempe can reach 160°F. A working fan brings this down significantly, taking the load off your AC unit.",
+    icon: Clock,
+    title: "24/7 Response",
+    description: "Electrical emergencies don't wait for business hours. We have a technician on call 24/7 for Henderson mobile home parks.",
+  },
+  {
+    icon: PenTool,
+    title: "HUD Code Experts",
+    description: "Manufactured homes have different electrical codes (HUD Title 24) than stick-built homes. We know the difference and ensure you stay compliant.",
+  },
+  {
+    icon: DollarSign,
+    title: "Flat Rate Pricing",
+    description: "No hourly billing surprises. We give you a flat upfront price for the repair before we pick up a tool.",
   },
   {
     icon: ShieldCheck,
-    title: "Licensed Pros",
-    description: "We are licensed, bonded, and insured Arizona electricians. We don't cut corners with wiring or roof penetrations.",
-  },
-  {
-    icon: Sun,
-    title: "Solar Experts",
-    description: "We specialize in modern solar gable and roof-mounted fans. Reduce your carbon footprint while cooling your home.",
-  },
-  {
-    icon: Thermometer,
-    title: "Thermostat Tuning",
-    description: "We calibrate your fan's thermostat to ensure it only runs when necessary, saving you money on electricity and wear-and-tear.",
+    title: "Aluminum Safe",
+    description: "We are certified in aluminum wiring remediation. We don't just 'tighten' loose wires; we permanently fix the connection hazard.",
   },
   {
     icon: Zap,
-    title: "Wiring Safety",
-    description: "Old attic wiring can be a fire hazard. We inspect all connections and replace brittle wire nuts or frayed insulation during our visit.",
+    title: "Park Pedestal Specialist",
+    description: "We work directly with park management and NV Energy to coordinate power restoration at your meter pedestal.",
   },
   {
-    icon: Award,
-    title: "Top Rated",
-    description: "Servicing the East Valley for over 15 years with hundreds of 5-star reviews from satisfied homeowners.",
+    icon: HeartHandshake,
+    title: "Senior Discounts",
+    description: "We proudly offer discounts to our senior community members in local 55+ mobile home parks.",
   },
 ];
 
@@ -40,32 +40,31 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Local Arizona Experts
+              Peace of Mind
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Why Trust Us with Your
-              <span className="text-gradient-copper block">Attic Ventilation?</span>
+              Why Choose Us for Your
+              <span className="text-gradient-copper block">Mobile Home?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Your attic is the hottest part of your home. If your fan fails,
-              that heat radiates down into your living space. We provide fast,
-              reliable repairs to keep your home comfortable.
+              Standard electricians often refuse mobile home work because of the cramped spaces and unique wiring.
+              We embrace it. We are dedicated to keeping Henderson's manufactured communities safe.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
-                <span className="text-sm text-muted-foreground">Years Exp</span>
+                <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
+                <span className="text-sm text-muted-foreground">Emergency Svc</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">2k+</span>
-                <span className="text-sm text-muted-foreground">Fans Fixed</span>
+                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
+                <span className="text-sm text-muted-foreground">Parks Served</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Guarantee</span>
+                <span className="text-4xl font-heading font-bold text-copper block">A+</span>
+                <span className="text-sm text-muted-foreground">BBB Rating</span>
               </div>
             </div>
           </div>

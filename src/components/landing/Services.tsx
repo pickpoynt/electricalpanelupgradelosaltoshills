@@ -1,24 +1,24 @@
-import { Sun, Fan, Gauge, CheckCircle, ArrowRight } from "lucide-react";
+import { Plug, Flame, Box, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Fan,
-    title: "Motor Replacement",
-    description: "Squealing bearings or a fan that just hums? We stock universal motors and OEM replacements for most major attic fan brands found in Tempe homes.",
-    features: ["Quiet operation", "Bearing lubrication", "Vibration damping"],
+    icon: Plug,
+    title: "Pedestal Repair",
+    description: "Lost power but your neighbors have it? It's often the park pedestal or your feeder breaker. We diagnose and repair worn lugs and melted breakers fast.",
+    features: ["Utility coordination", "Feeder wire replacement", "Breaker swaps"],
   },
   {
-    icon: Sun,
-    title: "Solar Fan Installation",
-    description: "Go off-grid with your ventilation. We install high-efficiency solar attic fans that run specifically when the sun is blazing—exactly when you need them.",
-    features: ["Zero electricity cost", "Federal tax credits", "No wiring needed"],
+    icon: Flame,
+    title: "Aluminum Remediation",
+    description: "Many older Henderson mobile homes have aluminum wiring, a known fire risk. We secure these connections using AlumiConn connectors to make them safe.",
+    features: ["Fire prevention", "Device replacement", "Safety certification"],
   },
   {
-    icon: Gauge,
-    title: "Thermostat Repair",
-    description: "If your fan runs all night or never turns on, it's likely a bad thermostat. We install adjustable, wide-range temperature switches for precise control.",
-    features: ["Adjustable setpoints", "Humidistat options", "Safety disconnects"],
+    icon: Box,
+    title: "Panel Upgrades",
+    description: "Still running on a 50-amp fuse box? We upgrade mobile homes to modern 100-amp or 200-amp breaker panels to handle modern appliances.",
+    features: ["Increased capacity", "Surge protection", "Code compliance"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Cooling Efficiency
+            HUD Code Specialists
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Ventilation Services
+            Manufactured Home Electrical
           </h2>
           <p className="text-muted-foreground text-lg">
-            Tempe summers are brutal. Ensure your attic breathes properly to
-            extend the life of your roof and air conditioner.
+            Mobile homes require a specialized electrician who understands HUD codes and park regulations.
+            We are Henderson's go-to experts.
           </p>
         </div>
 

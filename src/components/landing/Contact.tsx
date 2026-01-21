@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Schedule Your Repair
-              <span className="text-gradient-copper block">Stop The Heat Today</span>
+              Request Emergency Service
+              <span className="text-gradient-copper block">We Answer 24/7</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't suffer through another hot Arizona summer with a broken attic fan.
-              Contact Tempe's ventilation experts for fast, honest service.
+              Smell burning plastic? Power out? Don't wait.
+              Contact Henderson's trusted mobile home electricians immediately.
             </p>
 
             <div className="space-y-6">
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:service@tempe-attic-fans.com"
+                href="mailto:service@henderson-mobile-electric.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@tempe-attic-fans.com</span>
+                  <span className="font-heading font-bold text-foreground">service@henderson-mobile-electric.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Tempe, Mesa, Chandler, Scottsdale</span>
+                  <span className="font-heading font-semibold text-foreground">Henderson, Las Vegas, Boulder City</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 7:00 AM - 7:00 PM</span>
+                  <span className="font-heading font-semibold text-foreground">24/7 Emergency Service</span>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="David"
+                    placeholder="Robert"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Miller"
+                    placeholder="Johnson"
                   />
                 </div>
               </div>
@@ -119,7 +119,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="david.m@example.com"
+                  placeholder="robert.j@example.com"
                 />
               </div>
 
@@ -131,7 +131,7 @@ const Contact = () => {
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="My attic fan is squeaking loudly and I think it stopped spinning..."
+                  placeholder="I live in Green Valley Estates and half my trailer lost power..."
                 />
               </div>
 
