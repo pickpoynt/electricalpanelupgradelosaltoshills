@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why do my clay pipes keep getting clogged?",
-    answer: "Clay pipes are made of short sections joined together. Over time, these joints crack or separate, allowing tree roots to grow inside and catch debris."
+    question: "Do I need a special box for a ceiling fan?",
+    answer: "Yes. Ceiling fans are heavy and vibrate. Standard plastic light boxes will eventually crack or fail. We always install a fan-rated steel brace box."
   },
   {
-    question: "Is trenchless repair really better than digging?",
-    answer: "In most cases, yes. Trenchless methods like CIPP relining are faster, cheaper (because there's no restoration cost for your yard/driveway), and just as durable."
+    question: "How much does installation cost?",
+    answer: "For a standard swap (fan-to-fan), prices start very low. New wiring or high ceilings add a bit more. Call us at (844) 901-2684 for an instant quote."
   },
   {
-    question: "How long does the new liner last?",
-    answer: "Our epoxy liners are rated for 50+ years. Essentially, you are getting a brand new, seamless PVC-like pipe cured inside your existing clay line."
+    question: "Can you install a fan where no light exists?",
+    answer: "Absolutely. We are expert electricians. We can fish new wires through your attic or ceiling joists to create a new center point for your room."
   },
   {
-    question: "Can you fix a pipe that has collapsed?",
-    answer: "If the collapse is total, we might need to dig a small spot repair or use pipe bursting. However, many severe cracks can still be lined if the pipe is round enough."
+    question: "My ceilings are 18 feet high. Can you reach them?",
+    answer: "Yes. We carry specialized A-frame ladders and scaffolding to safely reach cathedral and vaulted ceilings common in Spokane homes."
   },
   {
-    question: "Do you offer free estimates?",
-    answer: "Yes, we offer free estimates for all major repairs. We can usually provide a quote directly after performing a video camera inspection."
+    question: "Do you assemble the fan?",
+    answer: "Yes. You just leave the box in the room. We unbox, assemble, mount, wire, and balance the fan, then take the trash with us."
   },
   {
-    question: "What areas of Modesto do you serve?",
-    answer: "We serve all of Modesto and surrounding communities including Salida, Ceres, and Riverbank. We are the local sewer experts."
+    question: "Why is my current fan wobbling?",
+    answer: "Wobbling usually comes from unbalanced blades or a loose mounting bracket. We precision-balance every fan we install for smooth operation."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Common Sewer Questions
+            Fan Installation FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Answers about clay pipe repair and replacement in Modesto.
-            Don't let sewer problems stress you out.
+            Answers to common questions about cooling your Spokane home.
+            We make it easy and affordable.
           </p>
         </div>
 

@@ -11,30 +11,30 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Get Your Free Sewer Scan
-              <span className="text-gradient-copper block">Don't Wait For Backups</span>
+              Book Your Installation Install
+              <span className="text-gradient-copper block">Start Cooling Down Today</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Slow drains? Gurgling toilets? Contact Modesto's clay pipe experts today
-              for a comprehensive camera inspection and trenchless repair estimate.
+              Why struggle with confusing instructions and dangerous ladders?
+              Let Spokane's pros handle it safely and quickly.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+18777921410"
+                href="tel:+18449012684"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Us Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
+                  <span className="text-sm text-muted-foreground block">Call for Quote</span>
+                  <span className="font-heading font-bold text-xl text-foreground">(844) 901-2684</span>
                 </div>
               </a>
 
               <a
-                href="mailto:service@modesto-sewer-specialists.com"
+                href="mailto:service@spokane-fan-pros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@modesto-sewer-specialists.com</span>
+                  <span className="font-heading font-bold text-foreground">service@spokane-fan-pros.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Modesto, Salida, Ceres & Stanislaus County</span>
+                  <span className="font-heading font-semibold text-foreground">Spokane, Spokane Valley, Liberty Lake</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7:00 AM - 7:00 PM | Sat: 8-4</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 8:00 AM - 6:00 PM</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request Service
+              Get A Quote
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="John"
+                    placeholder="Mike"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Silva"
+                    placeholder="Anderson"
                   />
                 </div>
               </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(877) 792-1410"
+                  placeholder="(844) 901-2684"
                 />
               </div>
 
@@ -119,19 +119,19 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="john.silva@example.com"
+                  placeholder="mike.a@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell us about your problem
+                  Project Details
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="My front yard smells like sewage and the toilet is gurgling..."
+                  placeholder="I have 3 new fans I bought from Home Depot that I need installed..."
                 />
               </div>
 
