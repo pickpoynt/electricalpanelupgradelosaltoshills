@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Zap, AlertTriangle, ShieldCheck } from "lucide-react";
-import heroImage from "@/assets/partial-power-hero.png";
+import { Phone, AlertTriangle, ShieldCheck, Microscope } from "lucide-react";
+import heroImage from "@/assets/mold-removal-hero.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Electrician troubleshooting partial power outage in Austin TX"
+          alt="Professional black mold removal in Skykomish WA"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,24 +20,24 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Emergency Diagnostics
+              24/7 Emergency Remediation
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Electrician for Partial Power Outage Riverside Austin TX
-            <span className="block text-gradient-copper mt-2">Restore Stability to Your Home.</span>
+            Black Mold Removal Skykomish WA
+            <span className="block text-gradient-copper mt-2">Restore Your Home's Air Quality.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Is half your house in the dark? Partial power outages are often signs of a dangerous electrical failure. Our Riverside specialists offer rapid response troubleshooting.
+            Visible mold is often just the tip of the iceberg. Our Skykomish remediation specialists offer rapid response, certified testing, and permanent removal of hazardous black mold.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
             <Button size="lg" className="bg-copper hover:bg-copper-light text-white border-none h-14 px-8 text-lg" asChild>
-              <a href="tel:+18449012684" className="flex items-center gap-2">
+              <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (844) 901-2684
+                Call +13802660944
               </a>
             </Button>
           </div>
@@ -45,21 +45,21 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
               <AlertTriangle className="w-5 h-5 text-copper" />
-              <span className="font-medium">Phase Loss</span>
+              <span className="font-medium">Toxic Mold</span>
             </div>
             <div className="flex items-center gap-2">
-              <Zap className="w-5 h-5 text-copper" />
-              <span className="font-medium">24/7 Response</span>
+              <Microscope className="w-5 h-5 text-copper" />
+              <span className="font-medium">HEPA Filtering</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Panel Safety</span>
+              <span className="font-medium">IICRC Certified</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
-                ATX
+                SKY
               </div>
-              <span className="font-medium">Austin Local</span>
+              <span className="font-medium">Skykomish Local</span>
             </div>
           </div>
         </div>

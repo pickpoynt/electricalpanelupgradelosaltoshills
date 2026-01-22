@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why does my house have power in some rooms but not others?",
-    answer: "This is usually caused by a 'lost phase.' Modern homes use two hot wires to provide 240V of power. If one of those wires (or one half of your main breaker) fails, you lose power to roughly half of your 120V circuits."
+    question: "How can I tell if mold is black mold (Stachybotrys)?",
+    answer: "Black mold is typically dark green or black and has a slimy or soot-like texture. However, the only way to be 100% certain is through professional lab testing of a surface or air sample, which we provide."
   },
   {
-    question: "Is it safe to leave my electronics plugged in during a partial outage?",
-    answer: "No. A lost phase can cause 'floating neutral' conditions or low voltage (brownouts), which can damage the compressors in your fridge and AC, and fry the power supplies in computers and TVs. Unplug sensitive devices immediately."
+    question: "Is it safe to stay in my home during mold remediation?",
+    answer: "It depends on the severity and location of the mold. For small areas, you can usually stay. For larger remediations, we use containment and negative air pressure to keep spores from spreading, but we often recommend temporary relocation for those with respiratory issues."
   },
   {
-    question: "How can I tell if the problem is my panel or Austin Energy?",
-    answer: "We use high-precision voltmeters at your main service entrance. If we see 120V on one leg and 0V or low voltage on the other coming from the utility side, it's an Austin Energy issue. If the power is good at the meter but not the panel, it's a customer-side failure."
+    question: "Can I just use bleach to kill black mold?",
+    answer: "No. Bleach is mostly water and can actually encourage mold growth on porous materials like drywall and wood. Professional remediation involves removing the mold spores and the underlying roots while fixing the moisture source."
   },
   {
-    question: "Can a tripped breaker cause half the house to lose power?",
-    answer: "Only if it's the main breaker. Individual 15A or 20A breakers only control specific rooms or appliances. If multiple unrelated areas are dark simultaneously, the main breaker or the incoming service feed is the culprit."
+    question: "How long does the mold removal process take?",
+    answer: "Most Skykomish residential projects take 3 to 5 days. This includes the setup of containment, the actual removal process, structural drying, and a final clearance test to ensure the air is safe."
   },
   {
-    question: "What is a 'loose neutral' and why is it dangerous?",
-    answer: "A loose neutral means the return path for electricity is compromised. This can cause some lights to get very bright (high voltage) while others get very dim (low voltage). This is a severe fire hazard and requires immediate attention."
+    question: "Will my homeowners insurance cover mold removal?",
+    answer: "In many cases, yes, if the mold was caused by a 'sudden and accidental' water event like a burst pipe. We assist with documentation and work with most insurance carriers in Skykomish to help process your claim."
   },
   {
-    question: "How quickly can you arrive in Riverside?",
-    answer: "We offer priority dispatch for partial power emergencies. In most cases, we can have a troubleshooting technician at your door in Riverside within 60 minutes."
+    question: "How do I prevent mold from returning in Skykomish?",
+    answer: "The key is moisture control. We recommend maintaining humidity below 50%, ensuring proper attic and crawlspace ventilation, and immediately repairing any roof or plumbing leaks."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Partial Power FAQ
+            Mold Remediation FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Restoring stability to Riverside homes safely.
+            Protecting Skykomish families with scientific mold solutions.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Urgent electrical issue?</p>
+          <p className="text-steel mb-4">Worried about toxic mold?</p>
           <a
-            href="tel:+18449012684"
+            href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call Dispatch: (844) 901-2684
+            Call for a Professional Inspection: +13802660944
           </a>
         </div>
       </div>

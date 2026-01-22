@@ -9,26 +9,26 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">RAP</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">SMR</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Riverside Austin Power
+                  Skykomish Mold Removal
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Emergency Troubleshooting</p>
+                <p className="text-xs text-primary-foreground/60">Certified Remediation Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Riverside's emergency response team for partial power outages, lost phases, and main breaker failures.
-              We restore balance to Austin homes 24/7.
+              Skykomish's leading certified remediation team for black mold removal, toxic spore elimination, and permanent moisture control.
+              We protect Skykomish families with scientific solutions.
             </p>
             <div className="flex gap-4">
               <a
-                href="tel:+18449012684"
+                href="tel:+13802660944"
                 className="flex items-center gap-2 text-copper-light hover:text-copper transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                (844) 901-2684
+                +13802660944
               </a>
             </div>
           </div>
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Lost Phase Rescue
+                  Black Mold Removal
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Main Breaker Repair
+                  Air Quality Testing
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Voltage Stabilization
+                  Moisture Mitigation
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Emergency Dispatch
+                  Structural Drying
                 </a>
               </li>
             </ul>
@@ -66,18 +66,18 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Riverside, Austin, TX</span>
+                <span>Skykomish, WA 98288</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
-                <a href="tel:+18449012684" className="hover:text-copper-light transition-colors">
-                  (844) 901-2684
+                <a href="tel:+13802660944" className="hover:text-copper-light transition-colors">
+                  +13802660944
                 </a>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@riverside-austin-power.com" className="hover:text-copper-light transition-colors">
-                  service@riverside-austin-power.com
+                <a href="mailto:service@skykomish-mold-removal.com" className="hover:text-copper-light transition-colors">
+                  service@skykomish-mold-removal.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
+              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Freeze Proof Outdoor Faucet Replacement OH
+              Sump Pump Battery Backup Installation
             </a>
             <a
-              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
+              href="https://greywatersysteminstallationtempe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Tankless Water Heater Descaling Bellevue
+              Grey Water System Installation Tempe
             </a>
             <a
-              href="https://potfillerfaucetinstallationroundroc.vercel.app/"
+              href="https://rvpedestalinstallationplanotx.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Pot Filler Faucet Installation Round Rock
+              RV Pedestal Installation Plano TX
             </a>
             <a
-              href="https://generatorinterlockkitinstallercypre.vercel.app/"
+              href="https://baseboardheaterinstallationseattlew.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Generator Interlock Kit Installer Cypress
+              Baseboard Heater Installation Seattle WA
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Riverside Austin Power. All rights reserved.
+            © {new Date().getFullYear()} Skykomish Mold Removal. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

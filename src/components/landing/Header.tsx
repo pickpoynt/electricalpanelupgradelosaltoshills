@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">RAP</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">SMR</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Riverside Austin Power
+                Skykomish Mold Removal
               </h1>
-              <p className="text-xs text-muted-foreground">Emergency Partial Power Dispatch</p>
+              <p className="text-xs text-muted-foreground">Certified Black Mold Specialists</p>
             </div>
           </div>
 
@@ -30,8 +30,8 @@ const Header = () => {
             <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium">
               Why Us
             </a>
-            <a href="#testimonials" className="text-foreground hover:text-copper transition-colors font-medium">
-              Reviews
+            <a href="#mold-info" className="text-foreground hover:text-copper transition-colors font-medium">
+              Mold Facts
             </a>
             <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium">
               Contact
@@ -41,9 +41,9 @@ const Header = () => {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="copper" size="lg" asChild>
-              <a href="tel:+18449012684" className="flex items-center gap-2">
+              <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call Now
+                Call +13802660944
               </a>
             </Button>
           </div>
@@ -68,14 +68,14 @@ const Header = () => {
               <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Why Us
               </a>
-              <a href="#testimonials" className="text-foreground hover:text-copper transition-colors font-medium py-2">
-                Reviews
+              <a href="#mold-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
+                Mold Facts
               </a>
               <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Contact
               </a>
               <Button variant="copper" size="lg" className="w-full" asChild>
-                <a href="tel:+18449012684" className="flex items-center justify-center gap-2">
+                <a href="tel:+13802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>

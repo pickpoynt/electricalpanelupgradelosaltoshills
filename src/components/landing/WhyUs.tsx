@@ -3,33 +3,33 @@ import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lu
 const reasons = [
   {
     icon: Clock,
-    title: "60-Min Riverside Response",
-    description: "Partial power is an emergency. We prioritize Riverside calls to ensure your home's phase balance is restored within the hour.",
+    title: "Fast Skykomish Response",
+    description: "Mold spreads rapidly in damp environments. We prioritize Skykomish calls to ensure remediation begins before the damage worsens.",
   },
   {
     icon: PenTool,
-    title: "Complex Troubleshooting",
-    description: "Partial outages aren't simple fixes. Our Master Electricians excel at diagnosing deep-rooted panel and service mast failures.",
+    title: "Eco-Friendly Solutions",
+    description: "We use non-toxic, plant-based antimicrobials that are tough on mold but safe for your family and the Skykomish environment.",
   },
   {
     icon: DollarSign,
-    title: "Upfront Diagnostic Fee",
-    description: "No guessing games. We provide a flat-rate diagnostic fee to find the exact cause of your power loss before any work begins.",
+    title: "Insurance Assistance",
+    description: "Dealing with insurance can be stressful. We provide detailed documentation and work directly with adjusters to simplify your claim.",
   },
   {
     icon: ShieldCheck,
-    title: "Equipment Protection",
-    description: "We don't just fix the lights; we verify that the partial outage didn't create a 'floating neutral' that could fry your appliances.",
+    title: "Certified Technicians",
+    description: "Our team is IICRC S520 certified, ensuring that every remediation project follows the highest national safety standards.",
   },
   {
     icon: Zap,
-    title: "Phase Restoration Experts",
-    description: "Specialized in restoring 120/240V equilibrium. We have the tools to pinpoint utility-side vs. customer-side failures.",
+    title: "Advanced Technology",
+    description: "From infrared moisture detection to industrial-grade HEPA scrubbers, we use the best tech to ensure 100% mold removal.",
   },
   {
     icon: HeartHandshake,
-    title: "Austin Born & Bred",
-    description: "Proudly serving the Riverside community. We understand the unique electrical infrastructure of Austin's established neighborhoods.",
+    title: "Locally Owned",
+    description: "We are part of the Skykomish community. We understand the unique challenges of PNW moisture and structural mold issues.",
   },
 ];
 
@@ -40,30 +40,30 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              ATX Emergency Pros
+              Skykomish Remediation Pros
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              The Riverside Choice for
-              <span className="text-gradient-copper block">Rapid Power Restoration.</span>
+              The Skykomish Choice for
+              <span className="text-gradient-copper block">Permanent Mold Removal.</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              A partial outage is more than an inconvenience—it's a threat to your home's electronic safety. We provide the technical precision required to restore balance.
+              Black mold is a serious threat to your home's integrity and your health. We provide the expertise and technology to eliminate it at the source.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1,500+</span>
-                <span className="text-sm text-muted-foreground">Emergencies Resolved</span>
+                <span className="text-4xl font-heading font-bold text-copper block">850+</span>
+                <span className="text-sm text-muted-foreground">Homes Restored</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">4.9</span>
+                <span className="text-4xl font-heading font-bold text-copper block">5.0</span>
                 <span className="text-sm text-muted-foreground">Star Service</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Austin Dispatch</span>
+                <span className="text-sm text-muted-foreground">Skykomish Support</span>
               </div>
             </div>
           </div>

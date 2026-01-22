@@ -11,37 +11,37 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              24/7 Emergency Dispatch
-              <span className="text-gradient-copper block">Riverside Austin Power</span>
+              24/7 Professional Remediation
+              <span className="text-gradient-copper block">Skykomish Mold Removal</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Experiencing half power? Don't wait for a fire. Contact Austin's leading troubleshooting specialists for immediate phase restoration in Riverside.
+              Smelling musty odors? Seen black spots on your walls? Don't wait for health issues to arise. Contact Skykomish's certified mold removal specialists for an immediate inspection.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+18449012684"
+                href="tel:+13802660944"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Dispatch Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(844) 901-2684</span>
+                  <span className="text-sm text-muted-foreground block">Call Our Experts Now</span>
+                  <span className="font-heading font-bold text-xl text-foreground">+13802660944</span>
                 </div>
               </a>
 
               <a
-                href="mailto:service@riverside-austin-power.com"
+                href="mailto:service@skykomish-mold-removal.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Mail className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Email Support</span>
-                  <span className="font-heading font-bold text-foreground">service@riverside-austin-power.com</span>
+                  <span className="text-sm text-muted-foreground block">Email Inquiry</span>
+                  <span className="font-heading font-bold text-foreground">service@skykomish-mold-removal.com</span>
                 </div>
               </a>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Primary Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Riverside, Montopolis, Pleasant Valley, Dove Springs</span>
+                  <span className="font-heading font-semibold text-foreground">Skykomish, Grotto, Index, Baring, Stevens Pass</span>
                 </div>
               </div>
 
@@ -106,7 +106,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(844) 901-2684"
+                  placeholder="+13802660944"
                 />
               </div>
 
@@ -130,7 +130,7 @@ const Contact = () => {
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="My kitchen and living room have no power, but the rest of my house is working. I need an emergency electrician to check my main breaker..."
+                  placeholder="I found black mold in my basement after a recent leak. I need a certified inspection and remediation estimate..."
                 />
               </div>
 
