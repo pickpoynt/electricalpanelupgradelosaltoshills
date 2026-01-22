@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Zap, ShieldCheck, Power } from "lucide-react";
-import heroImage from "@/assets/generator-hero.png";
+import { Phone, Zap, AlertTriangle, ShieldCheck } from "lucide-react";
+import heroImage from "@/assets/partial-power-hero.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Electrician installing generator interlock kit in Cypress Texas"
+          alt="Electrician troubleshooting partial power outage in Austin TX"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,17 +20,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Portable Generator Hookups
+              24/7 Emergency Diagnostics
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Generator Interlock Kit Installer Cypress Texas
-            <span className="block text-gradient-copper mt-2">Power Your Home Safely During Outages.</span>
+            Electrician for Partial Power Outage Riverside Austin TX
+            <span className="block text-gradient-copper mt-2">Restore Stability to Your Home.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Running extension cords through windows is dangerous. Cypress Generator Pros install code-compliant interlock kits that let you power your whole panel with a portable generator.
+            Is half your house in the dark? Partial power outages are often signs of a dangerous electrical failure. Our Riverside specialists offer rapid response troubleshooting.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -44,22 +44,22 @@ const Hero = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5 text-copper" />
+              <span className="font-medium">Phase Loss</span>
+            </div>
+            <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-copper" />
-              <span className="font-medium">Easy Toggle</span>
+              <span className="font-medium">24/7 Response</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Code Compliant</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Power className="w-5 h-5 text-copper" />
-              <span className="font-medium">Whole Home</span>
+              <span className="font-medium">Panel Safety</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
-                TX
+                ATX
               </div>
-              <span className="font-medium">Cypress Local</span>
+              <span className="font-medium">Austin Local</span>
             </div>
           </div>
         </div>

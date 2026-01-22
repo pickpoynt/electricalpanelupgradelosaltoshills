@@ -11,11 +11,11 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Get Power Security Today
-              <span className="text-gradient-copper block">Cypress Generator Pros</span>
+              24/7 Emergency Dispatch
+              <span className="text-gradient-copper block">Riverside Austin Power</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't get left in the dark. Contact Cypress's trusted generator interlock installers for a free estimate and stay hurricane-ready.
+              Experiencing half power? Don't wait for a fire. Contact Austin's leading troubleshooting specialists for immediate phase restoration in Riverside.
             </p>
 
             <div className="space-y-6">
@@ -27,21 +27,21 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Us Now</span>
+                  <span className="text-sm text-muted-foreground block">Call Dispatch Now</span>
                   <span className="font-heading font-bold text-xl text-foreground">(844) 901-2684</span>
                 </div>
               </a>
 
               <a
-                href="mailto:service@cypress-generator-pros.com"
+                href="mailto:service@riverside-austin-power.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Mail className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@cypress-generator-pros.com</span>
+                  <span className="text-sm text-muted-foreground block">Email Support</span>
+                  <span className="font-heading font-bold text-foreground">service@riverside-austin-power.com</span>
                 </div>
               </a>
 
@@ -50,8 +50,8 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-copper" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Cypress, Katy, Tomball, Jersey Village</span>
+                  <span className="text-sm text-muted-foreground block">Primary Service Area</span>
+                  <span className="font-heading font-semibold text-foreground">Riverside, Montopolis, Pleasant Valley, Dove Springs</span>
                 </div>
               </div>
 
@@ -60,8 +60,8 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-copper" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon - Fri: 7am - 7pm (Sat: 9am - 3pm)</span>
+                  <span className="text-sm text-muted-foreground block">Availability</span>
+                  <span className="font-heading font-semibold text-foreground">24 Hours a Day / 7 Days a Week</span>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ const Contact = () => {
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I have a portable generator and need a 50A interlock kit installed for my Square D panel..."
+                  placeholder="My kitchen and living room have no power, but the rest of my house is working. I need an emergency electrician to check my main breaker..."
                 />
               </div>
 

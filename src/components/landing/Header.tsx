@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">CGP</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">RAP</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Cypress Generator Pros
+                Riverside Austin Power
               </h1>
-              <p className="text-xs text-muted-foreground">Safe Portable Generator Hookups</p>
+              <p className="text-xs text-muted-foreground">Emergency Partial Power Dispatch</p>
             </div>
           </div>
 

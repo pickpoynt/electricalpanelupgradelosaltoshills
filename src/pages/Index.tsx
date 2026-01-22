@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import GeneratorInfo from "@/components/landing/GeneratorInfo";
+import PartialPowerOutageInfo from "@/components/landing/PartialPowerOutageInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -14,7 +14,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <GeneratorInfo />
+      <PartialPowerOutageInfo />
       <FAQ />
       <Contact />
       <Footer />

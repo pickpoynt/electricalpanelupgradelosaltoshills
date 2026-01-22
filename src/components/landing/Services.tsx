@@ -1,24 +1,24 @@
-import { Zap, ShieldCheck, Box, CheckCircle, ArrowRight, ShieldAlert, Power } from "lucide-react";
+import { Zap, ShieldCheck, Box, CheckCircle, ArrowRight, ShieldAlert, Activity, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: ShieldCheck,
-    title: "Interlock Kit Install",
-    description: "The mechanical interlock plate makes it impossible to turn on your generator breaker while the main is on, ensuring total safety.",
-    features: ["Panel brand specific", "UL-listed hardware", "Mechanical safeguards"],
+    icon: Search,
+    title: "Phase Loss Diagnostics",
+    description: "When half your house is dark, it's usually a lost phase. We diagnose if it's your main breaker or an issue for Austin Energy.",
+    features: ["Voltage drop testing", "Phase balance check", "Phase restoration"],
   },
   {
-    icon: Power,
-    title: "Power Inlet Boxes",
-    description: "We install professional 30A or 50A power inlet boxes on the exterior of your home for a clean, weather-protected connection point.",
-    features: ["Recessed or surface", "NEMA 3R rated", "Flush mount options"],
+    icon: ShieldAlert,
+    title: "Main Breaker Repair",
+    description: "A partially failed main breaker can cause catastrophic damage. We provide emergency replacement for all major panel brands.",
+    features: ["200A/100A specialists", "Burned bus bar repair", "Same-day replacement"],
   },
   {
-    icon: Zap,
-    title: "Whole-Home Backup",
-    description: "Turn on your AC, well pump, or kitchen appliances as needed. An interlock kit lets you power any circuit in your entire panel.",
-    features: ["Load management", "Well pump support", "AC unit compatibility"],
+    icon: Activity,
+    title: "Loose Neutral Tracing",
+    description: "Flickering lights and surging power are signs of a loose neutral. We stabilize your home's electrical equilibrium immediately.",
+    features: ["Circuit stabilization", "Grounding verification", "Surge protection"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Cypress Energy Experts
+            Riverside Dispatch
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Safe Interlocked Generator Hookups
+            Emergency Power Restoration
           </h2>
           <p className="text-muted-foreground text-lg">
-            Stop struggling with extension cords. We provides professional electrical connections for your portable generator in Cypress and surrounding areas.
+            Don't ignore a partial outage. We provide expert electrical troubleshooting for Riverside homeowners facing unstable power conditions.
           </p>
         </div>
 
