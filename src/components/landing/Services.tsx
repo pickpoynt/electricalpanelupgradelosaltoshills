@@ -1,24 +1,24 @@
-import { Plug, CloudLightning, Box, CheckCircle, ArrowRight, ShieldAlert } from "lucide-react";
+import { Bell, ShieldCheck, Box, CheckCircle, ArrowRight, ShieldAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: CloudLightning,
-    title: "Weatherhead Repair",
-    description: "Has your service head been pulled away from the house? We specialize in securing and replacing damaged weatherheads to ensure a safe utility connection.",
-    features: ["Mast straightening", "Water entry sealing", "Utility coordination"],
+    icon: Bell,
+    title: "Hardwired Replacement",
+    description: "Old detectors become unreliable after 10 years. We replace your entire network with modern, interconnected hardwired units for maximum safety.",
+    features: ["Interconnected wiring", "10-year sensors", "Lithium battery backup"],
   },
   {
     icon: ShieldAlert,
-    title: "Storm Damage Recovery",
-    description: "After Oklahoma storms, many homes suffer from bent service masts. We provide 24/7 emergency response to restore your electrical entrance and power.",
-    features: ["24/7 Response", "Insurance documentation", "Safety inspections"],
+    title: "Carbon Monoxide (CO)",
+    description: "Evanston codes require CO protection. We install combination units that detect both smoke and odorless gas, providing comprehensive home safety.",
+    features: ["Combo sensing", "Voice alerts", "Digital displays"],
   },
   {
     icon: Box,
-    title: "Service Mast Upgrades",
-    description: "Old rust-prone masts can fail during wind events. We upgrade service entrances to heavy-duty, code-compliant steel masts for ultimate storm protection.",
-    features: ["Rigid conduits", "Capacity upgrades", "Corrosion protection"],
+    title: "Safety Compliance Audit",
+    description: "Moving or selling your home? we ensure your detector placement meets current Evanston fire codes and provides legal protection.",
+    features: ["Code inspections", "Placement optimization", "System testing"],
   },
 ];
 
@@ -28,14 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Tulsa's Storm Specialists
+            Safety First
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Emergency Electrical Entrance Repair
+            Professional Fire & CO Protection
           </h2>
           <p className="text-muted-foreground text-lg">
-            When the overhead power entry to your home is damaged, it requires immediate professional attention.
-            We are Tulsa's experts in weatherhead and service mast restoration.
+            Don't leave your family's safety to chance. We provide expert installation of hardwired smoke and carbon monoxide detection systems in Evanston.
           </p>
         </div>
 

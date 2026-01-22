@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Zap, ShieldAlert, Timer } from "lucide-react";
-import heroImage from "@/assets/weatherhead-repair-hero.png";
+import { Phone, Bell, ShieldCheck, Timer } from "lucide-react";
+import heroImage from "@/assets/smoke-detector-hero.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Electrician repairing weatherhead service mast in Tulsa OK"
+          alt="Electrician installing a smoke detector in Evanston IL"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,17 +20,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Emergency Storm Repair
+              24/7 Life Safety Services
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Emergency Weatherhead Repair Tulsa OK
-            <span className="block text-gradient-copper mt-2">Storm Damage? We Restore Power Fast.</span>
+            Hardwired Smoke Detector Replacement Evanston IL
+            <span className="block text-gradient-copper mt-2">Protect Your Family With Pro Installation.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Fallen branches or high winds damaged your service mast? Tulsa Weatherhead Experts provide rapid, code-compliant repairs to get your utility connection restored safely.
+            Is your smoke alarm more than 10 years old? Evanston Smoke Detector Experts specialize in hardwired, interconnected systems that ensure every room is alerted in an emergency.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -44,16 +44,16 @@ const Hero = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
-              <Zap className="w-5 h-5 text-copper" />
-              <span className="font-medium">Power Restore</span>
+              <Bell className="w-5 h-5 text-copper" />
+              <span className="font-medium">All Linked</span>
             </div>
             <div className="flex items-center gap-2">
-              <ShieldAlert className="w-5 h-5 text-copper" />
-              <span className="font-medium">Aluminum Safe</span>
+              <ShieldCheck className="w-5 h-5 text-copper" />
+              <span className="font-medium">Code Compliant</span>
             </div>
             <div className="flex items-center gap-2">
               <Timer className="w-5 h-5 text-copper" />
-              <span className="font-medium">Fast Arrival</span>
+              <span className="font-medium">Rapid Service</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">

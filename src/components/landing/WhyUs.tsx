@@ -3,33 +3,33 @@ import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lu
 const reasons = [
   {
     icon: Clock,
-    title: "24/7 Response",
-    description: "Storms don't follow business hours. We have crews ready to respond to Tulsa weatherhead emergencies day or night.",
+    title: "Same Day Service",
+    description: "Beeping detector driving you crazy? We offer same-day service in Evanston to replace failing units and restore your peace and quiet.",
   },
   {
     icon: PenTool,
-    title: "Code Experts",
-    description: "We understand Tulsa's specific electrical codes for service masts, ensuring your repair passes inspection without delays.",
+    title: "Code Compliance",
+    description: "We stay up-to-date with Evanston's specific fire safety ordinances, ensuring your installation meets all legal and safety requirements.",
   },
   {
     icon: DollarSign,
-    title: "Insurance Support",
-    description: "We work with your insurance provider, providing the photos and documentation needed to streamline your storm damage claim.",
+    title: "Upfront Pricing",
+    description: "We provide clear, flat-rate pricing for detector replacement. No hidden fees or 'consultation' surprises.",
   },
   {
     icon: ShieldCheck,
-    title: "Structural Focus",
-    description: "We don't just fix wires; we reinforce the physical mast and its attachment to your home to prevent future storm damage.",
+    title: "10-Year Warranty",
+    description: "We only install premium, long-life detectors backed by a 10-year manufacturer warranty and our own 1-year labor guarantee.",
   },
   {
     icon: Zap,
-    title: "Power Coordination",
-    description: "We handle the coordination with PSO or OG&E to ensure your power is disconnected and reconnected as quickly as possible.",
+    title: "Expert Wiring",
+    description: "Connecting traveler wires correctly is essential for system-wide alerts. Our licensed electricians ensure your network is perfectly synced.",
   },
   {
     icon: HeartHandshake,
-    title: "Trusted Locals",
-    description: "As a local Tulsa business, we pride ourselves on protecting our neighbors' homes from Oklahoma's unpredictable weather.",
+    title: "Evanston Local",
+    description: "We are your neighbors. We've been protecting Evanston families from fire hazards for over a decade with trusted, local service.",
   },
 ];
 
@@ -43,27 +43,27 @@ const WhyUs = () => {
               Peace of Mind
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Why Choose Tulsa's
-              <span className="text-gradient-copper block">Weatherhead Experts?</span>
+              Why Choose Evanston's
+              <span className="text-gradient-copper block">Smoke Detection Experts?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              A damaged service mast is a structural and electrical hazard. We specialize in these complex repairs, ensuring your home is safe and your utility connection is secure.
+              Smoke detectors are the most critical safety device in your home. We specialize exclusively in the installation, wiring, and synchronization of these life-saving systems.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Emergency Svc</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1,200+</span>
+                <span className="text-sm text-muted-foreground">Homes Secured</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1,500+</span>
-                <span className="text-sm text-muted-foreground">Masts Repaired</span>
+                <span className="text-4xl font-heading font-bold text-copper block">10+</span>
+                <span className="text-sm text-muted-foreground">Years Local</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">A+</span>
-                <span className="text-sm text-muted-foreground">Local Rating</span>
+                <span className="text-sm text-muted-foreground">Safety Rating</span>
               </div>
             </div>
           </div>

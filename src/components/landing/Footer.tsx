@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">TWE</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">ESP</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Tulsa Weatherhead Experts
+                  Evanston Smoke Protectors
                 </h3>
-                <p className="text-xs text-primary-foreground/60">24/7 Storm Specialists</p>
+                <p className="text-xs text-primary-foreground/60">Professional Installation</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Tulsa's dedicated emergency weatherhead and service mast repair specialists.
-              We provide rapid restoration when Oklahoma storms damage your electrical entrance.
+              Evanston's dedicated specialists for hardwired smoke and carbon monoxide detector replacement.
+              We ensure your home is fully protected and code-compliant.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Weatherhead Repair
+                  Hardwired Replacement
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Mast Straightening
+                  CO Detector Install
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Water Entry Protection
+                  Interconnection Testing
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Emergency Service
+                  Code Compliance
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Tulsa, OK</span>
+                <span>Evanston, IL</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@tulsa-weatherhead.com" className="hover:text-copper-light transition-colors">
-                  service@tulsa-weatherhead.com
+                <a href="mailto:service@evanston-smoke-pros.com" className="hover:text-copper-light transition-colors">
+                  service@evanston-smoke-pros.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://wellpumpreplacementoverlandparkks.netlify.app/"
+              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Well Pump Replacement Overland Park KS
+              Freeze Proof Outdoor Faucet Replacement OH
             </a>
             <a
-              href="https://toiletflangerepairtallahassee.netlify.app/"
+              href="https://ceramickilnelectricalhookupashevill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Toilet Flange Repair Tallahassee
+              Ceramic Kiln Electrical Hookup Asheville
             </a>
             <a
-              href="https://trenchlesspiperelininghuntsville.netlify.app/"
+              href="https://rvpedestalinstallationplanotx.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Trenchless Pipe Relining Huntsville
+              RV Pedestal Installation Plano TX
             </a>
             <a
-              href="https://greywatersysteminstallationtempe.vercel.app/"
+              href="https://emergencyweatherheadrepairtulsaok.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Greywater System Installation Tempe
+              Emergency Weatherhead Repair Tulsa OK
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Tulsa Weatherhead Experts. All rights reserved.
+            © {new Date().getFullYear()} Evanston Smoke Protectors. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">
