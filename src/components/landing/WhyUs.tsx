@@ -3,33 +3,33 @@ import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lu
 const reasons = [
   {
     icon: Clock,
-    title: "Fast Concrete Response",
-    description: "Mold spreads rapidly in damp environments. We prioritize Concrete calls to ensure remediation begins before the damage worsens.",
+    title: "Late Night Response",
+    description: "Plumbing emergencies don't wait for business hours. We prioritize late-night Westfield calls to prevent morning flooding.",
   },
   {
     icon: PenTool,
-    title: "Eco-Friendly Solutions",
-    description: "We use non-toxic, plant-based antimicrobials that are tough on mold but safe for your family and the Concrete environment.",
+    title: "Frost-Proof Specialists",
+    description: "We install the highest grade frost-proof hose bibs, ensuring your outdoor plumbing can survive Indiana's coldest nights.",
   },
   {
     icon: DollarSign,
-    title: "Insurance Assistance",
-    description: "Dealing with insurance can be stressful. We provide detailed documentation and work directly with adjusters to simplify your claim.",
+    title: "Upfront Pricing",
+    description: "No hidden fees, even for late-night service. We provide clear, honest estimates before any repair work begins.",
   },
   {
     icon: ShieldCheck,
-    title: "Certified Technicians",
-    description: "Our team is IICRC S520 certified, ensuring that every remediation project follows the highest national safety standards.",
+    title: "Licensed & Insured",
+    description: "Our plumbing technicians are fully licensed and insured, giving you peace of mind that your home is in expert hands.",
   },
   {
     icon: Zap,
-    title: "Advanced Technology",
-    description: "From infrared moisture detection to industrial-grade HEPA scrubbers, we use the best tech to ensure 100% mold removal.",
+    title: "Rapid Part Stocking",
+    description: "Our service vans are fully stocked with various hose bib brands and sizes, allowing us to finish most repairs in one visit.",
   },
   {
     icon: HeartHandshake,
-    title: "Locally Owned",
-    description: "We are part of the Concrete community. We understand the unique challenges of PNW moisture and structural mold issues.",
+    title: "Westfield Local",
+    description: "We are proud to serve the Westfield community. We understand the specific soil and climate challenges of Hamilton County.",
   },
 ];
 
@@ -40,30 +40,30 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Concrete Remediation Pros
+              Westfield's Trusted Plumbers
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              The Concrete Choice for
-              <span className="text-gradient-copper block">Permanent Mold Removal.</span>
+              The Professional Choice for
+              <span className="text-gradient-copper block">Emergency Faucet Repair.</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Black mold is a serious threat to your home's integrity and your health. We provide the expertise and technology to eliminate it at the source.
+              A leaking outdoor faucet can cause thousands in water damage and foundation issues. We provide the expertise and speed to resolve it instantly.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">850+</span>
-                <span className="text-sm text-muted-foreground">Homes Restored</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1,200+</span>
+                <span className="text-sm text-muted-foreground">Faucets Replaced</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">5.0</span>
-                <span className="text-sm text-muted-foreground">Star Service</span>
+                <span className="text-4xl font-heading font-bold text-copper block">4.9</span>
+                <span className="text-sm text-muted-foreground">Star Local Rating</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Concrete Support</span>
+                <span className="text-sm text-muted-foreground">Emergency Support</span>
               </div>
             </div>
           </div>
@@ -93,3 +93,5 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+
+

@@ -115,3 +115,5 @@ const ShowerPanInfo = () => {
 };
 
 export default ShowerPanInfo;
+
+

@@ -103,7 +103,7 @@ const PartialPowerOutageInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Shield className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Electrical instability is a fire hazard. Call us now: (844) 901-2684.
+                            Electrical instability is a fire hazard. Call us now: (877) 792-1410.
                         </span>
                     </div>
                 </div>
@@ -113,3 +113,5 @@ const PartialPowerOutageInfo = () => {
 };
 
 export default PartialPowerOutageInfo;
+
+

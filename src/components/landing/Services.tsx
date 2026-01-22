@@ -4,21 +4,21 @@ import { Button } from "@/components/ui/button";
 const services = [
   {
     icon: Search,
-    title: "Mold Inspection & Testing",
-    description: "Professional air quality and surface sampling to identify the exact type and concentration of mold in your Concrete home.",
-    features: ["Air spore sampling", "Surface lift tests", "Detailed lab reports"],
+    title: "Leak Detection & Repair",
+    description: "Specialized diagnostics to find hidden leaks in your exterior plumbing lines before they cause structural water damage.",
+    features: ["Acoustic leak detection", "Visual inspections", "Pressure testing"],
   },
   {
     icon: ShieldAlert,
-    title: "Black Mold Remediation",
-    description: "Safe and effective removal of Stachybotrys and other toxic molds using industry-leading containment and HEPA filtration.",
-    features: ["Negative air pressure", "Dry ice blasting", "HEPA vacuuming"],
+    title: "Hose Bib Replacement",
+    description: "Installation of modern, frost-proof outdoor faucets that prevent freezing and bursting during Westfield's harsh winters.",
+    features: ["Frost-proof technology", "Anti-siphon valves", "Correct pitch installation"],
   },
   {
     icon: Activity,
-    title: "Moisture Control",
-    description: "We identify and fix the root cause of mold growth, providing dehumidification and structural drying to prevent recurrence.",
-    features: ["Leak detection", "Humidity management", "Structural drying"],
+    title: "Emergency Late Night Service",
+    description: "Rapid response for burst outdoor pipes and major faucet leaks available 24/7, even during the middle of the night.",
+    features: ["30-60 min response", "Emergency shut-offs", "Immediate part replacement"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Concrete Dispatch
+            Westfield Dispatch
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Concrete Mold Damage Solutions
+            Outdoor Faucet & Hose Bib Solutions
           </h2>
           <p className="text-muted-foreground text-lg">
-            Certified black mold removal for Concrete property owners. We provide scientific solutions to protect your health and your home.
+            Emergency late night plumbing for Westfield homeowners. We specialize in exterior water fixtures and leak prevention.
           </p>
         </div>
 
@@ -78,3 +78,5 @@ const Services = () => {
 };
 
 export default Services;
+
+

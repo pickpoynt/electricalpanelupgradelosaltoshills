@@ -1,46 +1,46 @@
-import { AlertTriangle, ShieldCheck, Search, Construction, Activity, Shield } from "lucide-react";
+import { Droplets, ShieldCheck, Hammer, Construction, Zap, Shield } from "lucide-react";
 
 const infoData = [
     {
-        icon: AlertTriangle,
-        title: "Toxicity of Black Mold",
-        description: "Stachybotrys chartarum, commonly known as black mold, produces mycotoxins that can lead to chronic health issues. Concrete homes with high humidity or past water damage are particularly susceptible.",
+        icon: Droplets,
+        title: "Foundation Water Damage",
+        description: "A small leak from an outdoor faucet can seepage into your foundation or crawlspace, leading to structural rot and expensive repairs. Westfield's varying soil moisture levels make this a critical concern.",
     },
     {
-        icon: Activity,
-        title: "Respiratory Health Risks",
-        description: "Exposure to mold spores can cause severe allergic reactions, asthma attacks, and long-term respiratory distress. Immediate professional intervention is crucial to protect your family's health.",
+        icon: Zap,
+        title: "Frozen Pipe Emergencies",
+        description: "Outdoor faucets are the first to freeze during Indiana winters. If not properly winterized or replaced with frost-proof models, they can burst and flood your home within minutes.",
     },
     {
-        icon: Search,
-        title: "Certified Inspections",
-        description: "Our Concrete specialists use advanced thermal imaging and moisture meters to locate hidden mold growth behind walls and under floorboards that the naked eye might miss.",
+        icon: Hammer,
+        title: "Expert Installations",
+        description: "Our Westfield plumbers specialize in installing anti-siphon, frost-proof hose bibs that meet the latest building codes and provide year-round protection for your property.",
     },
 ];
 
 const benefitsData = [
-    "Comprehensive Mold Testing & Sampling",
-    "HEPA Air Filtration & Scrubbing",
-    "Negative Pressure Containment",
-    "Non-Toxic Antimicrobial Treatments",
-    "Structural Drying & Dehumidification",
-    "Final Clearance Air Quality Testing",
+    "Frost-Proof Hose Bib Installation",
+    "Emergency Leak Repair & Mitigation",
+    "Winterization & Seasonal Maintenance",
+    "Anti-Siphon Valve Replacement",
+    "Underground Line Leak Detection",
+    "Outdoor Kitchen & Shower Plumbing",
 ];
 
-const MoldRemovalInfo = () => {
+const FaucetRepairInfo = () => {
     return (
-        <section id="mold-info" className="py-24 bg-gradient-hero">
+        <section id="faucet-info" className="py-24 bg-gradient-hero">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-                        Concrete Remediation Experts
+                        Westfield Plumbing Experts
                     </span>
                     <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-                        Professional Black Mold Removal
+                        Professional Outdoor Faucet Repair
                     </h2>
                     <p className="text-primary-foreground/80 text-lg">
-                        Mold isn't just an eyesore—it's a health hazard.
-                        Our Concrete team provides certified remediation services to restore your home to a safe, healthy environment.
+                        Outdoor leaks are often neglected until it's too late.
+                        Our Westfield team provides specialized exterior plumbing services to protect your home's integrity.
                     </p>
                 </div>
 
@@ -70,20 +70,20 @@ const MoldRemovalInfo = () => {
                         <div className="flex items-center gap-3 mb-6">
                             <Construction className="w-8 h-8 text-copper" />
                             <h3 className="text-2xl font-heading font-bold text-foreground">
-                                Advanced Remediation Process
+                                Advanced Repair Process
                             </h3>
                         </div>
                         <p className="text-muted-foreground mb-6 leading-relaxed">
-                            Concrete's damp climate can accelerate mold growth. We follow IICRC S520 standards for mold remediation, ensuring every spore is contained and eliminated.
+                            Westfield's cold snaps can be devastating to exterior plumbing. We don't just patch leaks; we provide long-term solutions that modernize your home's watering system.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
-                            We don't just cover it up; we identify the moisture source, fix it, and remove all contaminated materials to prevent future regrowth.
+                            From precision threading to high-durability seals, we ensure every outdoor faucet we install or repair is built to withstand Indiana's unpredictable weather.
                         </p>
                     </div>
 
                     <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
                         <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-                            Mold Restoration Standards
+                            Exterior Plumbing Standards
                         </h3>
                         <ul className="space-y-4">
                             {benefitsData.map((benefit, index) => (
@@ -103,7 +103,7 @@ const MoldRemovalInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Shield className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Protect your home and health. Call today: (380) 266-0944.
+                            Protect your foundation and exterior. Call today: (877) 792-1410.
                         </span>
                     </div>
                 </div>
@@ -112,4 +112,6 @@ const MoldRemovalInfo = () => {
     );
 };
 
-export default MoldRemovalInfo;
+export default FaucetRepairInfo;
+
+

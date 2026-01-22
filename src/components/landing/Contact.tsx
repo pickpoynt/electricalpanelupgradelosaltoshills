@@ -11,29 +11,29 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              24/7 Professional Remediation
-              <span className="text-gradient-copper block">Concrete Mold Removal</span>
+              24/7 Emergency Plumbing
+              <span className="text-gradient-copper block">Westfield Late Night Pros</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Smelling musty odors? Seen black spots on your walls? Don't wait for health issues to arise. Contact Concrete's certified mold removal specialists for an immediate inspection.
+              Is your outdoor faucet leaking or frozen? Don't wait for morning. Contact Westfield's specialized exterior plumbing team for a rapid late-night repair.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+13802660944"
+                href="tel:+18777921410"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Our Experts Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(380) 266-0944</span>
+                  <span className="text-sm text-muted-foreground block">Call Our Dispatcher</span>
+                  <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
                 </div>
               </a>
 
               <a
-                href="mailto:service@concrete-wa-mold-removal.com"
+                href="mailto:service@westfield-outdoor-faucet.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Inquiry</span>
-                  <span className="font-heading font-bold text-foreground">service@concrete-wa-mold-removal.com</span>
+                  <span className="font-heading font-bold text-foreground">service@westfield-outdoor-faucet.com</span>
                 </div>
               </a>
 
@@ -50,8 +50,8 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-copper" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Primary Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Concrete, Rockport, Marblemount, Hamilton, Lyman</span>
+                  <span className="text-sm text-muted-foreground block">Service Area</span>
+                  <span className="font-heading font-semibold text-foreground">Westfield, Carmel, Noblesville, Sheridan, Jolietville</span>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Availability</span>
-                  <span className="font-heading font-semibold text-foreground">24 Hours a Day / 7 Days a Week</span>
+                  <span className="font-heading font-semibold text-foreground">Open 24/7 for Plumbing Emergencies</span>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Get A Quote
+              Get A Fast Estimate
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -82,7 +82,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Robert"
+                    placeholder="Steve"
                   />
                 </div>
                 <div>
@@ -93,7 +93,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Johnson"
+                    placeholder="Rogers"
                   />
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(380) 266-0944"
+                  placeholder="(877) 792-1410"
                 />
               </div>
 
@@ -118,28 +118,28 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="robert.j@example.com"
+                  placeholder="steve.r@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Project Details
+                  Issue Description
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I found black mold in my basement after a recent leak. I need a certified inspection and remediation estimate..."
+                  placeholder="My outdoor faucet won't stop leaking and it's starting to freeze. I need a plumber tonight if possible..."
                 />
               </div>
 
               <Button variant="copper" size="xl" className="w-full">
-                Request Callback
+                Request Late Night Dispatch
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
-                By submitting, you agree to receive calls/texts about your project. No spam, ever.
+                Our team monitors this form 24/7. We will call you within 15 minutes.
               </p>
             </form>
           </div>
@@ -150,3 +150,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+

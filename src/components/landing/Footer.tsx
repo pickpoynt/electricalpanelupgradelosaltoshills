@@ -9,26 +9,26 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">CMR</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">WFP</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Concrete Mold Removal
+                  Westfield Late Night Plumber
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Certified Remediation Experts</p>
+                <p className="text-xs text-primary-foreground/60">Emergency Outdoor Faucet Repair</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Concrete's leading certified remediation team for black mold removal, toxic spore elimination, and technical moisture control.
-              We protect Concrete families with scientific solutions.
+              Westfield's specialized 24/7 plumbing team for late-night outdoor faucet repair, frozen pipe mitigation, and hose bib replacement.
+              Protecting your foundation and exterior plumbing year-round.
             </p>
             <div className="flex gap-4">
               <a
-                href="tel:+13802660944"
+                href="tel:+18777921410"
                 className="flex items-center gap-2 text-copper-light hover:text-copper transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                (380) 266-0944
+                (877) 792-1410
               </a>
             </div>
           </div>
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Black Mold Removal
+                  Outdoor Faucet Repair
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Air Quality Testing
+                  Hose Bib Replacement
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Moisture Mitigation
+                  Leak Detection
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Structural Drying
+                  Winterization
                 </a>
               </li>
             </ul>
@@ -66,18 +66,18 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Concrete, WA 98237</span>
+                <span>Westfield, IN 46074</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
-                <a href="tel:+13802660944" className="hover:text-copper-light transition-colors">
-                  (380) 266-0944
+                <a href="tel:+18777921410" className="hover:text-copper-light transition-colors">
+                  (877) 792-1410
                 </a>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@concrete-wa-mold-removal.com" className="hover:text-copper-light transition-colors">
-                  service@concrete-wa-mold-removal.com
+                <a href="mailto:service@westfield-outdoor-faucet.com" className="hover:text-copper-light transition-colors">
+                  service@westfield-outdoor-faucet.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://trenchlesspiperelininghuntsville.netlify.app/"
+              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Trenchless Pipe Relining Huntsville
+              Freeze Proof Outdoor Faucet Replacement OH
             </a>
             <a
-              href="https://ceramickilnelectricalhookupashevill.vercel.app/"
+              href="https://potfillerfaucetinstallationroundroc.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Ceramic Kiln Electrical Hookup Asheville
+              Pot Filler Faucet Installation Round Rock
             </a>
             <a
-              href="https://sumppumpbatterybackupinstallationfort.netlify.app/"
+              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Sump Pump Battery Backup Installation Fort Worth
+              Tankless Water Heater Descaling Bellevue
             </a>
             <a
-              href="https://blackmoldremovalskykomishwa.vercel.app/"
+              href="https://aluminumwiringreplacementnapervilleil.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Black Mold Removal Skykomish WA
+              Aluminum Wiring Replacement Naperville IL
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Concrete Mold Removal. All rights reserved.
+            © {new Date().getFullYear()} Westfield Late Night Plumber. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">
@@ -147,3 +147,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
