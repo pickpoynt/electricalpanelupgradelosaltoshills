@@ -11,12 +11,11 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Schedule Your Safety Upgrade
-              <span className="text-gradient-copper block">Evanston Life Safety Experts</span>
+              Get Power Security Today
+              <span className="text-gradient-copper block">Cypress Generator Pros</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Beeping alarms? Expired sensors? Protect your home today.
-              Contact Evanston's trusted smoke detector specialists for a free replacement quote.
+              Don't get left in the dark. Contact Cypress's trusted generator interlock installers for a free estimate and stay hurricane-ready.
             </p>
 
             <div className="space-y-6">
@@ -34,7 +33,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:service@evanston-smoke-pros.com"
+                href="mailto:service@cypress-generator-pros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@evanston-smoke-pros.com</span>
+                  <span className="font-heading font-bold text-foreground">service@cypress-generator-pros.com</span>
                 </div>
               </a>
 
@@ -52,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Evanston, Skokie, Wilmette, Rogers Park</span>
+                  <span className="font-heading font-semibold text-foreground">Cypress, Katy, Tomball, Jersey Village</span>
                 </div>
               </div>
 
@@ -62,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon - Sat: 8am - 6pm (Emergency Available)</span>
+                  <span className="font-heading font-semibold text-foreground">Mon - Fri: 7am - 7pm (Sat: 9am - 3pm)</span>
                 </div>
               </div>
             </div>
@@ -131,7 +130,7 @@ const Contact = () => {
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="My smoke detectors are over 10 years old and I need a full system replacement..."
+                  placeholder="I have a portable generator and need a 50A interlock kit installed for my Square D panel..."
                 />
               </div>
 

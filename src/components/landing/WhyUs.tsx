@@ -3,33 +3,33 @@ import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lu
 const reasons = [
   {
     icon: Clock,
-    title: "Same Day Service",
-    description: "Beeping detector driving you crazy? We offer same-day service in Evanston to replace failing units and restore your peace and quiet.",
+    title: "Fast Local Service",
+    description: "Cypress weather is unpredictable. We prioritize interlock installations so you're ready before the next storm system moves in.",
   },
   {
     icon: PenTool,
-    title: "Code Compliance",
-    description: "We stay up-to-date with Evanston's specific fire safety ordinances, ensuring your installation meets all legal and safety requirements.",
+    title: "Mechanical Precision",
+    description: "Every electrical panel is different. We stock interlocks for Square D, Eaton, Siemens, and GE panels for a perfect, safe fit.",
   },
   {
     icon: DollarSign,
-    title: "Upfront Pricing",
-    description: "We provide clear, flat-rate pricing for detector replacement. No hidden fees or 'consultation' surprises.",
+    title: "Affordable Backup",
+    description: "A standby generator costs $10k-$15k. Our interlock kits provide whole-home backup access for a tiny fraction of that cost.",
   },
   {
     icon: ShieldCheck,
-    title: "10-Year Warranty",
-    description: "We only install premium, long-life detectors backed by a 10-year manufacturer warranty and our own 1-year labor guarantee.",
+    title: "Certified Safety",
+    description: "We verify that your panel is grounded and bonded correctly during every installation to ensure your generator runs safely.",
   },
   {
     icon: Zap,
-    title: "Expert Wiring",
-    description: "Connecting traveler wires correctly is essential for system-wide alerts. Our licensed electricians ensure your network is perfectly synced.",
+    title: "Step-by-Step Training",
+    description: "We don't just install it and leave. We walk you through the exact sequence of turning on your generator power safely.",
   },
   {
     icon: HeartHandshake,
-    title: "Evanston Local",
-    description: "We are your neighbors. We've been protecting Evanston families from fire hazards for over a decade with trusted, local service.",
+    title: "Cypress Neighbors",
+    description: "Our licensed electricians live and work in Cypress. We know the local codes and the importance of reliable backup power in Texas.",
   },
 ];
 
@@ -40,30 +40,30 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Peace of Mind
+              Cypress Strong
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Why Choose Evanston's
-              <span className="text-gradient-copper block">Smoke Detection Experts?</span>
+              Why Choose Cypress's
+              <span className="text-gradient-copper block">Generator Connection Experts?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Smoke detectors are the most critical safety device in your home. We specialize exclusively in the installation, wiring, and synchronization of these life-saving systems.
+              In South Texas, power isn't just a luxury—it's safety. We specialize in making your existing portable generator a seamless whole-home power solution.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1,200+</span>
-                <span className="text-sm text-muted-foreground">Homes Secured</span>
+                <span className="text-4xl font-heading font-bold text-copper block">850+</span>
+                <span className="text-sm text-muted-foreground">Kits Installed</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">10+</span>
-                <span className="text-sm text-muted-foreground">Years Local</span>
+                <span className="text-4xl font-heading font-bold text-copper block">5.0</span>
+                <span className="text-sm text-muted-foreground">Top Rated</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">A+</span>
-                <span className="text-sm text-muted-foreground">Safety Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">24hr</span>
+                <span className="text-sm text-muted-foreground">Storm Support</span>
               </div>
             </div>
           </div>

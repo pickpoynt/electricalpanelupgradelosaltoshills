@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How often should hardwired smoke detectors be replaced?",
-    answer: "Both the National Fire Protection Association (NFPA) and the Evanston Fire Department recommend replacing hardwired smoke detectors every 10 years. The sensors inside the units become less effective over time due to dust and component degradation."
+    question: "What is a generator interlock kit?",
+    answer: "A generator interlock kit is a mechanical safety device that consists of two sliding plates. It ensures that the main breaker and the generator breaker cannot both be 'ON' at the same time, preventing dangerous backfeeding into the utility grid."
   },
   {
-    question: "Do hardwired detectors still need batteries?",
-    answer: "Yes. In Evanston, local codes require hardwired detectors to have a battery backup (usually a 9V or a 10-year sealed lithium battery) so they continue to function during a power outage."
+    question: "Is an interlock kit legal in Cypress, Texas?",
+    answer: "Yes, when installed by a licensed electrician, interlock kits are NEC (National Electrical Code) compliant. They meet the requirement for a physical disconnect between the generator and utility power."
   },
   {
-    question: "What does 'interconnected' mean?",
-    answer: "Interconnection means that all detectors in your home are linked. If a detector in the basement senses smoke, the communication wire triggers every other alarm in the house simultaneously, giving you the earliest possible warning."
+    question: "Can I power my AC with a portable generator and an interlock?",
+    answer: "Yes, provided your generator has enough wattage (typically 7,500W to 12,000W) to handle the startup surge of your AC compressor. We can install 'soft start' kits on your AC to make this even easier on your generator."
   },
   {
-    question: "Can I just replace one detector, or do I need to replace them all?",
-    answer: "It is strongly recommended to replace all detectors at once. Mixed brands or units of different ages may not communicate correctly through the interconnection wire, potentially leaving parts of your home unprotected."
+    question: "What is a power inlet box?",
+    answer: "A power inlet box is a weatherproof outlet installed on the outside of your home. You plug your generator into this box using a heavy-duty cord, which then sends power through the interlock kit into your panel."
   },
   {
-    question: "What is the difference between ionization and photoelectric sensors?",
-    answer: "Ionization sensors are better at detecting fast-flaming fires, while photoelectric sensors are superior at sensing slow, smoldering fires. We typically install dual-sensor or photoelectric units to provide the best overall protection for Evanston homes."
+    question: "How long does the installation take?",
+    answer: "A standard interlock kit and power inlet box installation typically takes 2 to 4 hours. We test the system with your generator before we leave to ensure everything is working perfectly."
   },
   {
-    question: "Do you provide carbon monoxide detector installation?",
-    answer: "Yes. Many of our clients in Evanston choose combination smoke/CO detectors. Illinois law requires CO detectors to be installed within 15 feet of every sleeping room."
+    question: "Do I need to pick which circuits to power?",
+    answer: "No. Unlike a transfer switch, an interlock kit energizes the entire panel. You simply turn off the breakers for heavy loads you don't need (like the oven or dryer) and leave on the ones you do (like lights, outlets, and fridge)."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Smoke Detector FAQ
+            Generator Interlock FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Important safety information for Evanston homeowners.
+            Everything you need to know about safe backup power in Cypress.
           </p>
         </div>
 

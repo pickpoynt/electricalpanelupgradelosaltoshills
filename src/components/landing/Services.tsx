@@ -1,24 +1,24 @@
-import { Bell, ShieldCheck, Box, CheckCircle, ArrowRight, ShieldAlert } from "lucide-react";
+import { Zap, ShieldCheck, Box, CheckCircle, ArrowRight, ShieldAlert, Power } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Bell,
-    title: "Hardwired Replacement",
-    description: "Old detectors become unreliable after 10 years. We replace your entire network with modern, interconnected hardwired units for maximum safety.",
-    features: ["Interconnected wiring", "10-year sensors", "Lithium battery backup"],
+    icon: ShieldCheck,
+    title: "Interlock Kit Install",
+    description: "The mechanical interlock plate makes it impossible to turn on your generator breaker while the main is on, ensuring total safety.",
+    features: ["Panel brand specific", "UL-listed hardware", "Mechanical safeguards"],
   },
   {
-    icon: ShieldAlert,
-    title: "Carbon Monoxide (CO)",
-    description: "Evanston codes require CO protection. We install combination units that detect both smoke and odorless gas, providing comprehensive home safety.",
-    features: ["Combo sensing", "Voice alerts", "Digital displays"],
+    icon: Power,
+    title: "Power Inlet Boxes",
+    description: "We install professional 30A or 50A power inlet boxes on the exterior of your home for a clean, weather-protected connection point.",
+    features: ["Recessed or surface", "NEMA 3R rated", "Flush mount options"],
   },
   {
-    icon: Box,
-    title: "Safety Compliance Audit",
-    description: "Moving or selling your home? we ensure your detector placement meets current Evanston fire codes and provides legal protection.",
-    features: ["Code inspections", "Placement optimization", "System testing"],
+    icon: Zap,
+    title: "Whole-Home Backup",
+    description: "Turn on your AC, well pump, or kitchen appliances as needed. An interlock kit lets you power any circuit in your entire panel.",
+    features: ["Load management", "Well pump support", "AC unit compatibility"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Safety First
+            Cypress Energy Experts
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Professional Fire & CO Protection
+            Safe Interlocked Generator Hookups
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don't leave your family's safety to chance. We provide expert installation of hardwired smoke and carbon monoxide detection systems in Evanston.
+            Stop struggling with extension cords. We provides professional electrical connections for your portable generator in Cypress and surrounding areas.
           </p>
         </div>
 
