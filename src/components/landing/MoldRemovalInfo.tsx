@@ -103,7 +103,7 @@ const MoldRemovalInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Shield className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Protect your home and health. Call today: +13802660944.
+                            Protect your home and health. Call today: (380) 266-0944.
                         </span>
                     </div>
                 </div>

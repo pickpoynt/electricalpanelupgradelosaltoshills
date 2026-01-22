@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Call Our Experts Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">+13802660944</span>
+                  <span className="font-heading font-bold text-xl text-foreground">(380) 266-0944</span>
                 </div>
               </a>
 
@@ -106,7 +106,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="+13802660944"
+                  placeholder="(380) 266-0944"
                 />
               </div>
 

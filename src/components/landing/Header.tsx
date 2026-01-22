@@ -43,7 +43,7 @@ const Header = () => {
             <Button variant="copper" size="lg" asChild>
               <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call +13802660944
+                Call (380) 266-0944
               </a>
             </Button>
           </div>
@@ -77,7 +77,7 @@ const Header = () => {
               <Button variant="copper" size="lg" className="w-full" asChild>
                 <a href="tel:+13802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call Now
+                  Call (380) 266-0944
                 </a>
               </Button>
             </nav>

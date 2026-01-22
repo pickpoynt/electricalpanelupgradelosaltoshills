@@ -70,7 +70,7 @@ const FAQ = () => {
             href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call for a Professional Inspection: +13802660944
+            Call for a Professional Inspection: (380) 266-0944
           </a>
         </div>
       </div>
