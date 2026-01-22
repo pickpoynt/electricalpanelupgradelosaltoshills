@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why do my lights flicker when the AC turns on?",
-    answer: "This often indicates a loose neutral connection in your main panel or at the park pedestal. It's a serious fire hazard that needs immediate attention from a pro."
+    question: "What is a weatherhead?",
+    answer: "A weatherhead, also known as a service head or service mast, is the waterproof entry point where overhead power lines from the utility company enter your home's electrical system. It's designed to keep rain and snow out of your pipes and electrical panel."
   },
   {
-    question: "Do you fix aluminum wiring?",
-    answer: "Yes. We don't just patch it; we use AlumiConn connectors or COPALUM crimps to permanently bond the aluminum to fresh copper pigtails for safe device connection."
+    question: "Who is responsible for fixing a damaged service mast?",
+    answer: "Generally, the homeowner is responsible for the service mast, weatherhead, and the meter base attached to the house. The utility company (like PSO) is only responsible for the wires coming from the pole to the point of connection at the weatherhead."
   },
   {
-    question: "The power is out at my pedestal, but the park says it's my problem.",
-    answer: "This is common. We can meet the park maintenance team on-site, test the lines, and prove exactly where the fault is, or fix it if it's on your side of the meter."
+    question: "My service mast is leaning after a storm. Is it dangerous?",
+    answer: "Yes. A leaning mast indicates structural failure and puts immense tension on your electrical connections. It can also allow water to pour directly into your breaker box, creating a major fire and shock hazard."
   },
   {
-    question: "Can you install a 50-amp outlet for my RV?",
-    answer: "Absolutely. We install 30-amp and 50-amp RV pedestals and outlets, complying with all Henderson codes for recreational vehicles."
+    question: "Will the utility company reconnect my power if the mast is bent?",
+    answer: "No. Utility companies will typically pull the meter or disconnect service if they see a damaged mast. They will require a licensed electrician to repair it and potentially a city inspection before they restore power."
   },
   {
-    question: "Do you charge extra for weekends?",
-    answer: "We offer 24/7 service. While there is an emergency dispatch fee for after-hours calls, our pricing is transparent and quoted before we start any work."
+    question: "How long does a weatherhead repair take?",
+    answer: "Most emergency repairs can be completed in 3-5 hours. However, coordination with the utility company and local inspectors can add time to the overall restoration process."
   },
   {
-    question: "Is my mobile home too old to work on?",
-    answer: "Never. We specialize in older models (pre-1976 HUD code) and know how to safely navigate their unique wiring challenges."
+    question: "Do you provide emergency service in Tulsa on weekends?",
+    answer: "Yes. We offer 24/7 emergency response throughout the Tulsa metro area, including Broken Arrow, Jenks, and Owasso, because storm damage doesn't wait for Monday morning."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Mobile Home Electrical FAQ
+            Weatherhead Repair FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Honest answers for manufactured homeowners in Henderson.
+            Expert answers for Tulsa homeowners facing storm damage.
           </p>
         </div>
 
@@ -67,10 +67,10 @@ const FAQ = () => {
         <div className="text-center mt-12">
           <p className="text-steel mb-4">Still have questions?</p>
           <a
-            href="tel:+18777921410"
+            href="tel:+18449012684"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call us at (877) 792-1410
+            Call us at (844) 901-2684
           </a>
         </div>
       </div>

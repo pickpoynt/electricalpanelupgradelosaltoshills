@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Zap, ShieldAlert, Timer } from "lucide-react";
-import heroImage from "@/assets/hero-mobile-electric.png";
+import heroImage from "@/assets/weatherhead-repair-hero.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Electrician fixing a mobile home pedestal at sunset"
+          alt="Electrician repairing weatherhead service mast in Tulsa OK"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,18 +20,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Park & Mobile Home Service
+              24/7 Emergency Storm Repair
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Emergency Mobile Home Electrician Henderson NV
-            <span className="block text-gradient-copper mt-2">Specialized HUD Code Repair.</span>
+            Emergency Weatherhead Repair Tulsa OK
+            <span className="block text-gradient-copper mt-2">Storm Damage? We Restore Power Fast.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Manufactured homes are wired differently. Don't trust a standard electrician with your safety.
-            We are Henderson's experts in aluminum wiring, pedestal power, and mobile home panels.
+            Fallen branches or high winds damaged your service mast? Tulsa Weatherhead Experts provide rapid, code-compliant repairs to get your utility connection restored safely.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

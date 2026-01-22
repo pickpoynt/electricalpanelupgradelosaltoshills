@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">HME</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">TWE</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Henderson Mobile Electric
+                Tulsa Weatherhead Experts
               </h1>
-              <p className="text-xs text-muted-foreground">24/7 Mobile Home Experts</p>
+              <p className="text-xs text-muted-foreground">24/7 Emergency Service</p>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ const Header = () => {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="copper" size="lg" asChild>
-              <a href="tel:+18777921410" className="flex items-center gap-2">
+              <a href="tel:+18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>
@@ -75,7 +75,7 @@ const Header = () => {
                 Contact
               </a>
               <Button variant="copper" size="lg" className="w-full" asChild>
-                <a href="tel:+18777921410" className="flex items-center justify-center gap-2">
+                <a href="tel:+18449012684" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>

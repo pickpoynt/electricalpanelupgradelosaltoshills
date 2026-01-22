@@ -1,24 +1,24 @@
-import { Plug, Flame, Box, CheckCircle, ArrowRight } from "lucide-react";
+import { Plug, CloudLightning, Box, CheckCircle, ArrowRight, ShieldAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Plug,
-    title: "Pedestal Repair",
-    description: "Lost power but your neighbors have it? It's often the park pedestal or your feeder breaker. We diagnose and repair worn lugs and melted breakers fast.",
-    features: ["Utility coordination", "Feeder wire replacement", "Breaker swaps"],
+    icon: CloudLightning,
+    title: "Weatherhead Repair",
+    description: "Has your service head been pulled away from the house? We specialize in securing and replacing damaged weatherheads to ensure a safe utility connection.",
+    features: ["Mast straightening", "Water entry sealing", "Utility coordination"],
   },
   {
-    icon: Flame,
-    title: "Aluminum Remediation",
-    description: "Many older Henderson mobile homes have aluminum wiring, a known fire risk. We secure these connections using AlumiConn connectors to make them safe.",
-    features: ["Fire prevention", "Device replacement", "Safety certification"],
+    icon: ShieldAlert,
+    title: "Storm Damage Recovery",
+    description: "After Oklahoma storms, many homes suffer from bent service masts. We provide 24/7 emergency response to restore your electrical entrance and power.",
+    features: ["24/7 Response", "Insurance documentation", "Safety inspections"],
   },
   {
     icon: Box,
-    title: "Panel Upgrades",
-    description: "Still running on a 50-amp fuse box? We upgrade mobile homes to modern 100-amp or 200-amp breaker panels to handle modern appliances.",
-    features: ["Increased capacity", "Surge protection", "Code compliance"],
+    title: "Service Mast Upgrades",
+    description: "Old rust-prone masts can fail during wind events. We upgrade service entrances to heavy-duty, code-compliant steel masts for ultimate storm protection.",
+    features: ["Rigid conduits", "Capacity upgrades", "Corrosion protection"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            HUD Code Specialists
+            Tulsa's Storm Specialists
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Manufactured Home Electrical
+            Emergency Electrical Entrance Repair
           </h2>
           <p className="text-muted-foreground text-lg">
-            Mobile homes require a specialized electrician who understands HUD codes and park regulations.
-            We are Henderson's go-to experts.
+            When the overhead power entry to your home is damaged, it requires immediate professional attention.
+            We are Tulsa's experts in weatherhead and service mast restoration.
           </p>
         </div>
 

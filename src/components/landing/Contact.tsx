@@ -12,11 +12,11 @@ const Contact = () => {
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
               Request Emergency Service
-              <span className="text-gradient-copper block">We Answer 24/7</span>
+              <span className="text-gradient-copper block">Tulsa's 24/7 Response</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Smell burning plastic? Power out? Don't wait.
-              Contact Henderson's trusted mobile home electricians immediately.
+              Storm damage? Service mast pulled away? Don't wait.
+              Contact Tulsa's trusted weatherhead repair experts day or night.
             </p>
 
             <div className="space-y-6">
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:service@henderson-mobile-electric.com"
+                href="mailto:service@tulsa-weatherhead.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@henderson-mobile-electric.com</span>
+                  <span className="font-heading font-bold text-foreground">service@tulsa-weatherhead.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Henderson, Las Vegas, Boulder City</span>
+                  <span className="font-heading font-semibold text-foreground">Tulsa, Broken Arrow, Jenks, Owasso</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">24/7 Emergency Service</span>
+                  <span className="font-heading font-semibold text-foreground">24/7 Emergency Storm Response</span>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ const Contact = () => {
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I live in Green Valley Estates and half my trailer lost power..."
+                  placeholder="Winds pulled the service mast from my roof and I have no power..."
                 />
               </div>
 
