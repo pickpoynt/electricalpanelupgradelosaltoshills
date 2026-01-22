@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Professional black mold removal in Skykomish WA"
+          alt="Professional black mold removal in Concrete WA"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,17 +20,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Emergency Remediation
+              24/7 Professional Remediation
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Black Mold Removal Skykomish WA
-            <span className="block text-gradient-copper mt-2">Restore Your Home's Air Quality.</span>
+            Black Mold Removal Concrete WA
+            <span className="block text-gradient-copper mt-2">Professional Care for Your Home.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Visible mold is often just the tip of the iceberg. Our Skykomish remediation specialists offer rapid response, certified testing, and permanent removal of hazardous black mold.
+            Visible mold is often just the tip of the iceberg, especially in Damp PNW structures. Our Concrete remediation specialists offer rapid response, certified testing, and permanent removal of hazardous black mold.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -57,9 +57,9 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
-                SKY
+                CON
               </div>
-              <span className="font-medium">Skykomish Local</span>
+              <span className="font-medium">Concrete Local</span>
             </div>
           </div>
         </div>

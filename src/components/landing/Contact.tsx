@@ -12,10 +12,10 @@ const Contact = () => {
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
               24/7 Professional Remediation
-              <span className="text-gradient-copper block">Skykomish Mold Removal</span>
+              <span className="text-gradient-copper block">Concrete Mold Removal</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Smelling musty odors? Seen black spots on your walls? Don't wait for health issues to arise. Contact Skykomish's certified mold removal specialists for an immediate inspection.
+              Smelling musty odors? Seen black spots on your walls? Don't wait for health issues to arise. Contact Concrete's certified mold removal specialists for an immediate inspection.
             </p>
 
             <div className="space-y-6">
@@ -33,7 +33,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:service@skykomish-mold-removal.com"
+                href="mailto:service@concrete-wa-mold-removal.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Inquiry</span>
-                  <span className="font-heading font-bold text-foreground">service@skykomish-mold-removal.com</span>
+                  <span className="font-heading font-bold text-foreground">service@concrete-wa-mold-removal.com</span>
                 </div>
               </a>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Primary Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Skykomish, Grotto, Index, Baring, Stevens Pass</span>
+                  <span className="font-heading font-semibold text-foreground">Concrete, Rockport, Marblemount, Hamilton, Lyman</span>
                 </div>
               </div>
 

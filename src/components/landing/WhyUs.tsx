@@ -3,13 +3,13 @@ import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lu
 const reasons = [
   {
     icon: Clock,
-    title: "Fast Skykomish Response",
-    description: "Mold spreads rapidly in damp environments. We prioritize Skykomish calls to ensure remediation begins before the damage worsens.",
+    title: "Fast Concrete Response",
+    description: "Mold spreads rapidly in damp environments. We prioritize Concrete calls to ensure remediation begins before the damage worsens.",
   },
   {
     icon: PenTool,
     title: "Eco-Friendly Solutions",
-    description: "We use non-toxic, plant-based antimicrobials that are tough on mold but safe for your family and the Skykomish environment.",
+    description: "We use non-toxic, plant-based antimicrobials that are tough on mold but safe for your family and the Concrete environment.",
   },
   {
     icon: DollarSign,
@@ -29,7 +29,7 @@ const reasons = [
   {
     icon: HeartHandshake,
     title: "Locally Owned",
-    description: "We are part of the Skykomish community. We understand the unique challenges of PNW moisture and structural mold issues.",
+    description: "We are part of the Concrete community. We understand the unique challenges of PNW moisture and structural mold issues.",
   },
 ];
 
@@ -40,10 +40,10 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Skykomish Remediation Pros
+              Concrete Remediation Pros
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              The Skykomish Choice for
+              The Concrete Choice for
               <span className="text-gradient-copper block">Permanent Mold Removal.</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
@@ -63,7 +63,7 @@ const WhyUs = () => {
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Skykomish Support</span>
+                <span className="text-sm text-muted-foreground">Concrete Support</span>
               </div>
             </div>
           </div>

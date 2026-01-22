@@ -20,14 +20,14 @@ const faqs = [
   },
   {
     question: "How long does the mold removal process take?",
-    answer: "Most Skykomish residential projects take 3 to 5 days. This includes the setup of containment, the actual removal process, structural drying, and a final clearance test to ensure the air is safe."
+    answer: "Most Concrete residential projects take 3 to 5 days. This includes the setup of containment, the actual removal process, structural drying, and a final clearance test to ensure the air is safe."
   },
   {
     question: "Will my homeowners insurance cover mold removal?",
-    answer: "In many cases, yes, if the mold was caused by a 'sudden and accidental' water event like a burst pipe. We assist with documentation and work with most insurance carriers in Skykomish to help process your claim."
+    answer: "In many cases, yes, if the mold was caused by a 'sudden and accidental' water event like a burst pipe. We assist with documentation and work with most insurance carriers in Concrete to help process your claim."
   },
   {
-    question: "How do I prevent mold from returning in Skykomish?",
+    question: "How do I prevent mold from returning in Concrete?",
     answer: "The key is moisture control. We recommend maintaining humidity below 50%, ensuring proper attic and crawlspace ventilation, and immediately repairing any roof or plumbing leaks."
   }
 ];
@@ -41,7 +41,7 @@ const FAQ = () => {
             Mold Remediation FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Protecting Skykomish families with scientific mold solutions.
+            Protecting Concrete families with scientific mold solutions.
           </p>
         </div>
 

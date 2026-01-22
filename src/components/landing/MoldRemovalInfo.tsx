@@ -4,7 +4,7 @@ const infoData = [
     {
         icon: AlertTriangle,
         title: "Toxicity of Black Mold",
-        description: "Stachybotrys chartarum, commonly known as black mold, produces mycotoxins that can lead to chronic health issues. Skykomish homes with high humidity or past water damage are particularly susceptible.",
+        description: "Stachybotrys chartarum, commonly known as black mold, produces mycotoxins that can lead to chronic health issues. Concrete homes with high humidity or past water damage are particularly susceptible.",
     },
     {
         icon: Activity,
@@ -14,7 +14,7 @@ const infoData = [
     {
         icon: Search,
         title: "Certified Inspections",
-        description: "Our Skykomish specialists use advanced thermal imaging and moisture meters to locate hidden mold growth behind walls and under floorboards that the naked eye might miss.",
+        description: "Our Concrete specialists use advanced thermal imaging and moisture meters to locate hidden mold growth behind walls and under floorboards that the naked eye might miss.",
     },
 ];
 
@@ -33,14 +33,14 @@ const MoldRemovalInfo = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-                        Skykomish Remediation Experts
+                        Concrete Remediation Experts
                     </span>
                     <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
                         Professional Black Mold Removal
                     </h2>
                     <p className="text-primary-foreground/80 text-lg">
                         Mold isn't just an eyesore—it's a health hazard.
-                        Our Skykomish team provides certified remediation services to restore your home to a safe, healthy environment.
+                        Our Concrete team provides certified remediation services to restore your home to a safe, healthy environment.
                     </p>
                 </div>
 
@@ -74,7 +74,7 @@ const MoldRemovalInfo = () => {
                             </h3>
                         </div>
                         <p className="text-muted-foreground mb-6 leading-relaxed">
-                            Skykomish's damp climate can accelerate mold growth. We follow IICRC S520 standards for mold remediation, ensuring every spore is contained and eliminated.
+                            Concrete's damp climate can accelerate mold growth. We follow IICRC S520 standards for mold remediation, ensuring every spore is contained and eliminated.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
                             We don't just cover it up; we identify the moisture source, fix it, and remove all contaminated materials to prevent future regrowth.

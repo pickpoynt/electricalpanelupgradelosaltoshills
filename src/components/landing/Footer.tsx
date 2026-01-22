@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">SMR</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">CMR</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Skykomish Mold Removal
+                  Concrete Mold Removal
                 </h3>
                 <p className="text-xs text-primary-foreground/60">Certified Remediation Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Skykomish's leading certified remediation team for black mold removal, toxic spore elimination, and permanent moisture control.
-              We protect Skykomish families with scientific solutions.
+              Concrete's leading certified remediation team for black mold removal, toxic spore elimination, and technical moisture control.
+              We protect Concrete families with scientific solutions.
             </p>
             <div className="flex gap-4">
               <a
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Skykomish, WA 98288</span>
+                <span>Concrete, WA 98237</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@skykomish-mold-removal.com" className="hover:text-copper-light transition-colors">
-                  service@skykomish-mold-removal.com
+                <a href="mailto:service@concrete-wa-mold-removal.com" className="hover:text-copper-light transition-colors">
+                  service@concrete-wa-mold-removal.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
+              href="https://trenchlesspiperelininghuntsville.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Sump Pump Battery Backup Installation
+              Trenchless Pipe Relining Huntsville
             </a>
             <a
-              href="https://greywatersysteminstallationtempe.vercel.app/"
+              href="https://ceramickilnelectricalhookupashevill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Grey Water System Installation Tempe
+              Ceramic Kiln Electrical Hookup Asheville
             </a>
             <a
-              href="https://rvpedestalinstallationplanotx.vercel.app"
+              href="https://sumppumpbatterybackupinstallationfort.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              RV Pedestal Installation Plano TX
+              Sump Pump Battery Backup Installation Fort Worth
             </a>
             <a
-              href="https://baseboardheaterinstallationseattlew.vercel.app/"
+              href="https://blackmoldremovalskykomishwa.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Baseboard Heater Installation Seattle WA
+              Black Mold Removal Skykomish WA
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Skykomish Mold Removal. All rights reserved.
+            © {new Date().getFullYear()} Concrete Mold Removal. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">
