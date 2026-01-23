@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why is water damage in hoarding situations considered an emergency?",
-    answer: "Water trapped beneath debris and stored items cannot evaporate, leading to rapid mold growth, biohazard contamination, and weight-related structural failure. Immediate professional extraction is vital in Bozeman."
+    question: "How do you permanently remove water damage smells?",
+    answer: "We use industrial-grade hydroxyl generators and ozone machines that neutralize odor-causing bacteria and mold spores at the molecular level, rather than just masking them with perfumes."
   },
   {
-    question: "How do you handle personal items during the restoration?",
-    answer: "We use a compassionate triage system. We work with the family to identify critical items for recovery, cleaning and sanitizing everything that can be saved while managing the safe disposal of contaminated debris."
+    question: "Is odor removal safe for my family and pets?",
+    answer: "Yes. While ozone treatment requires the home to be empty during the process, our hydroxyl technology is completely safe for people and pets and can be used while you remain in your Iowa Colony home."
   },
   {
-    question: "Are your technicians trained for biohazard cleanup?",
-    answer: "Yes. Our Bozeman team is certified in biohazard remediation. We wear full personal protective equipment (PPE) and use EPA-approved antimicrobial agents to sanitize the home."
+    question: "Will the musty smell return after you leave?",
+    answer: "No. Because we treat the source of the odor (bacteria and organic compounds) rather than the symptoms, the smell is permanently eliminated once the moisture issue has been resolved."
   },
   {
-    question: "Can you help with insurance claims for hoarding house damage?",
-    answer: "Absolutely. We provide comprehensive documentation, including detailed photos and moisture maps, to help justify the higher costs often associated with specialized hoarding restoration."
+    question: "Can you remove odors from furniture and carpets?",
+    answer: "Absolutely. Vaporized deodorization and thermal fogging allow us to reach deep into porous materials like upholstery, curtains, and carpets to remove trapped odors."
   },
   {
-    question: "Is the cleanup process discrete?",
-    answer: "We understand the privacy concerns of our clients. Our team maintains a high level of professionalism and discretion while working on your Bozeman property."
+    question: "How long does the odor removal process take?",
+    answer: "Most Iowa Colony homes can be fully deodorized within 12 to 24 hours, depending on the severity of the water damage and the total square footage."
   },
   {
-    question: "How long does it take to restore a hoarding home after water damage?",
-    answer: "Due to the complexity of content sorting and decontamination, the process can take anywhere from 1 to 3 weeks, significantly longer than a standard water restoration project."
+    question: "Does my insurance cover odor removal?",
+    answer: "In most cases, yes. If the odor is a result of a covered water damage claim, the cost of professional deodorization is typically included. We provide all necessary documentation for your Brazoria County claim."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Hoarding Restoration FAQ
+            Odor Removal FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Expert answers for complex water damage recovery in Bozeman, MT.
+            Expert answers for air quality recovery in Iowa Colony, TX.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Need help with a complex restoration in Bozeman?</p>
+          <p className="text-steel mb-4">Have questions about a persistent smell in Iowa Colony?</p>
           <a
             href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call for a Private Consultation: (380) 266-0944
+            Call our Air Quality Experts: (380) 266-0944
           </a>
         </div>
       </div>

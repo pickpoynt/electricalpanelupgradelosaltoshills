@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Droplets, ShieldCheck, Box } from "lucide-react";
+import { Phone, Wind, ShieldCheck, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -7,8 +7,8 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&q=80&w=2000"
-          alt="Hoarding house water damage restoration Bozeman Montana"
+          src="https://images.unsplash.com/photo-1584622781564-1d9876a13d01?auto=format&fit=crop&q=80&w=2000"
+          alt="Professional odor removal after water damage in Iowa Colony Texas"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -19,17 +19,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Specialized Biohazard & Water Recovery
+              Molecular Deodorization Specialists
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Hoarding Water Damage Restoration Bozeman
-            <span className="block text-gradient-copper mt-2">Compassionate, Deep Recovery Services.</span>
+            Odor Removal After Water Damage Iowa Colony
+            <span className="block text-gradient-copper mt-2">Permanent Smell Elimination Guaranteed.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Water damage in a hoarding house is a complex emergency. Our specialized Bozeman team provides safe content management, biohazard sanitization, and professional extraction to restore safety to your home.
+            Don't let the damp, musty smell of water damage haunt your Iowa Colony home. Our team uses advanced hydroxyl and ozone technology to destroy odor molecules at their source, not just mask them.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -43,22 +43,22 @@ const Hero = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
-              <Box className="w-5 h-5 text-copper" />
-              <span className="font-medium">Content Sort</span>
+              <Wind className="w-5 h-5 text-copper" />
+              <span className="font-medium">Ozone Tech</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Bio-Certified</span>
+              <span className="font-medium">Certified Pros</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
-                MT
+                TX
               </div>
-              <span className="font-medium">Bozeman Local</span>
+              <span className="font-medium">Iowa Colony Local</span>
             </div>
             <div className="flex items-center gap-2">
-              <Phone className="w-5 h-5 text-copper" />
-              <span className="font-medium">24/7 Response</span>
+              <Zap className="w-5 h-5 text-copper" />
+              <span className="font-medium">Rapid Response</span>
             </div>
           </div>
         </div>

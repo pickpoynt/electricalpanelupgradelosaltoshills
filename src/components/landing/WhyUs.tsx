@@ -1,35 +1,35 @@
-import { Clock, ShieldCheck, Heart, UserCheck, Zap, Home } from "lucide-react";
+import { Clock, ShieldCheck, Zap, Sparkles, Smile, MapPin } from "lucide-react";
 
 const reasons = [
   {
-    icon: Heart,
-    title: "Compassionate Approach",
-    description: "We understand the sensitivity of hoarding situations and work with families to ensure a respectful and safe restoration process.",
+    icon: Sparkles,
+    title: "No Masking Agents",
+    description: "We don't use scents to hide odors. We use science to destroy the molecules causing the smell, ensuring a truly clean home.",
   },
   {
     icon: ShieldCheck,
-    title: "Bio-Safety Certified",
-    description: "Our Montana crew is fully certified in biohazard management and the safe handling of contaminated water and surfaces.",
+    title: "Certified Odor Techs",
+    description: "Our Iowa Colony crew is IICRC-certified in Odor Control (OCT), specifically for water and mold-related issues.",
   },
   {
     icon: Clock,
     title: "24/7 Rapid Response",
-    description: "Water damage in hoarding homes needs immediate containment. We respond 24/7 throughout Gallatin County.",
-  },
-  {
-    icon: Home,
-    title: "Full Property Triage",
-    description: "We don't just extract water; we assess the entire property for safety, structural integrity, and bio-contamination.",
-  },
-  {
-    icon: UserCheck,
-    title: "Expert Coordination",
-    description: "We work directly with case managers, family members, and insurance adjusters to simplify a complicated situation.",
+    description: "The longer water damage sits, the worse the smell gets. We respond immediately to start the purification process.",
   },
   {
     icon: Zap,
-    title: "Deep Sanitization",
-    description: "Our industrial-strength cleaning protocols go beyond standard water damage to ensure a truly safe living environment.",
+    title: "High-Output Hardware",
+    description: "We use the latest high-intensity ozone and hydroxyl equipment, which is significantly more effective than consumer-grade machines.",
+  },
+  {
+    icon: Smile,
+    title: "100% Satisfaction",
+    description: "If the smell returns within 30 days, we return for free. We are committed to making your home fresh and healthy again.",
+  },
+  {
+    icon: MapPin,
+    title: "Iowa Colony Local",
+    description: "Proudly serving Iowa Colony and Brazoria County. We understand how Texas humidity impacts water damage odors.",
   },
 ];
 
@@ -40,30 +40,30 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Montana's Specialized Recovery Team
+              Iowa Colony's Air Quality Experts
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              The Professional Choice for
-              <span className="text-gradient-copper block">Complex Bozeman Emergencies.</span>
+              The Scientific Choice for
+              <span className="text-gradient-copper block">Iowa Colony Odor Control.</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Bozeman winters and spring runoff can cause unique water damage. When combined with a hoarding situation, you need a team that understands biohazard risks and content management.
+              Brazoria County's humidity can lock musty smells into your home's structure. We provide the expertise and specialized hardware to purge your indoor air and surfaces of all water damage contaminants.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">12+</span>
-                <span className="text-sm text-muted-foreground">Years Experience</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1,200+</span>
+                <span className="text-sm text-muted-foreground">Odor Projects</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
-                <span className="text-sm text-muted-foreground">Homes Restored</span>
+                <span className="text-4xl font-heading font-bold text-copper block">4.9</span>
+                <span className="text-sm text-muted-foreground">Star Local Rating</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Expert Dispatch</span>
+                <span className="text-sm text-muted-foreground">Expert Support</span>
               </div>
             </div>
           </div>

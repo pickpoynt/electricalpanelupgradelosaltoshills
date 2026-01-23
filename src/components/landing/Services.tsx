@@ -1,24 +1,24 @@
-import { Droplets, Wind, ShieldAlert, CheckCircle, ArrowRight, Box, Trash2 } from "lucide-react";
+import { Wind, ShieldCheck, CheckCircle, ArrowRight, Zap, Droplets, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Box,
-    title: "Content Management",
-    description: "Professional sorting and categorization of all items in the home to identify what is salvageable after water exposure.",
-    features: ["Inventory tracking", "Cleaning & Storage", "Document recovery"],
+    icon: Wind,
+    title: "Molecular Neutralization",
+    description: "Using advanced hydroxyl generators to chemically break down odor-causing molecules without damaging sensitive materials inside your home.",
+    features: ["Oxygen-based cleaning", "Furniture safe", "Rapid results"],
   },
   {
-    icon: Trash2,
-    title: "Biohazard Sanitization",
-    description: "Deep decontamination of areas affected by stagnant water, waste, and bacteria common in complex hoarding environments.",
-    features: ["EPA-approved agents", "Odor removal", "Sharps disposal"],
+    icon: Sparkles,
+    title: "Thermal Fogging",
+    description: "Deploying specialized vaporized deodorizers that penetrate deep into fabrics, insulation, and wall cavities to eliminate stubborn smells.",
+    features: ["Deep penetration", "Ductwork cleaning", "Porous surface treatment"],
   },
   {
-    icon: Droplets,
-    title: "Structural Restoration",
-    description: "Deep water extraction and dehumidification using industrial hardware to save flooring and framing under extreme conditions.",
-    features: ["Heavy-duty pumps", "Wall cavity drying", "Subfloor recovery"],
+    icon: ShieldCheck,
+    title: "Ozone Treatment",
+    description: "The gold standard for severe odors. Our high-output ozone machines destroy bacteria, mold spores, and viruses that cause damp smells.",
+    features: ["Bacteria destruction", "Mold spore removal", "Complete air scrubbing"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Bozeman Specialist Recovery
+            Advanced Deodorization
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Specialized Hoarding Restoration
+            Professional Odor Elimination
           </h2>
           <p className="text-muted-foreground text-lg">
-            Complex water emergencies require more than just drying. Our Bozeman experts manage the intersection of biohazard cleanup and water damage.
+            Iowa Colony's climate can make water damage odors worse. We provide permanent solutions using the industry's most powerful purification hardware.
           </p>
         </div>
 
