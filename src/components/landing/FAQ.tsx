@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How do I know if I have mold in my Josephine attic?",
-    answer: "Common signs include a persistent musty smell, dark staining on roof sheathing, visible black or white growth on joists, or an increase in allergy symptoms when the HVAC is running."
+    question: "How quickly should I call after water damage occurs?",
+    answer: "Immediately. The first 24-48 hours are critical. Water continues to spread through drywall and insulation, and mold can begin growing within 48 hours in Hudson's climate."
   },
   {
-    question: "Is attic mold dangerous to my family?",
-    answer: "Yes. Mold spores can easily travel from the attic into your living spaces through gaps in lighting fixtures and attic hatches. This can cause respiratory issues, especially in children and the elderly."
+    question: "Can you save my water-damaged drywall or does it need replacement?",
+    answer: "It depends on the severity and duration of exposure. Minor water damage can sometimes be dried and saved, but heavily saturated or contaminated drywall (from sewage or flooding) must be removed and replaced."
   },
   {
-    question: "Why did mold grow in my attic specifically?",
-    answer: "In Josephine, attic mold is usually caused by excessive humidity trapped by poor ventilation, roof leaks, or bathroom exhaust fans that are improperly vented directly into the attic space."
+    question: "Will my insurance cover drywall water damage restoration?",
+    answer: "Most Wisconsin homeowners policies cover sudden water damage from burst pipes, appliance leaks, and storm damage. We work directly with adjusters and provide detailed documentation to support your claim."
   },
   {
-    question: "How long does the mold remediation process take?",
-    answer: "Most Josephine attic projects are completed within 2 to 4 days, depending on the square footage and the severity of the mold colonization."
+    question: "How do you ensure all the moisture is removed?",
+    answer: "We use professional moisture meters and thermal imaging cameras to detect hidden water pockets. We monitor readings daily and don't consider the job complete until moisture levels return to normal ranges."
   },
   {
-    question: "Will the mold come back after remediation?",
-    answer: "Not if the moisture source is addressed. Part of our service includes identifying and recommending fixes for ventilation or leak issues to ensure your attic remains dry and mold-free."
+    question: "How long does the drying process take in Hudson?",
+    answer: "Typically 3-5 days depending on the extent of damage, humidity levels, and temperature. Wisconsin winters can extend drying times, which is why we use industrial-grade dehumidifiers and air movers."
   },
   {
-    question: "Do you offer free mold inspections in Josephine?",
-    answer: "We offer professional assessments for homeowners in Josephine and the surrounding Collin County areas to determine the extent of mold growth and provide a detailed remediation plan."
+    question: "Can you match my existing wall texture and paint?",
+    answer: "Yes. Our craftsmen are skilled in matching all common textures including orange peel, knockdown, and smooth finishes. We also color-match paint to ensure seamless blending with your existing walls."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Attic Mold FAQ
+            Drywall Restoration FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Expert answers for mold recovery in Josephine, TX.
+            Expert answers for water damage recovery in Hudson, WI.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Concerned about mold in your Josephine attic?</p>
+          <p className="text-steel mb-4">Have water-damaged drywall in Hudson?</p>
           <a
             href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call for a Certified Inspection: (380) 266-0944
+            Call for Emergency Restoration: (380) 266-0944
           </a>
         </div>
       </div>

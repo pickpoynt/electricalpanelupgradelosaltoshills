@@ -3,22 +3,22 @@ import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Wind,
-    title: "HEPA Air Scrubbing",
-    description: "We use industrial-grade HEPA filtration to capture mold spores and airborne contaminants, ensuring the air in your home is clean and safe during remediation.",
-    features: ["Hospital-grade filters", "Spore capture", "Air purification"],
+    icon: Droplets,
+    title: "Emergency Water Extraction",
+    description: "The first 48 hours are critical. We use industrial pumps and extractors to remove standing water from your walls and floors before structural damage sets in.",
+    features: ["Rapid response", "Industrial equipment", "Flood cleanup"],
   },
   {
-    icon: ShieldCheck,
-    title: "Eco-Friendly Remediation",
-    description: "Our antimicrobial treatments are effective yet safe for your family and pets. We treat all affected wood and insulation in your Josephine attic.",
-    features: ["Non-toxic agents", "Long-term protection", "Deep penetration"],
+    icon: Zap,
+    title: "Structural Drying & Dehumidification",
+    description: "Our commercial-grade air movers and dehumidifiers pull moisture from deep within your drywall studs and insulation, preventing mold growth.",
+    features: ["Thermal imaging", "Moisture monitoring", "Complete drying"],
   },
   {
     icon: Sparkles,
-    title: "Ventilation Correction",
-    description: "Prevent mold from returning by fixing the root cause. We assess and correct attic ventilation to ensure proper airflow and humidity control.",
-    features: ["Roof vent repair", "Soffit cleaning", "Humidity management"],
+    title: "Sheetrock Replacement & Finishing",
+    description: "We don't just patch—we restore. From precision cutting to seamless taping, mudding, sanding, and painting, your walls will look brand new.",
+    features: ["Perfect matching", "Professional finish", "Quality materials"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Total Mold Solutions
+            Complete Drywall Solutions
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Josephine's Attic Specialists
+            Hudson's Drywall Experts
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don't let attic mold spread through your home. We provide comprehensive identification, removal, and prevention services tailored to the Texas climate.
+            From basement floods to burst pipes, we provide comprehensive drywall restoration services tailored to Wisconsin's unique climate challenges.
           </p>
         </div>
 

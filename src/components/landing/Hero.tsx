@@ -7,8 +7,8 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1595113316349-9fa4ee24f884?auto=format&fit=crop&q=80&w=2000"
-          alt="Professional attic mold remediation in Josephine Texas"
+          src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=2000"
+          alt="Professional drywall water damage restoration in Hudson Wisconsin"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -19,17 +19,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Certified Josephine Mold Removal Experts
+              Hudson's 24/7 Drywall Restoration Team
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Attic Mold Remediation Josephine TX
-            <span className="block text-gradient-copper mt-2">Josephine Mold Pros: Fast Recovery.</span>
+            Drywall Water Damage Restoration Hudson WI
+            <span className="block text-gradient-copper mt-2">Hudson Drywall Pros: Expert Recovery.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Josephine's humidity can turn your attic into a breeding ground for toxic mold. Our certified team provides professional remediation, structural cleaning, and ventilation corrections to protect your family's health and home.
+            Wisconsin winters and St. Croix Valley storms can wreak havoc on your drywall. Our Hudson team provides rapid water extraction, structural drying, and seamless sheetrock restoration to bring your walls back to perfect condition.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -44,7 +44,7 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">HEPA Filtering</span>
+              <span className="font-medium">Moisture Mapping</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
@@ -52,9 +52,9 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
-                TX
+                WI
               </div>
-              <span className="font-medium">Josephine Local</span>
+              <span className="font-medium">Hudson Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-copper" />
