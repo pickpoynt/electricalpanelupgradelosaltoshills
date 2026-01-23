@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">ICF</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">JBPR</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Iowa Colony Flood Restoration
+                Josephine Burst Pipe Restoration
               </h1>
-              <p className="text-xs text-muted-foreground">Emergency Water Damage Specialists</p>
+              <p className="text-xs text-muted-foreground">Emergency Water Damage Recovery</p>
             </div>
           </div>
 
@@ -30,8 +30,8 @@ const Header = () => {
             <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium">
               Why Us
             </a>
-            <a href="#flood-info" className="text-foreground hover:text-copper transition-colors font-medium">
-              Flood Info
+            <a href="#burst-info" className="text-foreground hover:text-copper transition-colors font-medium">
+              Restore Info
             </a>
             <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium">
               Contact
@@ -41,9 +41,9 @@ const Header = () => {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="copper" size="lg" asChild>
-              <a href="tel:+13802660944" className="flex items-center gap-2">
+              <a href="tel:+18777921410" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (380) 266-0944
+                Call (877) 792-1410
               </a>
             </Button>
           </div>
@@ -68,16 +68,16 @@ const Header = () => {
               <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Why Us
               </a>
-              <a href="#flood-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
-                Flood Info
+              <a href="#burst-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
+                Restore Info
               </a>
               <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Contact
               </a>
               <Button variant="copper" size="lg" className="w-full" asChild>
-                <a href="tel:+13802660944" className="flex items-center justify-center gap-2">
+                <a href="tel:+18777921410" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (380) 266-0944
+                  Call (877) 792-1410
                 </a>
               </Button>
             </nav>
@@ -89,5 +89,3 @@ const Header = () => {
 };
 
 export default Header;
-
-

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Droplets, ShieldCheck } from "lucide-react";
+import { Phone, Droplets, ShieldCheck, Flame } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -7,8 +7,8 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1524230659192-35f3dace198d?auto=format&fit=crop&q=80&w=2000"
-          alt="Emergency flood damage restoration in Iowa Colony TX"
+          src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000"
+          alt="Emergency burst pipe water damage restoration in Josephine Texas"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -19,24 +19,24 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              24/7 Emergency Flood Restoration
+              24/7 Emergency Pipe Restoration
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Flood Damage Restoration Iowa Colony TX
-            <span className="block text-gradient-copper mt-2">Professional Water Extraction & Recovery.</span>
+            Burst Pipe Water Damage Josephine TX
+            <span className="block text-gradient-copper mt-2">Rapid Extraction & Structural Repair.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            When disaster strikes, every second counts. Our Iowa Colony team provides rapid 24/7 water extraction, structural drying, and complete flood damage restoration to protect your property and peace of mind.
+            A burst pipe can flood your home in seconds. Our Josephine response team provides immediate water extraction, leak mitigation, and comprehensive structural drying 24 hours a day.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
             <Button size="lg" className="bg-copper hover:bg-copper-light text-white border-none h-14 px-8 text-lg" asChild>
-              <a href="tel:+13802660944" className="flex items-center gap-2">
+              <a href="tel:+18777921410" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (380) 266-0944
+                Call (877) 792-1410
               </a>
             </Button>
           </div>
@@ -44,17 +44,17 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
               <Droplets className="w-5 h-5 text-copper" />
-              <span className="font-medium">Water Removal</span>
+              <span className="font-medium">Leak Repair</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Certified Techs</span>
+              <span className="font-medium">Certified Pros</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
                 TX
               </div>
-              <span className="font-medium">Texas Local</span>
+              <span className="font-medium">Josephine Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-copper" />
@@ -68,5 +68,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-

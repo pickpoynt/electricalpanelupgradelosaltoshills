@@ -11,29 +11,29 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              24/7 Emergency Restoration
-              <span className="text-gradient-copper block">Iowa Colony Flood Pros</span>
+              24/7 Josephine Emergency
+              <span className="text-gradient-copper block">Burst Pipe Response Team</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Is your property suffering from water damage? Don't wait for mold to set in. Contact Iowa Colony's specialized flood restoration team for rapid 24/7 response.
+              Every minute counts when a pipe bursts. Our Josephine-based technicians are ready to respond within 60 minutes to stop the leak and start the recovery process.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+13802660944"
+                href="tel:+18777921410"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Our Dispatcher</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(380) 266-0944</span>
+                  <span className="text-sm text-muted-foreground block">Call Our Josephine Office</span>
+                  <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
                 </div>
               </a>
 
               <a
-                href="mailto:service@iowacolony-flood-recovery.com"
+                href="mailto:service@josephine-burst-pipe.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Inquiry</span>
-                  <span className="font-heading font-bold text-foreground">service@iowacolony-flood-recovery.com</span>
+                  <span className="font-heading font-bold text-foreground">service@josephine-burst-pipe.com</span>
                 </div>
               </a>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Iowa Colony, Rosharon, Alvin, Pearland, Manvel, Sandy Point</span>
+                  <span className="font-heading font-semibold text-foreground">Josephine, Nevada, Farmersville, Royse City, Caddo Mills</span>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Availability</span>
-                  <span className="font-heading font-semibold text-foreground">Open 24/7 for Flood Emergencies</span>
+                  <span className="font-heading font-semibold text-foreground">24/7/365 Emergency Dispatch</span>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Get A Fast Estimate
+              Request Rapid Estimate
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -82,7 +82,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="John"
+                    placeholder="Steve"
                   />
                 </div>
                 <div>
@@ -93,7 +93,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Doe"
+                    placeholder="Rogers"
                   />
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(380) 266-0944"
+                  placeholder="(877) 792-1410"
                 />
               </div>
 
@@ -118,28 +118,28 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="john.doe@example.com"
+                  placeholder="steve.r@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Issue Description
+                  Emergency Description
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="My living room is flooded and I need immediate water extraction and drying..."
+                  placeholder="I have a major pipe burst in my kitchen and need immediate water extraction..."
                 />
               </div>
 
               <Button variant="copper" size="xl" className="w-full">
-                Request Emergency Dispatch
+                Request Emergency Rescue
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
-                Our team monitors this form 24/7. We will call you within 15 minutes.
+                Our Josephine dispatch monitors this form 24/7. Average callback time is 5 minutes.
               </p>
             </form>
           </div>

@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How quickly can you arrive for a flood emergency in Iowa Colony?",
-    answer: "We offer 24/7 emergency response and typically arrive on-site within 30 to 60 minutes for calls in Iowa Colony and surrounding areas of Brazoria County."
+    question: "What should I do if a pipe bursts in my Josephine home?",
+    answer: "First, immediately shut off your main water valve to stop the flow. Then, turn off electricity to the affected area if it's safe to do so. Finally, call our emergency Josephine restoration team at +18777921410 for immediate extraction and repair."
   },
   {
-    question: "Do you work with my insurance company?",
-    answer: "Yes, we work with all major insurance providers. We provide complete documentation, moisture maps, and photos to help streamline your claim process."
+    question: "How fast can you arrive in Josephine for an emergency?",
+    answer: "We offer 24/7 rapid response for Collin County. Our restoration experts typically arrive on-site within 45 to 60 minutes to minimize secondary damage like mold and structural rot."
   },
   {
-    question: "What should I do while waiting for the restoration team?",
-    answer: "If it's safe, shut off the main water source and turn off electricity to the affected areas. Avoid walking through standing water if power is still on. If possible, move small valuable items to a dry location."
+    question: "Do you handle both the pipe repair and the water damage?",
+    answer: "Yes! We are a full-service restoration company. We repair the burst pipe itself and then handle the extraction, drying, and structural restoration of your home."
   },
   {
-    question: "How long does the drying process usually take?",
-    answer: "Most properties are completely dried within 3 to 5 days. Factors such as the extent of flooding and the type of materials (hardwood vs. carpet) can affect this timeline."
+    question: "Will my insurance cover burst pipe damage?",
+    answer: "In most cases, yes. Most standard homeowners insurance policies cover water damage from sudden and accidental pipe bursts. We work directly with your insurance provider to provide all necessary documentation."
   },
   {
-    question: "Is mold a concern after a flood?",
-    answer: "Absolutely. Mold can begin to grow within 24-48 hours of water exposure. That's why professional extraction and high-speed drying are critical to preventing a secondary mold problem."
+    question: "How long does it take to dry out my property?",
+    answer: "Depending on the extent of the flooding, the professional drying process typically takes between 3 to 5 days using industrial LGR dehumidifiers and high-speed air movers."
   },
   {
-    question: "Can you restore personal items and documents?",
-    answer: "We offer specialized content cleaning and document recovery services for many items. We will assess your belongings and advise on the best course of action for restoration."
+    question: "Is mold a risk after a pipe burst?",
+    answer: "Yes, mold can begin to grow within 24-48 hours of water exposure. That is why immediate professional extraction and dehumidification are critical for Josephine homeowners."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Flood Restoration FAQ
+            Burst Pipe Recovery FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Providing Iowa Colony families with expert advice during property emergencies.
+            Expert advice for Josephine property owners facing water emergencies.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Have a flood restoration emergency?</p>
+          <p className="text-steel mb-4">Facing a burst pipe emergency in Josephine?</p>
           <a
-            href="tel:+13802660944"
+            href="tel:+18777921410"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call for Immediate Assistance: (380) 266-0944
+            Call 24/7 for Emergency Help: (877) 792-1410
           </a>
         </div>
       </div>

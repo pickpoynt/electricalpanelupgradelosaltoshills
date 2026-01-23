@@ -1,24 +1,24 @@
-import { Droplets, Wind, ShieldAlert, CheckCircle, ArrowRight } from "lucide-react";
+import { Droplets, Wind, ShieldAlert, CheckCircle, ArrowRight, Hammer, Waves } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
     icon: Droplets,
-    title: "Water Extraction",
-    description: "Rapid removal of standing water from your home using industrial-grade pumps and vacuums to minimize structural damage.",
-    features: ["Emergency pumping", "Debris removal", "Deep water extraction"],
+    title: "Burst Pipe Repair",
+    description: "Immediate localization and repair of broken pipes to stop the flooding at its source and prevent further property Damage.",
+    features: ["Emergency shut-offs", "Copper & PEX repair", "Main line fixes"],
+  },
+  {
+    icon: Waves,
+    title: "Emergency Extraction",
+    description: "High-powered water removal from carpets, hardwood, and subfloors to minimize long-term saturation and structural rot.",
+    features: ["Deep water removal", "Subfloor extraction", "Debris cleanup"],
   },
   {
     icon: Wind,
     title: "Structural Drying",
-    description: "Our high-velocity air movers and dehumidifiers remove moisture from walls, floors, and furniture to prevent long-term rot.",
-    features: ["Precision drying", "Moisture monitoring", "Dehumidification"],
-  },
-  {
-    icon: ShieldAlert,
-    title: "Mold Remediation",
-    description: "Professional mold checking and removal to ensure your home remains safe and healthy after a flooding event.",
-    features: ["Mold inspection", "Safe containment", "Air filtration"],
+    description: "Professional grade dehumidification and high-velocity air movers to ensure your walls and floors are moisture-free.",
+    features: ["Walls & Ceiling drying", "Cabinetry drying", "Odor removal"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Iowa Colony Dispatch
+            Josephine Dispatch
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Complete Flood Recovery Solutions
+            Burst Pipe & Water Restoration
           </h2>
           <p className="text-muted-foreground text-lg">
-            Emergency 24/7 flood damage restoration for Iowa Colony homeowners. We specialize in rapid response and property recovery.
+            Rapid 24/7 recovery for Josephine homes suffering from catastrophic pipe failure. We handle everything from leak repair to drying.
           </p>
         </div>
 
