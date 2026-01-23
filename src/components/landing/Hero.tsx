@@ -7,8 +7,8 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=2000"
-          alt="Professional drywall water damage restoration in Hudson Wisconsin"
+          src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000"
+          alt="Emergency toilet overflow damage repair in Timnath Colorado"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -19,17 +19,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Hudson's 24/7 Drywall Restoration Team
+              Timnath's 24/7 Emergency Overflow Team
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Drywall Water Damage Restoration Hudson WI
-            <span className="block text-gradient-copper mt-2">Hudson Drywall Pros: Expert Recovery.</span>
+            Toilet Overflow Damage Repair Timnath CO
+            <span className="block text-gradient-copper mt-2">Timnath Overflow Pros: Rapid Emergency Response.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Wisconsin winters and St. Croix Valley storms can wreak havoc on your drywall. Our Hudson team provides rapid water extraction, structural drying, and seamless sheetrock restoration to bring your walls back to perfect condition.
+            Toilet overflows don't wait for business hours. Our Timnath emergency team provides immediate sewage cleanup, water extraction, and complete bathroom restoration. We're equipped to handle any overflow emergency in Larimer County with professional-grade sanitization and rapid drying.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -44,21 +44,21 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Moisture Mapping</span>
+              <span className="font-medium">Sewage Certified</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Certified Techs</span>
+              <span className="font-medium">EPA Compliant</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
-                WI
+                CO
               </div>
-              <span className="font-medium">Hudson Local</span>
+              <span className="font-medium">Timnath Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-copper" />
-              <span className="font-medium">24/7 Response</span>
+              <span className="font-medium">30-Min ETA</span>
             </div>
           </div>
         </div>

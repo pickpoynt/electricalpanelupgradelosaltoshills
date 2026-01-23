@@ -1,76 +1,73 @@
-import { Wind, ShieldCheck, CheckCircle, ArrowRight, Zap, Droplets, Sparkles } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Droplets, Wind, Hammer, Sparkles } from "lucide-react";
 
 const services = [
   {
     icon: Droplets,
     title: "Emergency Water Extraction",
-    description: "The first 48 hours are critical. We use industrial pumps and extractors to remove standing water from your walls and floors before structural damage sets in.",
-    features: ["Rapid response", "Industrial equipment", "Flood cleanup"],
+    description: "Rapid removal of sewage and contaminated water using industrial-grade extractors and pumps.",
+    features: ["Category 3 water certified", "Truck-mounted extraction", "Complete sanitization"]
   },
   {
-    icon: Zap,
+    icon: Wind,
     title: "Structural Drying & Dehumidification",
-    description: "Our commercial-grade air movers and dehumidifiers pull moisture from deep within your drywall studs and insulation, preventing mold growth.",
-    features: ["Thermal imaging", "Moisture monitoring", "Complete drying"],
+    description: "Professional-grade air movers and dehumidifiers to eliminate moisture from floors, walls, and subfloors.",
+    features: ["Thermal imaging monitoring", "HEPA air filtration", "Moisture meter tracking"]
+  },
+  {
+    icon: Hammer,
+    title: "Bathroom Restoration",
+    description: "Complete repair and replacement of damaged flooring, drywall, baseboards, and fixtures.",
+    features: ["Tile & grout replacement", "Subfloor reconstruction", "Paint & finish matching"]
   },
   {
     icon: Sparkles,
-    title: "Sheetrock Replacement & Finishing",
-    description: "We don't just patch—we restore. From precision cutting to seamless taping, mudding, sanding, and painting, your walls will look brand new.",
-    features: ["Perfect matching", "Professional finish", "Quality materials"],
-  },
+    title: "Antimicrobial Treatment",
+    description: "EPA-approved disinfection to eliminate bacteria, viruses, and prevent mold growth after sewage exposure.",
+    features: ["Hospital-grade sanitizers", "Odor neutralization", "Air quality testing"]
+  }
 ];
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-cream">
+    <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Complete Drywall Solutions
-          </span>
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Hudson's Drywall Experts
+            Complete Toilet Overflow Restoration Services
           </h2>
-          <p className="text-muted-foreground text-lg">
-            From basement floods to burst pipes, we provide comprehensive drywall restoration services tailored to Wisconsin's unique climate challenges.
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            From emergency extraction to final restoration, we handle every aspect of toilet overflow damage in Timnath and Larimer County.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className="group bg-card rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-            >
-              <div className="w-16 h-16 rounded-xl bg-gradient-hero flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <service.icon className="w-8 h-8 text-primary-foreground" />
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {services.map((service, index) => {
+            const Icon = service.icon;
+            return (
+              <div
+                key={index}
+                className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow"
+              >
+                <div className="w-12 h-12 rounded-lg bg-gradient-hero flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-primary-foreground" />
+                </div>
+                <h3 className="text-xl font-heading font-bold text-foreground mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  {service.description}
+                </p>
+                <ul className="space-y-2">
+                  {service.features.map((feature, idx) => (
+                    <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <span className="text-copper mt-1">✓</span>
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-
-              <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title}
-              </h3>
-
-              <p className="text-muted-foreground mb-6">
-                {service.description}
-              </p>
-
-              <ul className="space-y-2 mb-6">
-                {service.features.map((feature, i) => (
-                  <li key={i} className="flex items-center gap-2 text-sm text-foreground">
-                    <CheckCircle className="w-4 h-4 text-copper" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-
-              <Button variant="ghost" className="group/btn text-copper hover:text-copper p-0">
-                Learn More
-                <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
-              </Button>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

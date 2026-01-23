@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">HDRP</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">TOP</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Hudson Drywall Restoration Pros
+                Timnath Overflow Pros
               </h1>
-              <p className="text-xs text-muted-foreground">Certified Water Damage Experts</p>
+              <p className="text-xs text-muted-foreground">24/7 Emergency Sewage Cleanup</p>
             </div>
           </div>
 
@@ -30,8 +30,8 @@ const Header = () => {
             <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium">
               Why Us
             </a>
-            <a href="#drywall-info" className="text-foreground hover:text-copper transition-colors font-medium">
-              Drywall Science
+            <a href="#overflow-info" className="text-foreground hover:text-copper transition-colors font-medium">
+              Overflow Solutions
             </a>
             <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium">
               Contact
@@ -68,8 +68,8 @@ const Header = () => {
               <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Why Us
               </a>
-              <a href="#drywall-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
-                Drywall Science
+              <a href="#overflow-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
+                Overflow Solutions
               </a>
               <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Contact
