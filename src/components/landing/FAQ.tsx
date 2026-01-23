@@ -67,10 +67,10 @@ const FAQ = () => {
         <div className="text-center mt-12">
           <p className="text-steel mb-4">Have a flood restoration emergency?</p>
           <a
-            href="tel:+18777921410"
+            href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call for Immediate Assistance: (877) 792-1410
+            Call for Immediate Assistance: (380) 266-0944
           </a>
         </div>
       </div>
