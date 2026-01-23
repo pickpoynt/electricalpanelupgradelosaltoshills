@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "What should I do if a pipe bursts in my Josephine home?",
-    answer: "First, immediately shut off your main water valve to stop the flow. Then, turn off electricity to the affected area if it's safe to do so. Finally, call our emergency Josephine restoration team at +13802660944 for immediate extraction and repair."
+    question: "How quickly can you tarp my roof in Westlake?",
+    answer: "We offer 24/7 emergency response and can typically have a crew at your Westlake property to install emergency tarping within 60 minutes of your call."
   },
   {
-    question: "How fast can you arrive in Josephine for an emergency?",
-    answer: "We offer 24/7 rapid response for Collin County. Our restoration experts typically arrive on-site within 45 to 60 minutes to minimize secondary damage like mold and structural rot."
+    question: "Do I need to wait for my insurance adjuster to start restoration?",
+    answer: "No. In fact, most insurance policies require you to take immediate action to mitigate further Damage (like tarping and water extraction). We provide full documentation for your claim."
   },
   {
-    question: "Do you handle both the pipe repair and the water damage?",
-    answer: "Yes! We are a full-service restoration company. We repair the burst pipe itself and then handle the extraction, drying, and structural restoration of your home."
+    question: "Can you dry out a water-damaged ceiling without removing it?",
+    answer: "In many cases, yes. We use specialized drying systems that can push warm air through small holes in the ceiling or attic to dry the structure without full demolition, depending on the contamination level."
   },
   {
-    question: "Will my insurance cover burst pipe damage?",
-    answer: "In most cases, yes. Most standard homeowners insurance policies cover water damage from sudden and accidental pipe bursts. We work directly with your insurance provider to provide all necessary documentation."
+    question: "What are the signs of a hidden roof leak?",
+    answer: "Look for yellow or brown water stains on your ceiling, peeling paint, a musty odor in the attic, or bubbling drywall. If you see these signs in Westlake, call us immediately for a thermal inspection."
   },
   {
-    question: "How long does it take to dry out my property?",
-    answer: "Depending on the extent of the flooding, the professional drying process typically takes between 3 to 5 days using industrial LGR dehumidifiers and high-speed air movers."
+    question: "How long does the restoration process take?",
+    answer: "Emergency stabilization (tarping and extraction) happens in hours. The professional drying process usually takes 3 to 5 days, followed by any necessary structural repairs."
   },
   {
-    question: "Is mold a risk after a pipe burst?",
-    answer: "Yes, mold can begin to grow within 24-48 hours of water exposure. That is why immediate professional extraction and dehumidification are critical for Josephine homeowners."
+    question: "Is mold a concern with roof leaks in Westlake?",
+    answer: "Absolutely. Florida's humidity means mold can grow within 24-48 hours of a leak. Rapid extraction and high-speed dehumidification are the only ways to prevent a mold outbreak."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Burst Pipe Recovery FAQ
+            Roof Leak Recovery FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Expert advice for Josephine property owners facing water emergencies.
+            Expert advice for Westlake property owners facing storm and roof damage.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Facing a burst pipe emergency in Josephine?</p>
+          <p className="text-steel mb-4">Have an emergency roof leak in Westlake?</p>
           <a
             href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call 24/7 for Emergency Help: (380) 266-0944
+            Call for Immediate Assistance: (380) 266-0944
           </a>
         </div>
       </div>
