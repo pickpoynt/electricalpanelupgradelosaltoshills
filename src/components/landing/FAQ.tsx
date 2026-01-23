@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How quickly can you tarp my roof in Westlake?",
-    answer: "We offer 24/7 emergency response and can typically have a crew at your Westlake property to install emergency tarping within 60 minutes of your call."
+    question: "Why is water damage in hoarding situations considered an emergency?",
+    answer: "Water trapped beneath debris and stored items cannot evaporate, leading to rapid mold growth, biohazard contamination, and weight-related structural failure. Immediate professional extraction is vital in Bozeman."
   },
   {
-    question: "Do I need to wait for my insurance adjuster to start restoration?",
-    answer: "No. In fact, most insurance policies require you to take immediate action to mitigate further Damage (like tarping and water extraction). We provide full documentation for your claim."
+    question: "How do you handle personal items during the restoration?",
+    answer: "We use a compassionate triage system. We work with the family to identify critical items for recovery, cleaning and sanitizing everything that can be saved while managing the safe disposal of contaminated debris."
   },
   {
-    question: "Can you dry out a water-damaged ceiling without removing it?",
-    answer: "In many cases, yes. We use specialized drying systems that can push warm air through small holes in the ceiling or attic to dry the structure without full demolition, depending on the contamination level."
+    question: "Are your technicians trained for biohazard cleanup?",
+    answer: "Yes. Our Bozeman team is certified in biohazard remediation. We wear full personal protective equipment (PPE) and use EPA-approved antimicrobial agents to sanitize the home."
   },
   {
-    question: "What are the signs of a hidden roof leak?",
-    answer: "Look for yellow or brown water stains on your ceiling, peeling paint, a musty odor in the attic, or bubbling drywall. If you see these signs in Westlake, call us immediately for a thermal inspection."
+    question: "Can you help with insurance claims for hoarding house damage?",
+    answer: "Absolutely. We provide comprehensive documentation, including detailed photos and moisture maps, to help justify the higher costs often associated with specialized hoarding restoration."
   },
   {
-    question: "How long does the restoration process take?",
-    answer: "Emergency stabilization (tarping and extraction) happens in hours. The professional drying process usually takes 3 to 5 days, followed by any necessary structural repairs."
+    question: "Is the cleanup process discrete?",
+    answer: "We understand the privacy concerns of our clients. Our team maintains a high level of professionalism and discretion while working on your Bozeman property."
   },
   {
-    question: "Is mold a concern with roof leaks in Westlake?",
-    answer: "Absolutely. Florida's humidity means mold can grow within 24-48 hours of a leak. Rapid extraction and high-speed dehumidification are the only ways to prevent a mold outbreak."
+    question: "How long does it take to restore a hoarding home after water damage?",
+    answer: "Due to the complexity of content sorting and decontamination, the process can take anywhere from 1 to 3 weeks, significantly longer than a standard water restoration project."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Roof Leak Recovery FAQ
+            Hoarding Restoration FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Expert advice for Westlake property owners facing storm and roof damage.
+            Expert answers for complex water damage recovery in Bozeman, MT.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Have an emergency roof leak in Westlake?</p>
+          <p className="text-steel mb-4">Need help with a complex restoration in Bozeman?</p>
           <a
             href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call for Immediate Assistance: (380) 266-0944
+            Call for a Private Consultation: (380) 266-0944
           </a>
         </div>
       </div>

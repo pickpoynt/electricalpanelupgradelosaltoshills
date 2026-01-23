@@ -1,24 +1,24 @@
-import { Droplets, Wind, ShieldAlert, CheckCircle, ArrowRight, Home, CloudRain } from "lucide-react";
+import { Droplets, Wind, ShieldAlert, CheckCircle, ArrowRight, Box, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: CloudRain,
-    title: "Emergency Tarping",
-    description: "Rapid deployment of secondary roof protection to stop incoming rain and prevent catastrophic interior flooding during storm events.",
-    features: ["Hurricane-grade tarps", "Safety inspections", "Temporary shoring"],
+    icon: Box,
+    title: "Content Management",
+    description: "Professional sorting and categorization of all items in the home to identify what is salvageable after water exposure.",
+    features: ["Inventory tracking", "Cleaning & Storage", "Document recovery"],
+  },
+  {
+    icon: Trash2,
+    title: "Biohazard Sanitization",
+    description: "Deep decontamination of areas affected by stagnant water, waste, and bacteria common in complex hoarding environments.",
+    features: ["EPA-approved agents", "Odor removal", "Sharps disposal"],
   },
   {
     icon: Droplets,
-    title: "Ceiling Extraction",
-    description: "Specialized removal of water trapped in attic spaces and ceiling cavities to prevent structural collapse and heavy moisture Damage.",
-    features: ["Attic vacuuming", "Insulation removal", "Ceiling shoring"],
-  },
-  {
-    icon: Wind,
-    title: "Humidity Control",
-    description: "Industrial strength dehumidification to combat Florida's moisture, ensuring your home is dry and safe for reconstruction.",
-    features: ["LGR dehumidifiers", "Axial air movers", "Moisture mapping"],
+    title: "Structural Restoration",
+    description: "Deep water extraction and dehumidification using industrial hardware to save flooring and framing under extreme conditions.",
+    features: ["Heavy-duty pumps", "Wall cavity drying", "Subfloor recovery"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Westlake Rapid Response
+            Bozeman Specialist Recovery
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Complete Roof Leak Recovery
+            Specialized Hoarding Restoration
           </h2>
           <p className="text-muted-foreground text-lg">
-            When your roof fails, we step in. Our Westlake team handles everything from stopping the leak to drying the drywall and attic.
+            Complex water emergencies require more than just drying. Our Bozeman experts manage the intersection of biohazard cleanup and water damage.
           </p>
         </div>
 

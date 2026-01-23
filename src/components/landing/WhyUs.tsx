@@ -1,35 +1,35 @@
-import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lucide-react";
+import { Clock, ShieldCheck, Heart, UserCheck, Zap, Home } from "lucide-react";
 
 const reasons = [
   {
-    icon: Clock,
-    title: "Instant Tarping",
-    description: "During Westlake's storm season, speed is critical. We prioritize immediate roof protection to stop secondary water Damage.",
+    icon: Heart,
+    title: "Compassionate Approach",
+    description: "We understand the sensitivity of hoarding situations and work with families to ensure a respectful and safe restoration process.",
   },
   {
     icon: ShieldCheck,
-    title: "IICRC Certified",
-    description: "Our restoration specialists hold the highest industry certifications for water removal and structural drying.",
+    title: "Bio-Safety Certified",
+    description: "Our Montana crew is fully certified in biohazard management and the safe handling of contaminated water and surfaces.",
   },
   {
-    icon: PenTool,
-    title: "Precision Recovery",
-    description: "We use thermal cameras to map water spread through ceilings and walls that isn't visible to the naked eye.",
+    icon: Clock,
+    title: "24/7 Rapid Response",
+    description: "Water damage in hoarding homes needs immediate containment. We respond 24/7 throughout Gallatin County.",
   },
   {
-    icon: DollarSign,
-    title: "Direct Bill Insurance",
-    description: "We document the entire restoration process for your insurance company to help you get the maximum claim payout.",
+    icon: Home,
+    title: "Full Property Triage",
+    description: "We don't just extract water; we assess the entire property for safety, structural integrity, and bio-contamination.",
+  },
+  {
+    icon: UserCheck,
+    title: "Expert Coordination",
+    description: "We work directly with case managers, family members, and insurance adjusters to simplify a complicated situation.",
   },
   {
     icon: Zap,
-    title: "24/7 Availability",
-    description: "Roof leaks don't wait for business hours. Our Westlake dispatch is available 24/7 for emergency storm response.",
-  },
-  {
-    icon: HeartHandshake,
-    title: "Westlake Local",
-    description: "We are proud members of the Westlake community. We understand Palm Beach County's unique climate and building codes.",
+    title: "Deep Sanitization",
+    description: "Our industrial-strength cleaning protocols go beyond standard water damage to ensure a truly safe living environment.",
   },
 ];
 
@@ -40,30 +40,30 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Westlake's Roof Damage Experts
+              Montana's Specialized Recovery Team
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              The Specialized Choice for
-              <span className="text-gradient-copper block">Florida Storm Recovery.</span>
+              The Professional Choice for
+              <span className="text-gradient-copper block">Complex Bozeman Emergencies.</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Florida's tropical weather can turn a minor leak into a total property loss. Our team provides the specialized equipment and rapid response needed to save your home.
+              Bozeman winters and spring runoff can cause unique water damage. When combined with a hoarding situation, you need a team that understands biohazard risks and content management.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1,500+</span>
-                <span className="text-sm text-muted-foreground">Roof Leaks Mitigated</span>
+                <span className="text-4xl font-heading font-bold text-copper block">12+</span>
+                <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">4.9</span>
-                <span className="text-sm text-muted-foreground">Local Star Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
+                <span className="text-sm text-muted-foreground">Homes Restored</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
-                <span className="text-sm text-muted-foreground">Emergency Support</span>
+                <span className="text-sm text-muted-foreground">Expert Dispatch</span>
               </div>
             </div>
           </div>

@@ -8,14 +8,14 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-16">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Get In Touch
+              Get Expert Help
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              24/7 Westlake Emergency
-              <span className="text-gradient-copper block">Storm Damage Response</span>
+              24/7 Bozeman Emergency
+              <span className="text-gradient-copper block">Hoarding Water Damage Team</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Is your roof leaking or suffered storm Damage? Don't wait for the rain to stop. Contact Westlake's specialized restoration team for immediate tarping and water extraction.
+              Is your home suffering from water damage and hoarding challenges? Our Bozeman team is trained to handle these high-stakes situations with compassion and technical expertise. Contact us for a discrete consultation.
             </p>
 
             <div className="space-y-6">
@@ -33,15 +33,15 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:service@westlake-roof-recovery.com"
+                href="mailto:help@bozeman-restoration.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Mail className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Email Inquiry</span>
-                  <span className="font-heading font-bold text-foreground">service@westlake-roof-recovery.com</span>
+                  <span className="text-sm text-muted-foreground block">Email Dispatch</span>
+                  <span className="font-heading font-bold text-foreground">help@bozeman-restoration.com</span>
                 </div>
               </a>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Westlake, Loxahatchee, Royal Palm Beach, Wellington, The Acreage</span>
+                  <span className="font-heading font-semibold text-foreground">Bozeman, Belgrade, Manhattan, Three Forks, Gallatin Gateway</span>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Availability</span>
-                  <span className="font-heading font-semibold text-foreground">Open 24/7 for Storm Emergencies</span>
+                  <span className="font-heading font-semibold text-foreground">Discrete 24/7 Response Team</span>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Get A Fast Estimate
+              Request Discrete Estimate
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -124,22 +124,22 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Issue Description
+                  Emergency Description
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I have significant water leaking through the ceiling in my living room, I need help immediately..."
+                  placeholder="I need help with a complex restoration project involving significant water damage and content management..."
                 />
               </div>
 
               <Button variant="copper" size="xl" className="w-full">
-                Request Urgent Response
+                Request Rescue Response
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
-                Our team monitors this form 24/7. We will call you within 15 minutes.
+                Our Bozeman team monitors this form 24/7. We will call you within 15 minutes.
               </p>
             </form>
           </div>
