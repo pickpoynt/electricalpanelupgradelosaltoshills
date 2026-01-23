@@ -3,22 +3,22 @@ import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Wind,
-    title: "Molecular Neutralization",
-    description: "Using advanced hydroxyl generators to chemically break down odor-causing molecules without damaging sensitive materials inside your home.",
-    features: ["Oxygen-based cleaning", "Furniture safe", "Rapid results"],
+    icon: Droplets,
+    title: "Leak Detection & Stop",
+    description: "The first step is finding where the water is coming from. We use thermal imaging and moisture meters to locate roof and pipe leaks quickly.",
+    features: ["Thermal imaging", "Immediate leak stop", "Leak source repair"],
+  },
+  {
+    icon: Zap,
+    title: "Structural Drying",
+    description: "Wet ceilings can lead to structural rot and mold. Our industrial air movers and dehumidifiers pull moisture out of your ceiling joists and sheetrock.",
+    features: ["Industrial air movers", "High-capacity drying", "Mold prevention"],
   },
   {
     icon: Sparkles,
-    title: "Thermal Fogging",
-    description: "Deploying specialized vaporized deodorizers that penetrate deep into fabrics, insulation, and wall cavities to eliminate stubborn smells.",
-    features: ["Deep penetration", "Ductwork cleaning", "Porous surface treatment"],
-  },
-  {
-    icon: ShieldCheck,
-    title: "Ozone Treatment",
-    description: "The gold standard for severe odors. Our high-output ozone machines destroy bacteria, mold spores, and viruses that cause damp smells.",
-    features: ["Bacteria destruction", "Mold spore removal", "Complete air scrubbing"],
+    title: "Sheetrock & Paint",
+    description: "We don't just fix the water damage; we make your ceiling look brand new. From drywall replacement to professional texture matching and paint.",
+    features: ["Seamless finishing", "Texture matching", "Cleanup & removal"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Advanced Deodorization
+            Total Ceiling Restoration
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Professional Odor Elimination
+            Eureka Springs' Ceiling Experts
           </h2>
           <p className="text-muted-foreground text-lg">
-            Iowa Colony's climate can make water damage odors worse. We provide permanent solutions using the industry's most powerful purification hardware.
+            From sagging sheetrock to mysterious water stains, we provide full-service ceiling repair that restores the integrity and beauty of your Arkansas home.
           </p>
         </div>
 

@@ -11,11 +11,11 @@ const Contact = () => {
               Get Expert Help
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              24/7 Iowa Colony
-              <span className="text-gradient-copper block">Odor Removal Experts</span>
+              24/7 Eureka Springs
+              <span className="text-gradient-copper block">Ceiling Restoration Pros</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't live with the smell of water damage. Our Iowa Colony team is ready to restore your home's air quality with professional-grade purification technology. Contact us today for a free on-site evaluation.
+              Don't wait for your ceiling to collapse. Our Eureka Springs team is ready to stabilize and restore your home's interior with professional precision. Contact us today for a free structural evaluation.
             </p>
 
             <div className="space-y-6">
@@ -27,13 +27,13 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Our Specialists</span>
+                  <span className="text-sm text-muted-foreground block">Call Our Dispatch</span>
                   <span className="font-heading font-bold text-xl text-foreground">(380) 266-0944</span>
                 </div>
               </a>
 
               <a
-                href="mailto:contact@iowacolony-restoration.com"
+                href="mailto:contact@eurekasprings-restoration.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Dispatch</span>
-                  <span className="font-heading font-bold text-foreground">contact@iowacolony-restoration.com</span>
+                  <span className="font-heading font-bold text-foreground">contact@eurekasprings-restoration.com</span>
                 </div>
               </a>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Iowa Colony, Manvel, Arcola, Rosharon, Alvin, Pearland</span>
+                  <span className="font-heading font-semibold text-foreground">Eureka Springs, Holiday Island, Berryville, Carrollton, Beaver</span>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Availability</span>
-                  <span className="font-heading font-semibold text-foreground">24/7 Rapid Odor Response</span>
+                  <span className="font-heading font-semibold text-foreground">24/7 Emergency Response</span>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request Air Quality Testing
+              Request Structural Assessment
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -124,22 +124,22 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell us about the smell
+                  Tell us about the damage
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="Tell us where the smell is coming from and when the water damage occurred..."
+                  placeholder="Please describe the stains, sagging, or active leaks in your ceiling..."
                 />
               </div>
 
               <Button variant="copper" size="xl" className="w-full">
-                Get Fresh Air Now
+                Get Structural Help Now
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
-                Our Iowa Colony team monitors this form 24/7. We typically respond within 15 minutes.
+                Our Eureka Springs team monitors this form 24/7. We typically respond within 15 minutes.
               </p>
             </form>
           </div>

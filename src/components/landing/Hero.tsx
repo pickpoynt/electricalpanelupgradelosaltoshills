@@ -7,8 +7,8 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1584622781564-1d9876a13d01?auto=format&fit=crop&q=80&w=2000"
-          alt="Professional odor removal after water damage in Iowa Colony Texas"
+          src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=2000"
+          alt="Professional ceiling water damage repair in Eureka Springs Arkansas"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -19,17 +19,17 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Molecular Deodorization Specialists
+              24/7 Ceiling Restoration Experts
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Odor Removal After Water Damage Iowa Colony
-            <span className="block text-gradient-copper mt-2">Permanent Smell Elimination Guaranteed.</span>
+            Ceiling Water Damage Repair Eureka Springs
+            <span className="block text-gradient-copper mt-2">Professional Restoration & Finish.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Don't let the damp, musty smell of water damage haunt your Iowa Colony home. Our team uses advanced hydroxyl and ozone technology to destroy odor molecules at their source, not just mask them.
+            Don't let a leaking ceiling compromise your home's safety. Our Eureka Springs team specializes in emergency stabilization, structural drying, and seamless sheetrock repair to restore your property perfectly.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
@@ -43,22 +43,22 @@ const Hero = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
-              <Wind className="w-5 h-5 text-copper" />
-              <span className="font-medium">Ozone Tech</span>
+              <ShieldCheck className="w-5 h-5 text-copper" />
+              <span className="font-medium">Leak Locating</span>
             </div>
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Certified Pros</span>
+              <span className="font-medium">Sheetrock Pros</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
-                TX
+                AR
               </div>
-              <span className="font-medium">Iowa Colony Local</span>
+              <span className="font-medium">Eureka Springs Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-copper" />
-              <span className="font-medium">Rapid Response</span>
+              <span className="font-medium">24/7 Response</span>
             </div>
           </div>
         </div>
