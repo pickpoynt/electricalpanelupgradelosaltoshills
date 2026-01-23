@@ -41,9 +41,9 @@ const Header = () => {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="copper" size="lg" asChild>
-              <a href="tel:+18777921410" className="flex items-center gap-2">
+              <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (877) 792-1410
+                Call (380) 266-0944
               </a>
             </Button>
           </div>
@@ -75,9 +75,9 @@ const Header = () => {
                 Contact
               </a>
               <Button variant="copper" size="lg" className="w-full" asChild>
-                <a href="tel:+18777921410" className="flex items-center justify-center gap-2">
+                <a href="tel:+13802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (877) 792-1410
+                  Call (380) 266-0944
                 </a>
               </Button>
             </nav>

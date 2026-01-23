@@ -34,9 +34,9 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
             <Button size="lg" className="bg-copper hover:bg-copper-light text-white border-none h-14 px-8 text-lg" asChild>
-              <a href="tel:+18777921410" className="flex items-center gap-2">
+              <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (877) 792-1410
+                Call (380) 266-0944
               </a>
             </Button>
           </div>

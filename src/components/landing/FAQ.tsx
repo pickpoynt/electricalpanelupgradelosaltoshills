@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     question: "What should I do if a pipe bursts in my Josephine home?",
-    answer: "First, immediately shut off your main water valve to stop the flow. Then, turn off electricity to the affected area if it's safe to do so. Finally, call our emergency Josephine restoration team at +18777921410 for immediate extraction and repair."
+    answer: "First, immediately shut off your main water valve to stop the flow. Then, turn off electricity to the affected area if it's safe to do so. Finally, call our emergency Josephine restoration team at +13802660944 for immediate extraction and repair."
   },
   {
     question: "How fast can you arrive in Josephine for an emergency?",
@@ -67,10 +67,10 @@ const FAQ = () => {
         <div className="text-center mt-12">
           <p className="text-steel mb-4">Facing a burst pipe emergency in Josephine?</p>
           <a
-            href="tel:+18777921410"
+            href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call 24/7 for Emergency Help: (877) 792-1410
+            Call 24/7 for Emergency Help: (380) 266-0944
           </a>
         </div>
       </div>

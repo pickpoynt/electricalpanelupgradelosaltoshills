@@ -20,7 +20,7 @@ const Contact = () => {
 
             <div className="space-y-6">
               <a
-                href="tel:+18777921410"
+                href="tel:+13802660944"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Call Our Josephine Office</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
+                  <span className="font-heading font-bold text-xl text-foreground">(380) 266-0944</span>
                 </div>
               </a>
 
@@ -106,7 +106,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(877) 792-1410"
+                  placeholder="(380) 266-0944"
                 />
               </div>
 
