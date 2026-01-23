@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "When is a ceiling leak considered an emergency?",
-    answer: "If your ceiling is sagging, bulging, or water is actively dripping near light fixtures or electrical outlets, it is a structural and fire hazard that requires immediate emergency stabilization in Eureka Springs."
+    question: "How do I know if I have mold in my Josephine attic?",
+    answer: "Common signs include a persistent musty smell, dark staining on roof sheathing, visible black or white growth on joists, or an increase in allergy symptoms when the HVAC is running."
   },
   {
-    question: "Do you have to replace the entire ceiling if there is a small stain?",
-    answer: "Not necessarily. If caught early and the source of the leak is stopped, we can often dry and treat the area before providing a professional patch and paint. However, significant saturation requires sheetrock replacement."
+    question: "Is attic mold dangerous to my family?",
+    answer: "Yes. Mold spores can easily travel from the attic into your living spaces through gaps in lighting fixtures and attic hatches. This can cause respiratory issues, especially in children and the elderly."
   },
   {
-    question: "Can you match the texture of my existing ceiling?",
-    answer: "Yes. Our team is expert at matching various textures, including popcorn, knock-down, and smooth finishes common in both modern and historic Eureka Springs homes."
+    question: "Why did mold grow in my attic specifically?",
+    answer: "In Josephine, attic mold is usually caused by excessive humidity trapped by poor ventilation, roof leaks, or bathroom exhaust fans that are improperly vented directly into the attic space."
   },
   {
-    question: "How long does it take for a ceiling to dry completely?",
-    answer: "With industrial dehumidifiers and air movers, most ceilings can be fully dried within 48 to 72 hours, though the full restoration (patching and painting) may take a few additional days for proper curing."
+    question: "How long does the mold remediation process take?",
+    answer: "Most Josephine attic projects are completed within 2 to 4 days, depending on the square footage and the severity of the mold colonization."
   },
   {
-    question: "Will insurance cover ceiling repair from a roof leak?",
-    answer: "In many cases, yes. We provide the detailed moisture maps and structural assessments required by Arkansas insurance adjusters to help facilitate your claim for ceiling restoration."
+    question: "Will the mold come back after remediation?",
+    answer: "Not if the moisture source is addressed. Part of our service includes identifying and recommending fixes for ventilation or leak issues to ensure your attic remains dry and mold-free."
   },
   {
-    question: "What causes ceilings to crack and sag after water damage?",
-    answer: "Water weight pulls on the fasteners (nails or screws) holding the sheetrock to the joists. Over time, the saturated core of the drywall weakens, leading to cracking, sagging, and eventual collapse."
+    question: "Do you offer free mold inspections in Josephine?",
+    answer: "We offer professional assessments for homeowners in Josephine and the surrounding Collin County areas to determine the extent of mold growth and provide a detailed remediation plan."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Ceiling Restoration FAQ
+            Attic Mold FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Expert answers for water damage recovery in Eureka Springs, AR.
+            Expert answers for mold recovery in Josephine, TX.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Have a sagging or stained ceiling in Eureka Springs?</p>
+          <p className="text-steel mb-4">Concerned about mold in your Josephine attic?</p>
           <a
             href="tel:+13802660944"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
           >
-            Call for a Structural Inspection: (380) 266-0944
+            Call for a Certified Inspection: (380) 266-0944
           </a>
         </div>
       </div>

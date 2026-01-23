@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">ESCR</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">JAMR</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Eureka Springs Ceiling Repair
+                Josephine Attic Mold Remediation
               </h1>
-              <p className="text-xs text-muted-foreground">Expert Water Damage Restoration</p>
+              <p className="text-xs text-muted-foreground">Certified Mold Removal Specialists</p>
             </div>
           </div>
 
@@ -30,8 +30,8 @@ const Header = () => {
             <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium">
               Why Us
             </a>
-            <a href="#ceiling-info" className="text-foreground hover:text-copper transition-colors font-medium">
-              Ceiling Restoration
+            <a href="#attic-info" className="text-foreground hover:text-copper transition-colors font-medium">
+              Attic Science
             </a>
             <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium">
               Contact
@@ -68,8 +68,8 @@ const Header = () => {
               <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Why Us
               </a>
-              <a href="#ceiling-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
-                Ceiling Restoration
+              <a href="#attic-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
+                Attic Science
               </a>
               <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Contact

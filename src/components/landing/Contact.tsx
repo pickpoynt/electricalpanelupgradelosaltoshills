@@ -11,11 +11,11 @@ const Contact = () => {
               Get Expert Help
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              24/7 Eureka Springs
-              <span className="text-gradient-copper block">Ceiling Restoration Pros</span>
+              24/7 Josephine
+              <span className="text-gradient-copper block">Attic Mold Specialists</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't wait for your ceiling to collapse. Our Eureka Springs team is ready to stabilize and restore your home's interior with professional precision. Contact us today for a free structural evaluation.
+              Don't let mold compromise your family's health. Our Josephine team is ready to provide professional remediation and air quality restoration. Contact us today for a certified on-site assessment.
             </p>
 
             <div className="space-y-6">
@@ -33,7 +33,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:contact@eurekasprings-restoration.com"
+                href="mailto:contact@josephinemoldpros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Dispatch</span>
-                  <span className="font-heading font-bold text-foreground">contact@eurekasprings-restoration.com</span>
+                  <span className="font-heading font-bold text-foreground">contact@josephinemoldpros.com</span>
                 </div>
               </a>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Eureka Springs, Holiday Island, Berryville, Carrollton, Beaver</span>
+                  <span className="font-heading font-semibold text-foreground">Josephine, Nevada, Farmersville, Royse City, Caddo Mills, Fate</span>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Availability</span>
-                  <span className="font-heading font-semibold text-foreground">24/7 Emergency Response</span>
+                  <span className="font-heading font-semibold text-foreground">24/7 Rapid Mold Response</span>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request Structural Assessment
+              Request Certified Assessment
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -124,22 +124,22 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell us about the damage
+                  Describe your concerns
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="Please describe the stains, sagging, or active leaks in your ceiling..."
+                  placeholder="Tell us about any smells, visible growth, or leaks in your attic..."
                 />
               </div>
 
               <Button variant="copper" size="xl" className="w-full">
-                Get Structural Help Now
+                Get Expert Mold Help
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
-                Our Eureka Springs team monitors this form 24/7. We typically respond within 15 minutes.
+                Our Josephine team monitors this form 24/7. We typically respond within 15 minutes.
               </p>
             </form>
           </div>
