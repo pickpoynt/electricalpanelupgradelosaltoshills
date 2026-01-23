@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why should I fix a leaking outdoor faucet immediately?",
-    answer: "An outdoor leak can slowly saturate the ground around your foundation, potentially leading to basement flooding or structural shifting. Additionally, even a small drip can waste thousands of gallons of water over time."
+    question: "How quickly can you arrive for a flood emergency in Iowa Colony?",
+    answer: "We offer 24/7 emergency response and typically arrive on-site within 30 to 60 minutes for calls in Iowa Colony and surrounding areas of Brazoria County."
   },
   {
-    question: "Do you offer emergency late night faucet repairs in Westfield?",
-    answer: "Yes! We specialize in late night emergency calls. If your faucet bursts or won't stop running in the middle of the night, our Westfield plumbers are available 24/7 to shut it down and fix it."
+    question: "Do you work with my insurance company?",
+    answer: "Yes, we work with all major insurance providers. We provide complete documentation, moisture maps, and photos to help streamline your claim process."
   },
   {
-    question: "What is a frost-proof hose bib?",
-    answer: "A frost-proof hose bib has a long stem reaching inside your home's heated space. This ensures that the water valve is protected from the cold, preventing the pipe from freezing and bursting during Indiana winters."
+    question: "What should I do while waiting for the restoration team?",
+    answer: "If it's safe, shut off the main water source and turn off electricity to the affected areas. Avoid walking through standing water if power is still on. If possible, move small valuable items to a dry location."
   },
   {
-    question: "How long does it take to replace an outdoor faucet?",
-    answer: "Most faucet replacements take about 1 to 2 hours. We carry a wide variety of sizes and brands on our trucks to ensure we can complete the job in a single visit."
+    question: "How long does the drying process usually take?",
+    answer: "Most properties are completely dried within 3 to 5 days. Factors such as the extent of flooding and the type of materials (hardwood vs. carpet) can affect this timeline."
   },
   {
-    question: "Can I just cap a leaking outdoor faucet?",
-    answer: "Capping is a temporary fix but can be dangerous in winter. If water is trapped in the pipe behind the cap, it can freeze and cause the pipe to burst inside your wall. Proper repair or replacement is always recommended."
+    question: "Is mold a concern after a flood?",
+    answer: "Absolutely. Mold can begin to grow within 24-48 hours of water exposure. That's why professional extraction and high-speed drying are critical to preventing a secondary mold problem."
   },
   {
-    question: "Should I remove my hose in the winter?",
-    answer: "Absolutely. Leaving a hose attached to your faucet prevents it from draining properly. This is the leading cause of burst pipes, even with frost-proof faucets."
+    question: "Can you restore personal items and documents?",
+    answer: "We offer specialized content cleaning and document recovery services for many items. We will assess your belongings and advise on the best course of action for restoration."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Outdoor Faucet FAQ
+            Flood Restoration FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Providing Westfield families with expert exterior plumbing advice.
+            Providing Iowa Colony families with expert advice during property emergencies.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-steel mb-4">Have an outdoor plumbing emergency?</p>
+          <p className="text-steel mb-4">Have a flood restoration emergency?</p>
           <a
             href="tel:+18777921410"
             className="text-copper font-semibold hover:text-copper-dark transition-colors text-lg"
@@ -79,5 +79,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-
-

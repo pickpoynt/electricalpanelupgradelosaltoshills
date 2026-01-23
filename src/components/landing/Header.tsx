@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">WFP</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">ICF</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Westfield Late Night Plumber
+                Iowa Colony Flood Restoration
               </h1>
-              <p className="text-xs text-muted-foreground">Emergency Outdoor Faucet Repair</p>
+              <p className="text-xs text-muted-foreground">Emergency Water Damage Specialists</p>
             </div>
           </div>
 
@@ -30,8 +30,8 @@ const Header = () => {
             <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium">
               Why Us
             </a>
-            <a href="#faucet-info" className="text-foreground hover:text-copper transition-colors font-medium">
-              Faucet Info
+            <a href="#flood-info" className="text-foreground hover:text-copper transition-colors font-medium">
+              Flood Info
             </a>
             <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium">
               Contact
@@ -68,8 +68,8 @@ const Header = () => {
               <a href="#about" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Why Us
               </a>
-              <a href="#faucet-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
-                Faucet Info
+              <a href="#flood-info" className="text-foreground hover:text-copper transition-colors font-medium py-2">
+                Flood Info
               </a>
               <a href="#contact" className="text-foreground hover:text-copper transition-colors font-medium py-2">
                 Contact

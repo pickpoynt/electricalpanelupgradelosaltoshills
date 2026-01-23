@@ -3,33 +3,33 @@ import { Clock, DollarSign, PenTool, ShieldCheck, Zap, HeartHandshake } from "lu
 const reasons = [
   {
     icon: Clock,
-    title: "Late Night Response",
-    description: "Plumbing emergencies don't wait for business hours. We prioritize late-night Westfield calls to prevent morning flooding.",
+    title: "Fast Response",
+    description: "Flood emergencies require immediate action. We prioritize Iowa Colony calls to begin water extraction within 60 minutes.",
   },
   {
     icon: PenTool,
-    title: "Frost-Proof Specialists",
-    description: "We install the highest grade frost-proof hose bibs, ensuring your outdoor plumbing can survive Indiana's coldest nights.",
+    title: "Advanced Drying",
+    description: "We use industrial-grade air movers and dehumidifiers to ensure every corner of your property is thoroughly dried.",
   },
   {
     icon: DollarSign,
-    title: "Upfront Pricing",
-    description: "No hidden fees, even for late-night service. We provide clear, honest estimates before any repair work begins.",
+    title: "Insurance Direct",
+    description: "We work directly with your insurance provider to streamline the claims process and document all damages for you.",
   },
   {
     icon: ShieldCheck,
-    title: "Licensed & Insured",
-    description: "Our plumbing technicians are fully licensed and insured, giving you peace of mind that your home is in expert hands.",
+    title: "IICRC Certified",
+    description: "Our restoration specialists are IICRC certified, ensuring your home is restored to the highest industry standards.",
   },
   {
     icon: Zap,
-    title: "Rapid Part Stocking",
-    description: "Our service vans are fully stocked with various hose bib brands and sizes, allowing us to finish most repairs in one visit.",
+    title: "Thermal Imaging",
+    description: "We use infrared cameras to detect hidden moisture behind walls and under floors that traditional methods miss.",
   },
   {
     icon: HeartHandshake,
-    title: "Westfield Local",
-    description: "We are proud to serve the Westfield community. We understand the specific soil and climate challenges of Hamilton County.",
+    title: "Iowa Colony Local",
+    description: "We are proud to serve the Iowa Colony community. We understand the specific flooding risks in Brazoria County.",
   },
 ];
 
@@ -40,20 +40,20 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Westfield's Trusted Plumbers
+              Iowa Colony's Restoration Pros
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              The Professional Choice for
-              <span className="text-gradient-copper block">Emergency Faucet Repair.</span>
+              The Expert Choice for
+              <span className="text-gradient-copper block">Emergency Flood Recovery.</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              A leaking outdoor faucet can cause thousands in water damage and foundation issues. We provide the expertise and speed to resolve it instantly.
+              Flood damage can escalate quickly, leading to structural rot and mold growth. Our team provides the speed and specialized equipment needed to save your home.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1,200+</span>
-                <span className="text-sm text-muted-foreground">Faucets Replaced</span>
+                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
+                <span className="text-sm text-muted-foreground">Homes Restored</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
@@ -93,5 +93,3 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
-
-
