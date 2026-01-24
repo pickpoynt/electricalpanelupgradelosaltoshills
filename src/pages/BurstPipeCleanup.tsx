@@ -9,19 +9,19 @@ const BurstPipeCleanup = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Burst Pipe Cleanup Vail CO | Frozen Pipe Repair & Drying</title>
-                <meta name="description" content="Emergency cleanup for frozen and burst pipes in Vail. We stop the water, repair damage, and dry structure." />
-                <link rel="canonical" href="https://basement-water-removal-vail-co.com/burst-pipe-cleanup" />
+                <title>Burst Pipe Cleanup Eagle CO | Frozen Pipe Repair & Drying</title>
+                <meta name="description" content="Emergency cleanup for frozen and burst pipes in Eagle. We stop the water, repair damage, and dry structure." />
+                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/burst-pipe-cleanup" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Burst Pipe Cleanup <br />
-                        <span className="text-blue-300">Vail, Colorado</span>
+                        <span className="text-blue-300">Eagle, Colorado</span>
                     </>
                 }
-                subtitle="Emergency cleanup for frozen and burst pipes in Vail. We stop the water, repair the damage, and dry your home quickly."
+                subtitle="Emergency cleanup for frozen and burst pipes in Eagle. We stop the water, repair the damage, and dry your home quickly."
                 image="https://images.unsplash.com/photo-1549419137-b45d0ed0064f?auto=format&fit=crop&q=80&w=2000"
             />
 
@@ -37,7 +37,7 @@ const BurstPipeCleanup = () => {
                                 <ThermometerSnowflake className="w-12 h-12 text-blue-600 mb-4" />
                                 <h3 className="text-xl font-bold mb-3">Frozen Pipe response</h3>
                                 <p className="text-slate-600">
-                                    Vail's sub-zero temperatures put immense pressure on plumbing. We safely thaw frozen lines and extract water from bursts immediately.
+                                    Eagle's sub-zero temperatures put immense pressure on plumbing. We safely thaw frozen lines and extract water from bursts immediately.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100">
@@ -50,9 +50,9 @@ const BurstPipeCleanup = () => {
                         </div>
 
                         <div className="prose max-w-none text-slate-600 leading-relaxed mb-12">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Why Pipes Burst in Vail</h3>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Why Pipes Burst in Eagle</h3>
                             <p className="mb-4">
-                                Vacation homes with lowered heating, poor insulation in crawl spaces, and sudden temperature drops make Vail properties uniquely vulnerable. A single 1/8-inch crack in a pipe can release up to 250 gallons of water a day.
+                                Vacation homes with lowered heating, poor insulation in crawl spaces, and sudden temperature drops make Eagle properties uniquely vulnerable. A single 1/8-inch crack in a pipe can release up to 250 gallons of water a day.
                             </p>
                             <p>
                                 Our team doesn't just clean up the water. We help you identify the cause—whether it's a drafty rim joist or an uninsulated garage wall—to prevent future freezing events.

@@ -33,7 +33,7 @@ const Contact = () => {
               24/7 Emergency Water Removal Response
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Flooded basement in Vail? Don't wait. Call our emergency line now for immediate dispatch.
+              Flooded basement in Eagle? Don't wait. Call our emergency line now for immediate dispatch.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Call 24/7</div>
                       <div className="text-2xl font-heading font-bold text-white">(380) 266-0944</div>
-                      <div className="text-sm text-slate-400">45-minute response guarantee</div>
+                      <div className="text-sm text-slate-400">30-minute response guarantee</div>
                     </div>
                   </a>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Service Area</div>
-                      <div className="text-white">Vail, CO</div>
+                      <div className="text-white">Eagle, CO</div>
                       <div className="text-sm text-slate-400">Serving all of Eagle County</div>
                     </div>
                   </div>
@@ -84,7 +84,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Email</div>
-                      <div className="text-white text-sm">emergency@vailwaterrescue.com</div>
+                      <div className="text-white text-sm">emergency@eaglewaterrescue.com</div>
                       <div className="text-sm text-slate-400">For non-urgent inquiries</div>
                     </div>
                   </div>
@@ -96,12 +96,12 @@ const Contact = () => {
                   We Serve These Local Areas:
                 </h4>
                 <div className="grid grid-cols-2 gap-2 text-sm text-slate-600">
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Vail</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Beaver Creek</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Avon</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Edwards</div>
                   <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Eagle</div>
                   <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Gypsum</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Wolcott</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Edwards</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Avon</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Bond</div>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@ const Contact = () => {
                   Send Message
                 </Button>
                 <p className="text-xs text-slate-500 text-center mt-4">
-                  For immediate emergency response in Vail, please call us directly at (380) 266-0944
+                  For immediate emergency response in Eagle, please call us directly at (380) 266-0944
                 </p>
               </form>
             </div>

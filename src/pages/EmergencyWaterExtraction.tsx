@@ -9,19 +9,19 @@ const EmergencyWaterExtraction = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Emergency Water Extraction Vail CO | 24/7 Water Removal</title>
-                <meta name="description" content="24/7 Rapid response water removal for Vail mountain homes. Truck-mounted extraction for fast drying." />
-                <link rel="canonical" href="https://basement-water-removal-vail-co.com/emergency-water-extraction" />
+                <title>Emergency Water Extraction Eagle CO | 24/7 Water Removal</title>
+                <meta name="description" content="24/7 Rapid response water removal for Eagle mountain homes. Truck-mounted extraction for fast drying." />
+                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/emergency-water-extraction" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Emergency Water Extraction <br />
-                        <span className="text-blue-300">Vail, Colorado</span>
+                        <span className="text-blue-300">Eagle, Colorado</span>
                     </>
                 }
-                subtitle="24/7 Rapid response water removal for Vail mountain homes. Our truck-mounted extraction units remove standing water fast to prevent structural damage."
+                subtitle="24/7 Rapid response water removal for Eagle mountain homes. Our truck-mounted extraction units remove standing water fast to prevent structural damage."
                 image="https://images.unsplash.com/photo-1604168612704-edf7120be425?auto=format&fit=crop&q=80&w=2000"
             />
 
@@ -41,16 +41,16 @@ const EmergencyWaterExtraction = () => {
                             </div>
                             <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100">
                                 <Clock className="w-12 h-12 text-blue-600 mb-4" />
-                                <h3 className="text-xl font-bold mb-3">45-Minute Response</h3>
+                                <h3 className="text-xl font-bold mb-3">30-Minute Response</h3>
                                 <p className="text-slate-600">
-                                    We understand Vail's geography. Our local teams are dispatched immediately to minimize the time water sits in your property.
+                                    We understand Eagle's geography. Our local teams are dispatched immediately to minimize the time water sits in your property.
                                 </p>
                             </div>
                         </div>
 
                         <div className="prose max-w-none text-slate-600 leading-relaxed">
                             <p className="mb-6">
-                                In Vail's high-altitude climate, standing water can quickly freeze or cause rapid mold growth due to indoor heating differentials. Our emergency water extraction service is designed for the specific needs of mountain properties.
+                                In Eagle's high-altitude climate, standing water can quickly freeze or cause rapid mold growth due to indoor heating differentials. Our emergency water extraction service is designed for the specific needs of mountain properties.
                             </p>
                             <p className="mb-6">
                                 We handle everything from major flooding events caused by snowmelt and river overflow to internal plumbing failures. Our comprehensive process includes:

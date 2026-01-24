@@ -17,18 +17,18 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-lg">
-                <span className="text-white font-heading font-bold text-lg">VR</span>
+                <span className="text-white font-heading font-bold text-lg">ER</span>
               </div>
               <div>
-                <div className="font-heading font-bold text-white text-lg">Vail Water Rescue</div>
+                <div className="font-heading font-bold text-white text-lg">Eagle Water Rescue</div>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-4 leading-relaxed">
-              24/7 emergency basement water removal and restoration services serving Vail and Eagle County, Colorado. Specialized in mountain home flooding recovery.
+              24/7 emergency basement water removal and restoration services serving Eagle and Eagle County, Colorado. Specialized in mountain home flooding recovery.
             </p>
             <div className="flex items-center gap-2 text-sm text-slate-400">
               <MapPin className="w-4 h-4 text-blue-500" />
-              <span>Vail, CO</span>
+              <span>Eagle, CO</span>
             </div>
           </div>
 
@@ -107,9 +107,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:emergency@vailwaterrescue.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
+                <a href="mailto:emergency@eaglewaterrescue.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>emergency@vailwaterrescue.com</span>
+                  <span>emergency@eaglewaterrescue.com</span>
                 </a>
               </li>
             </ul>
@@ -140,9 +140,9 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Vail Water Rescue. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Eagle Water Rescue. All rights reserved.</p>
           <p className="mt-2">
-            Licensed, bonded, and insured for water damage restoration in Vail, CO and Eagle County.
+            Licensed, bonded, and insured for water damage restoration in Eagle, CO and Eagle County.
           </p>
         </div>
       </div>

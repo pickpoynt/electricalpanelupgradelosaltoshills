@@ -4,7 +4,7 @@ const reasons = [
   {
     icon: Clock,
     title: "45-Minute Response",
-    description: "Vail weather can be unpredictable. Our local team is ready 24/7 with 4WD vehicles to reach your flooded basement fast."
+    description: "Eagle weather can be unpredictable. Our local team is ready 24/7 with 4WD vehicles to reach your flooded basement fast."
   },
   {
     icon: Mountain,
@@ -28,13 +28,13 @@ const reasons = [
   },
   {
     icon: Users,
-    title: "Local Vail Team",
+    title: "Local Eagle Team",
     description: "Living and working in Eagle County means we treat every customer like a neighbor. We're here for you before, during, and after the storm."
   }
 ];
 
 const stats = [
-  { number: "15+", label: "Years in Vail" },
+  { number: "15+", label: "Years in Eagle" },
   { number: "45min", label: "Avg Response" },
   { number: "100%", label: "Satisfaction" },
   { number: "24/7", label: "Emergency Support" }
@@ -46,7 +46,7 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Vail Homeowners Trust Us
+            Why Eagle Homeowners Trust Us
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             When your basement floods, you need a team that understands the unique challenges of properties in the Colorado Rockies.

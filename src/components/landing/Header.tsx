@@ -29,11 +29,11 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">VR</span>
+              <span className="text-white font-heading font-bold text-lg">ER</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Vail Water Rescue
+                Eagle Water Rescue
               </h1>
               <p className="text-xs text-slate-500">24/7 Basement Water Removal</p>
             </div>

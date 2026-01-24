@@ -9,16 +9,16 @@ const DishwasherLeakCleanup = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Dishwasher Leak Cleanup Vail | Kitchen Water Damage Repair</title>
-                <meta name="description" content="Expert kitchen water damage restoration. We save hardwood floors and cabinets from dishwasher leaks." />
-                <link rel="canonical" href="https://basement-water-removal-vail-co.com/dishwasher-leak-cleanup" />
+                <title>Dishwasher Leak Cleanup Eagle | Kitchen Water Damage Repair</title>
+                <meta name="description" content="Expert kitchen water damage restoration in Eagle, CO. We save hardwood floors and cabinets from dishwasher leaks." />
+                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/dishwasher-leak-cleanup" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Dishwasher Leak Cleanup <br />
-                        <span className="text-blue-300">Vail, Colorado</span>
+                        <span className="text-blue-300">Eagle, Colorado</span>
                     </>
                 }
                 subtitle="Kitchen water damage restoration. We save your hardwood floors and cabinets from hidden dishwasher leaks and supply line failures."
@@ -29,7 +29,7 @@ const DishwasherLeakCleanup = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-                            Saving Vail Kitchens from Water Damage
+                            Saving Eagle Kitchens from Water Damage
                         </h2>
 
                         <div className="mb-12">
@@ -65,7 +65,7 @@ const DishwasherLeakCleanup = () => {
                         <div className="bg-blue-600 text-white rounded-2xl p-8">
                             <h3 className="text-2xl font-bold mb-4">Did You Know?</h3>
                             <p className="leading-relaxed">
-                                In Vail vacation homes, a dishwasher leak can go unnoticed for weeks between guest stays. If you discover warped floorboards or a musty smell in your kitchen upon arrival, call us immediately. We can assess the extent of the subfloor damage and document everything for your insurance claim.
+                                In Eagle vacation homes, a dishwasher leak can go unnoticed for weeks between guest stays. If you discover warped floorboards or a musty smell in your kitchen upon arrival, call us immediately. We can assess the extent of the subfloor damage and document everything for your insurance claim.
                             </p>
                         </div>
                     </div>

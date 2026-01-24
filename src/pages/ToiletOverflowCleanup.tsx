@@ -9,16 +9,16 @@ const ToiletOverflowCleanup = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Toilet Overflow Cleanup Vail | Sewage Backup Cleaning</title>
-                <meta name="description" content="Professional sewage cleanup and toilet overflow restoration. Safe biohazard removal and sanitization." />
-                <link rel="canonical" href="https://basement-water-removal-vail-co.com/toilet-overflow-cleanup" />
+                <title>Toilet Overflow Cleanup Eagle | Sewage Backup Cleaning</title>
+                <meta name="description" content="Professional sewage cleanup and toilet overflow restoration in Eagle, CO. Safe biohazard removal and sanitization." />
+                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/toilet-overflow-cleanup" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Toilet Overflow Cleanup <br />
-                        <span className="text-blue-300">Vail, Colorado</span>
+                        <span className="text-blue-300">Eagle, Colorado</span>
                     </>
                 }
                 subtitle="Safe, discreet, and professional sewage backup cleanup. We handle hazardous waste removal and sanitize your bathroom to hospital-grade standards."
@@ -62,9 +62,9 @@ const ToiletOverflowCleanup = () => {
                         </div>
 
                         <div className="prose max-w-none text-slate-600 leading-relaxed">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Handling Vail's Septic & Sewer Issues</h3>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Handling Eagle's Septic & Sewer Issues</h3>
                             <p className="mb-4">
-                                Many Vail mountain homes operate on septic systems that can be overwhelmed by sudden occupancy spikes or heavy snowmelt saturating the leach field. We are experienced in diagnosing and cleaning up backups caused by these specific mountain infrastructure issues.
+                                Many Eagle mountain homes operate on septic systems that can be overwhelmed by sudden occupancy spikes or heavy snowmelt saturating the leach field. We are experienced in diagnosing and cleaning up backups caused by these specific mountain infrastructure issues.
                             </p>
                             <p>
                                 From simple clogs to complex main line backups, our team arrives in unmarked vehicles to provide discreet and effective restoration, protecting your property value and your family's health.

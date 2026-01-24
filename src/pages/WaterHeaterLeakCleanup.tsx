@@ -9,16 +9,16 @@ const WaterHeaterLeakCleanup = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Water Heater Leak Cleanup Vail | Flood Restoration</title>
-                <meta name="description" content="Emergency water extraction for water heater failures. We handle large volume floods in basements and utility rooms." />
-                <link rel="canonical" href="https://basement-water-removal-vail-co.com/water-heater-leak-cleanup" />
+                <title>Water Heater Leak Cleanup Eagle | Flood Restoration</title>
+                <meta name="description" content="Emergency water extraction for water heater failures in Eagle. We handle large volume floods in basements and utility rooms." />
+                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/water-heater-leak-cleanup" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Water Heater Leak Cleanup <br />
-                        <span className="text-blue-300">Vail, Colorado</span>
+                        <span className="text-blue-300">Eagle, Colorado</span>
                     </>
                 }
                 subtitle="Massive water removal for tank failures. When 50+ gallons flood your utility room or basement, we extract it fast."
@@ -35,7 +35,7 @@ const WaterHeaterLeakCleanup = () => {
                         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
                             <div>
                                 <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                                    Water heaters in Vail work hard due to cold inlet water temperatures. When they fail, they often release their entire contents at once, flooding utility rooms, finished basements, and mechanical closets.
+                                    Water heaters in Eagle work hard due to cold inlet water temperatures. When they fail, they often release their entire contents at once, flooding utility rooms, finished basements, and mechanical closets.
                                 </p>
                                 <p className="text-lg text-slate-600 leading-relaxed">
                                     Our team extracts the water, removes moisture from drywall wicking, and dries the concrete or subfloor to prepare the area for your plumber to install a new unit.

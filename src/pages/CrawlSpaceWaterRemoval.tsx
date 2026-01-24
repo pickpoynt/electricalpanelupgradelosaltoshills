@@ -9,16 +9,16 @@ const CrawlSpaceWaterRemoval = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Crawl Space Water Removal Vail | Wet Crawl Space Cleanup</title>
-                <meta name="description" content="Expert crawl space water removal and encapsulation in Vail, CO. Prevent mold and protect your foundation." />
-                <link rel="canonical" href="https://basement-water-removal-vail-co.com/crawl-space-water-removal" />
+                <title>Crawl Space Water Removal Eagle | Wet Crawl Space Cleanup</title>
+                <meta name="description" content="Expert crawl space water removal and encapsulation in Eagle, CO. Prevent mold and protect your foundation." />
+                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/crawl-space-water-removal" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Crawl Space Water Removal <br />
-                        <span className="text-blue-300">Vail, CO</span>
+                        <span className="text-blue-300">Eagle, CO</span>
                     </>
                 }
                 subtitle="Protect your mountain home's foundation. We remove water, dry out crawl spaces, and install vapor barriers to prevent mold and structural rot."
@@ -36,7 +36,7 @@ const CrawlSpaceWaterRemoval = () => {
                                 <Flashlight className="w-12 h-12 text-blue-600 mb-4" />
                                 <h3 className="text-xl font-bold mb-3">Limited Access Removal</h3>
                                 <p className="text-slate-600">
-                                    Crawl spaces in Vail homes are often tight and difficult to access. We use specialized low-profile equipment to extract water from even the hardest-to-reach areas.
+                                    Crawl spaces in Eagle homes are often tight and difficult to access. We use specialized low-profile equipment to extract water from even the hardest-to-reach areas.
                                 </p>
                             </div>
                             <div className="bg-white p-8 rounded-2xl shadow-sm">
@@ -49,7 +49,7 @@ const CrawlSpaceWaterRemoval = () => {
                         </div>
 
                         <div className="bg-white p-8 rounded-2xl shadow-sm mb-12">
-                            <h3 className="text-2xl font-bold mb-4">Why Vail Crawl Spaces Flood</h3>
+                            <h3 className="text-2xl font-bold mb-4">Why Eagle Crawl Spaces Flood</h3>
                             <ul className="space-y-4 text-slate-600">
                                 <li className="flex items-start gap-3">
                                     <span className="text-blue-500 font-bold">•</span>
@@ -57,7 +57,7 @@ const CrawlSpaceWaterRemoval = () => {
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-blue-500 font-bold">•</span>
-                                    <span><strong>High Water Table:</strong> During spring runoff, groundwater pressure can force water up through the earth floor.</span>
+                                    <span><strong>High Water Table:</strong> During spring runoff, groundwater pressure can force water up through the earth floor effectively.</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-blue-500 font-bold">•</span>

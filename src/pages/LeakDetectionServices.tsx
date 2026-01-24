@@ -9,16 +9,16 @@ const LeakDetectionServices = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Water Leak Detection Vail CO | Thermal Imaging Services</title>
-                <meta name="description" content="Non-invasive leak detection using thermal imaging and acoustic tech. Find hidden leaks behind walls." />
-                <link rel="canonical" href="https://basement-water-removal-vail-co.com/leak-detection-water-damage-services" />
+                <title>Water Leak Detection Eagle CO | Thermal Imaging Services</title>
+                <meta name="description" content="Non-invasive leak detection in Eagle using thermal imaging and acoustic tech. Find hidden leaks behind walls." />
+                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/leak-detection-water-damage-services" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Leak Detection Services <br />
-                        <span className="text-blue-300">Vail, Colorado</span>
+                        <span className="text-blue-300">Eagle, Colorado</span>
                     </>
                 }
                 subtitle="Find the leak before it causes more damage. Advanced thermal imaging and acoustic detection for hidden water issues."
@@ -54,13 +54,13 @@ const LeakDetectionServices = () => {
                         </div>
 
                         <div className="bg-slate-900 text-white p-8 rounded-2xl">
-                            <h3 className="text-2xl font-bold mb-6">Why Early Detection Matters in Vail</h3>
+                            <h3 className="text-2xl font-bold mb-6">Why Early Detection Matters in Eagle</h3>
                             <div className="space-y-4">
                                 <div className="flex gap-4">
                                     <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center shrink-0">1</div>
                                     <div>
                                         <h4 className="font-bold">Prevent Mold Growth</h4>
-                                        <p className="text-slate-300 text-sm">Vail's dry air doesn't stop mold inside damp walls. Slow leaks create perfect mold conditions.</p>
+                                        <p className="text-slate-300 text-sm">Eagle's dry air doesn't stop mold inside damp walls. Slow leaks create perfect mold conditions.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-4">

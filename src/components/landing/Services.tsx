@@ -5,7 +5,7 @@ const services = [
   {
     icon: Droplets,
     title: "Basement Water Removal",
-    description: "Complete water extraction and drying for flooded basements in Vail homes.",
+    description: "Complete water extraction and drying for flooded basements in Eagle homes.",
     link: "/"
   },
   {
@@ -61,7 +61,7 @@ const Services = () => {
             Our Specialized Water Damage Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            We offer a full range of water removal and restoration services tailored to the unique needs of Vail properties.
+            We offer a full range of water removal and restoration services tailored to the unique needs of Eagle properties.
           </p>
         </div>
 
