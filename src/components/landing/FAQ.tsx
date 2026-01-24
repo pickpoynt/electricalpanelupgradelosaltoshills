@@ -7,58 +7,50 @@ import {
 
 const faqs = [
   {
-    question: "How quickly can you respond to a toilet overflow emergency in Timnath?",
-    answer: "We guarantee a 30-minute response time for all toilet overflow emergencies in Timnath and surrounding Larimer County areas. Our team is on call 24/7, including weekends and holidays. We understand that sewage emergencies can't wait, and every minute counts in preventing further damage and health risks."
+    question: "How quickly do you respond to basement flooding in Vail?",
+    answer: "We provide 24/7 emergency response and typically arrive at properties in Vail and helping Eagle County areas within 45 minutes. We understand that mountain weather can be unpredictable, so our vehicles are equipped for severe winter conditions."
   },
   {
-    question: "Is toilet overflow water really that dangerous?",
-    answer: "Yes. Toilet overflow water is classified as Category 3 'Black Water'—the most contaminated water category. It contains harmful bacteria like E. coli, viruses, parasites, and other pathogens that can cause serious illness. This is why professional cleanup with EPA-approved antimicrobial treatments is essential, not optional. DIY cleanup puts your family's health at risk."
+    question: "Do you work with homeowners insurance?",
+    answer: "Yes, we work with all major insurance carriers. We provide detailed documentation, moisture mapping, and photos of the damage to support your claim. We can communicate directly with your adjuster to expedite the approval process."
   },
   {
-    question: "Will my homeowner's insurance cover toilet overflow damage?",
-    answer: "Most homeowner's insurance policies cover sudden and accidental toilet overflow damage, including water extraction, structural drying, and restoration. We work directly with all major insurance companies and can help you navigate the claims process. We'll document everything with photos and moisture readings to support your claim."
+    question: "Can you remove water from a finished basement without ruining it?",
+    answer: "Our goal is to save as much of your property as possible. We use advanced water extraction mats and weighted systems to pull water from carpets and pads. For hardwood, we have specialized drying mats. However, in cases of severe damage or category 3 water (sewage), some materials may need to be removed for safety."
   },
   {
-    question: "How long does the toilet overflow restoration process take?",
-    answer: "The timeline depends on the extent of damage, but most residential toilet overflow restorations take 3-7 days. Emergency extraction happens immediately (within 30 minutes). Structural drying typically takes 2-4 days with our commercial equipment. Final restoration (flooring, drywall, paint) takes another 2-3 days. We monitor moisture levels daily to ensure complete drying before restoration begins."
+    question: "What causes basement flooding in Vail?",
+    answer: "The most common causes we see in Vail are frozen pipe bursts during winter, rapid snowmelt in spring overwhelming foundation drains, and sump pump failures during power outages. We also handle flooding from appliance malfunctions like water heaters and washing machines."
   },
   {
-    question: "Can I just clean up a toilet overflow myself?",
-    answer: "We strongly advise against DIY cleanup for toilet overflows. Sewage water contains dangerous pathogens that require professional-grade disinfection. Additionally, water seeps into subfloors, wall cavities, and behind baseboards within minutes—areas you can't reach with household equipment. Our thermal imaging cameras and truck-mounted extractors find and remove water that DIY methods miss, preventing mold growth and structural damage."
+    question: "How do you prevent mold growth after water removal?",
+    answer: "Speed is key. We extract the standing water immediately and then set up industrial dehumidifiers and air movers to dry the structure. We also treat affected surfaces with antimicrobial agents to kill any existing bacteria and prevent mold spores from taking root."
   },
   {
-    question: "What's the difference between your service and a regular plumber?",
-    answer: "Plumbers fix the toilet and stop the overflow. We handle everything that happens after—the water damage restoration. We extract contaminated water, dry structural materials, apply antimicrobial treatments, remove damaged flooring and drywall, and restore your bathroom to pre-loss condition. Many plumbers will refer you to us for the cleanup and restoration portion."
+    question: "My basement smells musty after a leak. can you help?",
+    answer: "Yes, a musty odor indicates hidden moisture or mold growth. We use thermal imaging cameras and moisture meters to find the source. We also offer professional odor removal services using hydroxyl generators and ozone treatments (in unoccupied spaces) to neutralize smells at the molecular level."
   },
   {
-    question: "Do you handle sewage cleanup from main line backups too?",
-    answer: "Absolutely. We're certified for all Category 3 water cleanup, including main sewer line backups, septic system overflows, and toilet malfunctions. Our team has specialized training in biohazard handling and uses hospital-grade disinfectants to ensure your home is safe after any sewage event."
+    question: "Are your technicians certified?",
+    answer: "Absolutely. Our team is IICRC certified in Water Damage Restoration (WRT) and Applied Structural Drying (ASD). We undergo regular training to stay updated on the latest restoration techniques and equipment, specifically for high-altitude mountain environments."
   },
   {
-    question: "How do you prevent mold after a toilet overflow?",
-    answer: "Mold prevention starts with rapid response and thorough drying. We arrive within 30 minutes to extract water before it spreads. Our commercial dehumidifiers and air movers create optimal drying conditions, and we monitor moisture levels every 24 hours with professional meters. Once dry, we apply EPA-approved antimicrobial treatments to all affected surfaces. We also use HEPA air filtration during the entire process to capture mold spores."
-  },
-  {
-    question: "What areas of Larimer County do you serve?",
-    answer: "We're based in Timnath and serve all of Larimer County, including Fort Collins, Windsor, Loveland, Wellington, and surrounding areas. Our 30-minute response time guarantee applies to Timnath and immediate surrounding communities. For other Larimer County locations, we typically arrive within 45-60 minutes."
-  },
-  {
-    question: "What should I do immediately after a toilet overflow while waiting for you?",
-    answer: "First, stop the water source if possible (turn off the toilet's water supply valve). Keep people and pets away from the contaminated area. Don't walk through sewage water as it spreads contamination. If safe to do so, remove valuable items from the affected area. Don't attempt to clean it yourself—you'll need professional disinfection. Call us immediately at (380) 266-0944, and we'll walk you through any additional steps while we're en route."
+    question: "What should I do while waiting for you to arrive?",
+    answer: "If safe, turn off the main water valve to stop the flow. Do not enter standing water if there is any risk of electrical shock. Move valuable items to a higher level if possible. Take photos of the damage for your insurance records. Stay clear of the affected area to avoid spreading contaminants."
   }
 ];
 
 const FAQ = () => {
   return (
-    <section id="faq" className="py-20 bg-muted/30">
+    <section id="faq" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Toilet Overflow Emergency FAQs
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
+              Basement Water Removal FAQ
             </h2>
-            <p className="text-lg text-muted-foreground">
-              Common questions about toilet overflow damage, sewage cleanup, and our emergency restoration process in Timnath.
+            <p className="text-lg text-slate-600">
+              Answers to common questions about our emergency water extraction and restoration services in Vail, CO.
             </p>
           </div>
 
@@ -67,12 +59,12 @@ const FAQ = () => {
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="bg-card border border-border rounded-lg px-6"
+                className="bg-white border border-slate-200 rounded-lg px-6 shadow-sm"
               >
-                <AccordionTrigger className="text-left font-heading font-semibold text-foreground hover:text-copper">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-blue-600">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
+                <AccordionContent className="text-slate-600 leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

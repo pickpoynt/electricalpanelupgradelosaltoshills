@@ -7,33 +7,33 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000"
-          alt="Emergency toilet overflow damage repair in Timnath Colorado"
+          src="https://images.unsplash.com/photo-1413882353314-73789ccee31a?auto=format&fit=crop&q=80&w=2000"
+          alt="Basement water removal Vail Colorado"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-overlay" />
+        <div className="absolute inset-0 bg-slate-900/70" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <div className="animate-fade-in">
-            <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Timnath's 24/7 Emergency Overflow Team
+            <span className="inline-block px-4 py-2 bg-blue-600/30 border border-blue-400/50 rounded-full text-blue-100 text-sm font-medium mb-6 backdrop-blur-sm">
+              Vail's 24/7 Emergency Water Removal
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Toilet Overflow Damage Repair Timnath CO
-            <span className="block text-gradient-copper mt-2">Timnath Overflow Pros: Rapid Emergency Response.</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 animate-fade-in-up leading-tight">
+            Basement Water Removal Vail CO
+            <span className="block text-blue-300 mt-2">Vail Water Rescue: Rapid Mountain Response.</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Toilet overflows don't wait for business hours. Our Timnath emergency team provides immediate sewage cleanup, water extraction, and complete bathroom restoration. We're equipped to handle any overflow emergency in Larimer County with professional-grade sanitization and rapid drying.
+          <p className="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl animate-fade-in-delay-1 leading-relaxed">
+            When your mountain home travels from dry to flooded, every minute counts. We specialize in basement water removal for Vail properties, handling frozen pipe bursts, snowmelt flooding, and drainage failures specifically in Eagle County.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-copper hover:bg-copper-light text-white border-none h-14 px-8 text-lg" asChild>
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white border-none h-14 px-8 text-lg shadow-lg shadow-blue-900/20" asChild>
               <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call (380) 266-0944
@@ -41,24 +41,24 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/80 animate-fade-in-delay-3">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-slate-200 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
-              <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">Sewage Certified</span>
+              <ShieldCheck className="w-5 h-5 text-blue-400" />
+              <span className="font-medium">Licensed & Insured</span>
             </div>
             <div className="flex items-center gap-2">
-              <ShieldCheck className="w-5 h-5 text-copper" />
-              <span className="font-medium">EPA Compliant</span>
+              <Wind className="w-5 h-5 text-blue-400" />
+              <span className="font-medium">Rapid Drying</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-5 h-5 rounded-full bg-copper flex items-center justify-center text-[10px] font-bold text-primary-foreground">
+              <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] font-bold text-white">
                 CO
               </div>
-              <span className="font-medium">Timnath Local</span>
+              <span className="font-medium">Vail Local</span>
             </div>
             <div className="flex items-center gap-2">
-              <Zap className="w-5 h-5 text-copper" />
-              <span className="font-medium">30-Min ETA</span>
+              <Zap className="w-5 h-5 text-blue-400" />
+              <span className="font-medium">45-Min ETA</span>
             </div>
           </div>
         </div>

@@ -1,55 +1,55 @@
-import { Clock, Shield, Award, Users, Droplets, Zap } from "lucide-react";
+import { Clock, Shield, Award, Users, Mountain, Snowflake } from "lucide-react";
 
 const reasons = [
   {
     icon: Clock,
-    title: "30-Minute Response Time",
-    description: "We understand toilet overflow emergencies can't wait. Our Timnath team arrives within 30 minutes, ready to contain the damage and begin cleanup immediately."
+    title: "45-Minute Response",
+    description: "Vail weather can be unpredictable. Our local team is ready 24/7 with 4WD vehicles to reach your flooded basement fast."
   },
   {
-    icon: Shield,
-    title: "Sewage Cleanup Certified",
-    description: "Our technicians are certified in Category 3 water (sewage) cleanup with specialized training in biohazard handling and EPA-compliant sanitization protocols."
+    icon: Mountain,
+    title: "Mountain Home Experts",
+    description: "We understand mountain construction, from heated driveways to stone foundations, ensuring safe and effective water removal."
   },
   {
-    icon: Droplets,
-    title: "Advanced Moisture Detection",
-    description: "We use thermal imaging cameras and professional moisture meters to find hidden water damage in walls, subfloors, and structural cavities that visual inspection misses."
+    icon: Snowflake,
+    title: "Winter Specialists",
+    description: "From frozen pipe bursts to ice dam leaks, we have the specialized equipment to handle water damage in freezing temperatures."
   },
   {
     icon: Award,
-    title: "Licensed & Insured in Colorado",
-    description: "Fully licensed, bonded, and insured for all restoration work in Larimer County. We work directly with insurance companies to streamline your claim process."
+    title: "Licensed & Insured",
+    description: "Fully licensed for water restoration in Colorado. We carry comprehensive liability and workers' compensation insurance."
+  },
+  {
+    icon: Shield,
+    title: "Insurance Approved",
+    description: "We work with all major carriers (State Farm, Allstate, etc.) and handle the documentation so you can focus on recovery."
   },
   {
     icon: Users,
-    title: "Timnath Local Experts",
-    description: "As a locally-owned Timnath business, we understand Colorado's unique challenges—from hard water issues to rapid temperature changes that affect plumbing systems."
-  },
-  {
-    icon: Zap,
-    title: "Complete Restoration",
-    description: "We don't just extract water—we restore your bathroom completely. From subfloor replacement to final paint and fixtures, we handle everything under one roof."
+    title: "Local Vail Team",
+    description: "Living and working in Eagle County means we treat every customer like a neighbor. We're here for you before, during, and after the storm."
   }
 ];
 
 const stats = [
-  { number: "500+", label: "Overflow Emergencies Resolved" },
-  { number: "30min", label: "Average Response Time" },
-  { number: "100%", label: "Sanitization Guarantee" },
-  { number: "24/7", label: "Emergency Availability" }
+  { number: "15+", label: "Years in Vail" },
+  { number: "45min", label: "Avg Response" },
+  { number: "100%", label: "Satisfaction" },
+  { number: "24/7", label: "Emergency Support" }
 ];
 
 const WhyUs = () => {
   return (
-    <section id="about" className="py-20 bg-muted/30">
+    <section id="about" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Why Choose Timnath Overflow Pros?
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
+            Why Vail Homeowners Trust Us
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            When sewage emergencies strike, you need a team that responds fast, works clean, and restores completely. Here's why Timnath homeowners trust us.
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            When your basement floods, you need a team that understands the unique challenges of properties in the Colorado Rockies.
           </p>
         </div>
 
@@ -59,15 +59,15 @@ const WhyUs = () => {
             return (
               <div
                 key={index}
-                className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow"
+                className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-lg bg-gradient-hero flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-primary-foreground" />
+                <div className="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-foreground mb-3">
+                <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                   {reason.title}
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-slate-600 leading-relaxed">
                   {reason.description}
                 </p>
               </div>
@@ -76,13 +76,13 @@ const WhyUs = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-card border border-border rounded-lg p-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-gradient-copper mb-2">
+              <div className="text-3xl md:text-4xl font-heading font-bold text-blue-600 mb-2">
                 {stat.number}
               </div>
-              <div className="text-sm text-muted-foreground">
+              <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">
                 {stat.label}
               </div>
             </div>
