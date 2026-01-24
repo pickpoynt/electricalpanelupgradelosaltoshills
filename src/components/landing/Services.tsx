@@ -1,49 +1,37 @@
-import { ThermometerSnowflake, Droplets, Waves, ArrowUp, Biohazard, Activity, FolderSearch } from "lucide-react";
+import { Waves, Mountain, CloudRain, Droplets, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: ThermometerSnowflake,
-    title: "Frozen Pipe Cleanup",
-    description: "Emergency thaw and extraction for frozen pipe bursts in winter.",
-    link: "/frozen-pipe-burst-cleanup-rye-brook-ny"
+    icon: Waves,
+    title: "Flooded Garage Cleanup",
+    description: "Rapid water extraction for garages flooded by rain or plumbing.",
+    link: "/flooded-garage-water-removal-tiburon-ca"
+  },
+  {
+    icon: CloudRain,
+    title: "Storm Runoff Cleanup",
+    description: "Diverting and cleaning up water from hillside runoff.",
+    link: "/storm-runoff-cleanup-tiburon-ca"
   },
   {
     icon: Droplets,
-    title: "Flooded Basement Cleanup",
-    description: "Rapid pump out and drying for finished basements.",
-    link: "/flooded-basement-cleanup-cost-rye-brook-ny"
+    title: "Drainage Failure",
+    description: "Solutions for overwhelmed drains and sump pumps.",
+    link: "/hillside-drainage-failure-cleanup-tiburon-ca"
   },
   {
-    icon: FolderSearch,
-    title: "Hardwood Floor Repair",
-    description: "Specialized drying for water-damaged hardwood floors.",
-    link: "/hardwood-floor-water-damage-repair-rye-brook-ny"
+    icon: Mountain,
+    title: "Mudslide Cleanup",
+    description: "Removing mud and debris from garages and driveways.",
+    link: "/mudslide-cleanup-tiburon-ca"
   },
   {
-    icon: ArrowUp,
-    title: "Ceiling Water Damage",
-    description: "Repair for leaks from upstairs bathrooms or roofs.",
-    link: "/ceiling-water-damage-repair-rye-brook-ny"
+    icon: Zap,
+    title: "Emergency Pump Out",
+    description: "24/7 high-capacity pumping for severe flooding.",
+    link: "/emergency-pump-out-service-tiburon-ca"
   },
-  {
-    icon: Waves,
-    title: "Wet Carpet Drying",
-    description: "Industrial extraction to save carpets and pads.",
-    link: "/wet-carpet-drying-service-rye-brook-ny"
-  },
-  {
-    icon: Biohazard,
-    title: "Sewage Backup Cleanup",
-    description: "Safe removal and sanitization of sewer backups.",
-    link: "/sewage-backup-cleanup-cost-rye-brook-ny"
-  },
-  {
-    icon: Activity,
-    title: "Emergency Water Removal",
-    description: "24/7 rapid response for any water emergency.",
-    link: "/emergency-basement-water-removal-rye-brook-ny"
-  }
 ];
 
 const Services = () => {
@@ -52,14 +40,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Rye Brook Water Restoration Services
+            Tiburon Flood Restoration Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            From frozen pipe bursts to sewage backups, we handle every type of water damage in Westchester County.
+            From hillside runoff to garage floods, we protect Tiburon properties from water damage.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
