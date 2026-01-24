@@ -6,11 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FloatingCallButton from "./components/ui/FloatingCallButton";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import FloodedGarageCleanup from "./pages/FloodedGarageCleanup";
-import StormRunoffCleanup from "./pages/StormRunoffCleanup";
-import DrainageFailureCleanup from "./pages/DrainageFailureCleanup";
-import MudslideCleanup from "./pages/MudslideCleanup";
-import EmergencyPumpOut from "./pages/EmergencyPumpOut";
+import SumpPumpFailureCleanup from "./pages/SumpPumpFailureCleanup";
+import FloodedBasementRestoration from "./pages/FloodedBasementRestoration";
+import SewageBackupCleanup from "./pages/SewageBackupCleanup";
+import MoldRemediation from "./pages/MoldRemediation";
+import BatteryBackupFailure from "./pages/BatteryBackupFailure";
 
 const queryClient = new QueryClient();
 
@@ -23,11 +23,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/flooded-garage-water-removal-tiburon-ca" element={<FloodedGarageCleanup />} />
-          <Route path="/storm-runoff-cleanup-tiburon-ca" element={<StormRunoffCleanup />} />
-          <Route path="/hillside-drainage-failure-cleanup-tiburon-ca" element={<DrainageFailureCleanup />} />
-          <Route path="/mudslide-cleanup-tiburon-ca" element={<MudslideCleanup />} />
-          <Route path="/emergency-pump-out-service-tiburon-ca" element={<EmergencyPumpOut />} />
+          <Route path="/sump-pump-failure-cleanup-cohasset-ma" element={<SumpPumpFailureCleanup />} />
+          <Route path="/flooded-basement-restoration-cohasset-ma" element={<FloodedBasementRestoration />} />
+          <Route path="/sewage-backup-cleanup-cohasset-ma" element={<SewageBackupCleanup />} />
+          <Route path="/mold-remediation-cohasset-ma" element={<MoldRemediation />} />
+          <Route path="/battery-backup-failure-cleanup-cohasset-ma" element={<BatteryBackupFailure />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

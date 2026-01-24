@@ -1,36 +1,36 @@
-import { Waves, Mountain, CloudRain, Droplets, Zap } from "lucide-react";
+import { Waves, Mountain, CloudRain, Droplets, Zap, Power, ShieldAlert, Bug } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
+    icon: Power,
+    title: "Sump Pump Cleanup",
+    description: "Emergency cleanup when your pump fails or power goes out.",
+    link: "/sump-pump-failure-cleanup-cohasset-ma"
+  },
+  {
     icon: Waves,
-    title: "Flooded Garage Cleanup",
-    description: "Rapid water extraction for garages flooded by rain or plumbing.",
-    link: "/flooded-garage-water-removal-tiburon-ca"
+    title: "Basement Restoration",
+    description: "Drying finished basements and removing water damaged materials.",
+    link: "/flooded-basement-restoration-cohasset-ma"
   },
   {
-    icon: CloudRain,
-    title: "Storm Runoff Cleanup",
-    description: "Diverting and cleaning up water from hillside runoff.",
-    link: "/storm-runoff-cleanup-tiburon-ca"
+    icon: ShieldAlert,
+    title: "Sewage Backup",
+    description: "Biohazard cleanup for sewer line backups.",
+    link: "/sewage-backup-cleanup-cohasset-ma"
   },
   {
-    icon: Droplets,
-    title: "Drainage Failure",
-    description: "Solutions for overwhelmed drains and sump pumps.",
-    link: "/hillside-drainage-failure-cleanup-tiburon-ca"
-  },
-  {
-    icon: Mountain,
-    title: "Mudslide Cleanup",
-    description: "Removing mud and debris from garages and driveways.",
-    link: "/mudslide-cleanup-tiburon-ca"
+    icon: Bug,
+    title: "Mold Remediation",
+    description: "Preventing mold growth after water damage.",
+    link: "/mold-remediation-cohasset-ma"
   },
   {
     icon: Zap,
-    title: "Emergency Pump Out",
-    description: "24/7 high-capacity pumping for severe flooding.",
-    link: "/emergency-pump-out-service-tiburon-ca"
+    title: "Battery Backup Failure",
+    description: "Restoration for floods during power outages.",
+    link: "/battery-backup-failure-cleanup-cohasset-ma"
   },
 ];
 
@@ -40,10 +40,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Tiburon Flood Restoration Services
+            Cohasset Water Damage Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            From hillside runoff to garage floods, we protect Tiburon properties from water damage.
+            Specialized in recovering basements from sump pump failures and coastal storms.
           </p>
         </div>
 

@@ -13,11 +13,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Flooded Garage Cleanup", href: "/flooded-garage-water-removal-tiburon-ca" },
-    { name: "Storm Runoff Cleanup", href: "/storm-runoff-cleanup-tiburon-ca" },
-    { name: "Drainage Failure", href: "/hillside-drainage-failure-cleanup-tiburon-ca" },
-    { name: "Mudslide Cleanup", href: "/mudslide-cleanup-tiburon-ca" },
-    { name: "Emergency Pump Out", href: "/emergency-pump-out-service-tiburon-ca" },
+    { name: "Sump Pump Cleanup", href: "/sump-pump-failure-cleanup-cohasset-ma" },
+    { name: "Flooded Basement Restoration", href: "/flooded-basement-restoration-cohasset-ma" },
+    { name: "Sewage Backup Cleanup", href: "/sewage-backup-cleanup-cohasset-ma" },
+    { name: "Mold Remediation", href: "/mold-remediation-cohasset-ma" },
+    { name: "Battery Backup Failure", href: "/battery-backup-failure-cleanup-cohasset-ma" },
   ];
 
   return (
@@ -27,13 +27,13 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">TR</span>
+              <span className="text-white font-heading font-bold text-lg">CR</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Tiburon Restoration
+                Cohasset Restoration
               </h1>
-              <p className="text-xs text-slate-500">24/7 Flood & Garage Cleanup</p>
+              <p className="text-xs text-slate-500">24/7 Basement Flood Cleanup</p>
             </div>
           </Link>
 

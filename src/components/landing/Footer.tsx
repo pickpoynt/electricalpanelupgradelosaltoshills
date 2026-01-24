@@ -10,18 +10,18 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-lg">
-                <span className="text-white font-heading font-bold text-lg">TR</span>
+                <span className="text-white font-heading font-bold text-lg">CR</span>
               </div>
               <div>
-                <div className="font-heading font-bold text-white text-lg">Tiburon Restoration</div>
+                <div className="font-heading font-bold text-white text-lg">Cohasset Restoration</div>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-4 leading-relaxed">
-              Serving the Tiburon Peninsula with emergency flood and garage water removal. We are local, licensed, and ready for any storm.
+              Serving the South Shore with emergency basement water removal. We are local, licensed, and experts in sump pump failures.
             </p>
             <div className="flex items-center gap-2 text-sm text-slate-400">
               <MapPin className="w-4 h-4 text-blue-500" />
-              <span>Tiburon, CA</span>
+              <span>Cohasset, MA</span>
             </div>
           </div>
 
@@ -30,18 +30,18 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-white mb-6">Services</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/flooded-garage-water-removal-tiburon-ca" className="hover:text-blue-400 transition-colors">
-                  Flooded Garage Removal
+                <Link to="/sump-pump-failure-cleanup-cohasset-ma" className="hover:text-blue-400 transition-colors">
+                  Sump Pump Cleanup
                 </Link>
               </li>
               <li>
-                <Link to="/storm-runoff-cleanup-tiburon-ca" className="hover:text-blue-400 transition-colors">
-                  Storm Runoff Cleanup
+                <Link to="/flooded-basement-restoration-cohasset-ma" className="hover:text-blue-400 transition-colors">
+                  Basement Restoration
                 </Link>
               </li>
               <li>
-                <Link to="/mudslide-cleanup-tiburon-ca" className="hover:text-blue-400 transition-colors">
-                  Mudslide Cleanup
+                <Link to="/sewage-backup-cleanup-cohasset-ma" className="hover:text-blue-400 transition-colors">
+                  Sewage Cleanup
                 </Link>
               </li>
             </ul>
@@ -58,9 +58,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:emergency@tiburonrestoration.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
+                <a href="mailto:emergency@cohassetrestoration.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>emergency@tiburonrestoration.com</span>
+                  <span>emergency@cohassetrestoration.com</span>
                 </a>
               </li>
             </ul>
@@ -70,19 +70,19 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-white mb-6">Partners</h3>
             <ul className="space-y-2 text-xs text-slate-500 text-center">
-              <li><a href="https://sumppumpbatterybackupinstallationma.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Sump Pump MA</a></li>
-              <li><a href="https://toiletflangerepairtallahassee.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Toilet Flange Tallahassee</a></li>
-              <li><a href="https://trenchlesspiperelininghuntsville.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Trenchless Pipe Huntsville</a></li>
-              <li><a href="https://greywatersysteminstallationtempe.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Greywater Tempe</a></li>
+              <li><a href="https://ceramickilnelectricalhookupashevill.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Kiln Hookup Asheville</a></li>
+              <li><a href="https://generatorinterlockkitinstallationma.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Generator Interlock MA</a></li>
+              <li><a href="https://aluminumwiringreplacementnapervilleil.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Wiring Replacement Naperville</a></li>
+              <li><a href="https://rvpedestalinstallationplanotx.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">RV Pedestal Plano</a></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Tiburon Restoration. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Cohasset Restoration. All rights reserved.</p>
           <p className="mt-2">
-            Licensed, bonded, and insured for water damage restoration in Tiburon, CA.
+            Licensed, bonded, and insured for water damage restoration in Cohasset, MA.
           </p>
         </div>
       </div>

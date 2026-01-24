@@ -11,12 +11,12 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Flooded Garage Water Removal Tiburon
-      <span className="block text-blue-300 mt-2">Tiburon Restoration: Hillside Runoff Response.</span>
+      Sump Pump Failure Water Cleanup Cohasset MA
+      <span className="block text-blue-300 mt-2">Cohasset Restoration: South Shore Expert Response.</span>
     </>
   ),
-  subtitle = "When storm runoff or plumbing failures flood your garage, we extract the water fast. Protecting Tiburon homes from drainage failures and mud intrusion.",
-  image = "https://images.unsplash.com/photo-1519643381481-224422e11e86?auto=format&fit=crop&q=80&w=2000"
+  subtitle = "When your sump pump fails during a Nor'easter, we're here. Emergency water extraction and basement drying for Cohasset homes.",
+  image = "https://images.unsplash.com/photo-1565514020121-6655e82b7596?auto=format&fit=crop&q=80&w=2000"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
@@ -24,7 +24,7 @@ const Hero = ({
       <div className="absolute inset-0 z-0">
         <img
           src={image}
-          alt="Flooded Garage Tiburon"
+          alt="Sump Pump Failure Cohasset"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-slate-900/70" />
@@ -35,7 +35,7 @@ const Hero = ({
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-blue-600/30 border border-blue-400/50 rounded-full text-blue-100 text-sm font-medium mb-6 backdrop-blur-sm">
-              Tiburon's 24/7 Flood Response Team
+              Cohasset's 24/7 Sump Pump Emergency Team
             </span>
           </div>
 
@@ -63,13 +63,13 @@ const Hero = ({
             </div>
             <div className="flex items-center gap-2">
               <Waves className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">Pump Out Service</span>
+              <span className="font-medium">Basement Drying</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] font-bold text-white">
-                CA
+                MA
               </div>
-              <span className="font-medium">Tiburon Local</span>
+              <span className="font-medium">Cohasset Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-blue-400" />
