@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BasementWaterInfo from "@/components/landing/BasementWaterInfo";
+import StormSurgeInfo from "@/components/landing/StormSurgeInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -12,16 +12,16 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Basement Water Removal Eagle CO | Eagle Water Rescue</title>
-        <meta name="description" content="Emergency basement water removal in Eagle, CO. Expert water extraction, drying, and restoration for local homes. 24/7 rapid response. Call (380) 266-0944." />
-        <meta name="keywords" content="basement water removal Eagle, basement flooding cleanup, water damage restoration Eagle CO" />
-        <link rel="canonical" href="https://basement-water-removal-eagle-co.com/" />
+        <title>Storm Surge Water Damage Cleanup Gulf Breeze FL | Gulf Breeze Storm Restoration</title>
+        <meta name="description" content="Professional storm surge water damage cleanup in Gulf Breeze, FL. Emergency flood extraction, saltwater corrosion prevention, and structural drying. Call (380) 266-0944." />
+        <meta name="keywords" content="storm surge cleanup Gulf Breeze, hurricane water damage, saltwater flood removal, restoration Gulf Breeze FL" />
+        <link rel="canonical" href="https://storm-surge-cleanup-gulf-breeze-fl.com/" />
       </Helmet>
       <Header />
       <Hero />
       <Services />
       <WhyUs />
-      <BasementWaterInfo />
+      <StormSurgeInfo />
       <FAQ />
       <Contact />
       <Footer />

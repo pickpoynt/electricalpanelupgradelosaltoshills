@@ -1,54 +1,36 @@
-import { Truck, Flashlight, Snowflake, Biohazard, Waves, Heater, ScanSearch, Droplets } from "lucide-react";
+import { CloudRain, Waves, Heater, Droplets, ArrowUp } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: Droplets,
-    title: "Basement Water Removal",
-    description: "Complete water extraction and drying for flooded basements in Eagle homes.",
-    link: "/"
-  },
-  {
-    icon: Truck,
-    title: "Emergency Water Extraction",
-    description: "24/7 rapid response with truck-mounted units for large-scale water removal.",
-    link: "/emergency-water-extraction"
-  },
-  {
-    icon: Flashlight,
-    title: "Crawl Space Water Removal",
-    description: "Specialized extraction and encapsulation for wet, hard-to-access crawl spaces.",
-    link: "/crawl-space-water-removal"
-  },
-  {
-    icon: Snowflake,
-    title: "Burst Pipe Cleanup",
-    description: "Immediate repair and drying for frozen and burst pipes during winter.",
-    link: "/burst-pipe-cleanup"
-  },
-  {
-    icon: Biohazard,
-    title: "Toilet Overflow Cleanup",
-    description: "Safe, sanitary removal of black water and sewage backups.",
-    link: "/toilet-overflow-cleanup"
-  },
-  {
     icon: Waves,
+    title: "Storm Surge Cleanup",
+    description: "Emergency extraction and drying for homes affected by hurricane storm surge.",
+    link: "/storm-surge-water-damage-cleanup"
+  },
+  {
+    icon: Droplets,
     title: "Dishwasher Leak Cleanup",
-    description: "Rescue for kitchen hardwood floors and cabinets from appliance leaks.",
-    link: "/dishwasher-leak-cleanup"
+    description: "Repairing water damage from failed kitchen appliances and supply lines.",
+    link: "/dishwasher-leak-water-damage-cleanup"
   },
   {
     icon: Heater,
     title: "Water Heater Leak Cleanup",
-    description: "Massive water extraction for failed water heater tank floods.",
+    description: "Flood cleanup for ruptured water heater tanks and utility rooms.",
     link: "/water-heater-leak-cleanup"
   },
   {
-    icon: ScanSearch,
-    title: "Leak Detection Services",
-    description: "Non-invasive thermal imaging to find hidden leaks behind walls.",
-    link: "/leak-detection-water-damage-services"
+    icon: CloudRain,
+    title: "Burst Pipe Cleanup",
+    description: "Restoration for pipes burst due to corruption or sudden pressure.",
+    link: "/burst-pipe-water-damage-cleanup"
+  },
+  {
+    icon: ArrowUp,
+    title: "Ceiling Leak Repair",
+    description: "Drying and repair for water damage caused by roof leaks and storms.",
+    link: "/ceiling-leak-water-damage-repair"
   }
 ];
 
@@ -58,14 +40,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Our Specialized Water Damage Services
+            Gulf Coast Water Damage Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            We offer a full range of water removal and restoration services tailored to the unique needs of Eagle properties.
+            From tropical storms to appliance failures, we protect Gulf Breeze homes from all forms of water damage.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (

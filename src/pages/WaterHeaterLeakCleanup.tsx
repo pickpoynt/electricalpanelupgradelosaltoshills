@@ -9,19 +9,19 @@ const WaterHeaterLeakCleanup = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Water Heater Leak Cleanup Eagle | Flood Restoration</title>
-                <meta name="description" content="Emergency water extraction for water heater failures in Eagle. We handle large volume floods in basements and utility rooms." />
-                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/water-heater-leak-cleanup" />
+                <title>Water Heater Leak Cleanup Gulf Breeze | Utility Room Flood</title>
+                <meta name="description" content="Emergency water extraction for water heater failures in Gulf Breeze. We handle floods in utility rooms and garages." />
+                <link rel="canonical" href="https://storm-surge-cleanup-gulf-breeze-fl.com/water-heater-leak-cleanup" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Water Heater Leak Cleanup <br />
-                        <span className="text-blue-300">Eagle, Colorado</span>
+                        <span className="text-blue-300">Gulf Breeze, FL</span>
                     </>
                 }
-                subtitle="Massive water removal for tank failures. When 50+ gallons flood your utility room or basement, we extract it fast."
+                subtitle="Massive water removal for tank failures. When your water heater floods your garage or utility room, we extract it fast."
                 image="https://images.unsplash.com/photo-1585704058356-d7e11f185c7c?auto=format&fit=crop&q=80&w=2000"
             />
 
@@ -35,7 +35,7 @@ const WaterHeaterLeakCleanup = () => {
                         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
                             <div>
                                 <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                                    Water heaters in Eagle work hard due to cold inlet water temperatures. When they fail, they often release their entire contents at once, flooding utility rooms, finished basements, and mechanical closets.
+                                    Water heaters in Gulf Breeze are often located in garages or interior closets. When they fail, they can release 40-80 gallons of water, damaging nearby drywall, flooring, and stored items.
                                 </p>
                                 <p className="text-lg text-slate-600 leading-relaxed">
                                     Our team extracts the water, removes moisture from drywall wicking, and dries the concrete or subfloor to prepare the area for your plumber to install a new unit.
@@ -54,30 +54,9 @@ const WaterHeaterLeakCleanup = () => {
                                     </li>
                                     <li className="flex items-center gap-3">
                                         <Heater className="w-5 h-5 text-red-500" />
-                                        <span className="text-slate-700">Banging or rumbling noises</span>
+                                        <span className="text-slate-700">Leaking pressure relief valve</span>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-
-                        <div className="border-t border-slate-200 pt-12">
-                            <h3 className="text-2xl font-bold text-center mb-8">Our Restoration Process</h3>
-                            <div className="grid md:grid-cols-3 gap-8">
-                                <div className="text-center">
-                                    <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 font-bold text-xl">1</div>
-                                    <h4 className="font-bold mb-2">Containment</h4>
-                                    <p className="text-sm text-slate-600">We isolate the utility area to prevent water from spreading to furnished rooms.</p>
-                                </div>
-                                <div className="text-center">
-                                    <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 font-bold text-xl">2</div>
-                                    <h4 className="font-bold mb-2">Extraction</h4>
-                                    <p className="text-sm text-slate-600">Rapid removal of standing water using pumps and vacuums.</p>
-                                </div>
-                                <div className="text-center">
-                                    <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 font-bold text-xl">3</div>
-                                    <h4 className="font-bold mb-2">Drying</h4>
-                                    <p className="text-sm text-slate-600">High-temperature drying to dry concrete and framing quickly.</p>
-                                </div>
                             </div>
                         </div>
                     </div>

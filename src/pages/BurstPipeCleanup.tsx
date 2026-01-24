@@ -2,26 +2,26 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import { ThermometerSnowflake, Wrench, Droplets, Construction } from "lucide-react";
+import { CloudRain, Wrench, Droplets } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
 const BurstPipeCleanup = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Burst Pipe Cleanup Eagle CO | Frozen Pipe Repair & Drying</title>
-                <meta name="description" content="Emergency cleanup for frozen and burst pipes in Eagle. We stop the water, repair damage, and dry structure." />
-                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/burst-pipe-cleanup" />
+                <title>Burst Pipe Water Damage Cleanup Gulf Breeze | Emergency Repair</title>
+                <meta name="description" content="Emergency cleanup for burst pipes in Gulf Breeze. We handle water damage from corrosion, pressure failures, and rare freeze events." />
+                <link rel="canonical" href="https://storm-surge-cleanup-gulf-breeze-fl.com/burst-pipe-water-damage-cleanup" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Burst Pipe Cleanup <br />
-                        <span className="text-blue-300">Eagle, Colorado</span>
+                        <span className="text-blue-300">Gulf Breeze, FL</span>
                     </>
                 }
-                subtitle="Emergency cleanup for frozen and burst pipes in Eagle. We stop the water, repair the damage, and dry your home quickly."
+                subtitle="Immediate cleanup for burst pipes. We stop the water, repair the damage, and dry your home to prevent mold."
                 image="https://images.unsplash.com/photo-1549419137-b45d0ed0064f?auto=format&fit=crop&q=80&w=2000"
             />
 
@@ -29,55 +29,34 @@ const BurstPipeCleanup = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-                            Winter Water Damage Specialists
+                            Pipe Failure Restoration
                         </h2>
 
                         <div className="grid md:grid-cols-2 gap-8 mb-12">
                             <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100">
-                                <ThermometerSnowflake className="w-12 h-12 text-blue-600 mb-4" />
-                                <h3 className="text-xl font-bold mb-3">Frozen Pipe response</h3>
+                                <CloudRain className="w-12 h-12 text-blue-600 mb-4" />
+                                <h3 className="text-xl font-bold mb-3">Sudden Pipe Failure</h3>
                                 <p className="text-slate-600">
-                                    Eagle's sub-zero temperatures put immense pressure on plumbing. We safely thaw frozen lines and extract water from bursts immediately.
+                                    Whether it's from age, corrosion, or a sudden pressure spike, a burst pipe can flood your home in minutes. We extract the water immediately.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100">
-                                <Construction className="w-12 h-12 text-blue-600 mb-4" />
-                                <h3 className="text-xl font-bold mb-3">Structural Drying</h3>
+                                <Wrench className="w-12 h-12 text-blue-600 mb-4" />
+                                <h3 className="text-xl font-bold mb-3">Minimizing Damage</h3>
                                 <p className="text-slate-600">
-                                    Water from burst pipes sprays with high pressure, soaking walls and insulation. We open affected cavities to ensure complete structural drying.
+                                    Fast extraction is key to saving your floors and drywall. Our team arrives with the right equipment to stop the spread of water.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="prose max-w-none text-slate-600 leading-relaxed mb-12">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Why Pipes Burst in Eagle</h3>
-                            <p className="mb-4">
-                                Vacation homes with lowered heating, poor insulation in crawl spaces, and sudden temperature drops make Eagle properties uniquely vulnerable. A single 1/8-inch crack in a pipe can release up to 250 gallons of water a day.
+                        <div className="prose max-w-none text-slate-600 leading-relaxed">
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Why Pipes Burst in Gulf Breeze</h3>
+                            <p>
+                                While deep freezes are rare, they do happen. More commonly, the salt air environment in Gulf Breeze can accelerate corrosion in older copper pipes, leading to pinhole leaks and eventual bursts. PVC joints can also fail over time.
                             </p>
                             <p>
-                                Our team doesn't just clean up the water. We help you identify the cause—whether it's a drafty rim joist or an uninsulated garage wall—to prevent future freezing events.
+                                We handle the clean up no matter the cause, ensuring your property is dry and safe.
                             </p>
-                        </div>
-
-                        <div className="bg-slate-900 text-white p-8 rounded-2xl">
-                            <h3 className="text-2xl font-bold mb-4">Our Burst Pipe Process</h3>
-                            <div className="grid sm:grid-cols-3 gap-6">
-                                <div className="text-center">
-                                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3 font-bold">1</div>
-                                    <h4 className="font-semibold">Stop The Water</h4>
-                                    <p className="text-sm text-slate-300">Emergency shut-off and containment</p>
-                                </div>
-                                <div className="text-center">
-                                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3 font-bold">2</div>
-                                    <h4 className="font-semibold">Extract & Open</h4>
-                                    <p className="text-sm text-slate-300">Remove water and expose wet wall cavities</p>
-                                </div>
-                                <div className="text-center">
-                                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3 font-bold">3</div>
-                                    <h4 className="font-semibold">Dry & Restore</h4>
-                                    <p className="text-sm text-slate-300">Industrial drying and material replacement</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

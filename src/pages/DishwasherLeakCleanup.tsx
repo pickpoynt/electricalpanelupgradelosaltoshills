@@ -9,19 +9,19 @@ const DishwasherLeakCleanup = () => {
     return (
         <div className="min-h-screen">
             <Helmet>
-                <title>Dishwasher Leak Cleanup Eagle | Kitchen Water Damage Repair</title>
-                <meta name="description" content="Expert kitchen water damage restoration in Eagle, CO. We save hardwood floors and cabinets from dishwasher leaks." />
-                <link rel="canonical" href="https://basement-water-removal-eagle-co.com/dishwasher-leak-cleanup" />
+                <title>Dishwasher Leak Water Damage Cleanup Gulf Breeze | Kitchen Restoration</title>
+                <meta name="description" content="Expert kitchen water damage restoration in Gulf Breeze, FL. We save cabinets and flooring from dishwasher leaks." />
+                <link rel="canonical" href="https://storm-surge-cleanup-gulf-breeze-fl.com/dishwasher-leak-water-damage-cleanup" />
             </Helmet>
             <Header />
             <Hero
                 title={
                     <>
                         Dishwasher Leak Cleanup <br />
-                        <span className="text-blue-300">Eagle, Colorado</span>
+                        <span className="text-blue-300">Gulf Breeze, FL</span>
                     </>
                 }
-                subtitle="Kitchen water damage restoration. We save your hardwood floors and cabinets from hidden dishwasher leaks and supply line failures."
+                subtitle="Kitchen water damage restoration. We save your floors and cabinets from hidden dishwasher leaks and supply line failures."
                 image="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=2000"
             />
 
@@ -29,44 +29,37 @@ const DishwasherLeakCleanup = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-                            Saving Eagle Kitchens from Water Damage
+                            Saving Gulf Breeze Kitchens
                         </h2>
 
                         <div className="mb-12">
                             <p className="text-lg text-slate-600 text-center leading-relaxed">
-                                Dishwasher leaks are often slow and silent, rotting subfloors and cabinets before you see a drop of water. Our specialized drying equipment allows us to save your expensive kitchen materials without demolition in many cases.
+                                Dishwasher leaks are often slow and silent, causing mold and rot in subfloors and cabinets before you notice. Our specialized drying equipment allows us to distinctively target the moisture under cabinets.
                             </p>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-6 mb-12">
                             <div className="bg-white p-6 rounded-xl shadow-sm">
                                 <Waves className="w-10 h-10 text-blue-600 mb-4" />
-                                <h3 className="text-lg font-bold mb-2">Hardwood Floor Rescue</h3>
+                                <h3 className="text-lg font-bold mb-2">Cabinet Preservation</h3>
                                 <p className="text-slate-600 text-sm">
-                                    We use injection drying mats to pull moisture out of hardwood floors, preventing cupping and warping without removing the planks.
+                                    We use injection drying systems to push warm dry air into cabinet voids, often saving the cabinetry from needing replacement.
                                 </p>
                             </div>
                             <div className="bg-white p-6 rounded-xl shadow-sm">
                                 <Search className="w-10 h-10 text-blue-600 mb-4" />
-                                <h3 className="text-lg font-bold mb-2">Under-Cabinet Drying</h3>
+                                <h3 className="text-lg font-bold mb-2">Hidden Moisture</h3>
                                 <p className="text-slate-600 text-sm">
-                                    Water travels under cabinets affecting the wall behind. We direct warm dry air into toe-kicks and cavities to dry hidden areas.
+                                    Water travels under tile and vinyl plank flooring. We use meters to track the water to its furthest extent.
                                 </p>
                             </div>
                             <div className="bg-white p-6 rounded-xl shadow-sm">
                                 <Droplets className="w-10 h-10 text-blue-600 mb-4" />
                                 <h3 className="text-lg font-bold mb-2">Mold Prevention</h3>
                                 <p className="text-slate-600 text-sm">
-                                    Kitchens provide food sources for mold. We sanitize the area under and behind your dishwasher to ensure a safe cooking environment.
+                                    Kitchens are prime for mold growth. We sanitize the affected area to ensure a safe food preparation environment.
                                 </p>
                             </div>
-                        </div>
-
-                        <div className="bg-blue-600 text-white rounded-2xl p-8">
-                            <h3 className="text-2xl font-bold mb-4">Did You Know?</h3>
-                            <p className="leading-relaxed">
-                                In Eagle vacation homes, a dishwasher leak can go unnoticed for weeks between guest stays. If you discover warped floorboards or a musty smell in your kitchen upon arrival, call us immediately. We can assess the extent of the subfloor damage and document everything for your insurance claim.
-                            </p>
                         </div>
                     </div>
                 </div>

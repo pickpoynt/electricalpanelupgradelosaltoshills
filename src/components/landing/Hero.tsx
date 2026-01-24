@@ -11,12 +11,12 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Basement Water Removal Eagle CO
-      <span className="block text-blue-300 mt-2">Eagle Water Rescue: Rapid Local Response.</span>
+      Storm Surge Water Cleanup Gulf Breeze FL
+      <span className="block text-blue-300 mt-2">Gulf Breeze Storm Restoration: Gulf Coast Rapid Response.</span>
     </>
   ),
-  subtitle = "When your home travels from dry to flooded, every minute counts. We specialize in basement water removal for Eagle properties, handling frozen pipe bursts, river flooding, and drainage failures specifically in Eagle County.",
-  image = "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&q=80&w=2000"
+  subtitle = "When hurricanes and tropical storms surge into your home, we're here to turn the tide. Specialized in saltwater extraction and rapid structural drying for Gulf Breeze and Pensacola Beach properties.",
+  image = "https://images.unsplash.com/photo-1454789476662-53eb23ba5907?auto=format&fit=crop&q=80&w=2000"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
@@ -24,7 +24,7 @@ const Hero = ({
       <div className="absolute inset-0 z-0">
         <img
           src={image}
-          alt="Water Damage Restoration Vail"
+          alt="Storm Surge Cleanup Gulf Breeze"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-slate-900/70" />
@@ -35,7 +35,7 @@ const Hero = ({
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-blue-600/30 border border-blue-400/50 rounded-full text-blue-100 text-sm font-medium mb-6 backdrop-blur-sm">
-              Eagle's 24/7 Emergency Water Removal
+              Gulf Breeze's 24/7 Storm Response
             </span>
           </div>
 
@@ -67,9 +67,9 @@ const Hero = ({
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] font-bold text-white">
-                CO
+                FL
               </div>
-              <span className="font-medium">Eagle Local</span>
+              <span className="font-medium">Gulf Breeze Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-blue-400" />

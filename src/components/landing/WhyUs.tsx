@@ -1,43 +1,43 @@
-import { Clock, Shield, Award, Users, Mountain, Snowflake } from "lucide-react";
+import { Clock, Shield, Award, Users, Anchor, CloudLightning } from "lucide-react";
 
 const reasons = [
   {
     icon: Clock,
-    title: "45-Minute Response",
-    description: "Eagle weather can be unpredictable. Our local team is ready 24/7 with 4WD vehicles to reach your flooded basement fast."
+    title: "30-Minute Response",
+    description: "We are locally stationed in Gulf Breeze, ensuring we reach your property fast to mitigate salt water damage."
   },
   {
-    icon: Mountain,
-    title: "Mountain Home Experts",
-    description: "We understand mountain construction, from heated driveways to stone foundations, ensuring safe and effective water removal."
+    icon: Anchor,
+    title: "Coastal Experts",
+    description: "We understand the specific challenges of salt water flooding and coastal construction codes."
   },
   {
-    icon: Snowflake,
-    title: "Winter Specialists",
-    description: "From frozen pipe bursts to ice dam leaks, we have the specialized equipment to handle water damage in freezing temperatures."
+    icon: CloudLightning,
+    title: "Storm Ready",
+    description: "Our fleet is staged and ready before the hurricane makes landfall, ensuring immediate support."
   },
   {
     icon: Award,
     title: "Licensed & Insured",
-    description: "Fully licensed for water restoration in Colorado. We carry comprehensive liability and workers' compensation insurance."
+    description: "Fully licensed for Florida water restoration. We carry comprehensive liability insurance."
   },
   {
     icon: Shield,
-    title: "Insurance Approved",
-    description: "We work with all major carriers (State Farm, Allstate, etc.) and handle the documentation so you can focus on recovery."
+    title: "Insurance Accepted",
+    description: "We work with all major flood insurance carriers to handle your claim documentation."
   },
   {
     icon: Users,
-    title: "Local Eagle Team",
-    description: "Living and working in Eagle County means we treat every customer like a neighbor. We're here for you before, during, and after the storm."
+    title: "Local Community",
+    description: "We live here. We care about restoring our neighbors' homes after the storm."
   }
 ];
 
 const stats = [
-  { number: "15+", label: "Years in Eagle" },
-  { number: "45min", label: "Avg Response" },
+  { number: "20+", label: "Hurricanes Handled" },
+  { number: "30min", label: "Avg Response" },
   { number: "100%", label: "Satisfaction" },
-  { number: "24/7", label: "Emergency Support" }
+  { number: "24/7", label: "Storm Support" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Eagle Homeowners Trust Us
+            Why Gulf Breeze Trusts Us
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            When your basement floods, you need a team that understands the unique challenges of properties in the Colorado Rockies.
+            When the water rises, you need a team that knows the coast and has the right equipment to save your home.
           </p>
         </div>
 
