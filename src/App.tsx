@@ -5,11 +5,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import DishwasherLeakCleanup from "./pages/DishwasherLeakCleanup";
-import WaterHeaterLeakCleanup from "./pages/WaterHeaterLeakCleanup";
-import StormSurgeCleanup from "./pages/StormSurgeCleanup";
-import BurstPipeCleanup from "./pages/BurstPipeCleanup";
-import CeilingLeakRepair from "./pages/CeilingLeakRepair";
+import FrozenPipeCleanup from "./pages/FrozenPipeCleanup";
+import FloodedBasementCleanup from "./pages/FloodedBasementCleanup";
+import HardwoodFloorRepair from "./pages/HardwoodFloorRepair";
+import CeilingWaterDamage from "./pages/CeilingWaterDamage";
+import WetCarpetDrying from "./pages/WetCarpetDrying";
+import SewageBackupCleanup from "./pages/SewageBackupCleanup";
+import EmergencyBasementWaterRemoval from "./pages/EmergencyBasementWaterRemoval";
 
 const queryClient = new QueryClient();
 
@@ -21,12 +23,13 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/dishwasher-leak-water-damage-cleanup" element={<DishwasherLeakCleanup />} />
-          <Route path="/water-heater-leak-cleanup" element={<WaterHeaterLeakCleanup />} />
-          <Route path="/storm-surge-water-damage-cleanup" element={<StormSurgeCleanup />} />
-          <Route path="/burst-pipe-water-damage-cleanup" element={<BurstPipeCleanup />} />
-          <Route path="/ceiling-leak-water-damage-repair" element={<CeilingLeakRepair />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/frozen-pipe-burst-cleanup-rye-brook-ny" element={<FrozenPipeCleanup />} />
+          <Route path="/flooded-basement-cleanup-cost-rye-brook-ny" element={<FloodedBasementCleanup />} />
+          <Route path="/hardwood-floor-water-damage-repair-rye-brook-ny" element={<HardwoodFloorRepair />} />
+          <Route path="/ceiling-water-damage-repair-rye-brook-ny" element={<CeilingWaterDamage />} />
+          <Route path="/wet-carpet-drying-service-rye-brook-ny" element={<WetCarpetDrying />} />
+          <Route path="/sewage-backup-cleanup-cost-rye-brook-ny" element={<SewageBackupCleanup />} />
+          <Route path="/emergency-basement-water-removal-rye-brook-ny" element={<EmergencyBasementWaterRemoval />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

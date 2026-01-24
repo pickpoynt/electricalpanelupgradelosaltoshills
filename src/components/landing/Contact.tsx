@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-                24/7 Emergency Storm Response
+                24/7 Emergency Water Cleanup
               </h2>
               <p className="text-lg text-slate-300">
-                Flooding in Gulf Breeze? Don't wait. Call our emergency line now for immediate dispatch.
+                Frozen pipes in Rye Brook? Basement flooded? Call our emergency line now for immediate dispatch.
               </p>
             </div>
 
@@ -39,8 +39,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Service Area</div>
-                      <div className="text-white">Gulf Breeze, FL</div>
-                      <div className="text-sm text-slate-400">32561, 32563</div>
+                      <div className="text-white">Rye Brook, NY</div>
+                      <div className="text-sm text-slate-400">10573</div>
                     </div>
                   </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Email</div>
-                      <div className="text-white text-sm">emergency@gulfbreezerestoration.com</div>
+                      <div className="text-white text-sm">emergency@ryebrookrestoration.com</div>
                       <div className="text-sm text-slate-400">For non-urgent inquiries</div>
                     </div>
                   </div>
@@ -62,12 +62,12 @@ const Contact = () => {
                   We Serve These Local Areas:
                 </h4>
                 <div className="grid grid-cols-1 gap-3 text-sm text-slate-300">
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Gulf Breeze Proper</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Pensacola Beach</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Tiger Point</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Oriole Beach</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Midway</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Navarre</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Rye Brook</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Port Chester</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Harrison</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> White Plains</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Purchase</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Rye</div>
                 </div>
               </div>
             </div>
@@ -91,10 +91,10 @@ const Contact = () => {
               <div className="space-y-2">
                 <label htmlFor="service" className="text-sm font-medium text-slate-700">Service Needed</label>
                 <select id="service" className="w-full h-10 px-3 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                  <option>Storm Surge Cleanup</option>
-                  <option>Burst Pipe Repair</option>
-                  <option>Roof Leak Water Damage</option>
-                  <option>Water Extraction</option>
+                  <option>Frozen Pipe Cleanup</option>
+                  <option>Basement Flooding</option>
+                  <option>Ceiling Leak</option>
+                  <option>Sewage Cleanup</option>
                   <option>Other</option>
                 </select>
               </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                 Get Help Now
               </Button>
               <p className="text-xs text-slate-500 text-center mt-4">
-                For life-threatening emergencies, please call 911. For flood response, call (380) 266-0944
+                For life-threatening emergencies, please call 911. For water damage response, call (380) 266-0944
               </p>
             </form>
           </div>

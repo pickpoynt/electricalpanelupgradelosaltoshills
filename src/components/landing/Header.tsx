@@ -13,11 +13,13 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Storm Surge Cleanup", href: "/storm-surge-water-damage-cleanup" },
-    { name: "Dishwasher Leak Cleanup", href: "/dishwasher-leak-water-damage-cleanup" },
-    { name: "Water Heater Leak Cleanup", href: "/water-heater-leak-cleanup" },
-    { name: "Burst Pipe Cleanup", href: "/burst-pipe-water-damage-cleanup" },
-    { name: "Ceiling Leak Repair", href: "/ceiling-leak-water-damage-repair" },
+    { name: "Frozen Pipe Cleanup", href: "/frozen-pipe-burst-cleanup-rye-brook-ny" },
+    { name: "Flooded Basement Cleanup", href: "/flooded-basement-cleanup-cost-rye-brook-ny" },
+    { name: "Hardwood Floor Repair", href: "/hardwood-floor-water-damage-repair-rye-brook-ny" },
+    { name: "Ceiling Water Damage", href: "/ceiling-water-damage-repair-rye-brook-ny" },
+    { name: "Wet Carpet Drying", href: "/wet-carpet-drying-service-rye-brook-ny" },
+    { name: "Sewage Backup Cleanup", href: "/sewage-backup-cleanup-cost-rye-brook-ny" },
+    { name: "Emergency Water Removal", href: "/emergency-basement-water-removal-rye-brook-ny" },
   ];
 
   return (
@@ -27,13 +29,13 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">GB</span>
+              <span className="text-white font-heading font-bold text-lg">RB</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Gulf Breeze Restoration
+                Rye Brook Restoration
               </h1>
-              <p className="text-xs text-slate-500">24/7 Storm & Water Cleanup</p>
+              <p className="text-xs text-slate-500">24/7 Water Damage Cleanup</p>
             </div>
           </Link>
 

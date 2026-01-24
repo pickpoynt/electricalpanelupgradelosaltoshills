@@ -1,36 +1,48 @@
-import { CloudRain, Waves, Heater, Droplets, ArrowUp } from "lucide-react";
+import { ThermometerSnowflake, Droplets, Waves, ArrowUp, Biohazard, Activity, FolderSearch } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: Waves,
-    title: "Storm Surge Cleanup",
-    description: "Emergency extraction and drying for homes affected by hurricane storm surge.",
-    link: "/storm-surge-water-damage-cleanup"
+    icon: ThermometerSnowflake,
+    title: "Frozen Pipe Cleanup",
+    description: "Emergency thaw and extraction for frozen pipe bursts in winter.",
+    link: "/frozen-pipe-burst-cleanup-rye-brook-ny"
   },
   {
     icon: Droplets,
-    title: "Dishwasher Leak Cleanup",
-    description: "Repairing water damage from failed kitchen appliances and supply lines.",
-    link: "/dishwasher-leak-water-damage-cleanup"
+    title: "Flooded Basement Cleanup",
+    description: "Rapid pump out and drying for finished basements.",
+    link: "/flooded-basement-cleanup-cost-rye-brook-ny"
   },
   {
-    icon: Heater,
-    title: "Water Heater Leak Cleanup",
-    description: "Flood cleanup for ruptured water heater tanks and utility rooms.",
-    link: "/water-heater-leak-cleanup"
-  },
-  {
-    icon: CloudRain,
-    title: "Burst Pipe Cleanup",
-    description: "Restoration for pipes burst due to corruption or sudden pressure.",
-    link: "/burst-pipe-water-damage-cleanup"
+    icon: FolderSearch,
+    title: "Hardwood Floor Repair",
+    description: "Specialized drying for water-damaged hardwood floors.",
+    link: "/hardwood-floor-water-damage-repair-rye-brook-ny"
   },
   {
     icon: ArrowUp,
-    title: "Ceiling Leak Repair",
-    description: "Drying and repair for water damage caused by roof leaks and storms.",
-    link: "/ceiling-leak-water-damage-repair"
+    title: "Ceiling Water Damage",
+    description: "Repair for leaks from upstairs bathrooms or roofs.",
+    link: "/ceiling-water-damage-repair-rye-brook-ny"
+  },
+  {
+    icon: Waves,
+    title: "Wet Carpet Drying",
+    description: "Industrial extraction to save carpets and pads.",
+    link: "/wet-carpet-drying-service-rye-brook-ny"
+  },
+  {
+    icon: Biohazard,
+    title: "Sewage Backup Cleanup",
+    description: "Safe removal and sanitization of sewer backups.",
+    link: "/sewage-backup-cleanup-cost-rye-brook-ny"
+  },
+  {
+    icon: Activity,
+    title: "Emergency Water Removal",
+    description: "24/7 rapid response for any water emergency.",
+    link: "/emergency-basement-water-removal-rye-brook-ny"
   }
 ];
 
@@ -40,14 +52,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Gulf Coast Water Damage Services
+            Rye Brook Water Restoration Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            From tropical storms to appliance failures, we protect Gulf Breeze homes from all forms of water damage.
+            From frozen pipe bursts to sewage backups, we handle every type of water damage in Westchester County.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
