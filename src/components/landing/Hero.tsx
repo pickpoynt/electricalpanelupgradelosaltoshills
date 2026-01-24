@@ -1,14 +1,30 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Wind, ShieldCheck, Zap } from "lucide-react";
+import React from "react";
 
-const Hero = () => {
+interface HeroProps {
+  title?: React.ReactNode;
+  subtitle?: string;
+  image?: string;
+}
+
+const Hero = ({
+  title = (
+    <>
+      Basement Water Removal Vail CO
+      <span className="block text-blue-300 mt-2">Vail Water Rescue: Rapid Mountain Response.</span>
+    </>
+  ),
+  subtitle = "When your mountain home travels from dry to flooded, every minute counts. We specialize in basement water removal for Vail properties, handling frozen pipe bursts, snowmelt flooding, and drainage failures specifically in Eagle County.",
+  image = "https://images.unsplash.com/photo-1413882353314-73789ccee31a?auto=format&fit=crop&q=80&w=2000"
+}: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1413882353314-73789ccee31a?auto=format&fit=crop&q=80&w=2000"
-          alt="Basement water removal Vail Colorado"
+          src={image}
+          alt="Water Damage Restoration Vail"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-slate-900/70" />
@@ -24,12 +40,11 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 animate-fade-in-up leading-tight">
-            Basement Water Removal Vail CO
-            <span className="block text-blue-300 mt-2">Vail Water Rescue: Rapid Mountain Response.</span>
+            {title}
           </h1>
 
           <p className="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl animate-fade-in-delay-1 leading-relaxed">
-            When your mountain home travels from dry to flooded, every minute counts. We specialize in basement water removal for Vail properties, handling frozen pipe bursts, snowmelt flooding, and drainage failures specifically in Eagle County.
+            {subtitle}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

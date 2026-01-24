@@ -1,16 +1,33 @@
-import { Phone, Menu, X } from "lucide-react";
+import { Phone, Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const services = [
+    { name: "Emergency Water Extraction", href: "/emergency-water-extraction" },
+    { name: "Crawl Space Water Removal", href: "/crawl-space-water-removal" },
+    { name: "Burst Pipe Cleanup", href: "/burst-pipe-cleanup" },
+    { name: "Toilet Overflow Cleanup", href: "/toilet-overflow-cleanup" },
+    { name: "Dishwasher Leak Cleanup", href: "/dishwasher-leak-cleanup" },
+    { name: "Water Heater Leak Cleanup", href: "/water-heater-leak-cleanup" },
+    { name: "Leak Detection Services", href: "/leak-detection-water-damage-services" },
+  ];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
               <span className="text-white font-heading font-bold text-lg">VR</span>
             </div>
@@ -20,20 +37,29 @@ const Header = () => {
               </h1>
               <p className="text-xs text-slate-500">24/7 Basement Water Removal</p>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#services" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">
-              Services
-            </a>
-            <a href="#about" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-slate-600 hover:text-blue-600 transition-colors font-medium outline-none">
+                Our Services <ChevronDown className="w-4 h-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-64 bg-white">
+                {services.map((service) => (
+                  <DropdownMenuItem key={service.name} asChild>
+                    <Link to={service.href} className="w-full cursor-pointer">
+                      {service.name}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <a href="/#about" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">
               Why Us
             </a>
-            <a href="#basement-water-removal" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">
-              Water Removal
-            </a>
-            <a href="#contact" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">
+            <a href="/#contact" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">
               Contact
             </a>
           </nav>
@@ -60,18 +86,27 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-slate-100 animate-fade-in bg-white">
+          <div className="md:hidden py-4 border-t border-slate-100 animate-fade-in bg-white max-h-[80vh] overflow-y-auto">
             <nav className="flex flex-col gap-4">
-              <a href="#services" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2">
-                Services
-              </a>
-              <a href="#about" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2">
+              <div className="px-2">
+                <div className="font-medium text-slate-900 mb-2">Our Services</div>
+                <div className="pl-4 flex flex-col gap-3 border-l-2 border-slate-100">
+                  {services.map((service) => (
+                    <Link
+                      key={service.name}
+                      to={service.href}
+                      className="text-slate-600 hover:text-blue-600 text-sm"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <a href="/#about" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
                 Why Us
               </a>
-              <a href="#basement-water-removal" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2">
-                Water Removal
-              </a>
-              <a href="#contact" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2">
+              <a href="/#contact" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
                 Contact
               </a>
               <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
