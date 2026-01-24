@@ -3,10 +3,16 @@ import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import { Heater, Flame, Waves } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const WaterHeaterLeakCleanup = () => {
     return (
         <div className="min-h-screen">
+            <Helmet>
+                <title>Water Heater Leak Cleanup Vail | Flood Restoration</title>
+                <meta name="description" content="Emergency water extraction for water heater failures. We handle large volume floods in basements and utility rooms." />
+                <link rel="canonical" href="https://basement-water-removal-vail-co.com/water-heater-leak-cleanup" />
+            </Helmet>
             <Header />
             <Hero
                 title={

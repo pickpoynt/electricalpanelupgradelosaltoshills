@@ -3,10 +3,16 @@ import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import { ThermometerSnowflake, Wrench, Droplets, Construction } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const BurstPipeCleanup = () => {
     return (
         <div className="min-h-screen">
+            <Helmet>
+                <title>Burst Pipe Cleanup Vail CO | Frozen Pipe Repair & Drying</title>
+                <meta name="description" content="Emergency cleanup for frozen and burst pipes in Vail. We stop the water, repair damage, and dry structure." />
+                <link rel="canonical" href="https://basement-water-removal-vail-co.com/burst-pipe-cleanup" />
+            </Helmet>
             <Header />
             <Hero
                 title={

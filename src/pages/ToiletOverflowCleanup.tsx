@@ -3,10 +3,16 @@ import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import { Biohazard, Sparkles, AlertTriangle } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const ToiletOverflowCleanup = () => {
     return (
         <div className="min-h-screen">
+            <Helmet>
+                <title>Toilet Overflow Cleanup Vail | Sewage Backup Cleaning</title>
+                <meta name="description" content="Professional sewage cleanup and toilet overflow restoration. Safe biohazard removal and sanitization." />
+                <link rel="canonical" href="https://basement-water-removal-vail-co.com/toilet-overflow-cleanup" />
+            </Helmet>
             <Header />
             <Hero
                 title={

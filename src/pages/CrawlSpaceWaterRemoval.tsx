@@ -3,10 +3,16 @@ import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import { Flashlight, Shield, Bug, Wind } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const CrawlSpaceWaterRemoval = () => {
     return (
         <div className="min-h-screen">
+            <Helmet>
+                <title>Crawl Space Water Removal Vail | Wet Crawl Space Cleanup</title>
+                <meta name="description" content="Expert crawl space water removal and encapsulation in Vail, CO. Prevent mold and protect your foundation." />
+                <link rel="canonical" href="https://basement-water-removal-vail-co.com/crawl-space-water-removal" />
+            </Helmet>
             <Header />
             <Hero
                 title={

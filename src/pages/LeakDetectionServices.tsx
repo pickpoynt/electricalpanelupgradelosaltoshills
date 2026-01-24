@@ -3,10 +3,16 @@ import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import { ScanSearch, Waves, Activity } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const LeakDetectionServices = () => {
     return (
         <div className="min-h-screen">
+            <Helmet>
+                <title>Water Leak Detection Vail CO | Thermal Imaging Services</title>
+                <meta name="description" content="Non-invasive leak detection using thermal imaging and acoustic tech. Find hidden leaks behind walls." />
+                <link rel="canonical" href="https://basement-water-removal-vail-co.com/leak-detection-water-damage-services" />
+            </Helmet>
             <Header />
             <Hero
                 title={

@@ -3,10 +3,16 @@ import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import { Droplets, Search, Waves } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const DishwasherLeakCleanup = () => {
     return (
         <div className="min-h-screen">
+            <Helmet>
+                <title>Dishwasher Leak Cleanup Vail | Kitchen Water Damage Repair</title>
+                <meta name="description" content="Expert kitchen water damage restoration. We save hardwood floors and cabinets from dishwasher leaks." />
+                <link rel="canonical" href="https://basement-water-removal-vail-co.com/dishwasher-leak-cleanup" />
+            </Helmet>
             <Header />
             <Hero
                 title={

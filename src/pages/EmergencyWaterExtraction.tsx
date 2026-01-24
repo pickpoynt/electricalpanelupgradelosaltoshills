@@ -3,10 +3,16 @@ import Hero from "@/components/landing/Hero";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import { Truck, Clock, ShieldAlert, Zap } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const EmergencyWaterExtraction = () => {
     return (
         <div className="min-h-screen">
+            <Helmet>
+                <title>Emergency Water Extraction Vail CO | 24/7 Water Removal</title>
+                <meta name="description" content="24/7 Rapid response water removal for Vail mountain homes. Truck-mounted extraction for fast drying." />
+                <link rel="canonical" href="https://basement-water-removal-vail-co.com/emergency-water-extraction" />
+            </Helmet>
             <Header />
             <Hero
                 title={
