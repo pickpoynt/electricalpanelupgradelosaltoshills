@@ -13,11 +13,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Sump Pump Cleanup", href: "/sump-pump-failure-cleanup-cohasset-ma" },
-    { name: "Flooded Basement Restoration", href: "/flooded-basement-restoration-cohasset-ma" },
-    { name: "Sewage Backup Cleanup", href: "/sewage-backup-cleanup-cohasset-ma" },
-    { name: "Mold Remediation", href: "/mold-remediation-cohasset-ma" },
-    { name: "Battery Backup Failure", href: "/battery-backup-failure-cleanup-cohasset-ma" },
+    { name: "Smoke Odor Removal", href: "/smoke-odor-removal-whitefish-mt" },
+    { name: "Fire Damage Restoration", href: "/fire-damage-restoration-whitefish-mt" },
+    { name: "Upholstery Deep Cleaning", href: "/upholstery-deep-cleaning-whitefish-mt" },
+    { name: "Ozone Treatment", href: "/ozone-treatment-whitefish-mt" },
+    { name: "Thermal Fogging Service", href: "/thermal-fogging-whitefish-mt" },
   ];
 
   return (
@@ -27,13 +27,13 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">CR</span>
+              <span className="text-white font-heading font-bold text-lg">MFR</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Cohasset Restoration
+                Montana Fresh Restore
               </h1>
-              <p className="text-xs text-slate-500">24/7 Basement Flood Cleanup</p>
+              <p className="text-xs text-slate-500">Odor Elimination Experts</p>
             </div>
           </Link>
 

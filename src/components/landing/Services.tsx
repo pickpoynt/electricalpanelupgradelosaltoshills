@@ -1,36 +1,42 @@
-import { Waves, Mountain, CloudRain, Droplets, Zap, Power, ShieldAlert, Bug } from "lucide-react";
+import { Wind, Flame, Sparkles, Droplets, Zap, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: Power,
-    title: "Sump Pump Cleanup",
-    description: "Emergency cleanup when your pump fails or power goes out.",
-    link: "/sump-pump-failure-cleanup-cohasset-ma"
+    icon: Wind,
+    title: "Smoke Odor Removal",
+    description: "Complete odor elimination using industrial ozone generators.",
+    link: "/smoke-odor-removal-whitefish-mt"
   },
   {
-    icon: Waves,
-    title: "Basement Restoration",
-    description: "Drying finished basements and removing water damaged materials.",
-    link: "/flooded-basement-restoration-cohasset-ma"
+    icon: Flame,
+    title: "Fire Damage Restoration",
+    description: "Comprehensive cleaning and restoration of fire-damaged upholstery.",
+    link: "/fire-damage-restoration-whitefish-mt"
   },
   {
-    icon: ShieldAlert,
-    title: "Sewage Backup",
-    description: "Biohazard cleanup for sewer line backups.",
-    link: "/sewage-backup-cleanup-cohasset-ma"
-  },
-  {
-    icon: Bug,
-    title: "Mold Remediation",
-    description: "Preventing mold growth after water damage.",
-    link: "/mold-remediation-cohasset-ma"
+    icon: Sparkles,
+    title: "Deep Upholstery Cleaning",
+    description: "Hot water extraction to remove soot, ash, and smoke residue.",
+    link: "/upholstery-deep-cleaning-whitefish-mt"
   },
   {
     icon: Zap,
-    title: "Battery Backup Failure",
-    description: "Restoration for floods during power outages.",
-    link: "/battery-backup-failure-cleanup-cohasset-ma"
+    title: "Thermal Fogging",
+    description: "Advanced fogging technology for deep fiber penetration.",
+    link: "/thermal-fogging-whitefish-mt"
+  },
+  {
+    icon: Droplets,
+    title: "Wildfire Smoke Cleanup",
+    description: "Specialized treatment for wildfire smoke infiltration.",
+    link: "/wildfire-smoke-cleanup-whitefish-mt"
+  },
+  {
+    icon: Shield,
+    title: "Fabric Protection",
+    description: "Post-cleaning protectant application for lasting freshness.",
+    link: "/fabric-protection-whitefish-mt"
   },
 ];
 
@@ -40,10 +46,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Cohasset Water Damage Services
+            Whitefish Smoke Odor Removal Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Specialized in recovering basements from sump pump failures and coastal storms.
+            Specialized in eliminating smoke odors from upholstered furniture using advanced restoration technology.
           </p>
         </div>
 

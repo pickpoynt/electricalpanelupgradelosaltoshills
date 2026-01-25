@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "How quickly do you respond to basement flooding in Vail?",
-    answer: "We provide 24/7 emergency response and typically arrive at properties in Vail and helping Eagle County areas within 45 minutes. We understand that mountain weather can be unpredictable, so our vehicles are equipped for severe winter conditions."
+    question: "How does ozone treatment remove smoke odor from upholstery?",
+    answer: "Ozone (O₃) is a powerful oxidizing agent that chemically bonds with smoke particles at the molecular level, breaking them down completely. We seal the treatment area, run industrial ozone generators for calculated cycles, and the O₃ molecules penetrate deep into upholstery fibers, cushion foam, and wooden frames—destroying odor-causing compounds rather than just masking them. This is the most effective method for permanent smoke odor elimination."
   },
   {
-    question: "Do you work with homeowners insurance?",
-    answer: "Yes, we work with all major insurance carriers. We provide detailed documentation, moisture mapping, and photos of the damage to support your claim. We can communicate directly with your adjuster to expedite the approval process."
+    question: "Can you remove wildfire smoke smell from my furniture?",
+    answer: "Absolutely. Wildfire smoke is particularly challenging because it contains fine particulate matter that penetrates deeply into fabrics. We use a multi-step process: first, HEPA vacuuming to remove surface particles; second, hot water extraction with specialized smoke-damage cleaning agents; third, thermal fogging to neutralize embedded odors; and finally, ozone treatment for complete molecular-level elimination. We've successfully restored hundreds of homes affected by Montana wildfire seasons."
   },
   {
-    question: "Can you remove water from a finished basement without ruining it?",
-    answer: "Our goal is to save as much of your property as possible. We use advanced water extraction mats and weighted systems to pull water from carpets and pads. For hardwood, we have specialized drying mats. However, in cases of severe damage or category 3 water (sewage), some materials may need to be removed for safety."
+    question: "How long does the smoke odor removal process take?",
+    answer: "For typical upholstered furniture (sofa, loveseat, chairs), the complete process takes 2-4 days. This includes initial cleaning (4-6 hours), drying time (12-24 hours), thermal fogging (2-3 hours), and ozone treatment cycles (24-48 hours depending on severity). We can't rush the process—each step must be completed properly to ensure 100% odor elimination. However, we offer same-day emergency response to begin work immediately."
   },
   {
-    question: "What causes basement flooding in Vail?",
-    answer: "The most common causes we see in Vail are frozen pipe bursts during winter, rapid snowmelt in spring overwhelming foundation drains, and sump pump failures during power outages. We also handle flooding from appliance malfunctions like water heaters and washing machines."
+    question: "Is ozone treatment safe for my upholstery fabrics?",
+    answer: "Yes, when performed by trained professionals. Ozone doesn't damage fabrics, leather, or wood when used at proper concentrations and exposure times. We evacuate the space during treatment (no people or pets), carefully calculate the ozone levels based on room size and damage severity, and ventilate thoroughly afterward. Our IICRC-certified technicians follow strict safety protocols to protect both your furniture and your family."
   },
   {
-    question: "How do you prevent mold growth after water removal?",
-    answer: "Speed is key. We extract the standing water immediately and then set up industrial dehumidifiers and air movers to dry the structure. We also treat affected surfaces with antimicrobial agents to kill any existing bacteria and prevent mold spores from taking root."
+    question: "Will insurance cover smoke odor removal from upholstery?",
+    answer: "Most homeowner's insurance policies cover smoke damage restoration if it resulted from a covered event (house fire, fireplace malfunction, etc.). We provide detailed documentation including photos, moisture readings, particle testing, and itemized treatment logs to support your claim. We work directly with adjusters throughout Flathead County and can help you navigate the claims process to maximize your coverage."
   },
   {
-    question: "My basement smells musty after a leak. can you help?",
-    answer: "Yes, a musty odor indicates hidden moisture or mold growth. We use thermal imaging cameras and moisture meters to find the source. We also offer professional odor removal services using hydroxyl generators and ozone treatments (in unoccupied spaces) to neutralize smells at the molecular level."
+    question: "Can you remove smoke smell from leather furniture?",
+    answer: "Yes, leather requires specialized treatment. Smoke particles sit on the surface and in the pores of leather. We use pH-balanced leather cleaners to remove surface residue, followed by conditioning to prevent drying and cracking. For embedded odors, we apply thermal fogging and controlled ozone treatment. Leather is actually easier to restore than fabric because it's less porous, but it requires specific products to avoid damage."
   },
   {
-    question: "Are your technicians certified?",
-    answer: "Absolutely. Our team is IICRC certified in Water Damage Restoration (WRT) and Applied Structural Drying (ASD). We undergo regular training to stay updated on the latest restoration techniques and equipment, specifically for high-altitude mountain environments."
+    question: "What if the smoke smell comes back after treatment?",
+    answer: "When done properly, smoke odor removal is permanent—the ozone destroys odor molecules completely. If smell returns, it usually means there's a hidden source we missed (smoke in HVAC ducts, walls, or subflooring). We offer a satisfaction guarantee: if odor returns within 30 days, we'll return to identify and treat the source at no additional charge. In 15+ years serving Whitefish, we've had a 100% success rate with our complete treatment protocol."
   },
   {
-    question: "What should I do while waiting for you to arrive?",
-    answer: "If safe, turn off the main water valve to stop the flow. Do not enter standing water if there is any risk of electrical shock. Move valuable items to a higher level if possible. Take photos of the damage for your insurance records. Stay clear of the affected area to avoid spreading contaminants."
+    question: "Do you offer same-day service in Whitefish and Flathead County?",
+    answer: "Yes, we provide same-day emergency response throughout Whitefish, Columbia Falls, Kalispell, and all of Flathead County. After a fire, smoke particles continue penetrating deeper into upholstery fibers with each passing hour. The sooner we begin treatment, the easier and more effective the restoration. Call us at (380) 266-0944 and we'll have a certified technician at your property within hours to assess the damage and begin the cleaning process."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Basement Water Removal FAQ
+              Smoke Odor Removal FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Answers to common questions about our emergency water extraction and restoration services in Vail, CO.
+              Answers to common questions about our smoke odor removal and upholstery restoration services in Whitefish, MT.
             </p>
           </div>
 

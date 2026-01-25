@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-                24/7 Basement Water Cleanup
+                24/7 Smoke Odor Removal Service
               </h2>
               <p className="text-lg text-slate-300">
-                Sump pump failed in Cohasset? Don't let water ruin your basement. Call our emergency response team now.
+                Fire damage in Whitefish? Don't let smoke odors ruin your furniture. Call our emergency restoration team now.
               </p>
             </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Call 24/7</div>
                       <div className="text-2xl font-heading font-bold text-white">(380) 266-0944</div>
-                      <div className="text-sm text-slate-400">30-minute rapid response</div>
+                      <div className="text-sm text-slate-400">Same-day emergency response</div>
                     </div>
                   </a>
 
@@ -39,8 +39,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Service Area</div>
-                      <div className="text-white">Cohasset, MA</div>
-                      <div className="text-sm text-slate-400">02025</div>
+                      <div className="text-white">Whitefish, MT</div>
+                      <div className="text-sm text-slate-400">59937</div>
                     </div>
                   </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Email</div>
-                      <div className="text-white text-sm">emergency@cohassetrestoration.com</div>
+                      <div className="text-white text-sm">service@montanafreshrestore.com</div>
                       <div className="text-sm text-slate-400">For non-urgent inquiries</div>
                     </div>
                   </div>
@@ -62,12 +62,12 @@ const Contact = () => {
                   We Serve These Local Areas:
                 </h4>
                 <div className="grid grid-cols-1 gap-3 text-sm text-slate-300">
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Cohasset</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Scituate</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Hingham</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Hull</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Weymouth</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Norwell</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Whitefish</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Kalispell</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Columbia Falls</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Bigfork</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Lakeside</div>
+                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Flathead County</div>
                 </div>
               </div>
             </div>
@@ -91,10 +91,11 @@ const Contact = () => {
               <div className="space-y-2">
                 <label htmlFor="service" className="text-sm font-medium text-slate-700">Service Needed</label>
                 <select id="service" className="w-full h-10 px-3 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                  <option>Sump Pump Failure</option>
-                  <option>Flooded Basement</option>
-                  <option>Sewage Backup</option>
-                  <option>Mold Issue</option>
+                  <option>Smoke Odor Removal</option>
+                  <option>Fire Damage Restoration</option>
+                  <option>Upholstery Deep Cleaning</option>
+                  <option>Ozone Treatment</option>
+                  <option>Thermal Fogging</option>
                   <option>Other</option>
                 </select>
               </div>

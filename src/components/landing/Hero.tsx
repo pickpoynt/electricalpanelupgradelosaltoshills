@@ -11,12 +11,12 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Sump Pump Failure Water Cleanup Cohasset MA
-      <span className="block text-blue-300 mt-2">Cohasset Restoration: South Shore Expert Response.</span>
+      Smoke Odor Removal from Upholstery Whitefish MT
+      <span className="block text-blue-300 mt-2">Montana Fresh Restore: Flathead Valley's Odor Elimination Experts</span>
     </>
   ),
-  subtitle = "When your sump pump fails during a Nor'easter, we're here. Emergency water extraction and basement drying for Cohasset homes.",
-  image = "https://images.unsplash.com/photo-1565514020121-6655e82b7596?auto=format&fit=crop&q=80&w=2000"
+  subtitle = "Fire and smoke damage doesn't have to be permanent. We use advanced ozone treatment, thermal fogging, and deep cleaning to completely eliminate smoke odors from your upholstered furniture.",
+  image = "/smoke-odor-hero.png"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
@@ -24,7 +24,7 @@ const Hero = ({
       <div className="absolute inset-0 z-0">
         <img
           src={image}
-          alt="Sump Pump Failure Cohasset"
+          alt="Smoke Odor Removal Whitefish MT"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-slate-900/70" />
@@ -35,7 +35,7 @@ const Hero = ({
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-blue-600/30 border border-blue-400/50 rounded-full text-blue-100 text-sm font-medium mb-6 backdrop-blur-sm">
-              Cohasset's 24/7 Sump Pump Emergency Team
+              Whitefish's Professional Upholstery Restoration Team
             </span>
           </div>
 
@@ -59,21 +59,21 @@ const Hero = ({
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-slate-200 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">Licensed & Insured</span>
+              <span className="font-medium">Certified Techs</span>
             </div>
             <div className="flex items-center gap-2">
               <Waves className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">Basement Drying</span>
+              <span className="font-medium">Ozone Treatment</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] font-bold text-white">
-                MA
+                MT
               </div>
-              <span className="font-medium">Cohasset Local</span>
+              <span className="font-medium">Whitefish Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">30-Min ETA</span>
+              <span className="font-medium">Same-Day Service</span>
             </div>
           </div>
         </div>

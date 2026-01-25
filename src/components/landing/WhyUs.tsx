@@ -1,43 +1,43 @@
-import { Clock, Shield, Award, Users, Anchor, CloudLightning } from "lucide-react";
+import { Clock, Shield, Award, Users, Wind, Mountain } from "lucide-react";
 
 const reasons = [
   {
     icon: Clock,
-    title: "30-Minute Response",
-    description: "We are locally stationed in Gulf Breeze, ensuring we reach your property fast to mitigate salt water damage."
+    title: "Same-Day Service",
+    description: "We understand smoke damage worsens with time. Our team responds immediately to begin the odor elimination process before particles set permanently."
   },
   {
-    icon: Anchor,
-    title: "Coastal Experts",
-    description: "We understand the specific challenges of salt water flooding and coastal construction codes."
+    icon: Mountain,
+    title: "Montana Specialists",
+    description: "We understand Flathead Valley's unique challenges—from wildfire smoke infiltration to wood stove accidents. We've seen it all and know how to fix it."
   },
   {
-    icon: CloudLightning,
-    title: "Storm Ready",
-    description: "Our fleet is staged and ready before the hurricane makes landfall, ensuring immediate support."
+    icon: Wind,
+    title: "Advanced Technology",
+    description: "Our industrial ozone generators and thermal foggers are commercial-grade equipment that completely eliminates odors at the molecular level."
   },
   {
     icon: Award,
-    title: "Licensed & Insured",
-    description: "Fully licensed for Florida water restoration. We carry comprehensive liability insurance."
+    title: "Certified Technicians",
+    description: "Our team is trained in IICRC fire and smoke restoration standards. We follow proven protocols for complete odor removal."
   },
   {
     icon: Shield,
-    title: "Insurance Accepted",
-    description: "We work with all major flood insurance carriers to handle your claim documentation."
+    title: "Insurance Assistance",
+    description: "We work directly with your homeowner's insurance to document fire damage and help you get the coverage you deserve."
   },
   {
     icon: Users,
-    title: "Local Community",
-    description: "We live here. We care about restoring our neighbors' homes after the storm."
+    title: "Whitefish Local",
+    description: "We live and work in the Flathead Valley. Your neighbors are our neighbors, and we take pride in restoring our community's homes."
   }
 ];
 
 const stats = [
-  { number: "20+", label: "Hurricanes Handled" },
-  { number: "30min", label: "Avg Response" },
-  { number: "100%", label: "Satisfaction" },
-  { number: "24/7", label: "Storm Support" }
+  { number: "100+", label: "Homes Restored" },
+  { number: "Same-Day", label: "Response Time" },
+  { number: "100%", label: "Odor Removal" },
+  { number: "24/7", label: "Emergency Service" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Gulf Breeze Trusts Us
+            Why Whitefish Chooses Montana Fresh Restore
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            When the water rises, you need a team that knows the coast and has the right equipment to save your home.
+            When smoke damage strikes, you need experts with the right technology and local knowledge to completely eliminate odors from your furniture.
           </p>
         </div>
 
