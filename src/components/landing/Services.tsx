@@ -1,42 +1,42 @@
-import { Wind, Flame, Sparkles, Droplets, Zap, Shield, TreePine, Hammer, Trash2 } from "lucide-react";
+import { Wind, Flame, Sparkles, Droplets, Zap, Shield, Trash2, Home, Eraser } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: TreePine,
-    title: "Charred Log Restoration",
-    description: "Removing fire damage and restoring the structural integrity of cabin logs.",
-    link: "/charred-log-restoration-whitefish-mt"
+    icon: Eraser,
+    title: "Soot Removal",
+    description: "Deep removal of soot from walls and ceilings using specialized sponges.",
+    link: "/soot-removal-sparta-wi"
   },
   {
-    icon: Flame,
-    title: "Fire Damage Cleanup",
-    description: "Complete soot and ash removal from all cabin surfaces and interiors.",
-    link: "/fire-damage-cleanup-whitefish-mt"
+    icon: Home,
+    title: "Wall Cleaning",
+    description: "Multi-stage wall cleaning to remove smoke stains and residues.",
+    link: "/wall-cleaning-sparta-wi"
   },
   {
-    icon: Hammer,
-    title: "Structural Timber Repair",
-    description: "Expert assessment and repair of load-bearing log home components.",
-    link: "/structural-log-repair-whitefish-mt"
+    icon: Sparkles,
+    title: "Ceiling Restoration",
+    description: "Soot removal and restoration for all types of ceiling surfaces.",
+    link: "/ceiling-restoration-sparta-wi"
   },
   {
     icon: Wind,
-    title: "Smoke Odor Elimination",
-    description: "Advanced thermal fogging and ozone treatment for deep timber odors.",
-    link: "/odor-elimination-whitefish-mt"
+    title: "Odour Neutralization",
+    description: "Professional deodorization to eliminate persistent smoke smells.",
+    link: "/odor-neutralization-sparta-wi"
+  },
+  {
+    icon: Zap,
+    title: "Furnace Puff Cleanup",
+    description: "Specialized cleanup for soot spread by furnace malfunctions.",
+    link: "/furnace-puff-cleanup-sparta-wi"
   },
   {
     icon: Shield,
-    title: "Chinking & Sealing",
-    description: "Repairing fire-damaged seals between logs to ensure energy efficiency.",
-    link: "/chinking-sealing-whitefish-mt"
-  },
-  {
-    icon: Trash2,
-    title: "Debris Removal",
-    description: "Safe disposal of fire-damaged materials and hazardous ash residue.",
-    link: "/debris-removal-whitefish-mt"
+    title: "Structural Cleaning",
+    description: "Comprehensive cleaning of structural elements after a fire.",
+    link: "/structural-cleaning-sparta-wi"
   },
 ];
 
@@ -46,10 +46,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Log Cabin Fire Restoration Experts
+            Sparta Soot Removal Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Specialized services tailored to the unique construction and material needs of Montana log homes after a fire.
+            Providing professional wall and surface restoration for homeowners in Sparta and Monroe County.
           </p>
         </div>
 
@@ -62,10 +62,10 @@ const Services = () => {
                 to={service.link}
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full"
               >
-                <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-4 group-hover:bg-orange-700 transition-colors">
-                  <Icon className="w-6 h-6 text-orange-700 group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center mb-4 group-hover:bg-teal-600 transition-colors">
+                  <Icon className="w-6 h-6 text-teal-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-orange-700 transition-colors">
+                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-teal-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">

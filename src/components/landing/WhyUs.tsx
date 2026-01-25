@@ -1,43 +1,43 @@
-import { Clock, Shield, Award, Users, Wind, TreePine } from "lucide-react";
+import { Clock, Shield, Award, Users, Wind, Eraser } from "lucide-react";
 
 const reasons = [
   {
-    icon: TreePine,
-    title: "Log Specialists",
-    description: "We aren't general contractors. We are specialized log home restoration experts who understand the structural nuances of cabin construction."
+    icon: Eraser,
+    title: "Soot Specialists",
+    description: "Cleaning soot requires specific knowledge and tools. We use dry chemical sponges and specialized vacuums to ensure a streak-free clean."
   },
   {
     icon: Wind,
-    title: "Deep Timber Odor Removal",
-    description: "Smoke penetrates deep into wood pores. Our advanced thermal fogging technology ensures your cabin smells fresh, not like a campfire."
+    title: "Odor Control",
+    description: "Soot often comes with stubborn smoke smells. We use hydroxyl generators to neutralize odors deep within your home's surfaces."
   },
   {
     icon: Clock,
-    title: "Rapid Response",
-    description: "In Whitefish, time is of the essence after a fire. We respond 24/7 to secure your structure and begin the stabilization process immediately."
+    title: "Fast Response",
+    description: "Soot becomes harder to remove the longer it sits. Our Sparta-based team is ready to respond 24/7 to begin the cleaning process."
   },
   {
     icon: Award,
-    title: "Certified Restorers",
-    description: "Our technicians are IICRC certified in fire & smoke restoration, with additional specialized training in log home remediation."
+    title: "IICRC Certified",
+    description: "Our technicians are fully trained and certified in fire and smoke restoration, ensuring the highest standard of care for your home."
   },
   {
     icon: Shield,
-    title: "Insurance Assistance",
-    description: "We work directly with your insurance company, providing the detailed documentation needed for complex log cabin fire claims."
+    title: "Fully Insured",
+    description: "We are a locally owned, fully licensed and insured restoration company. Peace of mind comes standard with our service."
   },
   {
     icon: Users,
-    title: "Local Community",
-    description: "Being based in Whitefish, we know the local climate and mountain conditions that affect cabin restoration and longevity."
+    title: "Local to Sparta",
+    description: "We live and work right here in Sparta. We're committed to helping our neighbors restore their homes after fire or furnace issues."
   }
 ];
 
 const stats = [
-  { number: "250+", label: "Cabins Restored" },
-  { number: "24/7", label: "Emergency Support" },
-  { number: "15yr", label: "Local Experience" },
-  { number: "100%", label: "Satisfaction" }
+  { number: "24/7", label: "Emergency Help" },
+  { number: "10yr+", label: "Experience" },
+  { number: "100%", label: "Satisfaction" },
+  { number: "Local", label: "Sparta Crew" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Whitefish Trusts Our Log Experts
+            Why Sparta Trusts Our Soot Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Restoring a fire-damaged log cabin requires a different skill set than traditional framing. We bring the specialized expertise your mountain home deserves.
+            Soot removal is a delicate process. Smearing it can cause permanent damage. Trust our local experts to do the job right the first time.
           </p>
         </div>
 

@@ -9,19 +9,19 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-orange-700 flex items-center justify-center shadow-lg">
-                <span className="text-white font-heading font-bold text-lg">MCR</span>
+              <div className="w-10 h-10 rounded-lg bg-teal-600 flex items-center justify-center shadow-lg">
+                <span className="text-white font-heading font-bold text-lg">SRE</span>
               </div>
               <div>
-                <div className="font-heading font-bold text-white text-lg">Montana Cabin Restore</div>
+                <div className="font-heading font-bold text-white text-lg">Sparta Restoration Experts</div>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-4 leading-relaxed">
-              Serving the Whitefish area with specialized log cabin fire restoration. We are local experts in traditional and modern timber home recovery.
+              Serving Sparta and Monroe County with professional soot removal and wall cleaning services. Local experts you can trust.
             </p>
             <div className="flex items-center gap-2 text-sm text-slate-400">
-              <MapPin className="w-4 h-4 text-orange-500" />
-              <span>Whitefish, MT</span>
+              <MapPin className="w-4 h-4 text-teal-500" />
+              <span>Sparta, WI</span>
             </div>
           </div>
 
@@ -30,18 +30,18 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-white mb-6">Services</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/charred-log-restoration-whitefish-mt" className="hover:text-orange-400 transition-colors">
-                  Charred Log Restoration
+                <Link to="/soot-removal-sparta-wi" className="hover:text-teal-400 transition-colors">
+                  Soot Removal
                 </Link>
               </li>
               <li>
-                <Link to="/smoke-damage-cleanup-whitefish-mt" className="hover:text-orange-400 transition-colors">
-                  Smoke Damage Cleanup
+                <Link to="/wall-cleaning-sparta-wi" className="hover:text-teal-400 transition-colors">
+                  Wall Cleaning
                 </Link>
               </li>
               <li>
-                <Link to="/structural-log-repair-whitefish-mt" className="hover:text-orange-400 transition-colors">
-                  Structural Timber Repair
+                <Link to="/furnace-puff-cleanup-sparta-wi" className="hover:text-teal-400 transition-colors">
+                  Furnace Puff Cleanup
                 </Link>
               </li>
             </ul>
@@ -58,9 +58,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:service@montanacabinrestore.com" className="flex items-center gap-2 text-slate-400 hover:text-orange-400 transition-colors">
+                <a href="mailto:service@spartarestoration.com" className="flex items-center gap-2 text-slate-400 hover:text-teal-400 transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>service@montanacabinrestore.com</span>
+                  <span>service@spartarestoration.com</span>
                 </a>
               </li>
             </ul>
@@ -70,19 +70,19 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-white mb-6">Partners</h3>
             <ul className="space-y-2 text-xs text-slate-500 text-center">
+              <li><a href="https://firedamagecleanupforlogcabinswhitef.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Log Cabin Restoration</a></li>
+              <li><a href="https://frozenpipeburstcleanupryebrookny.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Frozen Pipe Cleanup Rye Brook</a></li>
+              <li><a href="https://basementwaterremovaleagleco.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Basement Water Removal Eagle</a></li>
               <li><a href="https://smokeodorremovalfromupholsterywhite.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Smoke Odor Removal Whitefish</a></li>
-              <li><a href="https://drywallwaterdamagerestorationhudson.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Drywall Restoration Hudson</a></li>
-              <li><a href="https://sumppumpfailurewatercleanupcohasset.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Sump Pump Cleanup Cohasset</a></li>
-              <li><a href="https://toiletoverflowdamagerepairtimnathco.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Toilet Overflow Timnath</a></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Montana Cabin Restore. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sparta Restoration Experts. All rights reserved.</p>
           <p className="mt-2">
-            Professional log home restoration and fire damage recovery in Whitefish, MT.
+            Professional soot removal and smoke damage restoration in Sparta, WI.
           </p>
         </div>
       </div>

@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-                Emergency Log Cabin Fire Cleanup
+                Emergency Soot Removal Service
               </h2>
               <p className="text-lg text-slate-300">
-                Fire damage in your Whitefish log home? Don't wait. Our specialized timber restoration team is ready to secure and restore your legacy property.
+                Soot or smoke damage in your Sparta home? Don't smear it—call our professional restoration team for a deep, safe clean.
               </p>
             </div>
 
@@ -39,8 +39,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Service Area</div>
-                      <div className="text-white">Whitefish, MT</div>
-                      <div className="text-sm text-slate-400">59937</div>
+                      <div className="text-white">Sparta, WI</div>
+                      <div className="text-sm text-slate-400">54656</div>
                     </div>
                   </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Email</div>
-                      <div className="text-white text-sm">service@montanacabinrestore.com</div>
+                      <div className="text-white text-sm">service@spartarestoration.com</div>
                       <div className="text-sm text-slate-400">For non-urgent inquiries</div>
                     </div>
                   </div>
@@ -62,12 +62,12 @@ const Contact = () => {
                   We Serve These Local Areas:
                 </h4>
                 <div className="grid grid-cols-1 gap-3 text-sm text-slate-300">
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Whitefish</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Kalispell</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Columbia Falls</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Bigfork</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Lakeside</div>
-                  <div className="flex items-center gap-2"><span className="text-blue-500">•</span> Flathead County</div>
+                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Sparta</div>
+                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Tomah</div>
+                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> West Salem</div>
+                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Holmen</div>
+                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> La Crosse</div>
+                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Monroe County</div>
                 </div>
               </div>
             </div>
@@ -91,11 +91,11 @@ const Contact = () => {
               <div className="space-y-2">
                 <label htmlFor="service" className="text-sm font-medium text-slate-700">Service Needed</label>
                 <select id="service" className="w-full h-10 px-3 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                  <option>Charred Log Restoration</option>
-                  <option>Smoke Damage Cleanup</option>
-                  <option>Structural Log Repair</option>
-                  <option>Chinking & Sealing</option>
-                  <option>Odor Elimination</option>
+                  <option>Soot Removal</option>
+                  <option>Wall Cleaning</option>
+                  <option>Smoke Damage Restoration</option>
+                  <option>Furnace Puff Cleanup</option>
+                  <option>Odor Neutralization</option>
                   <option>Other</option>
                 </select>
               </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                 Get Help Now
               </Button>
               <p className="text-xs text-slate-500 text-center mt-4">
-                For life-threatening emergencies, please call 911. For cabin fire restoration, call (380) 266-0944
+                For life-threatening emergencies, please call 911. For soot restoration, call (380) 266-0944
               </p>
             </form>
           </div>
