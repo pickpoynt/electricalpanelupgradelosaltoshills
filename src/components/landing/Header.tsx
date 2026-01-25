@@ -13,11 +13,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Smoke Odor Removal", href: "/smoke-odor-removal-whitefish-mt" },
-    { name: "Fire Damage Restoration", href: "/fire-damage-restoration-whitefish-mt" },
-    { name: "Upholstery Deep Cleaning", href: "/upholstery-deep-cleaning-whitefish-mt" },
-    { name: "Ozone Treatment", href: "/ozone-treatment-whitefish-mt" },
-    { name: "Thermal Fogging Service", href: "/thermal-fogging-whitefish-mt" },
+    { name: "Charred Log Restoration", href: "/charred-log-restoration-whitefish-mt" },
+    { name: "Smoke Damage Cleanup", href: "/smoke-damage-cleanup-whitefish-mt" },
+    { name: "Structural Log Repair", href: "/structural-log-repair-whitefish-mt" },
+    { name: "Chinking & Sealing", href: "/chinking-sealing-whitefish-mt" },
+    { name: "Odor Elimination", href: "/odor-elimination-whitefish-mt" },
   ];
 
   return (
@@ -26,14 +26,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">MFR</span>
+            <div className="w-10 h-10 rounded-lg bg-orange-700 flex items-center justify-center shadow-md">
+              <span className="text-white font-heading font-bold text-lg">MCR</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Montana Fresh Restore
+                Montana Cabin Restore
               </h1>
-              <p className="text-xs text-slate-500">Odor Elimination Experts</p>
+              <p className="text-xs text-slate-500">Log Cabin Fire Specialists</p>
             </div>
           </Link>
 
@@ -64,7 +64,7 @@ const Header = () => {
 
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
+            <Button className="bg-orange-700 hover:bg-orange-800 text-white" size="lg" asChild>
               <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 (380) 266-0944
@@ -107,7 +107,7 @@ const Header = () => {
               <a href="/#contact" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
                 Contact
               </a>
-              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
+              <Button className="w-full bg-orange-700 hover:bg-orange-800 text-white" size="lg" asChild>
                 <a href="tel:+13802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   (380) 266-0944

@@ -1,43 +1,43 @@
-import { Clock, Shield, Award, Users, Wind, Mountain } from "lucide-react";
+import { Clock, Shield, Award, Users, Wind, TreePine } from "lucide-react";
 
 const reasons = [
   {
-    icon: Clock,
-    title: "Same-Day Service",
-    description: "We understand smoke damage worsens with time. Our team responds immediately to begin the odor elimination process before particles set permanently."
-  },
-  {
-    icon: Mountain,
-    title: "Montana Specialists",
-    description: "We understand Flathead Valley's unique challenges—from wildfire smoke infiltration to wood stove accidents. We've seen it all and know how to fix it."
+    icon: TreePine,
+    title: "Log Specialists",
+    description: "We aren't general contractors. We are specialized log home restoration experts who understand the structural nuances of cabin construction."
   },
   {
     icon: Wind,
-    title: "Advanced Technology",
-    description: "Our industrial ozone generators and thermal foggers are commercial-grade equipment that completely eliminates odors at the molecular level."
+    title: "Deep Timber Odor Removal",
+    description: "Smoke penetrates deep into wood pores. Our advanced thermal fogging technology ensures your cabin smells fresh, not like a campfire."
+  },
+  {
+    icon: Clock,
+    title: "Rapid Response",
+    description: "In Whitefish, time is of the essence after a fire. We respond 24/7 to secure your structure and begin the stabilization process immediately."
   },
   {
     icon: Award,
-    title: "Certified Technicians",
-    description: "Our team is trained in IICRC fire and smoke restoration standards. We follow proven protocols for complete odor removal."
+    title: "Certified Restorers",
+    description: "Our technicians are IICRC certified in fire & smoke restoration, with additional specialized training in log home remediation."
   },
   {
     icon: Shield,
     title: "Insurance Assistance",
-    description: "We work directly with your homeowner's insurance to document fire damage and help you get the coverage you deserve."
+    description: "We work directly with your insurance company, providing the detailed documentation needed for complex log cabin fire claims."
   },
   {
     icon: Users,
-    title: "Whitefish Local",
-    description: "We live and work in the Flathead Valley. Your neighbors are our neighbors, and we take pride in restoring our community's homes."
+    title: "Local Community",
+    description: "Being based in Whitefish, we know the local climate and mountain conditions that affect cabin restoration and longevity."
   }
 ];
 
 const stats = [
-  { number: "100+", label: "Homes Restored" },
-  { number: "Same-Day", label: "Response Time" },
-  { number: "100%", label: "Odor Removal" },
-  { number: "24/7", label: "Emergency Service" }
+  { number: "250+", label: "Cabins Restored" },
+  { number: "24/7", label: "Emergency Support" },
+  { number: "15yr", label: "Local Experience" },
+  { number: "100%", label: "Satisfaction" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Whitefish Chooses Montana Fresh Restore
+            Why Whitefish Trusts Our Log Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            When smoke damage strikes, you need experts with the right technology and local knowledge to completely eliminate odors from your furniture.
+            Restoring a fire-damaged log cabin requires a different skill set than traditional framing. We bring the specialized expertise your mountain home deserves.
           </p>
         </div>
 

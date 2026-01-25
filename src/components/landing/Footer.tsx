@@ -9,18 +9,18 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-lg">
-                <span className="text-white font-heading font-bold text-lg">MFR</span>
+              <div className="w-10 h-10 rounded-lg bg-orange-700 flex items-center justify-center shadow-lg">
+                <span className="text-white font-heading font-bold text-lg">MCR</span>
               </div>
               <div>
-                <div className="font-heading font-bold text-white text-lg">Montana Fresh Restore</div>
+                <div className="font-heading font-bold text-white text-lg">Montana Cabin Restore</div>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-4 leading-relaxed">
-              Serving Flathead Valley with professional smoke odor removal from upholstery. We are local, certified, and experts in fire damage restoration.
+              Serving the Whitefish area with specialized log cabin fire restoration. We are local experts in traditional and modern timber home recovery.
             </p>
             <div className="flex items-center gap-2 text-sm text-slate-400">
-              <MapPin className="w-4 h-4 text-blue-500" />
+              <MapPin className="w-4 h-4 text-orange-500" />
               <span>Whitefish, MT</span>
             </div>
           </div>
@@ -30,18 +30,18 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-white mb-6">Services</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/smoke-odor-removal-whitefish-mt" className="hover:text-blue-400 transition-colors">
-                  Smoke Odor Removal
+                <Link to="/charred-log-restoration-whitefish-mt" className="hover:text-orange-400 transition-colors">
+                  Charred Log Restoration
                 </Link>
               </li>
               <li>
-                <Link to="/fire-damage-restoration-whitefish-mt" className="hover:text-blue-400 transition-colors">
-                  Fire Damage Restoration
+                <Link to="/smoke-damage-cleanup-whitefish-mt" className="hover:text-orange-400 transition-colors">
+                  Smoke Damage Cleanup
                 </Link>
               </li>
               <li>
-                <Link to="/upholstery-deep-cleaning-whitefish-mt" className="hover:text-blue-400 transition-colors">
-                  Upholstery Cleaning
+                <Link to="/structural-log-repair-whitefish-mt" className="hover:text-orange-400 transition-colors">
+                  Structural Timber Repair
                 </Link>
               </li>
             </ul>
@@ -58,9 +58,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:service@montanafreshrestore.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
+                <a href="mailto:service@montanacabinrestore.com" className="flex items-center gap-2 text-slate-400 hover:text-orange-400 transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>service@montanafreshrestore.com</span>
+                  <span>service@montanacabinrestore.com</span>
                 </a>
               </li>
             </ul>
@@ -70,19 +70,19 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-white mb-6">Partners</h3>
             <ul className="space-y-2 text-xs text-slate-500 text-center">
-              <li><a href="https://toiletflangerepairtallahassee.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Toilet Flange Tallahassee</a></li>
-              <li><a href="https://showerpanleakrepairlubbocktx.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Shower Pan Repair Lubbock</a></li>
-              <li><a href="https://blackmoldremovalconcretewa.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Black Mold Removal Concrete WA</a></li>
-              <li><a href="https://atticmoldremediationjosephinetexas.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Attic Mold Josephine TX</a></li>
+              <li><a href="https://smokeodorremovalfromupholsterywhite.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Smoke Odor Removal Whitefish</a></li>
+              <li><a href="https://drywallwaterdamagerestorationhudson.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Drywall Restoration Hudson</a></li>
+              <li><a href="https://sumppumpfailurewatercleanupcohasset.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Sump Pump Cleanup Cohasset</a></li>
+              <li><a href="https://toiletoverflowdamagerepairtimnathco.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Toilet Overflow Timnath</a></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Montana Fresh Restore. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Montana Cabin Restore. All rights reserved.</p>
           <p className="mt-2">
-            Certified and insured for smoke odor removal and fire damage restoration in Whitefish, MT.
+            Professional log home restoration and fire damage recovery in Whitefish, MT.
           </p>
         </div>
       </div>

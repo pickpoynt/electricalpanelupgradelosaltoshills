@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-                24/7 Smoke Odor Removal Service
+                Emergency Log Cabin Fire Cleanup
               </h2>
               <p className="text-lg text-slate-300">
-                Fire damage in Whitefish? Don't let smoke odors ruin your furniture. Call our emergency restoration team now.
+                Fire damage in your Whitefish log home? Don't wait. Our specialized timber restoration team is ready to secure and restore your legacy property.
               </p>
             </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Email</div>
-                      <div className="text-white text-sm">service@montanafreshrestore.com</div>
+                      <div className="text-white text-sm">service@montanacabinrestore.com</div>
                       <div className="text-sm text-slate-400">For non-urgent inquiries</div>
                     </div>
                   </div>
@@ -91,11 +91,11 @@ const Contact = () => {
               <div className="space-y-2">
                 <label htmlFor="service" className="text-sm font-medium text-slate-700">Service Needed</label>
                 <select id="service" className="w-full h-10 px-3 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                  <option>Smoke Odor Removal</option>
-                  <option>Fire Damage Restoration</option>
-                  <option>Upholstery Deep Cleaning</option>
-                  <option>Ozone Treatment</option>
-                  <option>Thermal Fogging</option>
+                  <option>Charred Log Restoration</option>
+                  <option>Smoke Damage Cleanup</option>
+                  <option>Structural Log Repair</option>
+                  <option>Chinking & Sealing</option>
+                  <option>Odor Elimination</option>
                   <option>Other</option>
                 </select>
               </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                 Get Help Now
               </Button>
               <p className="text-xs text-slate-500 text-center mt-4">
-                For life-threatening emergencies, please call 911. For water damage response, call (380) 266-0944
+                For life-threatening emergencies, please call 911. For cabin fire restoration, call (380) 266-0944
               </p>
             </form>
           </div>
