@@ -1,43 +1,43 @@
-import { Clock, Shield, Award, Users, Wind, Eraser } from "lucide-react";
+import { Clock, Shield, Award, Users, Wind, Eraser, Mountain } from "lucide-react";
 
 const reasons = [
   {
-    icon: Eraser,
-    title: "Soot Specialists",
-    description: "Cleaning soot requires specific knowledge and tools. We use dry chemical sponges and specialized vacuums to ensure a streak-free clean."
+    icon: Wind,
+    title: "Specialized Attic Tech",
+    description: "Attics require distinct techniques. We use thermal foggers and ozone generators specifically calibrated for enclosed roofing environments."
   },
   {
-    icon: Wind,
-    title: "Odor Control",
-    description: "Soot often comes with stubborn smoke smells. We use hydroxyl generators to neutralize odors deep within your home's surfaces."
+    icon: Mountain,
+    title: "Woodland Park Locals",
+    description: "We are based in Woodland Park and understand Teller County's unique climate and construction styles, from modern homes to mountain cabins."
   },
   {
     icon: Clock,
-    title: "Fast Response",
-    description: "Soot becomes harder to remove the longer it sits. Our Sparta-based team is ready to respond 24/7 to begin the cleaning process."
+    title: "Rapid 24/7 Response",
+    description: "Smoke particles settle and bond quickly. Our local team is ready to respond immediately to stabilize your home's air quality."
   },
   {
     icon: Award,
     title: "IICRC Certified",
-    description: "Our technicians are fully trained and certified in fire and smoke restoration, ensuring the highest standard of care for your home."
+    description: "Our restoration specialists are fully IICRC certified in fire & smoke restoration, ensuring industry-leading protocols in your attic."
   },
   {
     icon: Shield,
-    title: "Fully Insured",
-    description: "We are a locally owned, fully licensed and insured restoration company. Peace of mind comes standard with our service."
+    title: "Insurance Specialists",
+    description: "We work directly with all major insurance carriers in Colorado, providing detailed documentation and thermal imaging to support your claim."
   },
   {
     icon: Users,
-    title: "Local to Sparta",
-    description: "We live and work right here in Sparta. We're committed to helping our neighbors restore their homes after fire or furnace issues."
+    title: "Trusted Reputation",
+    description: "With hundreds of successful home restorations in Woodland Park and Cascade, we've built a reputation for excellence and integrity."
   }
 ];
 
 const stats = [
   { number: "24/7", label: "Emergency Help" },
-  { number: "10yr+", label: "Experience" },
+  { number: "15yr+", label: "Local Expertise" },
   { number: "100%", label: "Satisfaction" },
-  { number: "Local", label: "Sparta Crew" }
+  { number: "Teller", label: "County Focus" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Sparta Trusts Our Soot Experts
+            Why Woodland Park Trusts Our Attic Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Soot removal is a delicate process. Smearing it can cause permanent damage. Trust our local experts to do the job right the first time.
+            Removing smoke odor from an attic isn't just about cleaning—it's about neutralizing microscopic particles trapped in the home's most challenging spaces.
           </p>
         </div>
 

@@ -13,11 +13,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Soot Removal", href: "/soot-removal-sparta-wi" },
-    { name: "Wall Cleaning", href: "/wall-cleaning-sparta-wi" },
-    { name: "Smoke Damage Repair", href: "/smoke-damage-repair-sparta-wi" },
-    { name: "Furnace Puff Cleanup", href: "/furnace-puff-cleanup-sparta-wi" },
-    { name: "Odor Deodorization", href: "/odor-deodorization-sparta-wi" },
+    { name: "Attic Smoke Removal", href: "/smoke-removal-woodland-park" },
+    { name: "Insulation Deodorization", href: "/insulation-deodorization-woodland-park" },
+    { name: "Thermal Fogging", href: "/thermal-fogging-woodland-park" },
+    { name: "Wood Structure Cleaning", href: "/wood-cleaning-woodland-park" },
+    { name: "Ozone Treatment", href: "/ozone-treatment-woodland-park" },
   ];
 
   return (
@@ -26,14 +26,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-teal-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">SRE</span>
+            <div className="w-10 h-10 rounded-lg bg-amber-600 flex items-center justify-center shadow-md">
+              <span className="text-white font-heading font-bold text-lg">WPA</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Sparta Restoration Experts
+                Woodland Park Attic Restore
               </h1>
-              <p className="text-xs text-slate-500">Professional Soot & Wall Cleaning</p>
+              <p className="text-xs text-slate-500">Professional Attic Deodorization</p>
             </div>
           </Link>
 
@@ -64,7 +64,7 @@ const Header = () => {
 
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white" size="lg" asChild>
+            <Button className="bg-amber-600 hover:bg-amber-700 text-white" size="lg" asChild>
               <a href="tel:+13802660944" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 (380) 266-0944
@@ -107,7 +107,7 @@ const Header = () => {
               <a href="/#contact" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
                 Contact
               </a>
-              <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white" size="lg" asChild>
+              <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white" size="lg" asChild>
                 <a href="tel:+13802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   (380) 266-0944

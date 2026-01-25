@@ -9,19 +9,19 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-teal-600 flex items-center justify-center shadow-lg">
-                <span className="text-white font-heading font-bold text-lg">SRE</span>
+              <div className="w-10 h-10 rounded-lg bg-amber-600 flex items-center justify-center shadow-lg">
+                <span className="text-white font-heading font-bold text-lg">WPA</span>
               </div>
               <div>
-                <div className="font-heading font-bold text-white text-lg">Sparta Restoration Experts</div>
+                <div className="font-heading font-bold text-white text-lg">Woodland Park Attic Restore</div>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-4 leading-relaxed">
-              Serving Sparta and Monroe County with professional soot removal and wall cleaning services. Local experts you can trust.
+              Serving Woodland Park and Teller County with professional attic smoke odor removal and restoration. Mountain experts you can trust.
             </p>
             <div className="flex items-center gap-2 text-sm text-slate-400">
-              <MapPin className="w-4 h-4 text-teal-500" />
-              <span>Sparta, WI</span>
+              <MapPin className="w-4 h-4 text-amber-500" />
+              <span>Woodland Park, CO</span>
             </div>
           </div>
 
@@ -30,18 +30,18 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-white mb-6">Services</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/soot-removal-sparta-wi" className="hover:text-teal-400 transition-colors">
-                  Soot Removal
+                <Link to="/smoke-removal-woodland-park" className="hover:text-amber-400 transition-colors">
+                  Attic Smoke Removal
                 </Link>
               </li>
               <li>
-                <Link to="/wall-cleaning-sparta-wi" className="hover:text-teal-400 transition-colors">
-                  Wall Cleaning
+                <Link to="/insulation-deodorization-woodland-park" className="hover:text-amber-400 transition-colors">
+                  Insulation Cleaning
                 </Link>
               </li>
               <li>
-                <Link to="/furnace-puff-cleanup-sparta-wi" className="hover:text-teal-400 transition-colors">
-                  Furnace Puff Cleanup
+                <Link to="/thermal-fogging-woodland-park" className="hover:text-amber-400 transition-colors">
+                  Thermal Fogging
                 </Link>
               </li>
             </ul>
@@ -58,9 +58,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:service@spartarestoration.com" className="flex items-center gap-2 text-slate-400 hover:text-teal-400 transition-colors">
+                <a href="mailto:service@woodlandatticrestore.com" className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>service@spartarestoration.com</span>
+                  <span>service@woodlandatticrestore.com</span>
                 </a>
               </li>
             </ul>
@@ -70,19 +70,19 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-white mb-6">Partners</h3>
             <ul className="space-y-2 text-xs text-slate-500 text-center">
-              <li><a href="https://firedamagecleanupforlogcabinswhitef.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Log Cabin Restoration</a></li>
-              <li><a href="https://frozenpipeburstcleanupryebrookny.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Frozen Pipe Cleanup Rye Brook</a></li>
-              <li><a href="https://basementwaterremovaleagleco.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Basement Water Removal Eagle</a></li>
-              <li><a href="https://smokeodorremovalfromupholsterywhite.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Smoke Odor Removal Whitefish</a></li>
+              <li><a href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Freeze Proof Faucet Replacement</a></li>
+              <li><a href="https://tanklesswaterheaterdescalingbellevu.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Tankless Heater Descaling Bellevue</a></li>
+              <li><a href="https://balconydrainleakdetectionservicesau.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Balcony Drain Leak Detection</a></li>
+              <li><a href="https://potfillerfaucetinstallationroundroc.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400">Pot Filler Faucet Installation</a></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Sparta Restoration Experts. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Woodland Park Attic Restore. All rights reserved.</p>
           <p className="mt-2">
-            Professional soot removal and smoke damage restoration in Sparta, WI.
+            Professional attic smoke odor removal and deodorization in Woodland Park, CO.
           </p>
         </div>
       </div>

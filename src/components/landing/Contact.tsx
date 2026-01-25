@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-                Emergency Soot Removal Service
+                Emergency Attic Smoke Removal
               </h2>
               <p className="text-lg text-slate-300">
-                Soot or smoke damage in your Sparta home? Don't smear it—call our professional restoration team for a deep, safe clean.
+                Persistent smoke odor in your Woodland Park attic? Don't wait—call our professional restoration team for 24/7 expert deodorization.
               </p>
             </div>
 
@@ -23,7 +23,7 @@ const Contact = () => {
                 </h3>
                 <div className="space-y-6">
                   <a href="tel:+13802660944" className="flex items-start gap-4 hover:opacity-80 transition-opacity group">
-                    <div className="w-12 h-12 rounded-lg bg-blue-600 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500 transition-colors">
+                    <div className="w-12 h-12 rounded-lg bg-amber-600 flex items-center justify-center flex-shrink-0 group-hover:bg-amber-500 transition-colors">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -35,22 +35,22 @@ const Contact = () => {
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center flex-shrink-0 border border-slate-700">
-                      <MapPin className="w-6 h-6 text-blue-400" />
+                      <MapPin className="w-6 h-6 text-amber-400" />
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Service Area</div>
-                      <div className="text-white">Sparta, WI</div>
-                      <div className="text-sm text-slate-400">54656</div>
+                      <div className="text-white">Woodland Park, CO</div>
+                      <div className="text-sm text-slate-400">80863</div>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center flex-shrink-0 border border-slate-700">
-                      <Mail className="w-6 h-6 text-blue-400" />
+                      <Mail className="w-6 h-6 text-amber-400" />
                     </div>
                     <div>
                       <div className="font-semibold mb-1 text-slate-300">Email</div>
-                      <div className="text-white text-sm">service@spartarestoration.com</div>
+                      <div className="text-white text-sm">service@woodlandatticrestore.com</div>
                       <div className="text-sm text-slate-400">For non-urgent inquiries</div>
                     </div>
                   </div>
@@ -62,12 +62,12 @@ const Contact = () => {
                   We Serve These Local Areas:
                 </h4>
                 <div className="grid grid-cols-1 gap-3 text-sm text-slate-300">
-                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Sparta</div>
-                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Tomah</div>
-                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> West Salem</div>
-                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Holmen</div>
-                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> La Crosse</div>
-                  <div className="flex items-center gap-2"><span className="text-teal-500">•</span> Monroe County</div>
+                  <div className="flex items-center gap-2"><span className="text-amber-500">•</span> Woodland Park</div>
+                  <div className="flex items-center gap-2"><span className="text-amber-500">•</span> Cascade</div>
+                  <div className="flex items-center gap-2"><span className="text-amber-500">•</span> Divide</div>
+                  <div className="flex items-center gap-2"><span className="text-amber-500">•</span> Green Mountain Falls</div>
+                  <div className="flex items-center gap-2"><span className="text-amber-500">•</span> Florissant</div>
+                  <div className="flex items-center gap-2"><span className="text-amber-500">•</span> Teller County</div>
                 </div>
               </div>
             </div>
@@ -91,11 +91,11 @@ const Contact = () => {
               <div className="space-y-2">
                 <label htmlFor="service" className="text-sm font-medium text-slate-700">Service Needed</label>
                 <select id="service" className="w-full h-10 px-3 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                  <option>Soot Removal</option>
-                  <option>Wall Cleaning</option>
-                  <option>Smoke Damage Restoration</option>
-                  <option>Furnace Puff Cleanup</option>
-                  <option>Odor Neutralization</option>
+                  <option>Attic Smoke Removal</option>
+                  <option>Insulation Deodorization</option>
+                  <option>Thermal Fogging</option>
+                  <option>Wood Structure Cleaning</option>
+                  <option>Ozone Treatment</option>
                   <option>Other</option>
                 </select>
               </div>
@@ -103,11 +103,11 @@ const Contact = () => {
                 <label htmlFor="message" className="text-sm font-medium text-slate-700">Message</label>
                 <textarea id="message" className="w-full h-32 px-3 py-2 rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tell us about the damage..." />
               </div>
-              <Button type="submit" className="w-full h-12 bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium">
+              <Button type="submit" className="w-full h-12 bg-amber-600 hover:bg-amber-700 text-white text-lg font-medium">
                 Get Help Now
               </Button>
               <p className="text-xs text-slate-500 text-center mt-4">
-                For life-threatening emergencies, please call 911. For soot restoration, call (380) 266-0944
+                For life-threatening emergencies, please call 911. For smoke restoration, call (380) 266-0944
               </p>
             </form>
           </div>
