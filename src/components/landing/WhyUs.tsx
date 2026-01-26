@@ -1,41 +1,41 @@
-import { Clock, Shield, Award, Lightbulb, Anchor, Zap, MapPin } from "lucide-react";
+import { Clock, Shield, Award, Lightbulb, Wrench, Zap, MapPin } from "lucide-react";
 
 const reasons = [
   {
-    icon: Lightbulb,
-    title: "Lighting Specialists",
-    description: "We focus exclusively on marine illumination, understanding how light interacts with water and coastal fog for the best visual effect."
+    icon: Wrench,
+    title: "Repair Specialists",
+    description: "Unlike general landscapers, we focus exclusively on the electrical and technical health of your outdoor lighting system."
   },
   {
-    icon: Anchor,
-    title: "Marine-Grade Quality",
-    description: "Every fixture we install is constructed from high-grade stainless steel or composite materials to prevent corrosion and oxidation."
+    icon: Zap,
+    title: "Precision Troubleshooting",
+    description: "We use advanced wire locating tools to identify breakages and shorts without digging up your entire property."
+  },
+  {
+    icon: Lightbulb,
+    title: "LED Experts",
+    description: "We specialize in modernizing old halogen systems, providing better light while saving you money on electricity and maintenance."
   },
   {
     icon: MapPin,
     title: "Fair Haven Locals",
-    description: "Based in Fair Haven, NJ. We've illuminated dozens of local piers and community docks along the Navesink River."
-  },
-  {
-    icon: Clock,
-    title: "Proactive Service",
-    description: "We offer annual maintenance to clean lenses and check connections, ensuring your dock stays brilliant year-round."
+    description: "We are based right here in Fair Haven and understand the local soil conditions and coastal humidity affects on lighting."
   },
   {
     icon: Shield,
-    title: "Safety Certified",
-    description: "All our installations comply with the strictest marine electrical codes, featuring multiple layers of ground-fault protection."
+    title: "Licensed & Insured",
+    description: "Our team consists of fully licensed electrical professionals, ensuring every repair meets local safety codes and standards."
   },
   {
-    icon: Zap,
-    title: "Smart Integration",
-    description: "We are experts in smart home marine integration, allowing you to set schedules and colors from your favorite devices."
+    icon: Clock,
+    title: "Rapid Response",
+    description: "A dark garden's a security risk. We prioritize repair calls to get your system back online as quickly as possible."
   }
 ];
 
 const stats = [
-  { number: "24/7", label: "Marine Support" },
-  { number: "NJ", label: "State Licensed" },
+  { number: "24hr", label: "Diagnostic Turn" },
+  { number: "LED", label: "Retrofit Pros" },
   { number: "100%", label: "Satisfaction" },
   { number: "Local", label: "Fair Haven Team" }
 ];
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Fair Haven Trusts Our Dock Lighting Experts
+            Fair Haven's Trusted Landscape Lighting Repair Team
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Providing elegant, safe, and durable lighting solutions designed to thrive in Fair Haven's coastal environment.
+            Providing reliable, safe, and professional repair solutions for garden and outdoor lighting systems in Monmouth County.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ const WhyUs = () => {
                 key={index}
                 className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 rounded-lg bg-green-50 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-green-600" />
                 </div>
                 <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                   {reason.title}
@@ -79,7 +79,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-blue-600 mb-2">
+              <div className="text-3xl md:text-4xl font-heading font-bold text-green-600 mb-2">
                 {stat.number}
               </div>
               <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">
@@ -92,6 +92,7 @@ const WhyUs = () => {
     </section>
   );
 };
+
 
 
 export default WhyUs;

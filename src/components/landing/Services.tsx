@@ -1,40 +1,40 @@
-import { Lightbulb, Zap, Anchor, ShieldCheck, Sun, Smartphone } from "lucide-react";
+import { Wrench, Zap, Lightbulb, ShieldCheck, Sun, Search } from "lucide-react";
 
 const services = [
   {
-    icon: Lightbulb,
-    title: "LED Piling Lights",
-    description: "Durable, weatherproof piling-mounted LEDs that provide safe navigation and a classic maritime look.",
-    link: "#"
-  },
-  {
-    icon: Sun,
-    title: "Pathway & Deck Lighting",
-    description: "Subtle, low-voltage illumination for dock surfaces and gangways to prevent trips and falls.",
-    link: "#"
-  },
-  {
-    icon: Anchor,
-    title: "Underwater LED Kits",
-    description: "High-intensity underwater lights that transform the water around your dock into a vibrant display.",
-    link: "#"
-  },
-  {
-    icon: Smartphone,
-    title: "Smart Control Setup",
-    description: "Full integration with mobile apps and smart home systems for automated twilight-to-dawn control.",
-    link: "#"
-  },
-  {
-    icon: ShieldCheck,
-    title: "Marine Safety Inspections",
-    description: "Comprehensive GFCI testing and grounding audits to ensure your dock is electrically safe in the water.",
+    icon: Search,
+    title: "Wire Locating & Repair",
+    description: "Finding and fixing underground cable breaks or shorts without disruptive digging.",
     link: "#"
   },
   {
     icon: Zap,
-    title: "Shore Power & Pedestals",
-    description: "Installation of marine-grade power pedestals with integrated lighting and waterproof outlets.",
+    title: "Transformer Troubleshooting",
+    description: "Repairing or replacing faulty transformers and upgrading to smart timers.",
+    link: "#"
+  },
+  {
+    icon: Lightbulb,
+    title: "LED Conversion Kits",
+    description: "Updating your old halogen fixtures to energy-efficient, long-lasting LED technology.",
+    link: "#"
+  },
+  {
+    icon: Wrench,
+    title: "Fixture Restoration",
+    description: "Cleaning and repairing high-quality brass or copper fixtures to look and work like new.",
+    link: "#"
+  },
+  {
+    icon: ShieldCheck,
+    title: "Annual Maintenance",
+    description: "Proactive cleaning, lens polishing, and ground-fault safety inspections.",
+    link: "#"
+  },
+  {
+    icon: Sun,
+    title: "System Expansion",
+    description: "Adding new lights or relocating existing ones to better illuminate your growing landscape.",
     link: "#"
   },
 ];
@@ -45,10 +45,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Superior Dock Lighting Services in Fair Haven
+            Specialized Landscape Lighting Repairs in Fair Haven
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Combining marine-grade durability with sophisticated design to illuminate your Fair Haven waterfront lifestyle.
+            Professional troubleshooting and restoration services to keep your garden illuminated and your property secure.
           </p>
         </div>
 
@@ -60,10 +60,10 @@ const Services = () => {
                 key={index}
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full pointer-events-none"
               >
-                <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
-                  <Icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4 group-hover:bg-green-600 transition-colors">
+                  <Icon className="w-6 h-6 text-green-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-green-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">
@@ -77,6 +77,7 @@ const Services = () => {
     </section>
   );
 };
+
 
 
 export default Services;

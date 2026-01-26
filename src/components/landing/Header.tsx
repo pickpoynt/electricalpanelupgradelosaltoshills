@@ -13,11 +13,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "LED Piling Lights", href: "#services" },
-    { name: "Underwater Lighting", href: "#services" },
-    { name: "Pathway & Deck Lights", href: "#services" },
-    { name: "Shore Power Setup", href: "#services" },
-    { name: "Smart Control Setup", href: "#services" },
+    { name: "Wire Repair & Locating", href: "#services" },
+    { name: "Transformer Repair", href: "#services" },
+    { name: "LED Retrofitting", href: "#services" },
+    { name: "Fixture Restoration", href: "#services" },
+    { name: "System Optimization", href: "#services" },
   ];
 
   return (
@@ -26,16 +26,17 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-blue-500 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">FHML</span>
+            <div className="w-10 h-10 rounded-lg bg-green-500 flex items-center justify-center shadow-md">
+              <span className="text-white font-heading font-bold text-lg">FHGL</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Fair Haven Marine Light
+                Fair Haven Garden Light
               </h1>
-              <p className="text-xs text-slate-500">Expert Dock Lighting Installers</p>
+              <p className="text-xs text-slate-500">Expert Landscape Lighting Repairs</p>
             </div>
           </Link>
+
 
 
           {/* Desktop Navigation */}

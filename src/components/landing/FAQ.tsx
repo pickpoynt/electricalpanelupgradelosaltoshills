@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "What types of dock lights are best for Fair Haven's environment?",
-    answer: "Given the brackish water and high humidity of the Navesink River, we recommend IP68-rated LED fixtures. Piling lights and underwater LEDs should be made of tinned copper and marine-grade stainless steel or high-impact composites to resist corrosion."
+    question: "How do you find a cut wire without digging up my yard?",
+    answer: "We use specialized underground wire locators that send a frequency through the line. By following the signal with a handheld receiver, we can pinpoint the exact 'break' or 'nick' in the cable, allowing us to perform a surgical repair with minimal disruption to your landscape."
   },
   {
-    question: "How long do LED dock lights typically last?",
-    answer: "High-quality marine LED fixtures are rated for 50,000 hours or more. With proper professional installation and occasional maintenance to clean the lenses, your lighting system can provide a decade or more of reliable service."
+    question: "My lights are dim or flickering. What's wrong?",
+    answer: "This is often a sign of 'voltage drop' or a poor connection. As systems age, connections can corrode, or the transformer might be overloaded. We test the voltage at each fixture and the transformer taps to identify and resolve the bottleneck."
   },
   {
-    question: "Can I control my dock lights from my smartphone?",
-    answer: "Yes! We specialize in smart marine lighting solutions. We can install smart controllers that allow you to turn lights on/off, set schedules, and even change colors (for RGB units) using an app on your phone."
+    question: "Can you fix a landscape lighting system installed by another company?",
+    answer: "Absolutely. We repair all major brands and types of low-voltage landscape lighting. Whether it was installed by a previous owner or another contractor, we can troubleshoot, repair, and optimize it."
   },
   {
-    question: "Is underwater lighting safe for fish and marine life?",
-    answer: "Yes, underwater LEDs are safe for marine life. In fact, many property owners find that green or blue underwater lights attract small fish and crustaceans, creating a beautiful natural aquarium effect right at your dock."
+    question: "Is it worth upgrading my old system to LED?",
+    answer: "Yes, almost always. LED bulbs use 80% less energy and last years longer than halogen. Modern LEDs also provide much better color consistency. We can often retrofit your existing high-quality fixtures with high-performance LED 'drop-in' lamps."
   },
   {
-    question: "How do you protect the wiring from the elements?",
-    answer: "We use marine-rated, double-jacketed cables and moisture-tight heat-shrink connectors. All wiring is run through UV-resistant marine-grade conduit or protected within the dock's structure to shield it from sun, salt, and physical damage."
+    question: "Why do my landscape lights keep burning out?",
+    answer: "This is usually caused by moisture entering the fixture or over-voltage issues from the transformer. Our repair process includes cleaning sockets, applying dielectric grease, and checking the transformer settings to ensure your bulbs reach their full rated lifespan."
   },
   {
-    question: "Do dock lights require a lot of electricity?",
-    answer: "Modern LED dock lighting is extremely energy efficient. A typical pier lighting system uses about 80% less energy than old halogen or incandescent bulbs, costing only a few dollars a month to operate."
+    question: "What is preventative maintenance for landscape lighting?",
+    answer: "Our maintenance service includes cleaning lenses, buried wire checks, tightening terminals, clearing debris around fixtures, and adjusting timers. This prevents small issues from becoming expensive repairs."
   },
   {
-    question: "Do you offer maintenance for existing dock lighting?",
-    answer: "Yes, we provide maintenance and repair services for all types of dock lighting systems. We can troubleshoot wiring issues, replace old fixtures, and upgrade existing systems to LED or smart control."
+    question: "How often should I have my outdoor lighting serviced?",
+    answer: "In Fair Haven's coastal environment, we recommend a professional tune-up at least once a year. The salt air and seasonal shifts can cause wires to move and connections to oxidize faster than inland areas."
   },
   {
-    question: "Are your installations compliant with Fair Haven local codes?",
-    answer: "Absolutely. All our work is performed to NEC Article 555 standards and local Fair Haven electrical codes, ensuring your dock is both beautiful and fully compliant with safety regulations."
+    question: "Are your repairs warrantied?",
+    answer: "Yes, we stand behind our workmanship. All our wiring repairs and new component installations come with a full satisfaction guarantee and comprehensive warranty."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Dock Lighting FAQ
+              Landscape Lighting Repair FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Everything you need to know about professional marine lighting installation in Fair Haven, NJ.
+              Answers to common questions about troubleshooting and fixing outdoor lighting systems in Fair Haven, NJ.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-white border border-slate-200 rounded-lg px-6 shadow-sm"
               >
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-blue-600">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-green-600">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 leading-relaxed">
@@ -75,6 +75,7 @@ const FAQ = () => {
     </section>
   );
 };
+
 
 
 export default FAQ;

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Anchor, ShieldCheck, Zap } from "lucide-react";
+import { Phone, Anchor, ShieldCheck, Zap, Lightbulb } from "lucide-react";
 import React from "react";
 
 interface HeroProps {
@@ -11,12 +11,12 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Dock Lighting Installation Fair Haven NJ
-      <span className="block text-blue-400 mt-2">Fair Haven Marine Light: Illuminating the Navesink Shoreline.</span>
+      Landscape Lighting Repair Fair Haven NJ
+      <span className="block text-green-400 mt-2">Fair Haven Garden Light: Restoring Your Property's Evening Radiance.</span>
     </>
   ),
-  subtitle = "Transform your dock with professional marine-grade lighting. From safety-focused LED piling lights to atmospheric underwater LEDs, we bring brilliance to your Fair Haven waterfront.",
-  image = "https://images.unsplash.com/photo-1516149896397-4050028711e1?auto=format&fit=crop&q=80"
+  subtitle = "Expert troubleshooting and repair for outdoor lighting systems. From tracing cut wires to fixing faulty transformers and upgrading to LED, we restore the beauty and security of your Fair Haven landscape.",
+  image = "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
@@ -24,7 +24,7 @@ const Hero = ({
       <div className="absolute inset-0 z-0 text-white">
         <img
           src={image}
-          alt="Dock Lighting Installation Fair Haven NJ"
+          alt="Landscape Lighting Repair Fair Haven NJ"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-slate-900/80" />
@@ -34,8 +34,8 @@ const Hero = ({
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <div className="animate-fade-in">
-            <span className="inline-block px-4 py-2 bg-blue-700/40 border border-blue-400/50 rounded-full text-blue-100 text-sm font-medium mb-6 backdrop-blur-sm">
-              Fair Haven's Premier Marine Lighting Experts
+            <span className="inline-block px-4 py-2 bg-green-700/40 border border-green-400/50 rounded-full text-green-100 text-sm font-medium mb-6 backdrop-blur-sm">
+              Fair Haven's Premier Landscape Lighting Repair Team
             </span>
           </div>
 
@@ -48,7 +48,7 @@ const Hero = ({
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white border-none h-14 px-8 text-lg shadow-lg shadow-blue-900/20" asChild>
+            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white border-none h-14 px-8 text-lg shadow-lg shadow-green-900/20" asChild>
               <a href="tel:+18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call (844) 901-2684
@@ -58,22 +58,22 @@ const Hero = ({
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-slate-200 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
-              <ShieldCheck className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">UL Listed</span>
+              <ShieldCheck className="w-5 h-5 text-green-400" />
+              <span className="font-medium">UL Certified</span>
             </div>
             <div className="flex items-center gap-2">
-              <Anchor className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">IP68 Rated</span>
+              <Zap className="w-5 h-5 text-green-400" />
+              <span className="font-medium">Fast Repairs</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] font-bold text-white">
+              <div className="w-5 h-5 rounded-full bg-green-600 flex items-center justify-center text-[10px] font-bold text-white">
                 NJ
               </div>
               <span className="font-medium">Fair Haven Local</span>
             </div>
             <div className="flex items-center gap-2">
-              <Zap className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">Smart Control</span>
+              <Lightbulb className="w-5 h-5 text-green-400" />
+              <span className="font-medium">LED Upgrades</span>
             </div>
           </div>
         </div>
@@ -81,6 +81,7 @@ const Hero = ({
     </section>
   );
 };
+
 
 
 export default Hero;
