@@ -13,11 +13,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Wire Repair & Locating", href: "#services" },
-    { name: "Transformer Repair", href: "#services" },
-    { name: "LED Retrofitting", href: "#services" },
-    { name: "Fixture Restoration", href: "#services" },
-    { name: "System Optimization", href: "#services" },
+    { name: "240V Dedicated Circuits", href: "#services" },
+    { name: "Infrared Heater Setup", href: "#services" },
+    { name: "Weatherproof Controls", href: "#services" },
+    { name: "Smart Home Heat Sync", href: "#services" },
+    { name: "Panel Capacity Checks", href: "#services" },
   ];
 
   return (
@@ -26,16 +26,17 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-green-500 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">FHGL</span>
+            <div className="w-10 h-10 rounded-lg bg-orange-500 flex items-center justify-center shadow-md">
+              <span className="text-white font-heading font-bold text-lg">FHPH</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Fair Haven Garden Light
+                Fair Haven Patio Heat
               </h1>
-              <p className="text-xs text-slate-500">Expert Landscape Lighting Repairs</p>
+              <p className="text-xs text-slate-500">Expert Outdoor Heater Wiring</p>
             </div>
           </Link>
+
 
 
 

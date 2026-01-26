@@ -4,14 +4,14 @@ const Footer = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Landscape Lighting Repair Fair Haven NJ | Fair Haven Garden Light",
-    "image": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80",
-    "@id": "https://landscape-lighting-repair-fair-haven-nj.com/",
-    "url": "https://landscape-lighting-repair-fair-haven-nj.com/",
+    "name": "Outdoor Patio Heater Wiring Fair Haven NJ | Fair Haven Patio Heat",
+    "image": "https://images.unsplash.com/photo-1590483734724-38618541819e?auto=format&fit=crop&q=80",
+    "@id": "https://outdoor-patio-heater-wiring-fair-haven-nj.com/",
+    "url": "https://outdoor-patio-heater-wiring-fair-haven-nj.com/",
     "telephone": "18449012684",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Fair Haven Garden District",
+      "streetAddress": "Fair Haven Comfort District",
       "addressLocality": "Fair Haven",
       "addressRegion": "NJ",
       "postalCode": "07704",
@@ -41,17 +41,17 @@ const Footer = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Landscape Lighting Repair",
+    "serviceType": "Outdoor Patio Heater Wiring",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Fair Haven Garden Light"
+      "name": "Fair Haven Patio Heat"
     },
     "areaServed": [
       { "@type": "City", "name": "Fair Haven" },
       { "@type": "City", "name": "Rumson" },
-      { "@type": "City", "name": "Little Silver" }
+      { "@type": "City", "name": "Sea Bright" }
     ],
-    "description": "Expert repair and restoration services for landscape lighting systems in Fair Haven, NJ."
+    "description": "Expert electrical wiring and installation for high-end outdoor patio heaters in Fair Haven, NJ."
   };
 
   return (
@@ -61,39 +61,39 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-green-500 flex items-center justify-center shadow-lg">
-                <span className="text-white font-heading font-bold text-lg">FHGL</span>
+              <div className="w-10 h-10 rounded-lg bg-orange-500 flex items-center justify-center shadow-lg">
+                <span className="text-white font-heading font-bold text-lg">FHPH</span>
               </div>
               <div>
-                <div className="font-heading font-bold text-white text-lg leading-tight">Fair Haven Garden Light</div>
+                <div className="font-heading font-bold text-white text-lg leading-tight">Fair Haven Patio Heat</div>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-4 leading-relaxed">
-              Restoring the brilliance of Fair Haven's gardens with professional landscape lighting repair and maintenance services.
+              Bringing safe, efficient, and professional warmth to Fair Haven's finest outdoor spaces. Expert patio heater wiring and controls.
             </p>
             <div className="flex items-center gap-2 text-sm text-slate-400">
-              <MapPin className="w-4 h-4 text-green-500" />
+              <MapPin className="w-4 h-4 text-orange-500" />
               <span>Fair Haven, NJ 07704</span>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h3 className="font-heading font-bold text-white mb-6">Repair Services</h3>
+            <h3 className="font-heading font-bold text-white mb-6">Heater Services</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#services" className="hover:text-green-400 transition-colors">
-                  Wire Locating & Repair
+                <a href="#services" className="hover:text-orange-400 transition-colors">
+                  Dedicated 240V Circuits
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-green-400 transition-colors">
-                  Transformer Fixes
+                <a href="#services" className="hover:text-orange-400 transition-colors">
+                  Infrared Heater Setup
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-green-400 transition-colors">
-                  LED System Upgrades
+                <a href="#services" className="hover:text-orange-400 transition-colors">
+                  Smart Heat Controls
                 </a>
               </li>
             </ul>
@@ -104,15 +104,15 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-white mb-6">Contact Us</h3>
             <ul className="space-y-4 text-sm">
               <li>
-                <a href="tel:+18449012684" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">
+                <a href="tel:+18449012684" className="flex items-center gap-2 text-slate-400 hover:text-orange-400 transition-colors">
                   <Phone className="w-4 h-4" />
                   <span>(844) 901-2684</span>
                 </a>
               </li>
               <li>
-                <a href="mailto:repair@fairhavengardenlight.com" className="flex items-center gap-2 text-slate-400 hover:text-green-400 transition-colors">
+                <a href="mailto:warmth@fairhavenpatioheat.com" className="flex items-center gap-2 text-slate-400 hover:text-orange-400 transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>repair@fhgardenlight.com</span>
+                  <span>warmth@fhpatioheat.com</span>
                 </a>
               </li>
             </ul>
@@ -122,14 +122,14 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-xs">
-            <a href="https://knobandtubewiringreplacementsavanna.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">Knob & Tube Replacement</a>
-            <a href="https://greywatersysteminstallationtempe.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">Greywater System Installation</a>
-            <a href="https://cheapceilingfaninstallationspokanew.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">Ceiling Fan Installation</a>
-            <a href="https://toiletoverflowdamagerepairtimnathco.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">Toilet Overflow Repair</a>
+            <a href="https://potfillerfaucetinstallationroundroc.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">Pot Filler Installation</a>
+            <a href="https://aluminumwiringreplacementnapervilleil.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">Aluminum Wiring Replacement</a>
+            <a href="https://emergencyweatherheadrepairtulsaok.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">Weatherhead Repair</a>
+            <a href="https://landscapelightingrepairfairhavennj.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">Landscape Lighting Repair</a>
           </div>
-          <p>&copy; {new Date().getFullYear()} Fair Haven Garden Light. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Fair Haven Patio Heat. All rights reserved.</p>
           <p className="mt-2 text-xs">
-            Professional Landscape Lighting Repair Services in Fair Haven NJ.
+            Professional Outdoor Patio Heater Wiring Services in Fair Haven NJ.
           </p>
         </div>
 
@@ -148,5 +148,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-

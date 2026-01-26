@@ -1,40 +1,40 @@
-import { Wrench, Zap, Lightbulb, ShieldCheck, Sun, Search } from "lucide-react";
+import { Flame, Zap, ShieldCheck, Thermometer, Sun, Settings } from "lucide-react";
 
 const services = [
   {
-    icon: Search,
-    title: "Wire Locating & Repair",
-    description: "Finding and fixing underground cable breaks or shorts without disruptive digging.",
-    link: "#"
-  },
-  {
     icon: Zap,
-    title: "Transformer Troubleshooting",
-    description: "Repairing or replacing faulty transformers and upgrading to smart timers.",
+    title: "Dedicated 240V Circuits",
+    description: "Installation of heavy-duty dedicated circuits and breakers for safe high-wattage heater operation.",
     link: "#"
   },
   {
-    icon: Lightbulb,
-    title: "LED Conversion Kits",
-    description: "Updating your old halogen fixtures to energy-efficient, long-lasting LED technology.",
+    icon: Flame,
+    title: "Infrared Heater Mounts",
+    description: "Professional recessed or surface mounting of premium infrared heaters with core-drilled wiring.",
     link: "#"
   },
   {
-    icon: Wrench,
-    title: "Fixture Restoration",
-    description: "Cleaning and repairing high-quality brass or copper fixtures to look and work like new.",
+    icon: Settings,
+    title: "Variable Heat Controls",
+    description: "Installation of analog or digital regulators to precisely control the heat output of your patio heaters.",
+    link: "#"
+  },
+  {
+    icon: Thermometer,
+    title: "Smart Sync Integration",
+    description: "Connect your patio heating system to your home automation for effortless temperature control.",
     link: "#"
   },
   {
     icon: ShieldCheck,
-    title: "Annual Maintenance",
-    description: "Proactive cleaning, lens polishing, and ground-fault safety inspections.",
+    title: "Safety Clearance Audits",
+    description: "Ensuring all heaters are installed with necessary clearances from combustible materials and pergolas.",
     link: "#"
   },
   {
     icon: Sun,
-    title: "System Expansion",
-    description: "Adding new lights or relocating existing ones to better illuminate your growing landscape.",
+    title: "All-Season Power Hubs",
+    description: "Installation of weatherproof outdoor power pedestals for additional patio comfort appliances.",
     link: "#"
   },
 ];
@@ -45,10 +45,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Specialized Landscape Lighting Repairs in Fair Haven
+            Expert Patio Heater Electrical Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Professional troubleshooting and restoration services to keep your garden illuminated and your property secure.
+            Providing the specialized electrical infrastructure needed to turn your Fair Haven patio into a year-round outdoor sanctuary.
           </p>
         </div>
 
@@ -60,10 +60,10 @@ const Services = () => {
                 key={index}
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full pointer-events-none"
               >
-                <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4 group-hover:bg-green-600 transition-colors">
-                  <Icon className="w-6 h-6 text-green-600 group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-4 group-hover:bg-orange-600 transition-colors">
+                  <Icon className="w-6 h-6 text-orange-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-green-600 transition-colors">
+                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-orange-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">
@@ -77,6 +77,7 @@ const Services = () => {
     </section>
   );
 };
+
 
 
 

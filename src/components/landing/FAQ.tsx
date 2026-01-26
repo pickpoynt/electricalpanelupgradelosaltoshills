@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "How do you find a cut wire without digging up my yard?",
-    answer: "We use specialized underground wire locators that send a frequency through the line. By following the signal with a handheld receiver, we can pinpoint the exact 'break' or 'nick' in the cable, allowing us to perform a surgical repair with minimal disruption to your landscape."
+    question: "Do I really need a dedicated circuit for my patio heaters?",
+    answer: "Yes. Most electric patio heaters draw between 1,500 and 6,000 watts. A standard household outlet cannot handle this load. Running heaters on shared circuits will trip breakers and create a fire hazard. We install dedicated 240V circuits to handle the load safely."
   },
   {
-    question: "My lights are dim or flickering. What's wrong?",
-    answer: "This is often a sign of 'voltage drop' or a poor connection. As systems age, connections can corrode, or the transformer might be overloaded. We test the voltage at each fixture and the transformer taps to identify and resolve the bottleneck."
+    question: "Are electric patio heaters better than propane?",
+    answer: "Electric infrared heaters are generally preferred for permanent installations. They are about 90% efficient, don't require heavy tank replacements, and aren't affected by wind like gas flames. They also provide a much cleaner, more consistent heat."
   },
   {
-    question: "Can you fix a landscape lighting system installed by another company?",
-    answer: "Absolutely. We repair all major brands and types of low-voltage landscape lighting. Whether it was installed by a previous owner or another contractor, we can troubleshoot, repair, and optimize it."
+    question: "Can you install heaters on a wooden pergola or ceiling?",
+    answer: "Yes, but it requires strict adherence to 'clearance to combustible' requirements. We use specialized mounting brackets and sometimes heat shields to ensure the heater is safely distanced from the wood while still providing optimal warmth."
   },
   {
-    question: "Is it worth upgrading my old system to LED?",
-    answer: "Yes, almost always. LED bulbs use 80% less energy and last years longer than halogen. Modern LEDs also provide much better color consistency. We can often retrofit your existing high-quality fixtures with high-performance LED 'drop-in' lamps."
+    question: "How do you control the heat level?",
+    answer: "We offer several control options. Basic systems use on/off switches, while more advanced setups use 'infinitely variable' regulators or multi-stage switches that allow you to set the heat at 25%, 50%, or 100% power."
   },
   {
-    question: "Why do my landscape lights keep burning out?",
-    answer: "This is usually caused by moisture entering the fixture or over-voltage issues from the transformer. Our repair process includes cleaning sockets, applying dielectric grease, and checking the transformer settings to ensure your bulbs reach their full rated lifespan."
+    question: "Can I connect my patio heaters to my smart home system?",
+    answer: "Absolutely. We can integrate your heating system with Lutron, Control4, Savant, or mobile apps. This allows you to turn on the heat before you even step outside or ensure everything is shut off automatically at night."
   },
   {
-    question: "What is preventative maintenance for landscape lighting?",
-    answer: "Our maintenance service includes cleaning lenses, buried wire checks, tightening terminals, clearing debris around fixtures, and adjusting timers. This prevents small issues from becoming expensive repairs."
+    question: "What is the best height to mount patio heaters?",
+    answer: "For most residential applications, we recommend mounting heaters between 7 and 9 feet high. This provides the best balance of heat coverage and safety. We'll consult with you to find the 'sweet spot' for your specific furniture layout."
   },
   {
-    question: "How often should I have my outdoor lighting serviced?",
-    answer: "In Fair Haven's coastal environment, we recommend a professional tune-up at least once a year. The salt air and seasonal shifts can cause wires to move and connections to oxidize faster than inland areas."
+    question: "How do your installations handle Fair Haven's coastal air?",
+    answer: "We use marine-grade stainless steel hardware and NEMA-rated weatherproof enclosures for all switches and controls. We also apply anti-corrosion treatments to electrical terminals to prevent salt air degradation."
   },
   {
-    question: "Are your repairs warrantied?",
-    answer: "Yes, we stand behind our workmanship. All our wiring repairs and new component installations come with a full satisfaction guarantee and comprehensive warranty."
+    question: "Do you handle the permitting for the new electrical work?",
+    answer: "Yes, we are fully licensed in NJ and handle the entire permitting and inspection process with the Fair Haven building department to ensure your installation is fully legal and safe."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Landscape Lighting Repair FAQ
+              Patio Heater Wiring FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Answers to common questions about troubleshooting and fixing outdoor lighting systems in Fair Haven, NJ.
+              Answers to common questions about powering luxury outdoor heating systems in Fair Haven, NJ.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-white border border-slate-200 rounded-lg px-6 shadow-sm"
               >
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-green-600">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-orange-600">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 leading-relaxed">
@@ -75,6 +75,7 @@ const FAQ = () => {
     </section>
   );
 };
+
 
 
 
