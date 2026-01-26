@@ -13,11 +13,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Attic Smoke Removal", href: "/smoke-removal-woodland-park" },
-    { name: "Insulation Deodorization", href: "/insulation-deodorization-woodland-park" },
-    { name: "Thermal Fogging", href: "/thermal-fogging-woodland-park" },
-    { name: "Wood Structure Cleaning", href: "/wood-cleaning-woodland-park" },
-    { name: "Ozone Treatment", href: "/ozone-treatment-woodland-park" },
+    { name: "Boat Lift Motor Service", href: "#services" },
+    { name: "Remote Control Setup", href: "#services" },
+    { name: "Dock & Pier Lighting", href: "#services" },
+    { name: "Marine Circuit Protection", href: "#services" },
+    { name: "Safety Grounding Systems", href: "#services" },
   ];
 
   return (
@@ -26,14 +26,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-amber-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">WPA</span>
+            <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
+              <span className="text-white font-heading font-bold text-lg">FHME</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Woodland Park Attic Restore
+                Fair Haven Marine Electric
               </h1>
-              <p className="text-xs text-slate-500">Professional Attic Deodorization</p>
+              <p className="text-xs text-slate-500">Expert Boat Lift Electricians</p>
             </div>
           </Link>
 
@@ -46,9 +46,9 @@ const Header = () => {
               <DropdownMenuContent className="w-64 bg-white">
                 {services.map((service) => (
                   <DropdownMenuItem key={service.name} asChild>
-                    <Link to={service.href} className="w-full cursor-pointer">
+                    <a href={service.href} className="w-full cursor-pointer">
                       {service.name}
-                    </Link>
+                    </a>
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>
@@ -64,10 +64,10 @@ const Header = () => {
 
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button className="bg-amber-600 hover:bg-amber-700 text-white" size="lg" asChild>
-              <a href="tel:+13802660944" className="flex items-center gap-2">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
+              <a href="tel:+18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                (380) 266-0944
+                (844) 901-2684
               </a>
             </Button>
           </div>
@@ -90,14 +90,14 @@ const Header = () => {
                 <div className="font-medium text-slate-900 mb-2">Our Services</div>
                 <div className="pl-4 flex flex-col gap-3 border-l-2 border-slate-100">
                   {services.map((service) => (
-                    <Link
+                    <a
                       key={service.name}
-                      to={service.href}
+                      href={service.href}
                       className="text-slate-600 hover:text-blue-600 text-sm"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {service.name}
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -107,10 +107,10 @@ const Header = () => {
               <a href="/#contact" className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
                 Contact
               </a>
-              <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white" size="lg" asChild>
-                <a href="tel:+13802660944" className="flex items-center justify-center gap-2">
+              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
+                <a href="tel:+18449012684" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (380) 266-0944
+                  (844) 901-2684
                 </a>
               </Button>
             </nav>
@@ -122,3 +122,4 @@ const Header = () => {
 };
 
 export default Header;
+

@@ -1,43 +1,43 @@
-import { Clock, Shield, Award, Users, Wind, Eraser, Mountain } from "lucide-react";
+import { Clock, Shield, Award, Users, Anchor, Zap, MapPin } from "lucide-react";
 
 const reasons = [
   {
-    icon: Wind,
-    title: "Specialized Attic Tech",
-    description: "Attics require distinct techniques. We use thermal foggers and ozone generators specifically calibrated for enclosed roofing environments."
+    icon: Anchor,
+    title: "Marine Specialists",
+    description: "We specialize exclusively in marine electrical systems, understanding the unique challenges of Fair Haven's saltwater environment."
   },
   {
-    icon: Mountain,
-    title: "Woodland Park Locals",
-    description: "We are based in Woodland Park and understand Teller County's unique climate and construction styles, from modern homes to mountain cabins."
+    icon: MapPin,
+    title: "Fair Haven Locals",
+    description: "Based right here in Fair Haven, NJ. We know the local docks and community better than anyone else."
   },
   {
     icon: Clock,
-    title: "Rapid 24/7 Response",
-    description: "Smoke particles settle and bond quickly. Our local team is ready to respond immediately to stabilize your home's air quality."
+    title: "24/7 Response",
+    description: "Boat lift failures or electrical issues don't follow business hours. We're ready to help whenever you need us."
   },
   {
     icon: Award,
-    title: "IICRC Certified",
-    description: "Our restoration specialists are fully IICRC certified in fire & smoke restoration, ensuring industry-leading protocols in your attic."
+    title: "Licensed & Insured",
+    description: "Our team consists of fully licensed electrical professionals specifically trained in marine safety and code compliance."
   },
   {
     icon: Shield,
-    title: "Insurance Specialists",
-    description: "We work directly with all major insurance carriers in Colorado, providing detailed documentation and thermal imaging to support your claim."
+    title: "Safety Focused",
+    description: "Every installation includes rigorous GFCI testing and marine-grade grounding to prevent electrical hazards in the water."
   },
   {
-    icon: Users,
-    title: "Trusted Reputation",
-    description: "With hundreds of successful home restorations in Woodland Park and Cascade, we've built a reputation for excellence and integrity."
+    icon: Zap,
+    title: "Quality Components",
+    description: "We only use premium, corrosion-resistant components designed to withstand years of sun, salt, and humidity."
   }
 ];
 
 const stats = [
-  { number: "24/7", label: "Emergency Help" },
-  { number: "15yr+", label: "Local Expertise" },
+  { number: "24/7", label: "Marine Service" },
+  { number: "NJ", label: "State Licensed" },
   { number: "100%", label: "Satisfaction" },
-  { number: "Teller", label: "County Focus" }
+  { number: "Local", label: "Fair Haven Team" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Woodland Park Trusts Our Attic Experts
+            Why Fair Haven Chooses Our Marine Electricians
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Removing smoke odor from an attic isn't just about cleaning—it's about neutralizing microscopic particles trapped in the home's most challenging spaces.
+            Providing reliable, safe, and professional electrical solutions for boat lifts and docks along the Navesink River.
           </p>
         </div>
 
@@ -94,3 +94,4 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+

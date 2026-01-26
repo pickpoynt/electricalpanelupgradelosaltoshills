@@ -1,42 +1,41 @@
-import { Wind, Flame, Sparkles, Droplets, Zap, Shield, Trash2, Home, Eraser } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Zap, Anchor, Lightbulb, ShieldAlert, Settings, Ruler } from "lucide-react";
 
 const services = [
   {
-    icon: Wind,
-    title: "Attic Smoke Removal",
-    description: "Deep deodorization of attic spaces including trusses and roof decking.",
-    link: "/smoke-removal-woodland-park"
-  },
-  {
-    icon: Droplets,
-    title: "Insulation Deodorization",
-    description: "Specialized treatment to neutralize smoke odors trapped in attic insulation.",
-    link: "/insulation-deodorization-woodland-park"
+    icon: Settings,
+    title: "Motor Wiring & Repair",
+    description: "Professional wiring for lift motors, gear units, and limit switches to ensure smooth operation.",
+    link: "#"
   },
   {
     icon: Zap,
-    title: "Thermal Fogging",
-    description: "Advanced dry fog technology to penetrate deep into wood pores.",
-    link: "/thermal-fogging-woodland-park"
+    title: "Remote Control Systems",
+    description: "Installation and programming of wireless remote systems for convenient lift operation from your boat.",
+    link: "#"
   },
   {
-    icon: Eraser,
-    title: "Structure Cleaning",
-    description: "Professional cleaning of wooden attic structures to remove soot and resins.",
-    link: "/wood-cleaning-woodland-park"
+    icon: Lightbulb,
+    title: "Dock & Pier Lighting",
+    description: "Custom marine-grade lighting solutions for safety and ambiance on your dock and walkways.",
+    link: "#"
   },
   {
-    icon: Sparkles,
-    title: "Ozone Treatment",
-    description: "Powerful oxygen-based deodorization for complete odor elimination.",
-    link: "/ozone-treatment-woodland-park"
+    icon: ShieldAlert,
+    title: "GFCI & Safety Protection",
+    description: "Essential marine circuit protection to prevent electrical hazards in wet environments.",
+    link: "#"
   },
   {
-    icon: Shield,
-    title: "Hepa Filtration",
-    description: "Continuous air scrubbing to remove microscopic smoke particles from the attic.",
-    link: "/hepa-filtration-woodland-park"
+    icon: Anchor,
+    title: "Panel & Breaker Upgrades",
+    description: "Marine-rated electrical panel installations designed to withstand the salt air and humidity.",
+    link: "#"
+  },
+  {
+    icon: Ruler,
+    title: "Maintenance Inspections",
+    description: "Comprehensive electrical safety audits for boat lifts and dock wiring systems.",
+    link: "#"
   },
 ];
 
@@ -46,10 +45,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Woodland Park Attic Smoke Odor Services
+            Boat Lift Electrical Services in Fair Haven
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Specialized attic restoration services to eliminate persistent smoke smells and restore healthy air to your home.
+            Specialized marine electrical solutions to keep your boat lift operating safely and reliably in Fair Haven's coastal environment.
           </p>
         </div>
 
@@ -57,21 +56,20 @@ const Services = () => {
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Link
+              <div
                 key={index}
-                to={service.link}
-                className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full"
+                className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full pointer-events-none"
               >
-                <div className="w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center mb-4 group-hover:bg-amber-600 transition-colors">
-                  <Icon className="w-6 h-6 text-amber-600 group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+                  <Icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-amber-600 transition-colors">
+                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">
                   {service.description}
                 </p>
-              </Link>
+              </div>
             );
           })}
         </div>
@@ -81,3 +79,4 @@ const Services = () => {
 };
 
 export default Services;
+
