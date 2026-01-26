@@ -117,35 +117,34 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* Bottom Bar */}
-          <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
-            <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-xs">
-              <a href="https://smokeodorremovalatticwoodlandpark.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Attic Smoke Cleanup Woodland Park</a>
-              <a href="https://ceramickilnelectricalhookupashevill.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Ceramic Kiln Electrical Hookup</a>
-              <a href="https://hardwiredsmokedetectorreplacementev.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Smoke Detector Replacement</a>
-              <a href="https://castironpiperepairbatonrougela.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Cast Iron Pipe Repair</a>
-            </div>
-            <p>&copy; {new Date().getFullYear()} Fair Haven Marine Electric. All rights reserved.</p>
-            <p className="mt-2 text-xs">
-              Professional Boat Lift Electrician Services in Fair Haven NJ.
-            </p>
-          </div>
-
-          {/* Schema */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-          />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-          />
         </div>
+
+        {/* Bottom Bar */}
+        <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
+          <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-xs">
+            <a href="https://smokeodorremovalatticwoodlandpark.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Attic Smoke Cleanup Woodland Park</a>
+            <a href="https://ceramickilnelectricalhookupashevill.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Ceramic Kiln Electrical Hookup</a>
+            <a href="https://hardwiredsmokedetectorreplacementev.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Smoke Detector Replacement</a>
+            <a href="https://castironpiperepairbatonrougela.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Cast Iron Pipe Repair</a>
+          </div>
+          <p>&copy; {new Date().getFullYear()} Fair Haven Marine Electric. All rights reserved.</p>
+          <p className="mt-2 text-xs">
+            Professional Boat Lift Electrician Services in Fair Haven NJ.
+          </p>
+        </div>
+
+        {/* Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        />
+      </div>
     </footer>
   );
 };
 
 export default Footer;
-
-
