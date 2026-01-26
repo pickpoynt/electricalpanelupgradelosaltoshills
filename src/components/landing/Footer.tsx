@@ -132,18 +132,20 @@ const Footer = () => {
             </p>
           </div>
 
-
           {/* Schema */}
-          <script type="application/ld+json">
-            {JSON.stringify(schemaData)}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify(serviceSchema)}
-          </script>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+          />
         </div>
     </footer>
   );
 };
 
 export default Footer;
+
 
