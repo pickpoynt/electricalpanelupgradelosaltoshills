@@ -4,10 +4,10 @@ const Footer = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Boat Lift Electrician Fair Haven NJ | Fair Haven Marine Electric",
-    "image": "https://boat-lift-electrician-fair-haven-nj.com/boat-lift-hero.png",
-    "@id": "https://boat-lift-electrician-fair-haven-nj.com/",
-    "url": "https://boat-lift-electrician-fair-haven-nj.com/",
+    "name": "Dock Lighting Installation Fair Haven NJ | Fair Haven Marine Light",
+    "image": "https://images.unsplash.com/photo-1516149896397-4050028711e1?auto=format&fit=crop&q=80",
+    "@id": "https://dock-lighting-installation-fair-haven-nj.com/",
+    "url": "https://dock-lighting-installation-fair-haven-nj.com/",
     "telephone": "18449012684",
     "address": {
       "@type": "PostalAddress",
@@ -41,17 +41,17 @@ const Footer = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Boat Lift Electrical Services",
+    "serviceType": "Dock Lighting Installation",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Fair Haven Marine Electric"
+      "name": "Fair Haven Marine Light"
     },
     "areaServed": [
       { "@type": "City", "name": "Fair Haven" },
       { "@type": "City", "name": "Rumson" },
       { "@type": "City", "name": "Sea Bright" }
     ],
-    "description": "Expert electrical services for boat lifts, motors, remotes, and dock lighting in Fair Haven, NJ."
+    "description": "Professional installation of dock lighting, piling lights, and underwater LEDs in Fair Haven, NJ."
   };
 
   return (
@@ -61,15 +61,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-lg">
-                <span className="text-white font-heading font-bold text-lg">FHME</span>
+              <div className="w-10 h-10 rounded-lg bg-blue-500 flex items-center justify-center shadow-lg">
+                <span className="text-white font-heading font-bold text-lg">FHML</span>
               </div>
               <div>
-                <div className="font-heading font-bold text-white text-lg leading-tight">Fair Haven Marine Electric</div>
+                <div className="font-heading font-bold text-white text-lg leading-tight">Fair Haven Marine Light</div>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-4 leading-relaxed">
-              Serving the Fair Haven and Monmouth County waterfront communities with professional boat lift and marine electrical services.
+              Bringing premium, durable illumination to Fair Haven docks and piers. Expert marine lighting solutions for your waterfront home.
             </p>
             <div className="flex items-center gap-2 text-sm text-slate-400">
               <MapPin className="w-4 h-4 text-blue-500" />
@@ -79,21 +79,21 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="font-heading font-bold text-white mb-6">Marine Services</h3>
+            <h3 className="font-heading font-bold text-white mb-6">Marine Lighting</h3>
             <ul className="space-y-3 text-sm">
               <li>
                 <a href="#services" className="hover:text-blue-400 transition-colors">
-                  Boat Lift Motor Repair
+                  LED Piling Lights
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover:text-blue-400 transition-colors">
-                  Remote System Setup
+                  Underwater LED Setup
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover:text-blue-400 transition-colors">
-                  Dock & Pier Lighting
+                  Dock Path Lighting
                 </a>
               </li>
             </ul>
@@ -110,9 +110,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:service@fairhavenmarineelectric.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
+                <a href="mailto:design@fairhavenmarinelight.com" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>service@fhmarine.com</span>
+                  <span>design@fhmarinelight.com</span>
                 </a>
               </li>
             </ul>
@@ -122,14 +122,14 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-xs">
-            <a href="https://smokeodorremovalatticwoodlandpark.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Attic Smoke Cleanup Woodland Park</a>
-            <a href="https://ceramickilnelectricalhookupashevill.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Ceramic Kiln Electrical Hookup</a>
-            <a href="https://hardwiredsmokedetectorreplacementev.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Smoke Detector Replacement</a>
-            <a href="https://castironpiperepairbatonrougela.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Cast Iron Pipe Repair</a>
+            <a href="https://tanklesswaterheaterdescalingbellevu.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Tankless Heater Descaling</a>
+            <a href="https://generatorinterlockkitinstallationma.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Generator Interlock Installation</a>
+            <a href="https://rvpedestalinstallationplanotx.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">RV Pedestal Installation</a>
+            <a href="https://boatliftelectricianfairhavennj.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Boat Lift Electrician</a>
           </div>
-          <p>&copy; {new Date().getFullYear()} Fair Haven Marine Electric. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Fair Haven Marine Light. All rights reserved.</p>
           <p className="mt-2 text-xs">
-            Professional Boat Lift Electrician Services in Fair Haven NJ.
+            Professional Dock Lighting Installation Services in Fair Haven NJ.
           </p>
         </div>
 
@@ -148,3 +148,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

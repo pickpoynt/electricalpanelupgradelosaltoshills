@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Why do I need a specialized marine electrician for my boat lift?",
-    answer: "Regular residential wiring isn't designed for the constant moisture, salt air, and ground-fault risks of a waterfront environment. Marine electricians use specific materials like stainless steel hardware and special conduits to ensure longevity and safety that standard electricians might overlook."
+    question: "What types of dock lights are best for Fair Haven's environment?",
+    answer: "Given the brackish water and high humidity of the Navesink River, we recommend IP68-rated LED fixtures. Piling lights and underwater LEDs should be made of tinned copper and marine-grade stainless steel or high-impact composites to resist corrosion."
   },
   {
-    question: "How often should I have my boat lift electrical system inspected?",
-    answer: "In Fair Haven's coastal environment, we recommend a professional electrical inspection at least once a year, preferably before the start of the primary boating season. We check for corrosion, tighten terminals, and test GFCI breakers to ensure everything is safe."
+    question: "How long do LED dock lights typically last?",
+    answer: "High-quality marine LED fixtures are rated for 50,000 hours or more. With proper professional installation and occasional maintenance to clean the lenses, your lighting system can provide a decade or more of reliable service."
   },
   {
-    question: "Can my existing manual boat lift be upgraded to wireless remote control?",
-    answer: "Absolutely. In most cases, we can retrofit your existing motor setup with a modern wireless control box. This adds convenience and safety, allowing you to operate the lift from the boat or the dock."
+    question: "Can I control my dock lights from my smartphone?",
+    answer: "Yes! We specialize in smart marine lighting solutions. We can install smart controllers that allow you to turn lights on/off, set schedules, and even change colors (for RGB units) using an app on your phone."
   },
   {
-    question: "What is GFCI and why is it critical for my dock?",
-    answer: "Ground Fault Circuit Interrupter (GFCI) protection is a life-safety device that shuts off power instantly if a leak to ground is detected. This is critical in marine environments to prevent electric shock drowning (ESD) and equipment damage."
+    question: "Is underwater lighting safe for fish and marine life?",
+    answer: "Yes, underwater LEDs are safe for marine life. In fact, many property owners find that green or blue underwater lights attract small fish and crustaceans, creating a beautiful natural aquarium effect right at your dock."
   },
   {
-    question: "How do I know if my boat lift motor is failing?",
-    answer: "Common signs include humming without movement, slow lifting, intermittent operation, or visible corrosion on the housing. If you notice any of these, it's best to call us before the motor burns out completely."
+    question: "How do you protect the wiring from the elements?",
+    answer: "We use marine-rated, double-jacketed cables and moisture-tight heat-shrink connectors. All wiring is run through UV-resistant marine-grade conduit or protected within the dock's structure to shield it from sun, salt, and physical damage."
   },
   {
-    question: "Does the saltwater in the Navesink River affect my wiring?",
-    answer: "Yes, the salt air and occasional spray can cause rapid oxidation of copper and aluminum. We use tinned copper wiring and sealed connections to resist this corrosion and ensure your system lasts for years."
+    question: "Do dock lights require a lot of electricity?",
+    answer: "Modern LED dock lighting is extremely energy efficient. A typical pier lighting system uses about 80% less energy than old halogen or incandescent bulbs, costing only a few dollars a month to operate."
   },
   {
-    question: "Are your boat lift services compliant with local Fair Haven codes?",
-    answer: "Yes, all our work is performed to the latest National Electrical Code (NEC) standards, specifically Article 555 which covers Marinas, Boatyards, and Floating Buildings, ensuring safety and compliance."
+    question: "Do you offer maintenance for existing dock lighting?",
+    answer: "Yes, we provide maintenance and repair services for all types of dock lighting systems. We can troubleshoot wiring issues, replace old fixtures, and upgrade existing systems to LED or smart control."
   },
   {
-    question: "Do you offer emergency repairs for stuck boat lifts?",
-    answer: "Yes, we provide 24/7 emergency services. If your boat is stuck Up or Down due to an electrical failure, call us immediately at (844) 901-2684 for rapid assistance."
+    question: "Are your installations compliant with Fair Haven local codes?",
+    answer: "Absolutely. All our work is performed to NEC Article 555 standards and local Fair Haven electrical codes, ensuring your dock is both beautiful and fully compliant with safety regulations."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Boat Lift Electrical FAQ
+              Dock Lighting FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Common questions about boat lift maintenance, safety, and electrical services in Fair Haven, NJ.
+              Everything you need to know about professional marine lighting installation in Fair Haven, NJ.
             </p>
           </div>
 
@@ -75,6 +75,7 @@ const FAQ = () => {
     </section>
   );
 };
+
 
 export default FAQ;
 

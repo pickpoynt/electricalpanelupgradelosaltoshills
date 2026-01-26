@@ -1,40 +1,40 @@
-import { Zap, Anchor, Lightbulb, ShieldAlert, Settings, Ruler } from "lucide-react";
+import { Lightbulb, Zap, Anchor, ShieldCheck, Sun, Smartphone } from "lucide-react";
 
 const services = [
   {
-    icon: Settings,
-    title: "Motor Wiring & Repair",
-    description: "Professional wiring for lift motors, gear units, and limit switches to ensure smooth operation.",
-    link: "#"
-  },
-  {
-    icon: Zap,
-    title: "Remote Control Systems",
-    description: "Installation and programming of wireless remote systems for convenient lift operation from your boat.",
-    link: "#"
-  },
-  {
     icon: Lightbulb,
-    title: "Dock & Pier Lighting",
-    description: "Custom marine-grade lighting solutions for safety and ambiance on your dock and walkways.",
+    title: "LED Piling Lights",
+    description: "Durable, weatherproof piling-mounted LEDs that provide safe navigation and a classic maritime look.",
     link: "#"
   },
   {
-    icon: ShieldAlert,
-    title: "GFCI & Safety Protection",
-    description: "Essential marine circuit protection to prevent electrical hazards in wet environments.",
+    icon: Sun,
+    title: "Pathway & Deck Lighting",
+    description: "Subtle, low-voltage illumination for dock surfaces and gangways to prevent trips and falls.",
     link: "#"
   },
   {
     icon: Anchor,
-    title: "Panel & Breaker Upgrades",
-    description: "Marine-rated electrical panel installations designed to withstand the salt air and humidity.",
+    title: "Underwater LED Kits",
+    description: "High-intensity underwater lights that transform the water around your dock into a vibrant display.",
     link: "#"
   },
   {
-    icon: Ruler,
-    title: "Maintenance Inspections",
-    description: "Comprehensive electrical safety audits for boat lifts and dock wiring systems.",
+    icon: Smartphone,
+    title: "Smart Control Setup",
+    description: "Full integration with mobile apps and smart home systems for automated twilight-to-dawn control.",
+    link: "#"
+  },
+  {
+    icon: ShieldCheck,
+    title: "Marine Safety Inspections",
+    description: "Comprehensive GFCI testing and grounding audits to ensure your dock is electrically safe in the water.",
+    link: "#"
+  },
+  {
+    icon: Zap,
+    title: "Shore Power & Pedestals",
+    description: "Installation of marine-grade power pedestals with integrated lighting and waterproof outlets.",
     link: "#"
   },
 ];
@@ -45,10 +45,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Boat Lift Electrical Services in Fair Haven
+            Superior Dock Lighting Services in Fair Haven
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Specialized marine electrical solutions to keep your boat lift operating safely and reliably in Fair Haven's coastal environment.
+            Combining marine-grade durability with sophisticated design to illuminate your Fair Haven waterfront lifestyle.
           </p>
         </div>
 
@@ -77,6 +77,7 @@ const Services = () => {
     </section>
   );
 };
+
 
 export default Services;
 

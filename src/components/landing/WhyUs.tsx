@@ -1,40 +1,40 @@
-import { Clock, Shield, Award, Users, Anchor, Zap, MapPin } from "lucide-react";
+import { Clock, Shield, Award, Lightbulb, Anchor, Zap, MapPin } from "lucide-react";
 
 const reasons = [
   {
+    icon: Lightbulb,
+    title: "Lighting Specialists",
+    description: "We focus exclusively on marine illumination, understanding how light interacts with water and coastal fog for the best visual effect."
+  },
+  {
     icon: Anchor,
-    title: "Marine Specialists",
-    description: "We specialize exclusively in marine electrical systems, understanding the unique challenges of Fair Haven's saltwater environment."
+    title: "Marine-Grade Quality",
+    description: "Every fixture we install is constructed from high-grade stainless steel or composite materials to prevent corrosion and oxidation."
   },
   {
     icon: MapPin,
     title: "Fair Haven Locals",
-    description: "Based right here in Fair Haven, NJ. We know the local docks and community better than anyone else."
+    description: "Based in Fair Haven, NJ. We've illuminated dozens of local piers and community docks along the Navesink River."
   },
   {
     icon: Clock,
-    title: "24/7 Response",
-    description: "Boat lift failures or electrical issues don't follow business hours. We're ready to help whenever you need us."
-  },
-  {
-    icon: Award,
-    title: "Licensed & Insured",
-    description: "Our team consists of fully licensed electrical professionals specifically trained in marine safety and code compliance."
+    title: "Proactive Service",
+    description: "We offer annual maintenance to clean lenses and check connections, ensuring your dock stays brilliant year-round."
   },
   {
     icon: Shield,
-    title: "Safety Focused",
-    description: "Every installation includes rigorous GFCI testing and marine-grade grounding to prevent electrical hazards in the water."
+    title: "Safety Certified",
+    description: "All our installations comply with the strictest marine electrical codes, featuring multiple layers of ground-fault protection."
   },
   {
     icon: Zap,
-    title: "Quality Components",
-    description: "We only use premium, corrosion-resistant components designed to withstand years of sun, salt, and humidity."
+    title: "Smart Integration",
+    description: "We are experts in smart home marine integration, allowing you to set schedules and colors from your favorite devices."
   }
 ];
 
 const stats = [
-  { number: "24/7", label: "Marine Service" },
+  { number: "24/7", label: "Marine Support" },
   { number: "NJ", label: "State Licensed" },
   { number: "100%", label: "Satisfaction" },
   { number: "Local", label: "Fair Haven Team" }
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Fair Haven Chooses Our Marine Electricians
+            Why Fair Haven Trusts Our Dock Lighting Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Providing reliable, safe, and professional electrical solutions for boat lifts and docks along the Navesink River.
+            Providing elegant, safe, and durable lighting solutions designed to thrive in Fair Haven's coastal environment.
           </p>
         </div>
 
@@ -92,6 +92,7 @@ const WhyUs = () => {
     </section>
   );
 };
+
 
 export default WhyUs;
 
