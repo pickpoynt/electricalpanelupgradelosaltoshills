@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Do I really need a dedicated circuit for my patio heaters?",
-    answer: "Yes. Most electric patio heaters draw between 1,500 and 6,000 watts. A standard household outlet cannot handle this load. Running heaters on shared circuits will trip breakers and create a fire hazard. We install dedicated 240V circuits to handle the load safely."
+    question: "How do you find a break in the floor heating cable without removing the tiles?",
+    answer: "We use a combination of advanced resistance testing, TDR (Time Domain Reflectometry), and thermal imaging. This allows us to pinpoint the exact location of the 'open' or 'short' in the cable. In many cases, we only need to remove a single tile to perform a permanent repair."
   },
   {
-    question: "Are electric patio heaters better than propane?",
-    answer: "Electric infrared heaters are generally preferred for permanent installations. They are about 90% efficient, don't require heavy tank replacements, and aren't affected by wind like gas flames. They also provide a much cleaner, more consistent heat."
+    question: "Why is my heated floor thermostat showing a GFCI error?",
+    answer: "A GFCI error (often 'GROUND FAULT' or 'ERR 01') means the system is detecting a leakage of current to ground. This is a safety feature. It could be caused by moisture, a damaged cable, or a faulty sensor. We diagnostic these issues safely to protect your home and family."
   },
   {
-    question: "Can you install heaters on a wooden pergola or ceiling?",
-    answer: "Yes, but it requires strict adherence to 'clearance to combustible' requirements. We use specialized mounting brackets and sometimes heat shields to ensure the heater is safely distanced from the wood while still providing optimal warmth."
+    question: "Can any electrician repair a radiant floor heating system?",
+    answer: "Floor heating is a specialized branch of electrical work. Most general electricians don't have the sensitive ohm-meters or thermal cameras required to locate underground faults. Our team specifically trains on the leading radiant heat brands like Nuheat, Schluter, and SunTouch."
   },
   {
-    question: "How do you control the heat level?",
-    answer: "We offer several control options. Basic systems use on/off switches, while more advanced setups use 'infinitely variable' regulators or multi-stage switches that allow you to set the heat at 25%, 50%, or 100% power."
+    question: "Can a faulty thermostat be the reason my floor is cold?",
+    answer: "Yes, quite often. Thermostats can fail or lose their calibration over time. We can test the resistance of your floor sensor and the continuity of your heating mat to determine if the issue is in the controller or under the floor."
   },
   {
-    question: "Can I connect my patio heaters to my smart home system?",
-    answer: "Absolutely. We can integrate your heating system with Lutron, Control4, Savant, or mobile apps. This allows you to turn on the heat before you even step outside or ensure everything is shut off automatically at night."
+    question: "How long do heated floor systems typically last?",
+    answer: "Most high-quality radiant heating cables are designed to last 20-30 years or more. If a system fails early, it's usually due to physical damage during installation or a faulty thermostat. Repairs are highly effective and can restore the full lifespan of your system."
   },
   {
-    question: "What is the best height to mount patio heaters?",
-    answer: "For most residential applications, we recommend mounting heaters between 7 and 9 feet high. This provides the best balance of heat coverage and safety. We'll consult with you to find the 'sweet spot' for your specific furniture layout."
+    question: "Is it safe to repair a heated floor in a wet area like a shower?",
+    answer: "Yes, provided the repair is done using manufacturer-approved waterproof splice kits and verified with high-voltage insulation testing. We ensure every repair in a wet environment meets or exceeds the original factory safety standards."
   },
   {
-    question: "How do your installations handle Fair Haven's coastal air?",
-    answer: "We use marine-grade stainless steel hardware and NEMA-rated weatherproof enclosures for all switches and controls. We also apply anti-corrosion treatments to electrical terminals to prevent salt air degradation."
+    question: "Do you serve all of Fair Haven and surrounding areas?",
+    answer: "Yes, we provide expert floor heating repair throughout Fair Haven, NJ, as well as Rumson, Little Silver, Red Bank, and the wider Monmouth County area."
   },
   {
-    question: "Do you handle the permitting for the new electrical work?",
-    answer: "Yes, we are fully licensed in NJ and handle the entire permitting and inspection process with the Fair Haven building department to ensure your installation is fully legal and safe."
+    question: "How long does a typical diagnostic and repair take?",
+    answer: "A diagnostic visit usually takes 1-2 hours. If a fault is found, the localized tile removal and cable repair can often be completed in a single afternoon, depending on the complexity and location of the break."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Patio Heater Wiring FAQ
+              Heated Floor Repair FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Answers to common questions about powering luxury outdoor heating systems in Fair Haven, NJ.
+              Answers to common questions about diagnosing and fixing radiant floor heating in Fair Haven, NJ.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-white border border-slate-200 rounded-lg px-6 shadow-sm"
               >
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-orange-600">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-blue-600">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 leading-relaxed">

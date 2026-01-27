@@ -13,11 +13,12 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "240V Dedicated Circuits", href: "#services" },
-    { name: "Infrared Heater Setup", href: "#services" },
-    { name: "Weatherproof Controls", href: "#services" },
-    { name: "Smart Home Heat Sync", href: "#services" },
-    { name: "Panel Capacity Checks", href: "#services" },
+    { name: "Thermostat Troubleshooting", href: "#heated-floor-info" },
+    { name: "Cable Fault Locating", href: "#heated-floor-info" },
+    { name: "Circuit & GFCI Repair", href: "#heated-floor-info" },
+    { name: "Floor Sensor Replacement", href: "#heated-floor-info" },
+    { name: "Smart Controls Setup", href: "#heated-floor-info" },
+    { name: "Resistance Testing", href: "#heated-floor-info" },
   ];
 
   return (
@@ -26,19 +27,16 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-orange-500 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">FHPH</span>
+            <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-md">
+              <span className="text-white font-heading font-bold text-lg">FHFW</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Fair Haven Patio Heat
+                Fair Haven Floor Warmth
               </h1>
-              <p className="text-xs text-slate-500">Expert Outdoor Heater Wiring</p>
+              <p className="text-xs text-slate-500">Expert Heated Floor Repair</p>
             </div>
           </Link>
-
-
-
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
