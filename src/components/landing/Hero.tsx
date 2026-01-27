@@ -16,18 +16,18 @@ const Hero = ({
     </>
   ),
   subtitle = "Expert electrical hookups for hot tubs, spas, and swim spas. We provide safe, code-compliant 220V wiring and GFCI protection for homes on Signal Mountain.",
-  image = "https://images.unsplash.com/photo-1515248137334-934c2642ed7e?auto=format&fit=crop&q=80"
+  image = "https://images.unsplash.com/photo-1543967625-f013d528f804?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image - 100% Visible, No Overlay */}
+      {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={image}
           alt="Hot Tub Wiring Electrician Signal Mountain TN"
           className="w-full h-full object-cover"
         />
-        {/* Removed overlay to satisfy 'no transparent image' request */}
+        <div className="absolute inset-0 bg-slate-900/85" />
       </div>
 
       {/* Content */}
