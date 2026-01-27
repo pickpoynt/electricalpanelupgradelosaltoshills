@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Do I really need a dedicated electrician for my hot tub?",
-    answer: "Yes. Most hot tubs require a dedicated 220V/50-60 amp circuit, which is a significant load. Improper wiring can lead to frequent breaker trips, damage to the spa's sensitive electronics, or even electrical fires. A licensed electrician ensures the safety of your family and the longevity of your investment."
+    question: "Do I need a neutral wire for smart switches?",
+    answer: "Historically, most smart switches required a neutral wire to power their Wi-Fi or Zigbee radio. However, many Signal Mountain homes built before the 1980s lack neutrals at the switch box. We offer specialized solutions like Lutron Caséta that work perfectly without a neutral wire, or we can retrofit a neutral wire if desired."
   },
   {
-    question: "What is a GFCI disconnect and why is it required?",
-    answer: "A GFCI (Ground Fault Circuit Interrupter) disconnect is a safety switch installed within sight of the hot tub but at least 5 feet away. It instantly shuts off power if it detects a leak of electrical current to ground, preventing fatal shocks in wet environments. It is a strict requirement for all hot tub installations."
+    question: "Will smart switches work with my existing light bulbs?",
+    answer: "Most smart switches are compatible with modern dimmable LEDs, incandescents, and halogens. However, low-quality LEDs may flicker when dimmed by certain smart switches. We recommend using high-quality dimmable LED bulbs and can provide advice on the best brands for your specific setup."
   },
   {
-    question: "How deep does the conduit need to be buried?",
-    answer: "According to the National Electrical Code (NEC), PVC conduit for hot tub wiring must generally be buried at least 18 inches deep. In Signal Mountain's rocky soil, this can be challenging, which is why hiring local experts who know the terrain and have the right equipment is essential."
+    question: "Can I control my lights when I'm away from home?",
+    answer: "Absolutely. One of the primary benefits of smart switches is remote access. Once integrated with your home's Wi-Fi or a bridge, you can use a smartphone app to check status, turn lights on/off, or adjust brightness from anywhere with an internet connection."
   },
   {
-    question: "Can I use my existing 110V outdoor outlet for a hot tub?",
-    answer: "Only if the hot tub is specifically marketed as a 'Plug-and-Play' model. However, these models often cannot run the heater and the pumps at high speed simultaneously. Most full-sized hot tubs require a permanent 220V/240V hookup for optimal performance."
+    question: "Do smart switches work if the Wi-Fi goes down?",
+    answer: "Yes. Smart switches still function as regular physical switches. If your Wi-Fi is down, you can still walk to the wall and press the button to control the lights manually. Only remote app control and voice commands will be temporarily unavailable."
   },
   {
-    question: "What is 'bonding' and why is it different from grounding?",
-    answer: "Grounding provides a path for fault current to return to the panel. Bonding connects all metal components (like handrails or adjacent metal structures) together to ensure they stay at the same electrical potential, preventing 'stray voltage' shocks when touching both water and metal."
+    question: "What is the difference between a smart bulb and a smart switch?",
+    answer: "Smart bulbs are best for single lamps or specific color-changing needs. Smart switches are superior for general room lighting because they control the electrical circuit. This means you can still use the physical switch on the wall without 'killing' the smart functionality, which is a common frustration with smart bulbs."
   },
   {
-    question: "How long does it take to wire a new hot tub?",
-    answer: "A typical installation on Signal Mountain usually takes 4 to 6 hours, depending on the distance from your main electrical panel to the tub location and the complexity of the trenching required."
+    question: "Can you help set up voice control with Alexa or Google Home?",
+    answer: "Yes! Part of our professional installation service is ensuring your new switches are properly paired with your preferred voice assistant and that your initial lighting 'scenes' and groups are configured for effortless voice control."
   },
   {
-    question: "Do you pull the necessary permits for the work?",
-    answer: "Yes. We handle all necessary electrical permits with the Town of Signal Mountain or Walden and ensure that an inspector verifies the installation for your peace of mind and insurance compliance."
+    question: "Are smart switches more secure than standard switches?",
+    answer: "From a security standpoint, they allow for 'Vacation Mode' scheduling that makes your home look occupied even when you're away. From an electrical standpoint, they are high-quality UL-listed devices that meet all modern safety standards when installed by a professional electrician."
   },
   {
-    question: "Will my current electrical panel support a new hot tub?",
-    answer: "We perform a load calculation of your existing electrical service during our initial audit. If your panel is full or maxed out, we can provide options for a sub-panel or a main service upgrade to support your new spa safely."
+    question: "Can I automate my ceiling fans with smart switches?",
+    answer: "Yes! There are dedicated smart switches designed specifically to control fan speeds. We can install these to provide app and voice control over your fans, separate from your lighting control."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Hot Tub Wiring FAQ
+              Smart Home Lighting FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Common questions about safely powering your spa or hot tub in Signal Mountain, TN.
+              Answers to common questions about modernizing your home lighting on Signal Mountain, TN.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-white border border-slate-200 rounded-lg px-6 shadow-sm"
               >
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-cyan-600">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-indigo-600">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 leading-relaxed">

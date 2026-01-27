@@ -1,41 +1,41 @@
-import { Shield, MapPin, Clock, Zap, Waves, HardHat } from "lucide-react";
+import { Shield, Smartphone, Clock, Zap, Cpu, HardHat } from "lucide-react";
 
 const reasons = [
   {
-    icon: Zap,
-    title: "Dedicated Power Support",
-    description: "Hot tubs require significant electrical capacity. We specialized in installing dedicated ranges and sub-panels that prevent your breakers from tripping."
-  },
-  {
     icon: Shield,
-    title: "Safety GFCI Experts",
-    description: "Protection is our priority. We use heavy-duty GFCI disconnects that are specifically rated for outdoor wet environments and high-amperage spa systems."
+    title: "Licensed Home Automation",
+    description: "We are licensed electricians who specialize in high-voltage smart home integration, ensuring your switches are safe and code-compliant."
   },
   {
-    icon: Waves,
-    title: "All Spa Brands",
-    description: "From luxury Bullfrog and Hot Spring spas to local swim spas, we are familiar with the specific electrical requirements of all major manufacturer brands."
+    icon: Smartphone,
+    title: "Seamless Integration",
+    description: "We don't just install switches; we ensure they are perfectly synced with your apps, voice assistants, and existing smart home ecosystem."
   },
   {
-    icon: MapPin,
-    title: "Signal Mountain Local",
-    description: "We live and work on the mountain. We are intimately familiar with the unique electrical challenges and permitting requirements of Signal Mountain and Walden, TN."
+    icon: Zap,
+    title: "Historic Retrofit Pros",
+    description: "Signal Mountain's historic homes are our specialty. We have the expertise to install modern smart tech in older wiring environments."
+  },
+  {
+    icon: Cpu,
+    title: "Advanced Logic Setup",
+    description: "Our team helps you program advanced lighting scenes and automation routines that make your home respond intelligently to your life."
   },
   {
     icon: HardHat,
-    title: "Code-Compliant Bonding",
-    description: "Properly bonding all conductive metal around your spa is critical for preventing electrical shocks. Our installations exceed all NEC safety standards."
+    title: "Professional Standards",
+    description: "Every installation is performed to the highest professional standards, with meticulous attention to detail and aesthetic finish."
   },
   {
     icon: Clock,
-    title: "Fast, Reliable Service",
-    description: "Don't let your new hot tub sit cold. We offer prompt scheduling to get your electrical hookup completed so you can start enjoying your investment immediately."
+    title: "Prompt Local Service",
+    description: "Living on Signal Mountain means we can provide fast, reliable service and support for all your home automation needs right when you need it."
   }
 ];
 
 const stats = [
-  { number: "220V", label: "Power Experts" },
-  { number: "100%", label: "Safe Bonding" },
+  { number: "App", label: "Controlled" },
+  { number: "100%", label: "Voice Sync" },
   { number: "Licensed", label: "Insured Pros" },
   { number: "Local", label: "Signal Mtn Team" }
 ];
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Signal Mountain Trusts Our Hot Tub Electricians
+            Why Signal Mountain Trusts Our Automation Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Providing high-performance, safe, and professional electrical hookups for hot tubs and spas across Signal Mountain and the Tennessee valley.
+            Combining deep electrical expertise with modern technology to create the ultimate intelligent living environment for Signal Mountain residents.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ const WhyUs = () => {
                 key={index}
                 className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-lg bg-cyan-50 flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-cyan-600" />
+                <div className="w-12 h-12 rounded-lg bg-indigo-50 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-indigo-600" />
                 </div>
                 <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                   {reason.title}
@@ -79,7 +79,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-cyan-600 mb-2">
+              <div className="text-3xl md:text-4xl font-heading font-bold text-indigo-600 mb-2">
                 {stat.number}
               </div>
               <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">
