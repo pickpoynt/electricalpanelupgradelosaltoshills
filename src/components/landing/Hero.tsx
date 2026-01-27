@@ -16,36 +16,35 @@ const Hero = ({
     </>
   ),
   subtitle = "Expert electrical hookups for hot tubs, spas, and swim spas. We provide safe, code-compliant 220V wiring and GFCI protection for homes on Signal Mountain.",
-  image = "https://images.unsplash.com/photo-1543967625-f013d528f804?auto=format&fit=crop&q=80"
+  image = "https://images.unsplash.com/photo-1540339832862-4745511505d2?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20">
-      {/* Background Image with optimized visibility */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      {/* Background Image - Fully Visible */}
+      <div className="absolute inset-0 z-0">
         <img
           src={image}
           alt="Hot Tub Wiring Electrician Signal Mountain TN"
-          className="w-full h-full object-cover scale-105"
+          className="w-full h-full object-cover"
         />
-        {/* Lighter overlay for better image visibility as per user feedback */}
-        <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-[2px]" />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/50 to-transparent" />
+        {/* Subtle overlay to ensure text is still readable without darkening the image too much */}
+        <div className="absolute inset-0 bg-slate-900/30" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <div className="animate-fade-in">
-            <span className="inline-block px-4 py-2 bg-cyan-700/60 border border-cyan-400/50 rounded-full text-cyan-50 font-bold text-sm mb-6 backdrop-blur-md">
+            <span className="inline-block px-4 py-2 bg-cyan-600/70 border border-cyan-400/50 rounded-full text-white font-bold text-sm mb-6 backdrop-blur-md">
               Signal Mountain's Premier Spa Electricians
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 animate-fade-in-up leading-tight drop-shadow-lg">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 animate-fade-in-up leading-tight drop-shadow-2xl">
             {title}
           </h1>
 
-          <p className="text-lg md:text-xl text-white mb-8 max-w-2xl animate-fade-in-delay-1 leading-relaxed font-medium drop-shadow-md">
+          <p className="text-lg md:text-xl text-white mb-8 max-w-2xl animate-fade-in-delay-1 leading-relaxed font-semibold drop-shadow-xl">
             {subtitle}
           </p>
 
