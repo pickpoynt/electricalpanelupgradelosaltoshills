@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, ShieldCheck, Zap, Smartphone } from "lucide-react";
+import { Phone, ShieldCheck, Zap, Bell, AlertTriangle } from "lucide-react";
 import React from "react";
 
 interface HeroProps {
@@ -11,12 +11,12 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Smart Switch Installation Signal Mountain TN
-      <span className="block text-indigo-400 mt-2">Signal Mountain Smart Home: Control at Your Fingertips.</span>
+      Smoke Detector Hardwiring Signal Mountain TN
+      <span className="block text-red-500 mt-2">Signal Mountain Fire Safety: Interconnected Protection.</span>
     </>
   ),
-  subtitle = "Transform your lighting with professional smart switch installations. From historic home retrofits to modern automation, we provide expert electrical services for Signal Mountain residents.",
-  image = "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80"
+  subtitle = "Ensure your family's safety with professional, code-compliant smoke detector hardwiring. We specialize in interconnected alarm systems and carbon monoxide detection for Signal Mountain homes.",
+  image = "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
@@ -24,18 +24,18 @@ const Hero = ({
       <div className="absolute inset-0 z-0">
         <img
           src={image}
-          alt="Smart Switch Installation Signal Mountain TN"
+          alt="Smoke Detector Hardwiring Signal Mountain TN"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-slate-900/80" />
+        <div className="absolute inset-0 bg-slate-900/75" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <div className="animate-fade-in">
-            <span className="inline-block px-4 py-2 bg-indigo-700/60 border border-indigo-400/50 rounded-full text-indigo-50 font-bold text-sm mb-6 backdrop-blur-md">
-              Signal Mountain's Certified Smart Home Specialists
+            <span className="inline-block px-4 py-2 bg-red-700/60 border border-red-400/50 rounded-full text-red-50 font-bold text-sm mb-6 backdrop-blur-md">
+              Signal Mountain's Certified Life Safety Pros
             </span>
           </div>
 
@@ -48,7 +48,7 @@ const Hero = ({
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white border-none h-14 px-8 text-lg font-bold shadow-xl shadow-indigo-900/40" asChild>
+            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white border-none h-14 px-8 text-lg font-bold shadow-xl shadow-red-900/40" asChild>
               <a href="tel:18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call (844) 901-2684
@@ -58,22 +58,22 @@ const Hero = ({
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-white animate-fade-in-delay-3 drop-shadow-md">
             <div className="flex items-center gap-2">
-              <ShieldCheck className="w-5 h-5 text-indigo-400" />
-              <span className="font-bold">Licensed Pros</span>
+              <ShieldCheck className="w-5 h-5 text-red-500" />
+              <span className="font-bold">NFPA Certified</span>
             </div>
             <div className="flex items-center gap-2">
-              <Zap className="w-5 h-5 text-indigo-400" />
-              <span className="font-bold">Retrofit Experts</span>
+              <Zap className="w-5 h-5 text-red-500" />
+              <span className="font-bold">Interconnected</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-5 h-5 rounded-full bg-indigo-600 flex items-center justify-center text-[10px] font-bold text-white">
+              <div className="w-5 h-5 rounded-full bg-red-600 flex items-center justify-center text-[10px] font-bold text-white">
                 TN
               </div>
               <span className="font-bold">Signal Mtn Local</span>
             </div>
             <div className="flex items-center gap-2">
-              <Smartphone className="w-5 h-5 text-indigo-400" />
-              <span className="font-bold">App Syncing</span>
+              <Bell className="w-5 h-5 text-red-500" />
+              <span className="font-bold">CO Detection</span>
             </div>
           </div>
         </div>

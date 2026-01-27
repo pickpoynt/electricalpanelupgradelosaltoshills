@@ -1,110 +1,115 @@
-import { AlertTriangle, ShieldCheck, Zap, Construction, Bell, Shield } from "lucide-react";
-
-const infoData = [
-    {
-        icon: AlertTriangle,
-        title: "10-Year Replacement Rule",
-        description: "Smoke detectors have a finite lifespan. In Evanston, local fire codes and manufacturer standards recommend replacing units every 10 years as sensors lose sensitivity to smoke particles.",
-    },
-    {
-        icon: Bell,
-        title: "Why Hardwired Matters",
-        description: "Hardwired detectors are interconnected—when one alarms, they all alarm. This critical feature ensures you're alerted to fire in the basement even if you're in an upstairs bedroom.",
-    },
-    {
-        icon: Zap,
-        title: "CO/Smoke Combo Units",
-        description: "Modern Evanston homes benefit from combination Carbon Monoxide and Smoke detectors. We install units that provide vocal alerts and backup battery protection for total safety.",
-    },
-];
-
-const benefitsData = [
-    "Full Home Interconnection Audit",
-    "10-Year Lithium Battery Backups",
-    "Carbon Monoxide (CO) Protection",
-    "Evanston Building Code Compliance",
-    "Photoelectric Sensor Technology",
-    "Annual Safety Testing Services",
-];
+import { ShieldAlert, Zap, Bell, ShieldCheck, Home, Settings, Clock, AlertTriangle } from "lucide-react";
 
 const SmokeDetectorInfo = () => {
     return (
-        <section id="smoke-info" className="py-24 bg-gradient-hero">
+        <section id="smoke-detector-info" className="py-20 bg-gradient-to-br from-slate-50 via-red-50 to-slate-100">
             <div className="container mx-auto px-4">
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-                        Life Safety Experts
-                    </span>
-                    <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-                        Is Your Home Properly Protected?
-                    </h2>
-                    <p className="text-primary-foreground/80 text-lg">
-                        Functional smoke detectors are your first line of defense against fire.
-                        Evanston Smoke Detector Experts ensure your hardwired system is interconnected, code-compliant, and ready when it matters most.
-                    </p>
-                </div>
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-16">
+                        <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-heading">
+                            Professional Smoke Detector Hardwiring in Signal Mountain, TN
+                        </h2>
+                        <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
+                            Protect your family with interconnected life safety systems. We specialize in hardwiring smoke and carbon monoxide detectors, ensuring every level of your Signal Mountain home is monitored and synchronized for maximum response time.
+                        </p>
+                    </div>
 
-                {/* Info Cards */}
-                <div className="grid md:grid-cols-3 gap-8 mb-16">
-                    {infoData.map((info, index) => (
-                        <div
-                            key={index}
-                            className="bg-card rounded-xl p-8 shadow-lg border border-border hover:border-copper/30 transition-all duration-300"
-                        >
-                            <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center mb-6">
-                                <info.icon className="w-7 h-7 text-copper" />
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-red-600">
+                            <div className="flex items-start gap-4 mb-4">
+                                <div className="bg-red-100 p-3 rounded-lg">
+                                    <Zap className="w-8 h-8 text-red-600" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
+                                        Interconnected Hardwiring
+                                    </h3>
+                                    <p className="text-slate-700 leading-relaxed mb-4">
+                                        When one alarm sounds, they all sound. We provide professional hardwiring services that interconnect every detector in your home, providing critical extra seconds for evacuation in the event of a fire.
+                                    </p>
+                                </div>
                             </div>
-                            <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                                {info.title}
-                            </h3>
-                            <p className="text-muted-foreground leading-relaxed">
-                                {info.description}
-                            </p>
                         </div>
-                    ))}
-                </div>
 
-                {/* Two Column Content */}
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    <div className="bg-card rounded-2xl p-8 lg:p-10 shadow-xl border border-border">
-                        <div className="flex items-center gap-3 mb-6">
-                            <Construction className="w-8 h-8 text-copper" />
-                            <h3 className="text-2xl font-heading font-bold text-foreground">
-                                Professional Calibration & Testing
-                            </h3>
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-orange-600">
+                            <div className="flex items-start gap-4 mb-4">
+                                <div className="bg-orange-100 p-3 rounded-lg">
+                                    <Bell className="w-8 h-8 text-orange-600" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
+                                        Dual-Sensor Installation
+                                    </h3>
+                                    <p className="text-slate-700 leading-relaxed mb-4">
+                                        We install advanced dual-sensor detectors (ionization and photoelectric) to detect both fast-flaming fires and slow-smoldering fires, providing the comprehensive coverage required for Signal Mountain residents.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <p className="text-muted-foreground mb-6 leading-relaxed">
-                            Interconnected hardwired systems require professional installation to ensure the communication wire (the 'traveler') is properly signaling across all floors of your Evanston home.
-                        </p>
-                        <p className="text-muted-foreground leading-relaxed">
-                            We don't just 'swap' units. We perform a full continuity test across your entire network to guarantee that an alert in the kitchen wakes the family in the nursery.
-                        </p>
-                    </div>
 
-                    <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
-                        <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-                            Our Protection Standards
-                        </h3>
-                        <ul className="space-y-4">
-                            {benefitsData.map((benefit, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <Bell className="w-6 h-6 text-copper flex-shrink-0 mt-0.5" />
-                                    <span className="text-primary-foreground/90 text-lg">
-                                        {benefit}
-                                    </span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-slate-700">
+                            <div className="flex items-start gap-4 mb-4">
+                                <div className="bg-slate-100 p-3 rounded-lg">
+                                    <ShieldCheck className="w-8 h-8 text-slate-700" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
+                                        10-Year Battery Backup
+                                    </h3>
+                                    <p className="text-slate-700 leading-relaxed mb-4">
+                                        Even a hardwired system needs backup power. We install units with 10-year sealed lithium battery backups, ensuring your safety doesn't fail during mountain power outages or storms.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-                {/* Bottom CTA */}
-                <div className="mt-16 text-center">
-                    <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
-                        <Shield className="w-6 h-6 text-copper" />
-                        <span className="text-primary-foreground font-medium text-lg">
-                            Seconds count in a fire. Get your detectors checked: (877) 792-1410.
-                        </span>
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-amber-600">
+                            <div className="flex items-start gap-4 mb-4">
+                                <div className="bg-amber-100 p-3 rounded-lg">
+                                    <AlertTriangle className="w-8 h-8 text-amber-600" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
+                                        CO Detection Integration
+                                    </h3>
+                                    <p className="text-slate-700 leading-relaxed mb-4">
+                                        Signal Mountain homes with gas appliances or fireplaces are at risk of Carbon Monoxide leaks. We hardwire combination SM/CO units that provide multi-hazard protection in a single installation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-blue-600">
+                            <div className="flex items-start gap-4 mb-4">
+                                <div className="bg-blue-100 p-3 rounded-lg">
+                                    <Home className="w-8 h-8 text-blue-600" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
+                                        Proper Placement Audit
+                                    </h3>
+                                    <p className="text-slate-700 leading-relaxed mb-4">
+                                        Where you place your detectors matters. Our certified electricians perform a full audit to ensure detectors are installed in every bedroom, outside sleeping areas, and on every level according to Signal Mountain fire codes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-emerald-600">
+                            <div className="flex items-start gap-4 mb-4">
+                                <div className="bg-emerald-100 p-3 rounded-lg">
+                                    <ShieldAlert className="w-8 h-8 text-emerald-600" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
+                                        NFPA Code Compliance
+                                    </h3>
+                                    <p className="text-slate-700 leading-relaxed mb-4">
+                                        We ensure every aspect of your installation meets or exceeds NFPA 72 (National Fire Alarm and Signaling Code) requirements, providing peace of mind and potential multi-line insurance discounts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,5 +118,3 @@ const SmokeDetectorInfo = () => {
 };
 
 export default SmokeDetectorInfo;
-
-

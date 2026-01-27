@@ -1,41 +1,41 @@
-import { Smartphone, Lightbulb, ShieldCheck, Settings, Cpu, Layers } from "lucide-react";
+import { ShieldAlert, Zap, Bell, ShieldCheck, ClipboardCheck, AlertTriangle } from "lucide-react";
 
 const services = [
   {
-    icon: Smartphone,
-    title: "Full App Integration",
-    description: "Connect your entire lighting system to your smartphone for remote access and real-time control from anywhere.",
-    link: "#smart-switch-info"
+    icon: Zap,
+    title: "Interconnected Wiring",
+    description: "Multi-level hardwiring that links all alarms. When one triggers, every alarm in your home sounds simultaneously.",
+    link: "#smoke-detector-info"
   },
   {
-    icon: Lightbulb,
-    title: "Custom Dimmer Setup",
-    description: "Installation of high-quality smart dimmers for perfect ambiance and significant energy savings.",
-    link: "#smart-switch-info"
+    icon: Bell,
+    title: "CO Detector Install",
+    description: "Critical Carbon Monoxide detection hardwiring for homes with gas heat, fireplaces, or attached garages.",
+    link: "#smoke-detector-info"
+  },
+  {
+    icon: ShieldAlert,
+    title: "Dual-Sensor Alarms",
+    description: "Installation of detectors using both ionization and photoelectric technology to identify all fire types.",
+    link: "#smoke-detector-info"
+  },
+  {
+    icon: ClipboardCheck,
+    title: "Safety Audits",
+    description: "Expert evaluation of your home to ensure detectors are placed in every required location for maximum safety.",
+    link: "#smoke-detector-info"
   },
   {
     icon: ShieldCheck,
-    title: "Historic Retrofits",
-    description: "Expert installation of smart switches in historic Signal Mountain homes without standard neutral wiring.",
-    link: "#smart-switch-info"
+    title: "Battery Upgrades",
+    description: "Replacing outdated units with modern, maintenance-free alarms featuring 10-year sealed lithium backups.",
+    link: "#smoke-detector-info"
   },
   {
-    icon: Settings,
-    title: "Automated Scheduling",
-    description: "Program logic-based schedules so your lights turn on at sunset or mimic occupancy for home security.",
-    link: "#smart-switch-info"
-  },
-  {
-    icon: Layers,
-    title: "Multi-Way Automation",
-    description: "Sophisticated 3-way and 4-way switch automation for hallways, staircases, and large living spaces.",
-    link: "#smart-switch-info"
-  },
-  {
-    icon: Cpu,
-    title: "Hub & Voice Setup",
-    description: "Seamless pairing with Alexa, Google Home, or Apple HomeKit for effortless voice-activated lighting.",
-    link: "#smart-switch-info"
+    icon: AlertTriangle,
+    title: "Troubleshooting",
+    description: "Expert diagnostics for chirping alarms, false triggers, and faulty hardwired circuits in your safety system.",
+    link: "#smoke-detector-info"
   },
 ];
 
@@ -45,10 +45,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Specialized Smart Lighting Services
+            Specialized Fire Safety Electrical Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Bringing the latest in intelligent home control to Signal Mountain with professional, code-compliant, and seamless smart switch installations.
+            Providing comprehensive life safety solutions for Signal Mountain residents through professional, interconnected smoke and CO alarm installations.
           </p>
         </div>
 
@@ -60,10 +60,10 @@ const Services = () => {
                 key={index}
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full pointer-events-none"
               >
-                <div className="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center mb-4 group-hover:bg-indigo-600 transition-colors">
-                  <Icon className="w-6 h-6 text-indigo-600 group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center mb-4 group-hover:bg-red-600 transition-colors">
+                  <Icon className="w-6 h-6 text-red-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-indigo-600 transition-colors">
+                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-red-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">

@@ -13,12 +13,12 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
-    { name: "Smart Dimmer Setup", href: "#smart-switch-info" },
-    { name: "Historic Home Retrofits", href: "#smart-switch-info" },
-    { name: "Multi-Way Circuit Automation", href: "#smart-switch-info" },
-    { name: "Neutral Wire Installation", href: "#smart-switch-info" },
-    { name: "App & Hub Integration", href: "#smart-switch-info" },
-    { name: "Custom Lighting Scenes", href: "#smart-switch-info" },
+    { name: "Interconnected Hardwiring", href: "#smoke-detector-info" },
+    { name: "Dual-Sensor Installation", href: "#smoke-detector-info" },
+    { name: "Combination SM/CO Units", href: "#smoke-detector-info" },
+    { name: "Battery Backup Upgrades", href: "#smoke-detector-info" },
+    { name: "Safety Placement Audits", href: "#smoke-detector-info" },
+    { name: "Code Compliance Testing", href: "#smoke-detector-info" },
   ];
 
   return (
@@ -27,21 +27,21 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-indigo-600 flex items-center justify-center shadow-md">
-              <span className="text-white font-heading font-bold text-lg">SMAL</span>
+            <div className="w-10 h-10 rounded-lg bg-red-600 flex items-center justify-center shadow-md">
+              <span className="text-white font-heading font-bold text-lg">SMFS</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-slate-900 leading-tight">
-                Signal Mountain Automation & Lighting
+                Signal Mountain Fire Safety
               </h1>
-              <p className="text-xs text-slate-500">Intelligent Home Control Experts</p>
+              <p className="text-xs text-slate-500">Life Safety & Electrical Experts</p>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center gap-1 text-slate-600 hover:text-indigo-600 transition-colors font-medium outline-none">
+              <DropdownMenuTrigger className="flex items-center gap-1 text-slate-600 hover:text-red-600 transition-colors font-medium outline-none">
                 Our Services <ChevronDown className="w-4 h-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-64 bg-white">
@@ -55,17 +55,17 @@ const Header = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <a href="/#about" className="text-slate-600 hover:text-indigo-600 transition-colors font-medium">
+            <a href="/#about" className="text-slate-600 hover:text-red-600 transition-colors font-medium">
               Why Us
             </a>
-            <a href="/#contact" className="text-slate-600 hover:text-indigo-600 transition-colors font-medium">
+            <a href="/#contact" className="text-slate-600 hover:text-red-600 transition-colors font-medium">
               Contact
             </a>
           </nav>
 
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button className="bg-indigo-600 hover:bg-indigo-700 text-white" size="lg" asChild>
+            <Button className="bg-red-600 hover:bg-red-700 text-white" size="lg" asChild>
               <a href="tel:18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 (844) 901-2684
@@ -94,7 +94,7 @@ const Header = () => {
                     <a
                       key={service.name}
                       href={service.href}
-                      className="text-slate-600 hover:text-indigo-600 text-sm"
+                      className="text-slate-600 hover:text-red-600 text-sm"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {service.name}
@@ -102,13 +102,13 @@ const Header = () => {
                   ))}
                 </div>
               </div>
-              <a href="/#about" className="text-slate-600 hover:text-indigo-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
+              <a href="/#about" className="text-slate-600 hover:text-red-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
                 Why Us
               </a>
-              <a href="/#contact" className="text-slate-600 hover:text-indigo-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
+              <a href="/#contact" className="text-slate-600 hover:text-red-600 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>
                 Contact
               </a>
-              <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white" size="lg" asChild>
+              <Button className="w-full bg-red-600 hover:bg-red-700 text-white" size="lg" asChild>
                 <a href="tel:18449012684" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   (844) 901-2684

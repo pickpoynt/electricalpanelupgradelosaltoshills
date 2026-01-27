@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a neutral wire for smart switches?",
-    answer: "Historically, most smart switches required a neutral wire to power their Wi-Fi or Zigbee radio. However, many Signal Mountain homes built before the 1980s lack neutrals at the switch box. We offer specialized solutions like Lutron Caséta that work perfectly without a neutral wire, or we can retrofit a neutral wire if desired."
+    question: "Why should I hardwire my smoke detectors instead of just using batteries?",
+    answer: "Hardwired smoke detectors are interconnected, meaning if one alarm detects smoke in the basement, every alarm in the house will sound. This provides crucial extra time to escape, especially if a fire starts in a remote part of the home like a garage or attic. Additionally, hardwired units are powered by your home's electrical system, reducing reliance on battery replacement."
   },
   {
-    question: "Will smart switches work with my existing light bulbs?",
-    answer: "Most smart switches are compatible with modern dimmable LEDs, incandescents, and halogens. However, low-quality LEDs may flicker when dimmed by certain smart switches. We recommend using high-quality dimmable LED bulbs and can provide advice on the best brands for your specific setup."
+    question: "How often should smoke detectors be replaced?",
+    answer: "According to NFPA guidelines, smoke detectors should be replaced every 10 years from the date of manufacture. Even if they still 'beep' when tested, the internal sensors degrade over time and become less effective at detecting smoke particles."
   },
   {
-    question: "Can I control my lights when I'm away from home?",
-    answer: "Absolutely. One of the primary benefits of smart switches is remote access. Once integrated with your home's Wi-Fi or a bridge, you can use a smartphone app to check status, turn lights on/off, or adjust brightness from anywhere with an internet connection."
+    question: "Do I need a smoke detector in every room?",
+    answer: "Current fire codes require smoke detectors in every sleeping room, outside every separate sleeping area, and on every level of the home, including the basement. In Signal Mountain, local codes also strongly recommend heat detectors in garages and CO detectors near all fuel-burning appliances."
   },
   {
-    question: "Do smart switches work if the Wi-Fi goes down?",
-    answer: "Yes. Smart switches still function as regular physical switches. If your Wi-Fi is down, you can still walk to the wall and press the button to control the lights manually. Only remote app control and voice commands will be temporarily unavailable."
+    question: "What is the difference between ionization and photoelectric sensors?",
+    answer: "Ionization sensors are generally more responsive to flaming fires, while photoelectric sensors are better at detecting smoldering fires. For the best protection, we install dual-sensor technology that combines both types of detection in every hardwired unit."
   },
   {
-    question: "What is the difference between a smart bulb and a smart switch?",
-    answer: "Smart bulbs are best for single lamps or specific color-changing needs. Smart switches are superior for general room lighting because they control the electrical circuit. This means you can still use the physical switch on the wall without 'killing' the smart functionality, which is a common frustration with smart bulbs."
+    question: "Where should Carbon Monoxide detectors be installed?",
+    answer: "CO detectors should be installed on every level of the home and specifically near sleeping areas. CO is nearly the same weight as air and mixes evenly, so they should be mounted where they won't be blocked by furniture or curtains."
   },
   {
-    question: "Can you help set up voice control with Alexa or Google Home?",
-    answer: "Yes! Part of our professional installation service is ensuring your new switches are properly paired with your preferred voice assistant and that your initial lighting 'scenes' and groups are configured for effortless voice control."
+    question: "Why is my hardwired smoke detector chirping?",
+    answer: "Chirping usually indicates a low backup battery, a power surge/interruption, or that the unit has reached the end of its 10-year lifespan. If replacing the battery doesn't stop the chirping, the unit likely needs to be replaced by a professional to ensure the hardwired circuit is still intact."
   },
   {
-    question: "Are smart switches more secure than standard switches?",
-    answer: "From a security standpoint, they allow for 'Vacation Mode' scheduling that makes your home look occupied even when you're away. From an electrical standpoint, they are high-quality UL-listed devices that meet all modern safety standards when installed by a professional electrician."
+    question: "Can you interconnect old smoke detectors with new ones?",
+    answer: "It is generally not recommended to mix brands or significantly different generations of alarms, as they may not communicate properly during an emergency. We recommend replacing all units at once to ensure a fully compatible, synchronized system."
   },
   {
-    question: "Can I automate my ceiling fans with smart switches?",
-    answer: "Yes! There are dedicated smart switches designed specifically to control fan speeds. We can install these to provide app and voice control over your fans, separate from your lighting control."
+    question: "Will my hardwired alarms work during a power outage?",
+    answer: "Yes, provided they have a working backup battery. We install detectors with 10-year sealed lithium battery backups that automatically take over if the main electrical power is lost during a mountain storm or grid failure."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Smart Home Lighting FAQ
+              Life Safety & Smoke Alarm FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Answers to common questions about modernizing your home lighting on Signal Mountain, TN.
+              Answers to common questions about keeping your Signal Mountain home safe with professional fire detection.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-white border border-slate-200 rounded-lg px-6 shadow-sm"
               >
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-indigo-600">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-red-600">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 leading-relaxed">

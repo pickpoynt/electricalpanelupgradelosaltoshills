@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SmartSwitchInfo from "@/components/landing/SmartSwitchInfo";
+import SmokeDetectorInfo from "@/components/landing/SmokeDetectorInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -12,29 +12,29 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Smart Switch Installation Signal Mountain TN | Signal Mountain Automation & Lighting</title>
-        <meta name="description" content="Expert smart switch installation in Signal Mountain, TN. We specialize in lighting automation for historic homes, Lutron Caseta retrofits, and whole-home control. Call (844) 901-2684." />
-        <meta name="keywords" content="smart switch installation Signal Mountain TN, smart lighting Signal Mountain, home automation Signal Mountain, Lutron Caseta installation TN, smart switch retrofitting Signal Mountain" />
-        <link rel="canonical" href="https://smart-switch-installation-signal-mountain-tn.com/" />
+        <title>Smoke Detector Hardwiring Signal Mountain TN | Signal Mountain Fire Safety</title>
+        <meta name="description" content="Professional smoke detector hardwiring in Signal Mountain, TN. We specialize in interconnected life safety systems, CO detection, and fire code compliance. Call (844) 901-2684." />
+        <meta name="keywords" content="smoke detector hardwiring Signal Mountain TN, fire alarm installation Signal Mountain, interconnected smoke detectors TN, CO detector hardwiring Signal Mountain, fire code compliance electrician" />
+        <link rel="canonical" href="https://smoke-detector-hardwiring-signal-mountain-tn.com/" />
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Smart Switch Installation Signal Mountain TN | Signal Mountain Automation & Lighting" />
-        <meta property="og:description" content="Professional smart switch installation and home automation services in Signal Mountain, TN. Modern technology for classic homes." />
+        <meta property="og:title" content="Smoke Detector Hardwiring Signal Mountain TN | Signal Mountain Fire Safety" />
+        <meta property="og:description" content="Expert smoke detector hardwiring and fire safety services in Signal Mountain, TN. Protect your mountain home with interconnected alarms." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://smart-switch-installation-signal-mountain-tn.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://smoke-detector-hardwiring-signal-mountain-tn.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
 
         {/* Twitter Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Smart Switch Installation Signal Mountain TN | Signal Mountain Automation & Lighting" />
-        <meta name="twitter:description" content="Transform your home with expert smart switch installation on Signal Mountain. Call (844) 901-2684 for a free consultation." />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80" />
+        <meta name="twitter:title" content="Smoke Detector Hardwiring Signal Mountain TN | Signal Mountain Fire Safety" />
+        <meta name="twitter:description" content="Certified fire safety electrical services on Signal Mountain. Interconnected smoke and CO alarms for your home. Call (844) 901-2684." />
+        <meta name="twitter:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
       </Helmet>
       <Header />
       <Hero />
       <Services />
       <WhyUs />
-      <SmartSwitchInfo />
+      <SmokeDetectorInfo />
       <FAQ />
       <Contact />
       <Footer />
