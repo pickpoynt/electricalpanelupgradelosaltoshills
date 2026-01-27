@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Anchor, ShieldCheck, Zap, Thermometer } from "lucide-react";
+import { Phone, Anchor, ShieldCheck, Zap, Thermometer, History as HistoryIcon } from "lucide-react";
 import React from "react";
 
 interface HeroProps {
@@ -11,12 +11,12 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Heated Floor Electrical Repair Fair Haven NJ
-      <span className="block text-blue-400 mt-2">Fair Haven Floor Warmth: Restoring Your Home's Cozy Comfort.</span>
+      Knob and Tube Wiring Replacement Signal Mountain TN
+      <span className="block text-amber-500 mt-2">Signal Mountain Wiring Experts: Bringing Safety to Historic Homes.</span>
     </>
   ),
-  subtitle = "Expert troubleshooting and repair for radiant floor heating systems. We fix thermostats, locate cable breaks, and resolve circuit issues for luxury heated floors in Fair Haven and surrounding areas.",
-  image = "https://images.unsplash.com/photo-1556911220-e15224bbaf47?auto=format&fit=crop&q=80"
+  subtitle = "Eliminate electrical fire hazards and insurance hurdles with professional knob and tube removal. We provide full-home rewiring services tailored for historic residences on Signal Mountain.",
+  image = "https://images.unsplash.com/photo-1563770660941-20978e8700f1?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
@@ -24,18 +24,18 @@ const Hero = ({
       <div className="absolute inset-0 z-0 text-white">
         <img
           src={image}
-          alt="Heated Floor Electrical Repair Fair Haven NJ"
+          alt="Knob and Tube Wiring Replacement Signal Mountain TN"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-slate-900/80" />
+        <div className="absolute inset-0 bg-slate-900/85" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <div className="animate-fade-in">
-            <span className="inline-block px-4 py-2 bg-blue-700/40 border border-blue-400/50 rounded-full text-blue-100 text-sm font-medium mb-6 backdrop-blur-sm">
-              Fair Haven's Radiant Heat Specialists
+            <span className="inline-block px-4 py-2 bg-amber-700/40 border border-amber-400/50 rounded-full text-amber-100 text-sm font-medium mb-6 backdrop-blur-sm">
+              Signal Mountain's Historic Home Specialists
             </span>
           </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white border-none h-14 px-8 text-lg shadow-lg shadow-blue-900/20" asChild>
-              <a href="tel:+18449012684" className="flex items-center gap-2">
+            <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white border-none h-14 px-8 text-lg shadow-lg shadow-amber-900/20" asChild>
+              <a href="tel:18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call (844) 901-2684
               </a>
@@ -58,22 +58,22 @@ const Hero = ({
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-slate-200 animate-fade-in-delay-3">
             <div className="flex items-center gap-2">
-              <ShieldCheck className="w-5 h-5 text-blue-400" />
+              <ShieldCheck className="w-5 h-5 text-amber-400" />
               <span className="font-medium">Licensed Pros</span>
             </div>
             <div className="flex items-center gap-2">
-              <Zap className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">Circuit Repair</span>
+              <Zap className="w-5 h-5 text-amber-400" />
+              <span className="font-medium">Full Rewiring</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] font-bold text-white">
-                NJ
+              <div className="w-5 h-5 rounded-full bg-amber-600 flex items-center justify-center text-[10px] font-bold text-white">
+                TN
               </div>
-              <span className="font-medium">Fair Haven Local</span>
+              <span className="font-medium">Signal Mtn Local</span>
             </div>
             <div className="flex items-center gap-2">
-              <Thermometer className="w-5 h-5 text-blue-400" />
-              <span className="font-medium">Radiant Tech</span>
+              <HistoryIcon className="w-5 h-5 text-amber-400" />
+              <span className="font-medium">Historic Care</span>
             </div>
           </div>
         </div>
