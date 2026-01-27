@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "What exactly is knob and tube wiring?",
-    answer: "Knob and tube (K&T) was the standard wiring method from the 1880s to the 1940s. It uses ceramic 'knobs' to support wires and ceramic 'tubes' to protect them when passing through wood. It is an ungrounded, two-wire system that is not designed for modern electrical loads."
+    question: "Do I really need a dedicated electrician for my hot tub?",
+    answer: "Yes. Most hot tubs require a dedicated 220V/50-60 amp circuit, which is a significant load. Improper wiring can lead to frequent breaker trips, damage to the spa's sensitive electronics, or even electrical fires. A licensed electrician ensures the safety of your family and the longevity of your investment."
   },
   {
-    question: "Is knob and tube wiring inherently dangerous?",
-    answer: "While K&T wasn't dangerous when new, it is now reaching the end of its intended lifespan. The rubberized cloth insulation becomes brittle and flakes off, leaving bare wires. Additionally, it lacks a ground wire, which increases the risk of shocks and fires in modern electronics."
+    question: "What is a GFCI disconnect and why is it required?",
+    answer: "A GFCI (Ground Fault Circuit Interrupter) disconnect is a safety switch installed within sight of the hot tub but at least 5 feet away. It instantly shuts off power if it detects a leak of electrical current to ground, preventing fatal shocks in wet environments. It is a strict requirement for all hot tub installations."
   },
   {
-    question: "Can I just cover my old wiring with new insulation?",
-    answer: "No. Knob and tube wiring is designed to dissipate heat into free air. If you cover it with fiberglass or spray foam insulation, the heat can build up and ignite the surrounding materials. Most building codes require K&T to be removed before insulation is added."
+    question: "How deep does the conduit need to be buried?",
+    answer: "According to the National Electrical Code (NEC), PVC conduit for hot tub wiring must generally be buried at least 18 inches deep. In Signal Mountain's rocky soil, this can be challenging, which is why hiring local experts who know the terrain and have the right equipment is essential."
   },
   {
-    question: "How do you replace wiring without cutting large holes in my historic walls?",
-    answer: "We use specialized 'fishing' techniques. By accessing the home via the attic and crawlspace, we can pull new copper cables through the wall cavities using the old wiring as a guide or using flexible steel rods, resulting in minimal to no damage to your plaster."
+    question: "Can I use my existing 110V outdoor outlet for a hot tub?",
+    answer: "Only if the hot tub is specifically marketed as a 'Plug-and-Play' model. However, these models often cannot run the heater and the pumps at high speed simultaneously. Most full-sized hot tubs require a permanent 220V/240V hookup for optimal performance."
   },
   {
-    question: "Why does my insurance company care about my wiring?",
-    answer: "Insurance companies view knob and tube as a high-risk fire hazard. Many carriers will refuse to issue a new policy or renew an existing one until the system is certified as removed or decommissioned by a licensed electrician."
+    question: "What is 'bonding' and why is it different from grounding?",
+    answer: "Grounding provides a path for fault current to return to the panel. Bonding connects all metal components (like handrails or adjacent metal structures) together to ensure they stay at the same electrical potential, preventing 'stray voltage' shocks when touching both water and metal."
   },
   {
-    question: "How long does a full home rewiring project take?",
-    answer: "For a typical historic Signal Mountain home, a full rewire usually takes between 5 to 10 working days, depending on the size and complexity. We work circuit by circuit to ensure you have power and lighting in essential areas throughout the process."
+    question: "How long does it take to wire a new hot tub?",
+    answer: "A typical installation on Signal Mountain usually takes 4 to 6 hours, depending on the distance from your main electrical panel to the tub location and the complexity of the trenching required."
   },
   {
-    question: "Do you provide electrical certifications for real estate transactions?",
-    answer: "Yes. If you are buying or selling a home on Signal Mountain, we can perform a certified inspection and provide the necessary documentation for lenders and insurance companies regarding the status of the electrical system."
+    question: "Do you pull the necessary permits for the work?",
+    answer: "Yes. We handle all necessary electrical permits with the Town of Signal Mountain or Walden and ensure that an inspector verifies the installation for your peace of mind and insurance compliance."
   },
   {
-    question: "Will I need a new breaker panel as well?",
-    answer: "In most cases, yes. Most K&T systems are connected to old fuse boxes or 60-amp panels. Modern safety standards require a 200-amp service with AFCI/GFCI breakers to properly protect your new wiring and support modern appliances."
+    question: "Will my current electrical panel support a new hot tub?",
+    answer: "We perform a load calculation of your existing electrical service during our initial audit. If your panel is full or maxed out, we can provide options for a sub-panel or a main service upgrade to support your new spa safely."
   }
 ];
 
@@ -47,10 +47,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Historic Wiring FAQ
+              Hot Tub Wiring FAQ
             </h2>
             <p className="text-lg text-slate-600">
-              Answers to common questions about replacing knob and tube wiring in Signal Mountain, TN.
+              Common questions about safely powering your spa or hot tub in Signal Mountain, TN.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-white border border-slate-200 rounded-lg px-6 shadow-sm"
               >
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-amber-600">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-cyan-600">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 leading-relaxed">
@@ -76,8 +76,4 @@ const FAQ = () => {
   );
 };
 
-
-
-
 export default FAQ;
-
