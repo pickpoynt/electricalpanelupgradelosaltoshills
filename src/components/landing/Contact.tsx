@@ -4,50 +4,50 @@ import { Phone, Mail, MapPin } from "lucide-react";
 const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-slate-900 overflow-hidden relative">
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-amber-600/10 skew-x-12 translate-x-1/2" />
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-cyan-600/10 skew-x-12 translate-x-1/2" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-              Schedule Your Historic Home Assessment
+              Schedule Your Ventilation Consultation
             </h2>
             <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-              Don't wait for an electrical emergency. Our Signal Mountain master electricians provide thorough assessments of your vintage home's electrical system. We'll identify any dangerous wiring, explain your options, and provide a detailed rewiring plan that respects your home's character.
+              Ready to eliminate bathroom moisture problems for good? Our Cave Springs ventilation experts will assess your bathroom, recommend the right exhaust fan, and provide a clear quote—all with no obligation. Take the first step toward a healthier, mold-free home.
             </p>
 
             <div className="space-y-6">
               <div className="flex items-center gap-4 group">
-                <div className="w-12 h-12 rounded-lg bg-amber-600 flex items-center justify-center flex-shrink-0 group-hover:bg-amber-500 transition-colors">
+                <div className="w-12 h-12 rounded-lg bg-cyan-600 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-500 transition-colors">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <p className="text-sm text-slate-400 uppercase tracking-wider font-bold">Call Anytime</p>
-                  <a href="tel:18449012684" className="text-2xl font-bold text-white hover:text-amber-400 transition-colors">
+                  <a href="tel:18449012684" className="text-2xl font-bold text-white hover:text-cyan-400 transition-colors">
                     (844) 901-2684
                   </a>
                 </div>
               </div>
 
               <div className="flex items-center gap-4 group">
-                <div className="w-12 h-12 rounded-lg bg-amber-600 flex items-center justify-center flex-shrink-0 group-hover:bg-amber-500 transition-colors">
+                <div className="w-12 h-12 rounded-lg bg-cyan-600 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-500 transition-colors">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <p className="text-sm text-slate-400 uppercase tracking-wider font-bold">Email Us</p>
-                  <a href="mailto:service@signalmountainhistoric.com" className="text-xl font-bold text-white hover:text-amber-400 transition-colors">
-                    service@signalmountainhistoric.com
+                  <a href="mailto:service@cavespringsventilation.com" className="text-xl font-bold text-white hover:text-cyan-400 transition-colors">
+                    service@cavespringsventilation.com
                   </a>
                 </div>
               </div>
 
               <div className="flex items-center gap-4 group border-t border-slate-800 pt-6">
-                <div className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center flex-shrink-0 group-hover:bg-amber-600 transition-colors">
-                  <MapPin className="w-6 h-6 text-amber-500 group-hover:text-white" />
+                <div className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-600 transition-colors">
+                  <MapPin className="w-6 h-6 text-cyan-500 group-hover:text-white" />
                 </div>
                 <div>
                   <p className="text-sm text-slate-400 uppercase tracking-wider font-bold">Service Area</p>
-                  <p className="text-lg font-bold text-white">Signal Mountain, TN & Greater Chattanooga Area</p>
+                  <p className="text-lg font-bold text-white">Cave Springs, AR & Northwest Arkansas</p>
                 </div>
               </div>
             </div>
@@ -58,38 +58,43 @@ const Contact = () => {
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-slate-700">Full Name</label>
-                  <input id="name" type="text" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="John Smith" />
+                  <input id="name" type="text" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="John Smith" />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium text-slate-700">Phone Number</label>
-                  <input id="phone" type="tel" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="(423) 000-0000" />
+                  <input id="phone" type="tel" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="(479) 000-0000" />
                 </div>
               </div>
 
               <div className="space-y-2">
                 <label htmlFor="service-type" className="text-sm font-medium text-slate-700">Service Required</label>
-                <select id="service-type" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-500">
-                  <option>Complete Home Rewiring Assessment</option>
-                  <option>Knob-and-Tube Replacement</option>
-                  <option>Cloth-Wrapped Wire Removal</option>
-                  <option>Panel Box Upgrade</option>
-                  <option>Grounding & Safety Update</option>
-                  <option>Insurance Documentation</option>
+                <select id="service-type" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                  <option>New Exhaust Fan Installation</option>
+                  <option>Fan Replacement / Upgrade</option>
+                  <option>Humidity-Sensing Fan Install</option>
+                  <option>Ductwork Repair / Rerouting</option>
+                  <option>Fan/Light Combo Installation</option>
+                  <option>Ventilation Assessment</option>
                 </select>
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="home-age" className="text-sm font-medium text-slate-700">Approximate Year Home Built</label>
-                <input id="home-age" type="text" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="e.g., 1935" />
+                <label htmlFor="bathroom-count" className="text-sm font-medium text-slate-700">Number of Bathrooms</label>
+                <select id="bathroom-count" className="w-full h-10 px-3 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                  <option>1 Bathroom</option>
+                  <option>2 Bathrooms</option>
+                  <option>3 Bathrooms</option>
+                  <option>4+ Bathrooms</option>
+                </select>
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="message" className="text-sm font-medium text-slate-700">Tell Us About Your Home</label>
-                <textarea id="message" className="w-full min-h-[100px] px-3 py-2 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="Describe your home's age, any electrical concerns, and what prompted you to reach out..."></textarea>
+                <label htmlFor="message" className="text-sm font-medium text-slate-700">Tell Us About Your Situation</label>
+                <textarea id="message" className="w-full min-h-[100px] px-3 py-2 rounded-md border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Describe any moisture issues, mold concerns, or what prompted you to reach out..."></textarea>
               </div>
 
-              <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-12 text-lg font-bold">
-                Get My Free Assessment
+              <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white h-12 text-lg font-bold">
+                Get My Free Quote
               </Button>
             </form>
           </div>

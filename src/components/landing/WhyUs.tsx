@@ -1,43 +1,43 @@
-import { Shield, Landmark, Clock, Zap, Home, HardHat } from "lucide-react";
+import { Shield, Fan, Clock, Droplets, Home, HardHat } from "lucide-react";
 
 const reasons = [
   {
-    icon: Landmark,
-    title: "Historic Home Specialists",
-    description: "We understand the unique challenges of Signal Mountain's vintage homes. Our electricians are trained in preservation-minded techniques that protect original features."
+    icon: Fan,
+    title: "Ventilation Specialists",
+    description: "We focus exclusively on bathroom ventilation, giving us deep expertise in exhaust fan sizing, placement, and ductwork that general contractors simply don't have."
   },
   {
-    icon: Zap,
-    title: "Full System Expertise",
-    description: "From knob-and-tube to cloth-wrapped wiring, we've seen it all. Our team expertly identifies and safely removes all types of outdated electrical systems."
+    icon: Droplets,
+    title: "Humidity Experts",
+    description: "We understand Northwest Arkansas's humid climate and install ventilation solutions specifically designed to combat the moisture challenges unique to this region."
   },
   {
     icon: Shield,
-    title: "Licensed Master Electricians",
-    description: "Our master electricians hold all required Tennessee licenses and maintain ongoing education in both modern code requirements and historic preservation methods."
+    title: "Licensed Electricians",
+    description: "Our licensed electricians handle all wiring safely and to code, ensuring your exhaust fan installation meets Arkansas electrical requirements."
   },
   {
     icon: Home,
-    title: "Hidden Installation Methods",
-    description: "We use specialized fishing techniques and strategic access points to run new wiring without damaging original plaster, trim, or architectural details."
+    title: "Proper Venting",
+    description: "We always vent exhaust fans to the exterior—never into attics or soffits—preventing the hidden moisture damage that plagues many Arkansas homes."
   },
   {
     icon: HardHat,
-    title: "Clean & Respectful Work",
-    description: "We treat your historic home with the care it deserves. Our crews protect your floors, clean up thoroughly, and leave your home better than we found it."
+    title: "Clean Installation",
+    description: "We take pride in neat, professional work. No exposed wires, no messy ductwork, and we always clean up thoroughly when we're done."
   },
   {
     icon: Clock,
-    title: "Insurance Compliance",
-    description: "Many insurers require updated wiring in older homes. Our work comes with full documentation to satisfy your insurance company's safety requirements."
+    title: "Same-Day Service",
+    description: "Moisture problems don't wait, and neither should you. We offer fast scheduling and often same-day installation for Cave Springs homeowners."
   }
 ];
 
 const stats = [
-  { number: "50+ Years", label: "Combined Exp." },
-  { number: "100%", label: "Code Compliant" },
-  { number: "Licensed", label: "Master Electricians" },
-  { number: "Local", label: "Signal Mtn Team" }
+  { number: "500+", label: "Fans Installed" },
+  { number: "100%", label: "Vented Outside" },
+  { number: "Licensed", label: "Electricians" },
+  { number: "Local", label: "Cave Springs" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Signal Mountain Trusts Our Historic Home Experts
+            Why Cave Springs Trusts Our Ventilation Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Combining decades of electrical experience with specialized knowledge of historic construction methods to safely modernize your Signal Mountain heritage home.
+            Combining electrical expertise with specialized ventilation knowledge to deliver bathroom exhaust fan installations that actually solve moisture problems.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ const WhyUs = () => {
                 key={index}
                 className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-lg bg-amber-50 flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-amber-600" />
+                <div className="w-12 h-12 rounded-lg bg-cyan-50 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-cyan-600" />
                 </div>
                 <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                   {reason.title}
@@ -79,7 +79,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-amber-600 mb-2">
+              <div className="text-3xl md:text-4xl font-heading font-bold text-cyan-600 mb-2">
                 {stat.number}
               </div>
               <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">
