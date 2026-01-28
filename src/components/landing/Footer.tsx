@@ -4,10 +4,10 @@ const Footer = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Smoke detector hardwiring Signal Mountain TN | Signal Mountain Fire Safety",
-    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
-    "@id": "https://smoke-detector-hardwiring-signal-mountain-tn.com/",
-    "url": "https://smoke-detector-hardwiring-signal-mountain-tn.com/",
+    "name": "Historic home rewiring Signal Mountain TN | Signal Mountain Historic Electrical",
+    "image": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&q=80",
+    "@id": "https://historic-home-rewiring-signal-mountain-tn.com/",
+    "url": "https://historic-home-rewiring-signal-mountain-tn.com/",
     "telephone": "18449012684",
     "address": {
       "@type": "PostalAddress",
@@ -41,16 +41,16 @@ const Footer = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Smoke Detector Hardwiring",
+    "serviceType": "Historic Home Rewiring",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Signal Mountain Fire Safety"
+      "name": "Signal Mountain Historic Electrical"
     },
     "areaServed": {
       "@type": "City",
       "name": "Signal Mountain"
     },
-    "description": "Professional installation and hardwiring of interconnected smoke and carbon monoxide detectors for mountain residences."
+    "description": "Expert electrical rewiring for historic and vintage homes. Specializing in knob-and-tube replacement, cloth-wrapped wire removal, panel upgrades, and preservation-minded electrical modernization."
   };
 
   return (
@@ -63,43 +63,43 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 lg:col-span-1 border-slate-800">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-red-600 flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-lg">SMFS</span>
+              <div className="w-10 h-10 rounded-lg bg-amber-600 flex items-center justify-center">
+                <span className="text-white font-heading font-bold text-lg">SHE</span>
               </div>
-              <span className="font-heading font-bold text-xl text-white">Signal Mountain Fire Safety</span>
+              <span className="font-heading font-bold text-xl text-white">Signal Mountain Historic Electrical</span>
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed">
-              Protecting Signal Mountain homes with professional, interconnected fire safety and detection systems.
+              Preserving Signal Mountain's architectural heritage while modernizing electrical systems for safety and peace of mind.
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="border-slate-800">
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Life Safety</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Our Services</h4>
             <ul className="space-y-4">
-              <li><a href="#smoke-detector-info" className="text-slate-400 hover:text-red-400 transition-colors">Hardwiring</a></li>
-              <li><a href="#smoke-detector-info" className="text-slate-400 hover:text-red-400 transition-colors">CO Detection</a></li>
-              <li><a href="#smoke-detector-info" className="text-slate-400 hover:text-red-400 transition-colors">Interconnection</a></li>
-              <li><a href="#smoke-detector-info" className="text-slate-400 hover:text-red-400 transition-colors">System Audits</a></li>
+              <li><a href="#historic-rewiring-info" className="text-slate-400 hover:text-amber-400 transition-colors">Knob & Tube Replacement</a></li>
+              <li><a href="#historic-rewiring-info" className="text-slate-400 hover:text-amber-400 transition-colors">Cloth Wire Removal</a></li>
+              <li><a href="#historic-rewiring-info" className="text-slate-400 hover:text-amber-400 transition-colors">Panel Upgrades</a></li>
+              <li><a href="#historic-rewiring-info" className="text-slate-400 hover:text-amber-400 transition-colors">Heritage Preservation</a></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div className="border-slate-800">
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Emergency Info</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-red-500 flex-shrink-0 mt-1" />
-                <a href="tel:18449012684" className="text-slate-400 hover:text-red-400 transition-colors font-bold text-lg">
+                <Phone className="w-5 h-5 text-amber-500 flex-shrink-0 mt-1" />
+                <a href="tel:18449012684" className="text-slate-400 hover:text-amber-400 transition-colors font-bold text-lg">
                   (844) 901-2684
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-red-500 flex-shrink-0 mt-1" />
-                <span className="text-slate-400">service@signalmountainfire.com</span>
+                <Mail className="w-5 h-5 text-amber-500 flex-shrink-0 mt-1" />
+                <span className="text-slate-400">service@signalmountainhistoric.com</span>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-red-500 flex-shrink-0 mt-1" />
+                <MapPin className="w-5 h-5 text-amber-500 flex-shrink-0 mt-1" />
                 <span className="text-slate-400">Signal Mountain, TN 37377</span>
               </li>
             </ul>
@@ -107,13 +107,13 @@ const Footer = () => {
 
           {/* Service Area */}
           <div className="border-slate-800">
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Local Protection</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Local Heritage Experts</h4>
             <p className="text-slate-400 mb-4 text-sm leading-relaxed">
-              We provide life safety electrical services across the entire plateau and the Greater Chattanooga region.
+              We serve historic homeowners across Signal Mountain and the Greater Chattanooga region with specialized vintage home electrical services.
             </p>
-            <div className="flex items-center gap-2 text-red-500 font-bold">
-              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-              Certified Techs Available
+            <div className="flex items-center gap-2 text-amber-500 font-bold">
+              <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
+              Licensed Master Electricians
             </div>
           </div>
         </div>
@@ -121,16 +121,16 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-slate-800">
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-xs text-slate-500 uppercase tracking-widest">
-            <a href="https://hottubwiringelectriciansignalmounta.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors font-medium text-center">Hot Tub Wiring</a>
-            <a href="https://smartswitchinstallationsignalmounta.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors font-medium text-center">Smart Switch Installation</a>
-            <a href="https://rvpedestalinstallationplanotx.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors font-medium text-center">RV Pedestal Installation</a>
-            <a href="https://basementwaterremovaleagleco.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors font-medium text-center">Basement Water Removal</a>
+            <a href="https://knobandtubewiringreplacementsavanna.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors font-medium text-center">Knob & Tube Replacement</a>
+            <a href="https://aluminumwiringreplacementnapervilleil.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors font-medium text-center">Aluminum Wiring Replacement</a>
+            <a href="https://generatorinterlockkitinstallationma.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors font-medium text-center">Generator Interlock Kit</a>
+            <a href="https://ceramickilnelectricalhookupashevill.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors font-medium text-center">Ceramic Kiln Hookup</a>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
-            <p>© {new Date().getFullYear()} Signal Mountain Fire Safety. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Signal Mountain Historic Electrical. All rights reserved.</p>
             <div className="flex gap-6 text-slate-500">
-              <a href="#" className="hover:text-red-400 transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-red-400 transition-colors">Terms of Service</a>
+              <a href="#" className="hover:text-amber-400 transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-amber-400 transition-colors">Terms of Service</a>
             </div>
           </div>
         </div>

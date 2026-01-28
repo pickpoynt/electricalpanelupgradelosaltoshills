@@ -1,42 +1,42 @@
-import { Shield, Bell, Clock, Zap, ShieldAlert, HardHat } from "lucide-react";
+import { Shield, Landmark, Clock, Zap, Home, HardHat } from "lucide-react";
 
 const reasons = [
   {
-    icon: ShieldAlert,
-    title: "NFPA Code Experts",
-    description: "We are deeply familiar with NFPA 72 and local Signal Mountain fire codes, ensuring your installation is fully compliant and safe."
+    icon: Landmark,
+    title: "Historic Home Specialists",
+    description: "We understand the unique challenges of Signal Mountain's vintage homes. Our electricians are trained in preservation-minded techniques that protect original features."
   },
   {
     icon: Zap,
-    title: "Interconnection Pros",
-    description: "Hardwiring alarms for synchronization is a technical electrical task. We ensure your entire home is linked for immediate unified response."
+    title: "Full System Expertise",
+    description: "From knob-and-tube to cloth-wrapped wiring, we've seen it all. Our team expertly identifies and safely removes all types of outdated electrical systems."
   },
   {
     icon: Shield,
-    title: "Licensed Electricians",
-    description: "Smart safety requires reliable high-voltage wiring. Our licensed pros handle every connection with precision and professional integrity."
+    title: "Licensed Master Electricians",
+    description: "Our master electricians hold all required Tennessee licenses and maintain ongoing education in both modern code requirements and historic preservation methods."
   },
   {
-    icon: Bell,
-    title: "CO & Fire Safety",
-    description: "We provide comprehensive protection by integrating carbon monoxide detection with your fire safety system for multi-threat coverage."
+    icon: Home,
+    title: "Hidden Installation Methods",
+    description: "We use specialized fishing techniques and strategic access points to run new wiring without damaging original plaster, trim, or architectural details."
   },
   {
     icon: HardHat,
-    title: "Clean Installation",
-    description: "We take pride in our work, ensuring every detector is perfectly mounted and all wiring is neatly fished through walls with zero damage."
+    title: "Clean & Respectful Work",
+    description: "We treat your historic home with the care it deserves. Our crews protect your floors, clean up thoroughly, and leave your home better than we found it."
   },
   {
     icon: Clock,
-    title: "24/7 Peace of Mind",
-    description: "A professional installation means you can sleep soundly knowing your family is protected by a redundant, battery-backed safety system."
+    title: "Insurance Compliance",
+    description: "Many insurers require updated wiring in older homes. Our work comes with full documentation to satisfy your insurance company's safety requirements."
   }
 ];
 
 const stats = [
-  { number: "10-Year", label: "Battery Life" },
-  { number: "100%", label: "Code-Sync" },
-  { number: "Licensed", label: "Insured Pros" },
+  { number: "50+ Years", label: "Combined Exp." },
+  { number: "100%", label: "Code Compliant" },
+  { number: "Licensed", label: "Master Electricians" },
   { number: "Local", label: "Signal Mtn Team" }
 ];
 
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Signal Mountain Trusts Our Fire Safety Experts
+            Why Signal Mountain Trusts Our Historic Home Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Combining rigorous electrical standards with the latest fire safety technology to provide the most reliable protection for Signal Mountain families.
+            Combining decades of electrical experience with specialized knowledge of historic construction methods to safely modernize your Signal Mountain heritage home.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ const WhyUs = () => {
                 key={index}
                 className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-lg bg-red-50 flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-red-600" />
+                <div className="w-12 h-12 rounded-lg bg-amber-50 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-amber-600" />
                 </div>
                 <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                   {reason.title}
@@ -79,7 +79,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-red-600 mb-2">
+              <div className="text-3xl md:text-4xl font-heading font-bold text-amber-600 mb-2">
                 {stat.number}
               </div>
               <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">
