@@ -6,25 +6,25 @@ const Footer = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Whole House Surge Protector Installation Cave Springs Arkansas | Cave Springs Surge Protection Experts",
-    "image": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80",
+    "name": "Cheap Electrician Brevard NC | Brevard Affordable Electricians",
+    "image": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80",
     "telephone": "18449012684",
-    "email": "service@cavesprings-surge.com",
+    "email": "service@brevardaffordableelectricians.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Main Street",
-      "addressLocality": "Cave Springs",
-      "addressRegion": "AR",
-      "postalCode": "72718",
+      "addressLocality": "Brevard",
+      "addressRegion": "NC",
+      "postalCode": "28712",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "36.2645",
-      "longitude": "-94.2319"
+      "latitude": "35.2319",
+      "longitude": "-82.7305"
     },
-    "url": "https://whole-house-surge-protector-cave-springs-ar.com",
-    "priceRange": "$$",
+    "url": "https://cheap-electrician-brevard-nc.com",
+    "priceRange": "$",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -36,22 +36,22 @@ const Footer = () => {
     "sameAs": [],
     "areaServed": {
       "@type": "City",
-      "name": "Cave Springs",
+      "name": "Brevard",
       "containedInPlace": {
         "@type": "State",
-        "name": "Arkansas"
+        "name": "North Carolina"
       }
     },
-    "description": "Professional whole house surge protector installation in Cave Springs, Arkansas. Licensed electricians providing comprehensive surge protection for homes in Northwest Arkansas.",
+    "description": "Affordable electrician services in Brevard, North Carolina. Budget electrical work, low-cost repairs, and cheap electrical services. Licensed electricians offering residential and commercial electrical work at competitive prices.",
     "services": [
-      "Whole House Surge Protector Installation",
-      "Install Whole House Surge Protector Cost",
-      "Electrician for Surge Protector Installation",
-      "Home Surge Protection System Installer",
-      "Whole Home Surge Protector Near Me",
-      "Electrical Panel Surge Protector Install",
-      "Surge Protection Service for Home",
-      "Main Panel Surge Protector Installation"
+      "Affordable Electrician Brevard NC",
+      "Budget Electrician Brevard NC",
+      "Low Cost Electrician Brevard NC",
+      "Cheap Electrical Services Brevard NC",
+      "Residential Electrical Services",
+      "Electrical Panel Services",
+      "Electrical Maintenance",
+      "Emergency Electrical Service"
     ]
   };
 
@@ -64,17 +64,17 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-yellow-600 flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-lg">CSP</span>
+              <div className="w-10 h-10 rounded-lg bg-green-600 flex items-center justify-center">
+                <span className="text-white font-heading font-bold text-lg">BAE</span>
               </div>
-              <span className="font-heading font-bold text-lg">Cave Springs Surge Protection</span>
+              <span className="font-heading font-bold text-lg">Brevard Affordable Electricians</span>
             </div>
             <p className="text-slate-400 mb-4 text-sm leading-relaxed">
-              Whole house surge protector installation experts serving Cave Springs and Northwest Arkansas. We protect your electronics from damaging power surges with professional panel-mounted surge protection systems.
+              Providing genuinely affordable electrical services to Brevard and Transylvania County. Quality electrical work at prices families can actually afford, without compromising safety or professionalism.
             </p>
-            <div className="flex items-center gap-2 text-yellow-500">
+            <div className="flex items-center gap-2 text-green-500">
               <Shield className="w-4 h-4" />
-              <span className="text-sm font-medium">Arkansas Licensed Electricians</span>
+              <span className="text-sm font-medium">Licensed NC Electricians</span>
             </div>
           </div>
 
@@ -82,12 +82,12 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Our Services</h3>
             <ul className="space-y-2 text-slate-400 text-sm">
-              <li>Whole House Surge Protector Installation</li>
-              <li>Panel Surge Protector Install</li>
-              <li>Home Surge Protection Systems</li>
-              <li>Main Panel SPD Installation</li>
-              <li>Surge Protection Inspection</li>
-              <li>Lightning Protection</li>
+              <li>Affordable Electrical Repairs</li>
+              <li>Budget Electrical Installations</li>
+              <li>Low-Cost Electrical Services</li>
+              <li>Cheap Electrical Maintenance</li>
+              <li>Residential Electrical Work</li>
+              <li>Panel Upgrades & Repairs</li>
             </ul>
           </div>
 
@@ -96,19 +96,19 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-3 text-slate-400 text-sm">
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-yellow-500" />
+                <Phone className="w-4 h-4 text-green-500" />
                 <a href="tel:18449012684" className="hover:text-white transition-colors">(844) 901-2684</a>
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-yellow-500" />
-                <a href="mailto:service@cavesprings-surge.com" className="hover:text-white transition-colors">service@cavesprings-surge.com</a>
+                <Mail className="w-4 h-4 text-green-500" />
+                <a href="mailto:service@brevardaffordableelectricians.com" className="hover:text-white transition-colors">service@brevardaffordableelectricians.com</a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-yellow-500 mt-0.5" />
-                <span>Cave Springs, Arkansas<br />Benton County</span>
+                <MapPin className="w-4 h-4 text-green-500 mt-0.5" />
+                <span>Brevard, North Carolina<br />Transylvania County</span>
               </li>
               <li className="flex items-center gap-2">
-                <Clock className="w-4 h-4 text-yellow-500" />
+                <Clock className="w-4 h-4 text-green-500" />
                 <span>Mon-Sat: 7AM-7PM</span>
               </li>
             </ul>
@@ -118,14 +118,14 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Service Areas</h3>
             <ul className="space-y-1 text-slate-400 text-sm">
-              <li>Cave Springs, AR</li>
-              <li>Bentonville, AR</li>
-              <li>Rogers, AR</li>
-              <li>Bella Vista, AR</li>
-              <li>Centerton, AR</li>
-              <li>Pea Ridge, AR</li>
-              <li>Lowell, AR</li>
-              <li>All of Benton County</li>
+              <li>Brevard, NC</li>
+              <li>Rosman, NC</li>
+              <li>Cedar Mountain, NC</li>
+              <li>Sapphire, NC</li>
+              <li>Lake Toxaway, NC</li>
+              <li>Pisgah Forest, NC</li>
+              <li>Transylvania County</li>
+              <li>Western NC Mountains</li>
             </ul>
           </div>
         </div>
@@ -134,26 +134,26 @@ const Footer = () => {
         <div className="border-t border-slate-800 pt-8 mb-8">
           <h3 className="font-heading font-bold text-lg mb-4 text-center">Related Services</h3>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <a href="https://wellpumpreplacementoverlandparkks.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-yellow-500 transition-colors">
-              Well Pump Replacement <ExternalLink className="w-3 h-3" />
+            <a href="https://generatorinterlockkitinstallercypre.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
+              Generator Interlock Kit <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://emergencyweatherheadrepairtulsaok.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-yellow-500 transition-colors">
-              Emergency Weatherhead Repair <ExternalLink className="w-3 h-3" />
+            <a href="https://electricianforpartialpoweroutageriv.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
+              Partial Power Outage <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://sumppumpbatterybackupinstallationma.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-yellow-500 transition-colors">
-              Sump Pump Battery Backup <ExternalLink className="w-3 h-3" />
+            <a href="https://knobandtubewiringreplacementsignalm.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
+              Knob & Tube Wiring <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://rvpedestalinstallationplanotx.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-yellow-500 transition-colors">
-              RV Pedestal Installation <ExternalLink className="w-3 h-3" />
+            <a href="https://aluminumwiringreplacementnapervilleil.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
+              Aluminum Wiring <ExternalLink className="w-3 h-3" />
             </a>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© {currentYear} Cave Springs Surge Protection Experts. All rights reserved.</p>
+          <p>© {currentYear} Brevard Affordable Electricians. All rights reserved.</p>
           <div className="flex gap-6">
-            <span>Whole House Surge Protector Installation Cave Springs Arkansas</span>
+            <span>Cheap Electrician Brevard NC</span>
           </div>
         </div>
       </div>

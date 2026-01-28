@@ -1,53 +1,53 @@
-import { Zap, Shield, Home, Settings, DollarSign, Wrench, MapPin, CircuitBoard } from "lucide-react";
+import { Zap, Home, Wrench, DollarSign, Lightbulb, Plug, Settings, CircuitBoard } from "lucide-react";
 
 const services = [
   {
-    icon: Zap,
-    title: "Whole House Surge Protector Installation",
-    description: "Complete installation of Type 2 surge protection devices at your main electrical panel, providing comprehensive protection for every circuit in your Cave Springs home.",
-    link: "#surge-protector-info"
-  },
-  {
     icon: DollarSign,
-    title: "Install Whole House Surge Protector Cost",
-    description: "Transparent, competitive pricing for surge protector installation. We provide detailed quotes upfront so you know exactly what your investment in home protection will cost.",
-    link: "#surge-protector-info"
+    title: "Affordable Electrician Brevard NC",
+    description: "Quality electrical services at budget-friendly prices. We believe everyone deserves reliable electrical work without breaking the bank.",
+    link: "#electrician-info"
   },
   {
     icon: Wrench,
-    title: "Electrician for Surge Protector Installation",
-    description: "Licensed, certified electricians specializing in surge protection. Our experts ensure proper installation, grounding, and code compliance for maximum protection.",
-    link: "#surge-protector-info"
+    title: "Budget Electrician Brevard NC",
+    description: "Cost-effective electrical repairs and installations for residential and commercial properties throughout Brevard and Transylvania County.",
+    link: "#electrician-info"
+  },
+  {
+    icon: Lightbulb,
+    title: "Low Cost Electrician Brevard NC",
+    description: "Competitive pricing on all electrical services including outlet installation, light fixture repairs, and electrical panel upgrades.",
+    link: "#electrician-info"
+  },
+  {
+    icon: Plug,
+    title: "Cheap Electrical Services Brevard NC",
+    description: "Affordable electrical contracting services without compromising safety or workmanship quality. Transparent pricing guaranteed.",
+    link: "#electrician-info"
   },
   {
     icon: Home,
-    title: "Home Surge Protection System Installer",
-    description: "Full-service surge protection system design and installation. We assess your home's electrical needs and install the right protection for your specific situation.",
-    link: "#surge-protector-info"
-  },
-  {
-    icon: MapPin,
-    title: "Whole Home Surge Protector Near Me",
-    description: "Local Cave Springs electricians ready to protect your home. Fast response times and personalized service from your neighborhood surge protection specialists.",
-    link: "#surge-protector-info"
+    title: "Residential Electrical Services",
+    description: "Complete home electrical services including repairs, upgrades, inspections, and emergency electrical work at fair market rates.",
+    link: "#electrician-info"
   },
   {
     icon: CircuitBoard,
-    title: "Electrical Panel Surge Protector Install",
-    description: "Expert installation directly at your breaker panel for whole-home coverage. We integrate surge protection seamlessly with your existing electrical system.",
-    link: "#surge-protector-info"
-  },
-  {
-    icon: Shield,
-    title: "Surge Protection Service for Home",
-    description: "Comprehensive surge protection services including installation, inspection, and maintenance. Keep your protection working optimally year after year.",
-    link: "#surge-protector-info"
+    title: "Electrical Panel Services",
+    description: "Panel upgrades, breaker replacements, and electrical safety inspections to ensure your home's electrical system operates safely.",
+    link: "#electrician-info"
   },
   {
     icon: Settings,
-    title: "Main Panel Surge Protector Installation",
-    description: "Professional installation at your main service panel—the most effective location for whole-house protection against external surges from the power grid.",
-    link: "#surge-protector-info"
+    title: "Electrical Maintenance",
+    description: "Preventive maintenance services to keep your electrical systems running efficiently and catch problems before they become costly.",
+    link: "#electrician-info"
+  },
+  {
+    icon: Zap,
+    title: "Emergency Electrical Service",
+    description: "24/7 emergency electrical repair services for urgent situations. Fast response times with upfront pricing even for after-hours calls.",
+    link: "#electrician-info"
   },
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Complete Surge Protection Services
+            Affordable Electrical Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Professional whole house surge protector installation and protection services for Cave Springs and Northwest Arkansas. Defend your electronics from damaging power surges.
+            Budget-friendly electrical work for Brevard homes and businesses. Quality electrical services at prices that won't break your budget.
           </p>
         </div>
 
@@ -72,10 +72,10 @@ const Services = () => {
                 key={index}
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full pointer-events-none"
               >
-                <div className="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center mb-4 group-hover:bg-yellow-600 transition-colors">
-                  <Icon className="w-6 h-6 text-yellow-600 group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4 group-hover:bg-green-600 transition-colors">
+                  <Icon className="w-6 h-6 text-green-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-yellow-600 transition-colors">
+                <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-green-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">

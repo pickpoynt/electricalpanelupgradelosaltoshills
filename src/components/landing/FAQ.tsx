@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "How much does whole house surge protector installation cost?",
-    answer: "Most whole-house surge protector installations in Cave Springs cost between $250-$500 including parts and labor. The price varies based on your panel type, the SPD brand selected, and any modifications needed for installation. We provide detailed quotes upfront so you know exactly what to expect."
+    question: "Are you really cheaper than other electricians in Brevard?",
+    answer: "Yes! We offer genuinely competitive pricing by operating efficiently and passing savings directly to customers. We publish our base rates, provide detailed written quotes, and avoid hidden fees. Our overhead is lower because we're local and focused on volume rather than premium pricing."
   },
   {
-    question: "Do I need a whole house surge protector if I have power strips?",
-    answer: "Power strips only protect devices plugged directly into them—and even quality strips can't handle large surges from lightning strikes. Whole-house protection at your main panel provides a first line of defense for your entire home, including hardwired appliances like your HVAC, water heater, and range that can't use power strips."
+    question: "Does affordable mean lower quality work?",
+    answer: "Absolutely not. Our electricians are fully licensed North Carolina professionals with proper insurance coverage. Affordable pricing comes from operational efficiency, not cutting corners. We follow all state codes and safety standards while keeping costs reasonable for Brevard families."
   },
   {
-    question: "How long does surge protector installation take?",
-    answer: "Most whole-house surge protector installations are completed in 1-2 hours. Our electricians will briefly turn off your main power during installation, but the disruption is minimal. You'll have comprehensive surge protection for your entire home by the time we leave."
+    question: "What areas do you serve?",
+    answer: "We primarily serve Brevard and all of Transylvania County, including Rosman, Cedar Mountain, Sapphire, and Lake Toxaway. We also serve parts of Jackson County and Henderson County when schedules permit. Being local helps us keep travel costs—and your prices—lower."
   },
   {
-    question: "What brands of surge protectors do you install?",
-    answer: "We install premium surge protection devices from trusted manufacturers including Eaton, Siemens, Square D, Leviton, and GE. We'll recommend the best option based on your panel type, protection requirements, and budget."
+    question: "Do you charge for estimates?",
+    answer: "Basic consultations and phone estimates are free. For complex projects requiring on-site assessment, we charge a small consultation fee that's credited toward your project if you hire us. This ensures serious inquiries while respecting your time and budget."
   },
   {
-    question: "Do surge protectors wear out or need replacement?",
-    answer: "Yes, surge protectors have a finite lifespan—they sacrifice themselves to protect your electronics. Most quality SPDs have indicator lights showing protection status. We recommend checking this light periodically and replacing the unit if it shows the protection is compromised, typically every 5-10 years or after a major surge event."
+    question: "What's included in your pricing?",
+    answer: "Our quotes include all materials, labor, permits (when required), and cleanup. No hidden trip charges, service fees, or overtime premiums during standard business hours. Emergency after-hours work is clearly priced upfront with no surprises."
   },
   {
-    question: "Will a surge protector protect against lightning strikes?",
-    answer: "Whole-house surge protectors provide excellent protection against lightning-induced surges traveling through power lines. However, no surge protector can guarantee protection against a direct lightning strike to your home. Our installations significantly reduce the risk of damage from the vast majority of surge events."
+    question: "How do you handle small jobs?",
+    answer: "We don't penalize customers with minimum charges for small jobs. Whether it's replacing one outlet or upgrading an entire panel, you pay only for the work performed. This makes us ideal for Brevard residents who need occasional electrical work without breaking their budget."
   },
   {
-    question: "Is a whole house surge protector worth it?",
-    answer: "Absolutely. For a one-time investment of a few hundred dollars, you protect tens of thousands in electronics and appliances. The average home contains $15,000+ in electronics and appliances vulnerable to surge damage. A single surge event can destroy TVs, computers, refrigerators, and HVAC controls simultaneously."
+    question: "Do you offer financing or payment plans?",
+    answer: "Yes, we work with local financing partners to offer flexible payment options for larger projects. We also accept major credit cards and can structure payments for qualifying customers. Our goal is making quality electrical work accessible to every Brevard family."
   },
   {
-    question: "Do you service all of Benton County?",
-    answer: "Yes! While we're based in Cave Springs, we provide surge protector installation throughout Benton County including Bentonville, Rogers, Bella Vista, Centerton, Pea Ridge, and surrounding Northwest Arkansas communities."
+    question: "What makes you different from big electrical companies?",
+    answer: "We're locally owned and operated with deep roots in the Brevard community. We understand local housing challenges, work with local suppliers to reduce costs, and reinvest in our neighbors. Big companies have higher overhead and franchise fees that ultimately come out of your pocket."
   }
 ];
 
@@ -47,17 +47,17 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Surge Protector Installation FAQs
+              Affordable Electrical Services FAQs
             </h2>
             <p className="text-lg text-slate-600">
-              Common questions about whole house surge protection for Cave Springs homeowners.
+              Common questions about budget-friendly electrical work in Brevard, NC.
             </p>
           </div>
 
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border-b border-slate-200">
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-yellow-600 py-4">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-green-600 py-4">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 pb-4 leading-relaxed">
