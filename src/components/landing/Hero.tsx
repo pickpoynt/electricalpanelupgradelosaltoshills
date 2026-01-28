@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, ShieldCheck, Fan, Droplets, Wind } from "lucide-react";
+import { Phone, ShieldCheck, Zap, Home, Shield } from "lucide-react";
 import React from "react";
 
 interface HeroProps {
@@ -11,12 +11,12 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Bathroom Exhaust Fan Installation Cave Springs Arkansas
-      <span className="block text-cyan-400 mt-2">Cave Springs Ventilation Pros: Breathe Easier, Live Healthier.</span>
+      Whole House Surge Protector Installation Cave Springs Arkansas
+      <span className="block text-yellow-400 mt-2">Cave Springs Surge Protection Experts: Defend Your Home.</span>
     </>
   ),
-  subtitle = "Professional bathroom exhaust fan installation for Cave Springs homes. We eliminate moisture problems, prevent mold growth, and improve indoor air quality with whisper-quiet, energy-efficient ventilation solutions tailored to Northwest Arkansas humidity.",
-  image = "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&q=80"
+  subtitle = "Professional whole house surge protector installation for Cave Springs homes. We safeguard your expensive electronics, appliances, and HVAC systems from damaging power surges, lightning strikes, and voltage spikes with expert panel-mounted protection.",
+  image = "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
@@ -24,7 +24,7 @@ const Hero = ({
       <div className="absolute inset-0 z-0">
         <img
           src={image}
-          alt="Bathroom Exhaust Fan Installation Cave Springs Arkansas"
+          alt="Whole House Surge Protector Installation Cave Springs Arkansas"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-slate-900/75" />
@@ -34,8 +34,8 @@ const Hero = ({
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <div className="animate-fade-in">
-            <span className="inline-block px-4 py-2 bg-cyan-700/60 border border-cyan-400/50 rounded-full text-cyan-50 font-bold text-sm mb-6 backdrop-blur-md">
-              Cave Springs' Trusted Ventilation Experts
+            <span className="inline-block px-4 py-2 bg-yellow-700/60 border border-yellow-400/50 rounded-full text-yellow-50 font-bold text-sm mb-6 backdrop-blur-md">
+              Cave Springs' Trusted Surge Protection Electricians
             </span>
           </div>
 
@@ -48,7 +48,7 @@ const Hero = ({
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white border-none h-14 px-8 text-lg font-bold shadow-xl shadow-cyan-900/40" asChild>
+            <Button size="lg" className="bg-yellow-600 hover:bg-yellow-700 text-white border-none h-14 px-8 text-lg font-bold shadow-xl shadow-yellow-900/40" asChild>
               <a href="tel:18449012684" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call (844) 901-2684
@@ -58,21 +58,21 @@ const Hero = ({
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-white animate-fade-in-delay-3 drop-shadow-md">
             <div className="flex items-center gap-2">
-              <Fan className="w-5 h-5 text-cyan-400" />
-              <span className="font-bold">Quiet Operation</span>
+              <Shield className="w-5 h-5 text-yellow-400" />
+              <span className="font-bold">Full Protection</span>
             </div>
             <div className="flex items-center gap-2">
-              <Droplets className="w-5 h-5 text-cyan-400" />
-              <span className="font-bold">Moisture Control</span>
+              <Zap className="w-5 h-5 text-yellow-400" />
+              <span className="font-bold">Lightning Safe</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-5 h-5 rounded-full bg-cyan-600 flex items-center justify-center text-[10px] font-bold text-white">
+              <div className="w-5 h-5 rounded-full bg-yellow-600 flex items-center justify-center text-[10px] font-bold text-white">
                 AR
               </div>
               <span className="font-bold">Cave Springs Local</span>
             </div>
             <div className="flex items-center gap-2">
-              <ShieldCheck className="w-5 h-5 text-cyan-400" />
+              <ShieldCheck className="w-5 h-5 text-yellow-400" />
               <span className="font-bold">Licensed & Insured</span>
             </div>
           </div>

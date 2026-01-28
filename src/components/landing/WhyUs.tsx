@@ -1,42 +1,42 @@
-import { Shield, Fan, Clock, Droplets, Home, HardHat } from "lucide-react";
+import { Shield, Zap, Clock, Home, HardHat, DollarSign } from "lucide-react";
 
 const reasons = [
   {
-    icon: Fan,
-    title: "Ventilation Specialists",
-    description: "We focus exclusively on bathroom ventilation, giving us deep expertise in exhaust fan sizing, placement, and ductwork that general contractors simply don't have."
-  },
-  {
-    icon: Droplets,
-    title: "Humidity Experts",
-    description: "We understand Northwest Arkansas's humid climate and install ventilation solutions specifically designed to combat the moisture challenges unique to this region."
+    icon: Zap,
+    title: "Surge Protection Specialists",
+    description: "We focus specifically on surge protection, giving us deep expertise in SPD selection, installation techniques, and grounding requirements that general electricians may lack."
   },
   {
     icon: Shield,
-    title: "Licensed Electricians",
-    description: "Our licensed electricians handle all wiring safely and to code, ensuring your exhaust fan installation meets Arkansas electrical requirements."
+    title: "Premium Protection Devices",
+    description: "We install only top-rated surge protection devices from trusted manufacturers like Eaton, Siemens, and Square D—brands proven to protect when it matters most."
   },
   {
     icon: Home,
-    title: "Proper Venting",
-    description: "We always vent exhaust fans to the exterior—never into attics or soffits—preventing the hidden moisture damage that plagues many Arkansas homes."
+    title: "Whole Home Coverage",
+    description: "Our installations protect every circuit in your home from a single panel-mounted device, safeguarding everything from your HVAC system to your smartphone chargers."
   },
   {
     icon: HardHat,
-    title: "Clean Installation",
-    description: "We take pride in neat, professional work. No exposed wires, no messy ductwork, and we always clean up thoroughly when we're done."
+    title: "Licensed Master Electricians",
+    description: "Our electricians hold Arkansas master electrician licenses and specialize in surge protection installation, ensuring code-compliant work every time."
+  },
+  {
+    icon: DollarSign,
+    title: "Transparent Pricing",
+    description: "No surprises—we provide detailed written quotes before work begins. You'll know exactly what your surge protection investment costs upfront."
   },
   {
     icon: Clock,
-    title: "Same-Day Service",
-    description: "Moisture problems don't wait, and neither should you. We offer fast scheduling and often same-day installation for Cave Springs homeowners."
+    title: "Fast Installation",
+    description: "Most whole-house surge protector installations are completed in just 1-2 hours. Protect your home today without major disruption to your schedule."
   }
 ];
 
 const stats = [
-  { number: "500+", label: "Fans Installed" },
-  { number: "100%", label: "Vented Outside" },
-  { number: "Licensed", label: "Electricians" },
+  { number: "1000+", label: "Homes Protected" },
+  { number: "100%", label: "Code Compliant" },
+  { number: "Licensed", label: "Master Electricians" },
   { number: "Local", label: "Cave Springs" }
 ];
 
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Cave Springs Trusts Our Ventilation Experts
+            Why Cave Springs Trusts Our Surge Protection Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Combining electrical expertise with specialized ventilation knowledge to deliver bathroom exhaust fan installations that actually solve moisture problems.
+            Combining electrical expertise with specialized surge protection knowledge to deliver installations that truly protect your home and electronics.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ const WhyUs = () => {
                 key={index}
                 className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-lg bg-cyan-50 flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-cyan-600" />
+                <div className="w-12 h-12 rounded-lg bg-yellow-50 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-yellow-600" />
                 </div>
                 <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                   {reason.title}
@@ -79,7 +79,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-cyan-600 mb-2">
+              <div className="text-3xl md:text-4xl font-heading font-bold text-yellow-600 mb-2">
                 {stat.number}
               </div>
               <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">

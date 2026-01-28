@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BathroomExhaustFanInfo from "@/components/landing/BathroomExhaustFanInfo";
+import SurgeProtectorInfo from "@/components/landing/SurgeProtectorInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -12,29 +12,29 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Bathroom Exhaust Fan Installation Cave Springs Arkansas | Cave Springs Ventilation Pros</title>
-        <meta name="description" content="Professional bathroom exhaust fan installation in Cave Springs, AR. We specialize in ventilation solutions, humidity control, and mold prevention. Call (844) 901-2684." />
-        <meta name="keywords" content="bathroom exhaust fan installation Cave Springs Arkansas, bathroom ventilation Cave Springs AR, exhaust fan replacement Arkansas, humidity control ventilation, mold prevention ventilation" />
-        <link rel="canonical" href="https://bathroom-exhaust-fan-installation-cave-springs-ar.com/" />
+        <title>Whole House Surge Protector Installation Cave Springs Arkansas | Cave Springs Surge Protection Experts</title>
+        <meta name="description" content="Professional whole house surge protector installation in Cave Springs, AR. Protect your home from power surges and lightning strikes. Licensed electricians. Call (844) 901-2684." />
+        <meta name="keywords" content="whole house surge protector installation Cave Springs Arkansas, surge protector installation cost, electrician surge protector, home surge protection system, electrical panel surge protector" />
+        <link rel="canonical" href="https://whole-house-surge-protector-cave-springs-ar.com/" />
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Bathroom Exhaust Fan Installation Cave Springs Arkansas | Cave Springs Ventilation Pros" />
-        <meta property="og:description" content="Expert bathroom exhaust fan installation and ventilation services in Cave Springs, Arkansas. Improve air quality and prevent moisture damage." />
+        <meta property="og:title" content="Whole House Surge Protector Installation Cave Springs Arkansas | Cave Springs Surge Protection Experts" />
+        <meta property="og:description" content="Expert whole house surge protector installation in Cave Springs, Arkansas. Safeguard your electronics and appliances from damaging power surges." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bathroom-exhaust-fan-installation-cave-springs-ar.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://whole-house-surge-protector-cave-springs-ar.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80" />
 
         {/* Twitter Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Bathroom Exhaust Fan Installation Cave Springs Arkansas | Cave Springs Ventilation Pros" />
-        <meta name="twitter:description" content="Professional bathroom ventilation services in Cave Springs, AR. Exhaust fan installation and replacement. Call (844) 901-2684." />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&q=80" />
+        <meta name="twitter:title" content="Whole House Surge Protector Installation Cave Springs Arkansas | Cave Springs Surge Protection Experts" />
+        <meta name="twitter:description" content="Professional surge protection services in Cave Springs, AR. Main panel surge protector installation. Call (844) 901-2684." />
+        <meta name="twitter:image" content="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80" />
       </Helmet>
       <Header />
       <Hero />
       <Services />
       <WhyUs />
-      <BathroomExhaustFanInfo />
+      <SurgeProtectorInfo />
       <FAQ />
       <Contact />
       <Footer />

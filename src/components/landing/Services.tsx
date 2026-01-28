@@ -1,41 +1,53 @@
-import { Fan, Droplets, Wind, Settings, ThermometerSun, Wrench } from "lucide-react";
+import { Zap, Shield, Home, Settings, DollarSign, Wrench, MapPin, CircuitBoard } from "lucide-react";
 
 const services = [
   {
-    icon: Fan,
-    title: "Exhaust Fan Installation",
-    description: "Professional installation of bathroom exhaust fans with proper venting to the exterior, eliminating moisture buildup and preventing mold growth in your Cave Springs home.",
-    link: "#exhaust-fan-info"
+    icon: Zap,
+    title: "Whole House Surge Protector Installation",
+    description: "Complete installation of Type 2 surge protection devices at your main electrical panel, providing comprehensive protection for every circuit in your Cave Springs home.",
+    link: "#surge-protector-info"
   },
   {
-    icon: Droplets,
-    title: "Humidity-Sensing Fans",
-    description: "Smart exhaust fans that automatically activate when humidity rises above set levels, providing hands-free moisture control perfect for Arkansas's humid climate.",
-    link: "#exhaust-fan-info"
-  },
-  {
-    icon: Wind,
-    title: "Ductwork Installation",
-    description: "Proper duct routing and installation to ensure your exhaust fan efficiently moves moist air outside, not into your attic where it can cause damage.",
-    link: "#exhaust-fan-info"
-  },
-  {
-    icon: Settings,
-    title: "Fan Replacement & Upgrade",
-    description: "Upgrading old, noisy, or inefficient bathroom fans to modern whisper-quiet models with better CFM ratings and energy-efficient motors.",
-    link: "#exhaust-fan-info"
-  },
-  {
-    icon: ThermometerSun,
-    title: "Fan/Light Combos",
-    description: "Installation of combination units featuring exhaust fans with integrated LED lighting, heaters, or nightlights for maximum bathroom functionality.",
-    link: "#exhaust-fan-info"
+    icon: DollarSign,
+    title: "Install Whole House Surge Protector Cost",
+    description: "Transparent, competitive pricing for surge protector installation. We provide detailed quotes upfront so you know exactly what your investment in home protection will cost.",
+    link: "#surge-protector-info"
   },
   {
     icon: Wrench,
-    title: "Ventilation Repairs",
-    description: "Diagnosing and fixing exhaust fan issues including motor problems, backdraft dampers, electrical connections, and improper venting that reduces efficiency.",
-    link: "#exhaust-fan-info"
+    title: "Electrician for Surge Protector Installation",
+    description: "Licensed, certified electricians specializing in surge protection. Our experts ensure proper installation, grounding, and code compliance for maximum protection.",
+    link: "#surge-protector-info"
+  },
+  {
+    icon: Home,
+    title: "Home Surge Protection System Installer",
+    description: "Full-service surge protection system design and installation. We assess your home's electrical needs and install the right protection for your specific situation.",
+    link: "#surge-protector-info"
+  },
+  {
+    icon: MapPin,
+    title: "Whole Home Surge Protector Near Me",
+    description: "Local Cave Springs electricians ready to protect your home. Fast response times and personalized service from your neighborhood surge protection specialists.",
+    link: "#surge-protector-info"
+  },
+  {
+    icon: CircuitBoard,
+    title: "Electrical Panel Surge Protector Install",
+    description: "Expert installation directly at your breaker panel for whole-home coverage. We integrate surge protection seamlessly with your existing electrical system.",
+    link: "#surge-protector-info"
+  },
+  {
+    icon: Shield,
+    title: "Surge Protection Service for Home",
+    description: "Comprehensive surge protection services including installation, inspection, and maintenance. Keep your protection working optimally year after year.",
+    link: "#surge-protector-info"
+  },
+  {
+    icon: Settings,
+    title: "Main Panel Surge Protector Installation",
+    description: "Professional installation at your main service panel—the most effective location for whole-house protection against external surges from the power grid.",
+    link: "#surge-protector-info"
   },
 ];
 
@@ -45,14 +57,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Complete Bathroom Ventilation Services
+            Complete Surge Protection Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Professional exhaust fan installation and ventilation solutions for Cave Springs and Northwest Arkansas homeowners. We help you breathe easier and protect your home from moisture damage.
+            Professional whole house surge protector installation and protection services for Cave Springs and Northwest Arkansas. Defend your electronics from damaging power surges.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
@@ -60,10 +72,10 @@ const Services = () => {
                 key={index}
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block h-full pointer-events-none"
               >
-                <div className="w-12 h-12 rounded-lg bg-cyan-100 flex items-center justify-center mb-4 group-hover:bg-cyan-600 transition-colors">
-                  <Icon className="w-6 h-6 text-cyan-600 group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center mb-4 group-hover:bg-yellow-600 transition-colors">
+                  <Icon className="w-6 h-6 text-yellow-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors">
+                <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-yellow-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">
