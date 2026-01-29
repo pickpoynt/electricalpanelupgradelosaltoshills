@@ -11,23 +11,23 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Electrical panel upgrade Seward Nebraska
-      <span className="block text-blue-400 mt-2">Seward Panel Upgrade Pros: Safe & Modern Electrical Systems.</span>
+      Electrical panel upgrade Los Altos Hills
+      <span className="block text-blue-400 mt-2">Los Altos Hills Panel Upgrade Experts: Safe & Modern Electrical Systems.</span>
     </>
   ),
-  subtitle = "Professional electrical panel upgrade services for Seward homes and businesses. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure your property's safety. Licensed electricians offering reliable service you can trust.",
-  image = "https://images.unsplash.com/photo-1621905252522-186368b31c6b?auto=format&fit=crop&q=80"
+  subtitle = "Professional electrical panel upgrade services for Los Altos Hills homes and businesses. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure your property's safety. Licensed electricians offering reliable service you can trust.",
+  image = "https://images.unsplash.com/photo-1596319530447-e2a195f1c8d7?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image with Professional Overlay */}
+      {/* Background Image with Transparent Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={image}
-          alt="Electrical panel upgrade Seward Nebraska"
+          alt="Electrical panel upgrade Los Altos Hills"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-slate-900/75" />
+        <div className="absolute inset-0 bg-slate-900/50" />
       </div>
 
       {/* Content */}

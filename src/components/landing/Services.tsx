@@ -60,7 +60,7 @@ const Services = () => {
             Electrical Panel Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Professional electrical panel upgrade services for Seward homes and businesses. Safe, code-compliant solutions for modern electrical demands.
+            Professional electrical panel upgrade services for Los Altos Hills homes and businesses. Safe, code-compliant solutions for modern electrical demands.
           </p>
         </div>
 

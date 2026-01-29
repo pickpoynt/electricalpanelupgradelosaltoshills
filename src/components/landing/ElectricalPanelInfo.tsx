@@ -7,10 +7,10 @@ const ElectricalPanelInfo = () => {
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-heading">
-                            Professional Electrical Panel Upgrades in Seward, Nebraska
+                            Professional Electrical Panel Upgrades in Los Altos Hills, California
                         </h2>
                         <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-                            Seward homes and businesses deserve safe, reliable electrical systems that meet modern power demands. Our professional electrical panel upgrade services ensure your property has the capacity and safety features needed for today's electrical requirements while meeting all Nebraska electrical codes.
+                            Los Altos Hills homes and businesses deserve safe, reliable electrical systems that meet modern power demands. Our professional electrical panel upgrade services ensure your property has the capacity and safety features needed for today's electrical requirements while meeting all California electrical codes.
                         </p>
                     </div>
 
@@ -115,20 +115,20 @@ const ElectricalPanelInfo = () => {
                     {/* Additional unique content */}
                     <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-16">
                         <h3 className="text-3xl font-bold text-slate-900 mb-6 font-heading text-center">
-                            Understanding Electrical Panel Needs in Seward
+                            Understanding Electrical Panel Needs in Los Altos Hills
                         </h3>
                         <div className="prose prose-lg max-w-none text-slate-700">
                             <p className="mb-4">
-                                Seward, Nebraska presents unique electrical challenges that make panel upgrades particularly important. The city's diverse housing stock includes many older homes built in the early-to-mid 20th century with original electrical systems that predate modern electrical demands. These vintage systems often feature 60-amp fuse boxes that struggle to power basic modern amenities, let alone today's high-demand appliances.
+                                Los Altos Hills, California presents unique electrical challenges that make panel upgrades particularly important. The city's diverse housing stock includes many older homes built in the mid-20th century with original electrical systems that predate modern electrical demands. These vintage systems often feature 60-amp fuse boxes that struggle to power basic modern amenities, let alone today's high-demand smart home systems and EV charging stations.
                             </p>
                             <p className="mb-4">
-                                <strong>Seasonal weather variations</strong> in Seward also impact electrical systems. The harsh winters stress heating systems, while hot summers demand powerful air conditioning. These peak loads can overwhelm undersized panels, causing frequent breaker trips or dangerous overheating that poses fire risks.
+                                <strong>California's regulatory environment</strong> also impacts electrical systems. Strict building codes and safety requirements mandate modern panels with advanced safety features like arc fault and ground fault protection. These requirements ensure your electrical system meets the latest safety standards.
                             </p>
                             <p className="mb-4">
-                                <strong>The age factor</strong> is critical in Seward's older neighborhoods. Electrical panels and components have life spans, and equipment from the 1960s-1980s may be approaching failure. Failing panels can cause power outages, fire hazards, or inadequate power distribution throughout the home.
+                                <strong>The age factor</strong> is critical in Los Altos Hills' established neighborhoods. Electrical panels and components have life spans, and equipment from the 1960s-1980s may be approaching failure. Failing panels can cause power outages, fire hazards, or inadequate power distribution throughout the home.
                             </p>
                             <p>
-                                <strong>Modern lifestyle changes</strong> also drive panel upgrade needs. Homeowners adding electric vehicle charging stations, upgrading to central air conditioning, or installing modern kitchen appliances often discover their existing panels cannot safely accommodate these additions. A panel upgrade becomes essential for both safety and functionality.
+                                <strong>Modern lifestyle changes</strong> also drive panel upgrade needs. Homeowners adding electric vehicle charging stations, upgrading to smart home systems, or installing modern kitchen appliances often discover their existing panels cannot safely accommodate these additions. A panel upgrade becomes essential for both safety and functionality.
                             </p>
                         </div>
                     </div>

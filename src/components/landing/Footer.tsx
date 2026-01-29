@@ -6,24 +6,24 @@ const Footer = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Electrical panel upgrade Seward Nebraska | Seward Panel Upgrade Pros",
-    "image": "https://images.unsplash.com/photo-1621905252522-186368b31c6b?auto=format&fit=crop&q=80",
+    "name": "Electrical panel upgrade Los Altos Hills | Los Altos Hills Panel Upgrade Experts",
+    "image": "https://images.unsplash.com/photo-1596319530447-e2a195f1c8d7?auto=format&fit=crop&q=80",
     "telephone": "18449012684",
-    "email": "service@sewardpanelupgradepros.com",
+    "email": "service@losaltoshillspanelupgradeexperts.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Main Street",
-      "addressLocality": "Seward",
-      "addressRegion": "NE",
-      "postalCode": "68434",
+      "addressLocality": "Los Altos Hills",
+      "addressRegion": "CA",
+      "postalCode": "94022",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "40.8739",
-      "longitude": "-97.1344"
+      "latitude": "37.3688",
+      "longitude": "-122.1359"
     },
-    "url": "https://electrical-panel-upgrade-seward-nebraska.com",
+    "url": "https://electrical-panel-upgrade-los-altos-hills.com",
     "priceRange": "$$",
     "openingHoursSpecification": [
       {
@@ -36,20 +36,20 @@ const Footer = () => {
     "sameAs": [],
     "areaServed": {
       "@type": "City",
-      "name": "Seward",
+      "name": "Los Altos Hills",
       "containedInPlace": {
         "@type": "State",
-        "name": "Nebraska"
+        "name": "California"
       }
     },
-    "description": "Professional electrical panel upgrade services in Seward, Nebraska. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure home safety.",
+    "description": "Professional electrical panel upgrade services in Los Altos Hills, California. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure home safety.",
     "services": [
-      "Electrical panel upgrade Seward Nebraska",
-      "Electrical panel replacement Seward NE",
-      "Electrical panel installation Seward",
+      "Electrical panel upgrade Los Altos Hills",
+      "Electrical panel replacement Los Altos Hills CA",
+      "Electrical panel installation Los Altos Hills",
       "Electrical service panel upgrade",
-      "Electrical panel inspection Seward",
-      "Breaker panel upgrade Seward",
+      "Electrical panel inspection Los Altos Hills",
+      "Breaker panel upgrade Los Altos Hills",
       "Panel upgrade financing",
       "Code compliance electrical work"
     ]
@@ -65,16 +65,16 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-lg">SUP</span>
+                <span className="text-white font-heading font-bold text-lg">LAH</span>
               </div>
-              <span className="font-heading font-bold text-lg">Seward Panel Upgrade Pros</span>
+              <span className="font-heading font-bold text-lg">Los Altos Hills Panel Upgrade Experts</span>
             </div>
             <p className="text-slate-400 mb-4 text-sm leading-relaxed">
-              Professional electrical panel upgrade services for Seward and Seward County. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure your property's safety.
+              Professional electrical panel upgrade services for Los Altos Hills and Santa Clara County. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure your property's safety.
             </p>
             <div className="flex items-center gap-2 text-blue-500">
               <Shield className="w-4 h-4" />
-              <span className="text-sm font-medium">Licensed NE Electricians</span>
+              <span className="text-sm font-medium">Licensed CA Electricians</span>
             </div>
           </div>
 
@@ -105,7 +105,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-blue-500 mt-0.5" />
-                <span>Seward, Nebraska<br />Seward County</span>
+                <span>Los Altos Hills, California<br />Santa Clara County</span>
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-blue-500" />
@@ -118,14 +118,14 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Service Areas</h3>
             <ul className="space-y-1 text-slate-400 text-sm">
-              <li>Seward, NE</li>
-              <li>Beatrice, NE</li>
-              <li>Crete, NE</li>
-              <li>Lincoln, NE</li>
-              <li>Omaha, NE</li>
-              <li>York, NE</li>
-              <li>Seward County</li>
-              <li>Saline County</li>
+              <li>Los Altos Hills, CA</li>
+              <li>Los Altos, CA</li>
+              <li>Palo Alto, CA</li>
+              <li>Mountain View, CA</li>
+              <li>Stanford, CA</li>
+              <li>Cupertino, CA</li>
+              <li>Santa Clara County</li>
+              <li>Silicon Valley</li>
             </ul>
           </div>
         </div>
@@ -134,26 +134,26 @@ const Footer = () => {
         <div className="border-t border-slate-800 pt-8 mb-8">
           <h3 className="font-heading font-bold text-lg mb-4 text-center">Related Services</h3>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <a href="https://aluminumwiringreplacementnapervilleil.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
-              Aluminum Wiring <ExternalLink className="w-3 h-3" />
+            <a href="https://tanklesswaterheaterdescalingbellevu.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
+              Tankless Water Heater <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://knobandtubewiringreplacementsavanna.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
-              Knob & Tube Wiring <ExternalLink className="w-3 h-3" />
+            <a href="https://baseboardheaterinstallationseattlew.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
+              Baseboard Heater <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://generatorinterlockkitinstallationma.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
-              Generator Interlock Kit <ExternalLink className="w-3 h-3" />
+            <a href="https://heatedfloorelectricalrepairfairhave.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
+              Heated Floor Repair <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://electricianforpartialpoweroutageriv.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
-              Partial Power Outage <ExternalLink className="w-3 h-3" />
+            <a href="https://smartswitchinstallationsignalmounta.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
+              Smart Switch Install <ExternalLink className="w-3 h-3" />
             </a>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© {currentYear} Seward Panel Upgrade Pros. All rights reserved.</p>
+          <p>© {currentYear} Los Altos Hills Panel Upgrade Experts. All rights reserved.</p>
           <div className="flex gap-6">
-            <span>Electrical panel upgrade Seward Nebraska</span>
+            <span>Electrical panel upgrade Los Altos Hills</span>
           </div>
         </div>
       </div>

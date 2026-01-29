@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-              Professional Panel Upgrade Service for Seward
+              Professional Panel Upgrade Service for Los Altos Hills
             </h2>
             <p className="text-lg text-slate-300">
               Contact us for a free consultation and inspection
@@ -37,8 +37,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-lg mb-1">Service Area</h3>
-                  <p className="text-slate-300">Seward, Nebraska</p>
-                  <p className="text-slate-400 text-sm mt-1">Seward County & Surrounding Areas</p>
+                  <p className="text-slate-300">Los Altos Hills, California</p>
+                  <p className="text-slate-400 text-sm mt-1">Santa Clara County & Surrounding Areas</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-lg mb-1">Licensed & Insured</h3>
-                  <p className="text-slate-300">Nebraska Licensed Electricians</p>
+                  <p className="text-slate-300">California Licensed Electricians</p>
                   <p className="text-slate-400 text-sm mt-1">Full liability coverage for your protection</p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                 Ready for a Panel Upgrade?
               </h3>
               <p className="text-blue-100 mb-6">
-                Call now for a free consultation. Seward's trusted panel upgrade experts ready to help with your electrical needs.
+                Call now for a free consultation. Los Altos Hills' trusted panel upgrade experts ready to help with your electrical needs.
               </p>
               <Button size="lg" className="w-full bg-white text-blue-700 hover:bg-blue-50 font-bold text-lg h-14 shadow-lg" asChild>
                 <a href="tel:18449012684" className="flex items-center justify-center gap-2">

@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Seward Chooses Our Panel Upgrade Services
+            Why Los Altos Hills Chooses Our Panel Upgrade Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Combining electrical expertise with local knowledge to deliver safe, code-compliant panel upgrades that protect Seward families and businesses.
+            Combining electrical expertise with local knowledge to deliver safe, code-compliant panel upgrades that protect Los Altos Hills families and businesses.
           </p>
         </div>
 

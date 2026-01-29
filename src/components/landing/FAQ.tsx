@@ -50,7 +50,7 @@ const FAQ = () => {
               Electrical Panel Upgrade FAQs
             </h2>
             <p className="text-lg text-slate-600">
-              Common questions about electrical panel services in Seward, NE.
+              Common questions about electrical panel services in Los Altos Hills, CA.
             </p>
           </div>
 
