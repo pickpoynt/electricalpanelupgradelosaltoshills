@@ -20,14 +20,14 @@ const Hero = ({
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image with Transparent Overlay */}
+      {/* Background Image with Subtle Transparent Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={image}
           alt="Electrical panel upgrade Los Altos Hills"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-slate-900/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/30 to-slate-900/70" />
       </div>
 
       {/* Content */}
