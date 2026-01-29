@@ -20,14 +20,14 @@ const Hero = ({
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image with Subtle Transparent Overlay */}
+      {/* Background Image with More Transparent Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={image}
           alt="Electrical panel upgrade Los Altos Hills"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/30 to-slate-900/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 to-slate-900/50" />
       </div>
 
       {/* Content */}
@@ -35,7 +35,7 @@ const Hero = ({
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-blue-700/60 border border-blue-400/50 rounded-full text-blue-50 font-bold text-sm mb-6 backdrop-blur-md">
-              Seward's Trusted Panel Upgrade Experts
+              Los Altos Hills' Trusted Panel Upgrade Experts
             </span>
           </div>
 
@@ -67,9 +67,9 @@ const Hero = ({
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] font-bold text-white">
-                NE
+                CA
               </div>
-              <span className="font-bold">Seward Local</span>
+              <span className="font-bold">Los Altos Hills Local</span>
             </div>
             <div className="flex items-center gap-2">
               <Wrench className="w-5 h-5 text-blue-400" />
