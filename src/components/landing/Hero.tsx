@@ -20,14 +20,20 @@ const Hero = ({
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image with More Transparent Overlay */}
+      {/* Background Image with Minimal Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={image}
           alt="Electrical panel upgrade Los Altos Hills"
           className="w-full h-full object-cover"
+          onError={(e) => {
+            console.error('Image failed to load:', e);
+            // Fallback image in case the main one fails
+            const target = e.target as HTMLImageElement;
+            target.src = "https://images.unsplash.com/photo-1591586288080-7ca2e0d9c6c7?auto=format&fit=crop&q=80";
+          }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 to-slate-900/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 to-slate-900/30" />
       </div>
 
       {/* Content */}
