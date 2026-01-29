@@ -6,25 +6,25 @@ const Footer = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Cheap Electrician Brevard NC | Brevard Affordable Electricians",
-    "image": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80",
+    "name": "Electrical panel upgrade Seward Nebraska | Seward Panel Upgrade Pros",
+    "image": "https://images.unsplash.com/photo-1621905252522-186368b31c6b?auto=format&fit=crop&q=80",
     "telephone": "18449012684",
-    "email": "service@brevardaffordableelectricians.com",
+    "email": "service@sewardpanelupgradepros.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Main Street",
-      "addressLocality": "Brevard",
-      "addressRegion": "NC",
-      "postalCode": "28712",
+      "addressLocality": "Seward",
+      "addressRegion": "NE",
+      "postalCode": "68434",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "35.2319",
-      "longitude": "-82.7305"
+      "latitude": "40.8739",
+      "longitude": "-97.1344"
     },
-    "url": "https://cheap-electrician-brevard-nc.com",
-    "priceRange": "$",
+    "url": "https://electrical-panel-upgrade-seward-nebraska.com",
+    "priceRange": "$$",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -36,22 +36,22 @@ const Footer = () => {
     "sameAs": [],
     "areaServed": {
       "@type": "City",
-      "name": "Brevard",
+      "name": "Seward",
       "containedInPlace": {
         "@type": "State",
-        "name": "North Carolina"
+        "name": "Nebraska"
       }
     },
-    "description": "Affordable electrician services in Brevard, North Carolina. Budget electrical work, low-cost repairs, and cheap electrical services. Licensed electricians offering residential and commercial electrical work at competitive prices.",
+    "description": "Professional electrical panel upgrade services in Seward, Nebraska. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure home safety.",
     "services": [
-      "Affordable Electrician Brevard NC",
-      "Budget Electrician Brevard NC",
-      "Low Cost Electrician Brevard NC",
-      "Cheap Electrical Services Brevard NC",
-      "Residential Electrical Services",
-      "Electrical Panel Services",
-      "Electrical Maintenance",
-      "Emergency Electrical Service"
+      "Electrical panel upgrade Seward Nebraska",
+      "Electrical panel replacement Seward NE",
+      "Electrical panel installation Seward",
+      "Electrical service panel upgrade",
+      "Electrical panel inspection Seward",
+      "Breaker panel upgrade Seward",
+      "Panel upgrade financing",
+      "Code compliance electrical work"
     ]
   };
 
@@ -64,17 +64,17 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-green-600 flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-lg">BAE</span>
+              <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center">
+                <span className="text-white font-heading font-bold text-lg">SUP</span>
               </div>
-              <span className="font-heading font-bold text-lg">Brevard Affordable Electricians</span>
+              <span className="font-heading font-bold text-lg">Seward Panel Upgrade Pros</span>
             </div>
             <p className="text-slate-400 mb-4 text-sm leading-relaxed">
-              Providing genuinely affordable electrical services to Brevard and Transylvania County. Quality electrical work at prices families can actually afford, without compromising safety or professionalism.
+              Professional electrical panel upgrade services for Seward and Seward County. We provide safe, code-compliant panel upgrades to meet modern electrical demands and ensure your property's safety.
             </p>
-            <div className="flex items-center gap-2 text-green-500">
+            <div className="flex items-center gap-2 text-blue-500">
               <Shield className="w-4 h-4" />
-              <span className="text-sm font-medium">Licensed NC Electricians</span>
+              <span className="text-sm font-medium">Licensed NE Electricians</span>
             </div>
           </div>
 
@@ -82,12 +82,12 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Our Services</h3>
             <ul className="space-y-2 text-slate-400 text-sm">
-              <li>Affordable Electrical Repairs</li>
-              <li>Budget Electrical Installations</li>
-              <li>Low-Cost Electrical Services</li>
-              <li>Cheap Electrical Maintenance</li>
-              <li>Residential Electrical Work</li>
-              <li>Panel Upgrades & Repairs</li>
+              <li>Electrical Panel Upgrade</li>
+              <li>Panel Replacement Services</li>
+              <li>Service Panel Installation</li>
+              <li>Electrical Panel Inspection</li>
+              <li>Breaker Panel Upgrade</li>
+              <li>Code Compliance Check</li>
             </ul>
           </div>
 
@@ -96,19 +96,19 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-3 text-slate-400 text-sm">
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-green-500" />
+                <Phone className="w-4 h-4 text-blue-500" />
                 <a href="tel:18449012684" className="hover:text-white transition-colors">(844) 901-2684</a>
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-green-500" />
-                <a href="mailto:service@brevardaffordableelectricians.com" className="hover:text-white transition-colors">service@brevardaffordableelectricians.com</a>
+                <Mail className="w-4 h-4 text-blue-500" />
+                <a href="mailto:service@sewardpanelupgradepros.com" className="hover:text-white transition-colors">service@sewardpanelupgradepros.com</a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-green-500 mt-0.5" />
-                <span>Brevard, North Carolina<br />Transylvania County</span>
+                <MapPin className="w-4 h-4 text-blue-500 mt-0.5" />
+                <span>Seward, Nebraska<br />Seward County</span>
               </li>
               <li className="flex items-center gap-2">
-                <Clock className="w-4 h-4 text-green-500" />
+                <Clock className="w-4 h-4 text-blue-500" />
                 <span>Mon-Sat: 7AM-7PM</span>
               </li>
             </ul>
@@ -118,14 +118,14 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Service Areas</h3>
             <ul className="space-y-1 text-slate-400 text-sm">
-              <li>Brevard, NC</li>
-              <li>Rosman, NC</li>
-              <li>Cedar Mountain, NC</li>
-              <li>Sapphire, NC</li>
-              <li>Lake Toxaway, NC</li>
-              <li>Pisgah Forest, NC</li>
-              <li>Transylvania County</li>
-              <li>Western NC Mountains</li>
+              <li>Seward, NE</li>
+              <li>Beatrice, NE</li>
+              <li>Crete, NE</li>
+              <li>Lincoln, NE</li>
+              <li>Omaha, NE</li>
+              <li>York, NE</li>
+              <li>Seward County</li>
+              <li>Saline County</li>
             </ul>
           </div>
         </div>
@@ -134,26 +134,26 @@ const Footer = () => {
         <div className="border-t border-slate-800 pt-8 mb-8">
           <h3 className="font-heading font-bold text-lg mb-4 text-center">Related Services</h3>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <a href="https://generatorinterlockkitinstallercypre.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
-              Generator Interlock Kit <ExternalLink className="w-3 h-3" />
+            <a href="https://aluminumwiringreplacementnapervilleil.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
+              Aluminum Wiring <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://electricianforpartialpoweroutageriv.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
-              Partial Power Outage <ExternalLink className="w-3 h-3" />
-            </a>
-            <a href="https://knobandtubewiringreplacementsignalm.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
+            <a href="https://knobandtubewiringreplacementsavanna.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
               Knob & Tube Wiring <ExternalLink className="w-3 h-3" />
             </a>
-            <a href="https://aluminumwiringreplacementnapervilleil.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-green-500 transition-colors">
-              Aluminum Wiring <ExternalLink className="w-3 h-3" />
+            <a href="https://generatorinterlockkitinstallationma.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
+              Generator Interlock Kit <ExternalLink className="w-3 h-3" />
+            </a>
+            <a href="https://electricianforpartialpoweroutageriv.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-slate-400 hover:text-blue-500 transition-colors">
+              Partial Power Outage <ExternalLink className="w-3 h-3" />
             </a>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© {currentYear} Brevard Affordable Electricians. All rights reserved.</p>
+          <p>© {currentYear} Seward Panel Upgrade Pros. All rights reserved.</p>
           <div className="flex gap-6">
-            <span>Cheap Electrician Brevard NC</span>
+            <span>Electrical panel upgrade Seward Nebraska</span>
           </div>
         </div>
       </div>

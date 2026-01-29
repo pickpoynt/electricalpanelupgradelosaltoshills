@@ -1,47 +1,47 @@
-import { Zap, Shield, Home, Wrench, DollarSign, Lightbulb } from "lucide-react";
+import { Zap, Shield, Home, Wrench, Settings, CircuitBoard } from "lucide-react";
 
-const CheapElectricianInfo = () => {
+const ElectricalPanelInfo = () => {
     return (
-        <section id="electrician-info" className="py-20 bg-gradient-to-br from-slate-50 via-green-50 to-slate-100">
+        <section id="panel-info" className="py-20 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
             <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-heading">
-                            Affordable Electrical Services in Brevard, North Carolina
+                            Professional Electrical Panel Upgrades in Seward, Nebraska
                         </h2>
                         <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-                            Brevard families deserve quality electrical work at prices they can actually afford. Our affordable electrician services prove that you don't need to pay premium rates for professional electrical work. We combine licensed expertise with competitive pricing to serve the Transylvania County community.
+                            Seward homes and businesses deserve safe, reliable electrical systems that meet modern power demands. Our professional electrical panel upgrade services ensure your property has the capacity and safety features needed for today's electrical requirements while meeting all Nebraska electrical codes.
                         </p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-green-600">
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-blue-600">
                             <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-green-100 p-3 rounded-lg">
-                                    <DollarSign className="w-8 h-8 text-green-600" />
+                                <div className="bg-blue-100 p-3 rounded-lg">
+                                    <CircuitBoard className="w-8 h-8 text-blue-600" />
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
-                                        Honest Pricing Structure
+                                        Modern Panel Technology
                                     </h3>
                                     <p className="text-slate-700 leading-relaxed mb-4">
-                                        We publish our base rates online and provide detailed written quotes before any work begins. No hourly rate surprises, no hidden trip charges, no mysterious "service fees." What we quote is what you pay.
+                                        Today's electrical panels feature advanced safety mechanisms, higher amperage capacity, and compatibility with smart home systems. We install panels that meet current NEC standards and prepare your home for future electrical needs.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-blue-600">
+                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-green-600">
                             <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-blue-100 p-3 rounded-lg">
-                                    <Shield className="w-8 h-8 text-blue-600" />
+                                <div className="bg-green-100 p-3 rounded-lg">
+                                    <Shield className="w-8 h-8 text-green-600" />
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
-                                        Licensed NC Electricians
+                                        Enhanced Safety Features
                                     </h3>
                                     <p className="text-slate-700 leading-relaxed mb-4">
-                                        Our electricians hold current North Carolina electrical licenses and maintain all required insurance. You get professional-grade workmanship meeting state codes and safety standards, not amateur shortcuts that cost more in the long run.
+                                        Modern panels include arc fault and ground fault protection that older fuse boxes simply cannot provide. These features detect dangerous electrical conditions before they cause fires or electrocution hazards.
                                     </p>
                                 </div>
                             </div>
@@ -54,10 +54,10 @@ const CheapElectricianInfo = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
-                                        Brevard Housing Expertise
+                                        Increased Capacity
                                     </h3>
                                     <p className="text-slate-700 leading-relaxed mb-4">
-                                        We specialize in Brevard's older homes, historic properties, and mountain construction styles. Our familiarity with local electrical challenges—from knob-and-tube wiring to outdated panels—means faster, more accurate assessments and solutions.
+                                        Older panels often max out at 60-100 amps, insufficient for modern homes with central air, electric vehicles, and high-tech appliances. We install panels with 150-200+ amp capacity to meet all your electrical needs.
                                     </p>
                                 </div>
                             </div>
@@ -70,10 +70,10 @@ const CheapElectricianInfo = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
-                                        Comprehensive Services
+                                        Professional Installation
                                     </h3>
                                     <p className="text-slate-700 leading-relaxed mb-4">
-                                        From simple outlet replacements to complete electrical panel upgrades, we handle all residential electrical needs. Small jobs don't get penalized with minimum charges—we price fairly regardless of job size.
+                                        Panel installation requires precise electrical work and adherence to strict safety codes. Our licensed technicians ensure proper grounding, correct wire sizing, and secure connections for reliable operation.
                                     </p>
                                 </div>
                             </div>
@@ -82,14 +82,14 @@ const CheapElectricianInfo = () => {
                         <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-orange-600">
                             <div className="flex items-start gap-4 mb-4">
                                 <div className="bg-orange-100 p-3 rounded-lg">
-                                    <Lightbulb className="w-8 h-8 text-orange-600" />
+                                    <Settings className="w-8 h-8 text-orange-600" />
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
-                                        Energy-Efficient Solutions
+                                        Custom Circuit Planning
                                     </h3>
                                     <p className="text-slate-700 leading-relaxed mb-4">
-                                        We help you save money long-term through LED conversions, smart home installations, and electrical system optimizations. Sometimes the cheapest option is investing in efficiency that pays dividends for years.
+                                        We design your panel layout to optimize circuit distribution, minimize wire runs, and ensure easy access for future maintenance. Each circuit is properly labeled for safety and convenience.
                                     </p>
                                 </div>
                             </div>
@@ -102,10 +102,10 @@ const CheapElectricianInfo = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold text-slate-900 mb-3 font-heading">
-                                        Emergency Availability
+                                        Code Compliance
                                     </h3>
                                     <p className="text-slate-700 leading-relaxed mb-4">
-                                        Electrical emergencies don't respect business hours. We offer 24/7 emergency service with the same affordable pricing philosophy—even after-hours calls get transparent, reasonable rates.
+                                        All panel upgrades meet Nebraska electrical codes and Seward municipal requirements. We coordinate any necessary permits and ensure your installation passes all required inspections.
                                     </p>
                                 </div>
                             </div>
@@ -115,57 +115,57 @@ const CheapElectricianInfo = () => {
                     {/* Additional unique content */}
                     <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-16">
                         <h3 className="text-3xl font-bold text-slate-900 mb-6 font-heading text-center">
-                            Understanding Electrical Costs in Western North Carolina
+                            Understanding Electrical Panel Needs in Seward
                         </h3>
                         <div className="prose prose-lg max-w-none text-slate-700">
                             <p className="mb-4">
-                                Brevard and Transylvania County present unique electrical challenges that affect pricing. Many homes in our area were built decades ago with electrical systems designed for much lower power demands. Original knob-and-tube wiring, 60-amp panels, and deteriorated infrastructure are common findings that require specialized knowledge to address safely.
+                                Seward, Nebraska presents unique electrical challenges that make panel upgrades particularly important. The city's diverse housing stock includes many older homes built in the early-to-mid 20th century with original electrical systems that predate modern electrical demands. These vintage systems often feature 60-amp fuse boxes that struggle to power basic modern amenities, let alone today's high-demand appliances.
                             </p>
                             <p className="mb-4">
-                                <strong>The mountain construction challenge</strong> means longer travel times and more complex access issues. Many Brevard properties sit on steep lots, in dense forests, or require hiking equipment to reach. Despite these logistical challenges, we maintain affordable pricing by operating efficiently and passing savings directly to customers.
+                                <strong>Seasonal weather variations</strong> in Seward also impact electrical systems. The harsh winters stress heating systems, while hot summers demand powerful air conditioning. These peak loads can overwhelm undersized panels, causing frequent breaker trips or dangerous overheating that poses fire risks.
                             </p>
                             <p className="mb-4">
-                                <strong>Seasonal considerations</strong> also impact electrical needs in Western North Carolina. Harsh winters strain heating systems, while summer humidity increases cooling demands. These seasonal peaks often reveal underlying electrical problems that need professional attention before they become costly failures.
+                                <strong>The age factor</strong> is critical in Seward's older neighborhoods. Electrical panels and components have life spans, and equipment from the 1960s-1980s may be approaching failure. Failing panels can cause power outages, fire hazards, or inadequate power distribution throughout the home.
                             </p>
                             <p>
-                                <strong>Our commitment to affordability</strong> means we invest in the right tools, training, and local expertise to work efficiently in Brevard's unique environment. We don't charge premium rates for mountain accessibility—we factor realistic costs into our competitive pricing structure so every neighbor can afford quality electrical service.
+                                <strong>Modern lifestyle changes</strong> also drive panel upgrade needs. Homeowners adding electric vehicle charging stations, upgrading to central air conditioning, or installing modern kitchen appliances often discover their existing panels cannot safely accommodate these additions. A panel upgrade becomes essential for both safety and functionality.
                             </p>
                         </div>
                     </div>
 
                     {/* Process section */}
-                    <div className="bg-gradient-to-r from-green-600 to-green-700 rounded-2xl p-8 md:p-12 text-white">
+                    <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 md:p-12 text-white">
                         <h3 className="text-3xl font-bold mb-8 font-heading text-center">
-                            Our Affordable Service Process
+                            Our Panel Upgrade Process
                         </h3>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                             <div className="text-center">
                                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-2xl font-bold">1</span>
                                 </div>
-                                <h4 className="font-bold text-lg mb-2">Free Consultation</h4>
-                                <p className="text-green-100 text-sm">We discuss your needs and provide preliminary guidance at no charge.</p>
+                                <h4 className="font-bold text-lg mb-2">Assessment</h4>
+                                <p className="text-blue-100 text-sm">We evaluate your current panel, electrical load, and upgrade needs with a comprehensive inspection.</p>
                             </div>
                             <div className="text-center">
                                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-2xl font-bold">2</span>
                                 </div>
-                                <h4 className="font-bold text-lg mb-2">Detailed Quote</h4>
-                                <p className="text-green-100 text-sm">We provide a written estimate with itemized costs before any work begins.</p>
+                                <h4 className="font-bold text-lg mb-2">Design</h4>
+                                <p className="text-blue-100 text-sm">We design your new panel layout to optimize circuit distribution and meet your specific electrical requirements.</p>
                             </div>
                             <div className="text-center">
                                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-2xl font-bold">3</span>
                                 </div>
-                                <h4 className="font-bold text-lg mb-2">Quality Installation</h4>
-                                <p className="text-green-100 text-sm">Licensed electricians complete your project with professional workmanship.</p>
+                                <h4 className="font-bold text-lg mb-2">Installation</h4>
+                                <p className="text-blue-100 text-sm">Our licensed technicians safely install your new panel with proper connections and safety measures.</p>
                             </div>
                             <div className="text-center">
                                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-2xl font-bold">4</span>
                                 </div>
-                                <h4 className="font-bold text-lg mb-2">Satisfaction Guarantee</h4>
-                                <p className="text-green-100 text-sm">We ensure you're happy with the work and stand behind our service.</p>
+                                <h4 className="font-bold text-lg mb-2">Testing</h4>
+                                <p className="text-blue-100 text-sm">We test all circuits, verify proper operation, and ensure your new panel meets all safety standards.</p>
                             </div>
                         </div>
                     </div>
@@ -175,4 +175,4 @@ const CheapElectricianInfo = () => {
     );
 };
 
-export default CheapElectricianInfo;
+export default ElectricalPanelInfo;
