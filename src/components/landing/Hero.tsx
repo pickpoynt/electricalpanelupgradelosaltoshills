@@ -20,21 +20,21 @@ const Hero = ({
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image with Balanced Overlay */}
+      {/* Clear Background Image with Subtle Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={image}
           alt="Electrical panel upgrade Los Altos Hills"
-          className="w-full h-full object-cover brightness-75"
+          className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/40 via-slate-900/30 to-slate-900/50" />
+        <div className="absolute inset-0 bg-black/30" />
       </div>
 
-      {/* Content */}
+      {/* Content with Better Contrast */}
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
           <div className="animate-fade-in">
-            <span className="inline-block px-4 py-2 bg-blue-700/60 border border-blue-400/50 rounded-full text-blue-50 font-bold text-sm mb-6 backdrop-blur-md">
+            <span className="inline-block px-4 py-2 bg-blue-700/80 border border-blue-400/70 rounded-full text-white font-bold text-sm mb-6 backdrop-blur-md">
               Los Altos Hills' Trusted Panel Upgrade Experts
             </span>
           </div>
