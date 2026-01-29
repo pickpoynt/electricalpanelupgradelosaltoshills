@@ -20,13 +20,14 @@ const Hero = ({
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Simple Background Image */}
+      {/* Dark Background Image */}
       <div className="absolute inset-0 z-0">
         <img
           src={image}
           alt="Electrical panel upgrade Los Altos Hills"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-slate-900/60" />
       </div>
 
       {/* Simple Content */}
